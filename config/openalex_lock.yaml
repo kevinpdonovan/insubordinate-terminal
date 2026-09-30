@@ -1,0 +1,216 @@
+# Resolved OpenAlex IDs for watched authors/journals.
+# Written automatically. If an author resolved to the wrong person,
+# replace the ID by hand (search https://openalex.org) or set it to null to skip.
+authors:
+  Andrea Pollio:
+    check: false
+    id: A5043410518
+    matched: Andrea Pollio
+  Annina Kaltenbrunner:
+    check: false
+    id: A5013325515
+    matched: Annina Kaltenbrunner
+  Bruno Bonizzi:
+    check: false
+    id: A5077028724
+    matched: Bruno Bonizzi
+  Carolina Alves:
+    check: true
+    id: A5037355178
+    matched: A. Melo
+  Dan Haberly: null
+  Daniela Gabor:
+    check: true
+    id: A5020202399
+    matched: Daniela Gabor
+  Dariusz Wójcik:
+    check: true
+    id: A5051441410
+    matched: Dariusz Wójcik
+  David Bassens:
+    check: true
+    id: A5053855635
+    matched: David Bassens
+  Emma Park:
+    check: true
+    id: A5074353670
+    matched: Emma Park
+  Ewa Karwowski:
+    check: false
+    id: A5082697522
+    matched: Ewa Karwowski
+  Hannah Appel:
+    check: true
+    id: A5062701954
+    matched: Hannah Appel
+  Ilias Alami:
+    check: false
+    id: A5027232358
+    matched: Ilias Alami
+  Ingrid Harvold Kvangraven:
+    check: false
+    id: A5043743989
+    matched: Ingrid Harvold Kvangraven
+  J. Christopher Mizes: null
+  Jeff Powell:
+    check: true
+    id: A5090300849
+    matched: Manuel Delgado‐Baquerizo
+  Kai Koddenbrock:
+    check: false
+    id: A5049440301
+    matched: Kai Koddenbrock
+  Karen P. Y. Lai:
+    check: true
+    id: A5024449580
+    matched: Karen P.Y. Lai
+  Kevin P. Donovan:
+    check: false
+    id: A5080167557
+    matched: Kevin P. Donovan
+  Lena Rethel:
+    check: false
+    id: A5001609208
+    matched: Lena Rethel
+  Liza Rose Cirolia:
+    check: true
+    id: A5026233185
+    matched: Liza Rose Cirolia
+  Manuel B. Aalbers:
+    check: true
+    id: A5055974740
+    matched: Manuel B. Aalbers
+  Michael Soener: null
+  Ndongo Samba Sylla:
+    check: true
+    id: A5035928977
+    matched: Ndongo Samba Sylla
+  Nick Bernards:
+    check: false
+    id: A5034101213
+    matched: Nick Bernards
+  Nishita Trisal:
+    check: false
+    id: A5072222964
+    matched: Nishita Trisal
+  Rodrigo Fernandez:
+    check: true
+    id: A5030399596
+    matched: J. R. González Fernández
+  Sarah Bracking:
+    check: true
+    id: A5068244202
+    matched: Sarah Bracking
+  Stefan Ouma:
+    check: false
+    id: A5078489691
+    matched: Stefan Ouma
+journals:
+  Africa:
+    check: true
+    id: S128375914
+    matched: Africa
+  African Affairs:
+    check: true
+    id: S33869021
+    matched: African Affairs
+  Antipode:
+    check: false
+    id: S47624153
+    matched: Antipode
+  Business History Review:
+    check: true
+    id: S88020226
+    matched: The Business History Review
+  Competition & Change:
+    check: false
+    id: S187200255
+    matched: Competition & Change
+  Development and Change:
+    check: true
+    id: S137192870
+    matched: Development and Change
+  Economic Anthropology:
+    check: true
+    id: S4210239638
+    matched: Economic Anthropology
+  Economy and Society:
+    check: true
+    id: S25250876
+    matched: Economy and Society
+  Enterprise & Society:
+    check: false
+    id: S16035445
+    matched: Enterprise & Society
+  'Environment and Planning A: Economy and Space':
+    check: false
+    id: S87933477
+    matched: Environment and Planning A Economy and Space
+  Finance and Society:
+    check: true
+    id: S4210168463
+    matched: Finance and Society
+  Finance and Space:
+    check: false
+    id: S4390296615
+    matched: Finance and Space
+  Geoforum:
+    check: true
+    id: S169586356
+    matched: Geoforum
+  International Journal of Urban and Regional Research:
+    check: true
+    id: S118082279
+    matched: International Journal of Urban and Regional Research
+  Journal of Contemporary Asia:
+    check: true
+    id: S182993579
+    matched: Journal of Contemporary Asia
+  Journal of Cultural Economy:
+    check: false
+    id: S206312523
+    matched: Journal of Cultural Economy
+  Journal of Eastern African Studies:
+    check: true
+    id: S30572693
+    matched: Journal of Eastern African Studies
+  Journal of Economic Geography:
+    check: true
+    id: S46039370
+    matched: Journal of Economic Geography
+  Journal of Modern African Studies:
+    check: false
+    id: S40252047
+    matched: The Journal of Modern African Studies
+  Latin American Perspectives:
+    check: true
+    id: S44433209
+    matched: Latin American Perspectives
+  New Political Economy:
+    check: true
+    id: S146242404
+    matched: New Political Economy
+  Politique africaine:
+    check: true
+    id: S129050153
+    matched: Politique africaine
+  Review of African Political Economy:
+    check: false
+    id: S36169284
+    matched: Review of African Political Economy
+  Review of International Political Economy:
+    check: false
+    id: S2875300
+    matched: Review of International Political Economy
+  Socio-Economic Review:
+    check: true
+    id: S147547362
+    matched: Socio-Economic Review
+  Transactions of the Institute of British Geographers:
+    check: false
+    id: S31976903
+    matched: Transactions of the Institute of British Geographers
+  Valuation Studies:
+    check: false
+    id: S4210168889
+    matched: Valuation Studies
