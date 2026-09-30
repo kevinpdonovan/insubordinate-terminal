@@ -1,0 +1,411 @@
+{
+ "week": "2026-W40",
+ "published_at": "2026-09-30T16:00:00",
+ "items": [
+  {
+   "id": "7bd861d32e",
+   "section": "research",
+   "title": "Green energy transitions under financial subordination: climate finance, structure, and agency in the Global South",
+   "url": "https://doi.org/10.1080/09692290.2026.2658646",
+   "doi": "10.1080/09692290.2026.2658646",
+   "source": "Review of International Political Economy",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": true,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "subordination",
+     "development_finance"
+    ],
+    "note": "New RIPE piece extending the IFS framework to climate finance; note how it treats Southern 'agency', a direct foil for the project's hypothesis."
+   },
+   "featured": true
+  },
+  {
+   "id": "079ab6a426",
+   "section": "research",
+   "title": "Subordinated financialisation and banking consolidation in post-socialist Croatia",
+   "url": "https://doi.org/10.1080/2833115X.2026.2656170",
+   "doi": "10.1080/2833115X.2026.2656170",
+   "source": "Finance and Space",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": true,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "subordination",
+     "professionals"
+    ],
+    "note": "Applies subordinate financialisation to a post-socialist banking sector, a comparative angle for the Ho Chi Minh City case."
+   },
+   "featured": false
+  },
+  {
+   "id": "cc8f25d528",
+   "section": "research",
+   "title": "Article collection: Permanence and transformations in the financialization of the Global South",
+   "url": "https://www.tandfonline.com/journals/rfas20/collections/Permanence-and-transformations",
+   "doi": "",
+   "source": "Finance and Space",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": true,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "subordination"
+    ],
+    "note": "Themed collection in Finance and Space; worth screening in full for case-study cities."
+   },
+   "featured": false
+  },
+  {
+   "id": "ffcd13c611",
+   "section": "archive",
+   "title": "Beyond the global city concept and the myth of ‘command and control’",
+   "url": "https://doi.org/10.1111/1468-2427.12024",
+   "doi": "10.1111/1468-2427.12024",
+   "source": "International Journal of Urban and Regional Research",
+   "venue": "",
+   "authors": [
+    "Richard G. Smith"
+   ],
+   "date": "2014-01-01",
+   "origin": "pilot",
+   "scholarly": true,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "centres"
+    ],
+    "note": "Cited in the proposal's state of the art: the critique of 'command and control' that the project extends to Southern centres."
+   },
+   "featured": false,
+   "year": 2014
+  },
+  {
+   "id": "678539785b",
+   "section": "archive",
+   "title": "World cities under conditions of financialized globalization: towards an augmented world city hypothesis",
+   "url": "https://doi.org/10.1177/0309132514558441",
+   "doi": "10.1177/0309132514558441",
+   "source": "Progress in Human Geography",
+   "venue": "",
+   "authors": [
+    "David Bassens",
+    "Michiel van Meeteren"
+   ],
+   "date": "2015-01-01",
+   "origin": "pilot",
+   "scholarly": true,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "centres",
+     "networks"
+    ],
+    "note": "World cities as hubs of advanced business services under financialisation: the GFN-style baseline the project argues against."
+   },
+   "featured": false,
+   "year": 2015
+  },
+  {
+   "id": "e342202e18",
+   "section": "news",
+   "title": "African Union to launch African credit rating agency in October, adviser says",
+   "url": "https://www.polity.org.za/article/african-union-to-launch-african-credit-rating-agency-in-october-adviser-says-2026-08-26",
+   "doi": "",
+   "source": "Polity",
+   "venue": "",
+   "authors": [],
+   "date": "2026-08-26",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "valuation"
+    ],
+    "note": "Launch timetable for AfCRA, the clearest 'insubordinate' valuation device on the continent; central to WP4 and the credit-ratings monograph."
+   },
+   "featured": true
+  },
+  {
+   "id": "1126ef983b",
+   "section": "news",
+   "title": "Africa’s new credit rating agency faces trust test to cut borrowing costs",
+   "url": "https://businessday.ng/africa/article/africas-new-credit-rating-agency-faces-trust-test-to-cut-borrowing-costs",
+   "doi": "",
+   "source": "BusinessDay (Nigeria)",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "valuation",
+     "debt"
+    ],
+    "note": "Frames AfCRA's problem as one of credibility with foreign investors: the 'standards of trust' question from the GFN literature, in the press."
+   },
+   "featured": false
+  },
+  {
+   "id": "d30ea286c6",
+   "section": "news",
+   "title": "Côte d'Ivoire: Bridge Bank to start trading on BRVM Sept 24 after oversubscribed IPO",
+   "url": "https://allafrica.com/stories/202609230601.html",
+   "doi": "",
+   "source": "allAfrica",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-23",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [
+     "integration",
+     "professionals"
+    ],
+    "note": "An oversubscribed bank IPO on the regional exchange; a live case of regional investor appetite and listing devices on the BRVM."
+   },
+   "featured": true
+  },
+  {
+   "id": "f09567891a",
+   "section": "news",
+   "title": "Kenya eyes Sh26bn in investments as Nairobi financial centre lists 15 firms",
+   "url": "https://www.the-star.co.ke/business/2026-07-03-kenya-eyes-sh26bn-in-investments-as-nairobi-financial-centre-lists-15-firms",
+   "doi": "",
+   "source": "The Star (Kenya)",
+   "venue": "",
+   "authors": [],
+   "date": "2026-07-03",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "centres"
+    ],
+    "note": "Baseline for NIFC membership: which firms, from where. Useful for the WP3 inventory of Northern vs domestic ownership."
+   },
+   "featured": false
+  },
+  {
+   "id": "d1dfa31187",
+   "section": "news",
+   "title": "Nairobi International Financial Centre Authority deepens strategic partnership with CHAINBLX SPC",
+   "url": "https://www.barchart.com/story/news/2561564/nairobi-international-financial-centre-authority-deepens-strategic-partnership-with-chainblx-spc-to-advance-africa-s-ai-innovation-and-digital-capital-ecosystem",
+   "doi": "",
+   "source": "Barchart (press release)",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "centres",
+     "digital"
+    ],
+    "note": "Press release, so treat with caution; shows NIFC positioning around digital assets and Gulf-linked partners."
+   },
+   "featured": false
+  },
+  {
+   "id": "d05dd6e5c6",
+   "section": "news",
+   "title": "Vietnam's International Financial Center must have ‘real deals’ by November: official",
+   "url": "https://theinvestor.vn/vietnams-international-financial-center-must-have-real-deals-by-november-official-d19957.html",
+   "doi": "",
+   "source": "The Investor (Vietnam)",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [
+     "hcmc"
+    ],
+    "themes": [
+     "centres"
+    ],
+    "note": "Official pressure on the new VIFC to show transactions; a window onto the post-socialist centre-building strategy."
+   },
+   "featured": false
+  },
+  {
+   "id": "1df32ea011",
+   "section": "news",
+   "title": "Banks step up presence at Vietnam’s international financial centre",
+   "url": "https://en.vietnamplus.vn/banks-step-up-presence-at-vietnams-international-financial-centre-post339803.vnp",
+   "doi": "",
+   "source": "VietnamPlus",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [
+     "hcmc"
+    ],
+    "themes": [
+     "centres",
+     "professionals"
+    ],
+    "note": "Which banks, domestic or foreign, are joining VIFC: directly relevant to RQ3."
+   },
+   "featured": false
+  },
+  {
+   "id": "eae9c9a06b",
+   "section": "news",
+   "title": "Casablanca Finance City breaks into world’s top 40 financial centers",
+   "url": "https://www.ecofinagency.com/news-finances/1709-59018-casablanca-finance-city-breaks-into-world-s-top-40-financial-centers",
+   "doi": "",
+   "source": "Ecofin Agency",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [
+     "casablanca"
+    ],
+    "themes": [
+     "centres"
+    ],
+    "note": "GFCI movement for Casablanca. The ranking itself is one of the project's objects: who produces it, and how centres court it."
+   },
+   "featured": false
+  },
+  {
+   "id": "69b6cff8bc",
+   "section": "grey",
+   "title": "Judging one’s own credit: risks and promises of an African Credit Rating Agency",
+   "url": "https://www.swp-berlin.org/en/publication/mta-spotlight-66-risks-and-promises-of-an-african-credit-rating-agency",
+   "doi": "",
+   "source": "SWP Berlin",
+   "venue": "",
+   "authors": [],
+   "date": "",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "valuation"
+    ],
+    "note": "German think-tank assessment of AfCRA; a Northern policy reading of a Southern valuation device, useful as a foil."
+   },
+   "featured": false
+  },
+  {
+   "id": "02e27d9b2b",
+   "section": "grey",
+   "title": "The Global Financial Centres Index 39 (March 2026)",
+   "url": "https://www.longfinance.net/media/documents/GFCI_39_Report_2026.03.26_v1.1.pdf",
+   "doi": "",
+   "source": "Long Finance / Z/Yen",
+   "venue": "",
+   "authors": [],
+   "date": "2026-03-26",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "centres"
+    ],
+    "note": "The latest full GFCI report before the September edition; source data for the proposal's count of Southern centres."
+   },
+   "featured": false
+  },
+  {
+   "id": "ca37a85de8",
+   "section": "grey",
+   "title": "Financial statecraft or subordination: emerging markets in global finance",
+   "url": "https://economicsociology.org/2026/08/01/financial-statecraft-or-subordination-emerging-markets-in-global-finance",
+   "doi": "",
+   "source": "Economic Sociology & Political Economy",
+   "venue": "",
+   "authors": [],
+   "date": "2026-08-01",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [],
+    "themes": [
+     "subordination"
+    ],
+    "note": "Blog framing that sets 'statecraft' against 'subordination'; close to the project's primary research question."
+   },
+   "featured": false
+  },
+  {
+   "id": "2b9179ef50",
+   "section": "grey",
+   "title": "FSC Mauritius at 25: international recognition, regulatory credibility, and market confidence",
+   "url": "https://salvusfunds.com/2026/07/13/fsc-mauritius-at-25-international-recognition-regulatory-credibility-and-market-confidence",
+   "doi": "",
+   "source": "Salvus Funds (industry)",
+   "venue": "",
+   "authors": [],
+   "date": "2026-07-13",
+   "origin": "pilot",
+   "scholarly": false,
+   "ai": {
+    "relevance": 3,
+    "places": [
+     "port_louis"
+    ],
+    "themes": [
+     "regulation",
+     "centres"
+    ],
+    "note": "Industry self-narration of Mauritius's regulator: 'credibility' as a device of the offshore centre."
+   },
+   "featured": false
+  }
+ ],
+ "notice": "Pilot issue. Claude assembled it by hand from web searches on 30 September 2026 to preview the layout; items span recent months rather than one week, and notes are based on headlines and snippets only. The automated weekly sweep starts once the GitHub repository is set up.",
+ "digest": "This pilot gathers the threads the sweep will follow weekly. The African Union's credit rating agency is moving towards launch, and the press is already asking whether investors will trust it. New Southern financial centres in Nairobi and Ho Chi Minh City are under pressure to show real firms and real deals. On the scholarly side, RIPE and Finance and Space continue to extend the financial-subordination framework, to climate finance and to post-socialist banking, which makes both useful foils for the project's own hypothesis."
+}

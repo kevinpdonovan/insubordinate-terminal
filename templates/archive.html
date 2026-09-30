@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Past issues · {{ site.title }}{% endblock %}
+{% block main %}
+<section class="page-head">
+  <p class="kicker mono">Archive</p>
+  <h1>Past issues</h1>
+  <p class="lede">Every weekly issue stays online. The full item list is also available as <a href="items.json">JSON</a> and as an <a href="feed.xml">RSS feed</a>.</p>
+</section>
+{% if issues %}
+<table class="table">
+  <thead><tr><th>Issue</th><th>Week</th>{% for s in sections %}<th class="num">{{ labels[s] }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for iss in issues %}
+    <tr>
+      <td class="mono"><a href="weeks/{{ iss.week }}.html">{{ iss.week }}</a></td>
+      <td>{{ iss.range }}</td>
+      {% for s in sections %}<td class="num mono">{{ iss.counts[s] }}</td>{% endfor %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="muted">No issues published yet.</p>
+{% endif %}
+{% endblock %}

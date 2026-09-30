@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Source health · {{ site.title }}{% endblock %}
+{% block main %}
+<section class="page-head">
+  <p class="kicker mono">Diagnostics</p>
+  <h1>Source health</h1>
+  <p class="lede">Results of the most recent sweep{% if health.week %} ({{ health.week }}){% endif %}. A source that fails three weeks running should be fixed or removed from <code>config/sources.yaml</code>.</p>
+</section>
+{% if health.sources %}
+<table class="table">
+  <thead><tr><th>Source</th><th>Status</th><th class="num">Items</th><th class="num">Failing weeks</th><th>Note</th></tr></thead>
+  <tbody>
+  {% for h in health.sources|sort(attribute='source') %}
+    <tr>
+      <td>{{ h.source }}</td>
+      <td><span class="status {{ 'ok' if h.ok else 'bad' }}">{{ 'OK' if h.ok else 'Failing' }}</span></td>
+      <td class="num mono">{{ h.count }}</td>
+      <td class="num mono">{{ h.fail_streak or 0 }}</td>
+      <td class="muted small">{{ h.note }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="muted">No sweep has run yet.</p>
+{% endif %}
+{% endblock %}

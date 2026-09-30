@@ -1,0 +1,19 @@
+# Site settings
+title: "Insubordinate Finance Terminal"
+subtitle: "Weekly sweep · postcolonial politics of financial centres in the Global South"
+# Full URL once GitHub Pages is on, e.g. https://<user>.github.io/insubordinate-terminal/
+base_url: ""
+# false = team-first: search engines are asked not to index the site
+public: false
+# Shown in the footer
+maintainer: "InsubordinateFINANCE team"
+contact_email: ""
+# Newsletter sign-up link (phase 2, e.g. a Buttondown page). Leave blank to hide.
+newsletter_url: ""
+
+# Library proxies: readers choose theirs on the site; scholarly links are
+# rewritten through it so institutional logins open the full text.
+# Verify each prefix with the relevant library before relying on it.
+library_proxies:
+  - label: "University of Edinburgh"
+    prefix: "https://ezproxy.is.ed.ac.uk/login?url="

@@ -1,0 +1,130 @@
+# =====================================================================
+#  SOURCE REGISTRY — where the weekly sweep looks.
+#  section: research | archive | news | grey
+#  type:    rss | openalex | gdelt | email (phase 2) | zotero (phase 2)
+#  filter:  true  -> items must pass the relevance gate in themes.yaml
+#           false -> every item is kept (use for tightly on-topic sources)
+#  Each run writes a source-health report (site/health.html). Feeds that
+#  fail three weeks running are flagged there: fix or delete the entry.
+#  Feed URLs marked "# check" were not reachable from the build sandbox and
+#  will be confirmed (or flagged) by the first live run.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# (a) NEW RESEARCH — open scholarly metadata; no login needed.
+# ---------------------------------------------------------------------
+research:
+  - name: "OpenAlex — keyword queries"
+    type: openalex
+    mode: queries          # uses themes.yaml > research_queries
+    lookback_days: 21      # indexing lags publication; the seen-store prevents repeats
+  - name: "OpenAlex — watched journals"
+    type: openalex
+    mode: journals         # uses themes.yaml > watch_journals (all new articles, then scored)
+    lookback_days: 14
+  - name: "OpenAlex — watched authors"
+    type: openalex
+    mode: authors          # uses themes.yaml > watch_authors (always kept)
+    lookback_days: 30
+  - name: "RePEc NEP — Africa"
+    type: rss
+    url: "https://nep.repec.org/rss/nep-afr.rss.xml"   # check
+    filter: true
+  - name: "RePEc NEP — Financial development & growth"
+    type: rss
+    url: "https://nep.repec.org/rss/nep-fdg.rss.xml"   # check
+    filter: true
+  - name: "RePEc NEP — Economic history"
+    type: rss
+    url: "https://nep.repec.org/rss/nep-his.rss.xml"   # check
+    filter: true
+
+# ---------------------------------------------------------------------
+# (b) FROM THE ARCHIVE — older work surfaced through this week's research.
+# ---------------------------------------------------------------------
+archive:
+  - name: "OpenAlex citation trail"
+    type: openalex
+    mode: citations        # works cited by this week's approved research items
+    older_than_years: 10
+    max_items: 8
+  # Phase 2: the project's Zotero group library (WP1 annotated bibliography)
+  # - name: "Project Zotero library"
+  #   type: zotero
+  #   group_id: "0000000"
+
+# ---------------------------------------------------------------------
+# (c) NEWS — link-only. We store headline, source, date and URL; never text.
+# ---------------------------------------------------------------------
+news:
+  - name: "GDELT global news search"
+    type: gdelt              # open global news index, 65+ languages
+    mode: queries            # uses themes.yaml > news_queries
+    timespan: "7d"
+    max_per_query: 40
+  - name: "GDELT — Bloomberg"
+    type: gdelt
+    mode: domain
+    domain: "bloomberg.com"
+    query: '(Africa OR Kenya OR Nigeria OR "South Africa" OR Morocco OR Mauritius OR India OR Vietnam OR Thailand OR Brazil OR Chile OR Uruguay OR "emerging markets") (bond OR exchange OR "financial center" OR rating OR debt OR bank)'
+    timespan: "7d"
+    max_per_query: 75
+  # Regional outlets (all filtered through the relevance gate)
+  - {name: "Business Daily Africa", type: rss, url: "https://www.businessdailyafrica.com/service/rss/bd/1938306/feed.rss", filter: true}   # check
+  - {name: "The East African", type: rss, url: "https://www.theeastafrican.co.ke/service/rss/tea/1289868/feed.rss", filter: true}      # check
+  - {name: "The Africa Report", type: rss, url: "https://www.theafricareport.com/feed/", filter: true}                                  # check
+  - {name: "African Arguments", type: rss, url: "https://africanarguments.org/feed/", filter: true}                                     # check
+  - {name: "Semafor Africa", type: rss, url: "https://www.semafor.com/vertical/africa/rss.xml", filter: true}                          # check
+  - {name: "Jeune Afrique — Économie", type: rss, url: "https://www.jeuneafrique.com/rubriques/economie-entreprises/feed/", filter: true} # check
+  - {name: "BusinessLIVE (SA)", type: rss, url: "https://www.businesslive.co.za/rss/bd/", filter: true}                                # check
+  - {name: "Daily Maverick — Business", type: rss, url: "https://www.dailymaverick.co.za/section/business-maverick/feed/", filter: true} # check
+  - {name: "Médias24 (Maroc)", type: rss, url: "https://medias24.com/feed/", filter: true}                                              # check
+  - {name: "Sika Finance (UEMOA)", type: rss, url: "https://www.sikafinance.com/rss", filter: true}                                    # check
+  - {name: "Defimedia (Maurice)", type: rss, url: "https://defimedia.info/rss.xml", filter: true}                                      # check
+  - {name: "Mint — Economy", type: rss, url: "https://www.livemint.com/rss/economy", filter: true}                                     # check
+  - {name: "Bangkok Post — Business", type: rss, url: "https://www.bangkokpost.com/rss/data/business.xml", filter: true}               # check
+  - {name: "VnExpress International — Business", type: rss, url: "https://e.vnexpress.net/rss/business.rss", filter: true}            # check
+  - {name: "Valor Econômico", type: rss, url: "https://valor.globo.com/rss/valor/", filter: true}                                       # check
+  - {name: "La Tercera — Pulso", type: rss, url: "https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/", filter: true}     # check
+  - {name: "Rest of World", type: rss, url: "https://restofworld.org/feed/latest/", filter: true}                                      # check
+  - {name: "FT — Emerging markets", type: rss, url: "https://www.ft.com/emerging-markets?format=rss", filter: true}                    # check
+  - {name: "Bloomberg — Markets (public feed)", type: rss, url: "https://feeds.bloomberg.com/markets/news.rss", filter: true}          # check
+  - {name: "Bloomberg — Economics (public feed)", type: rss, url: "https://feeds.bloomberg.com/economics/news.rss", filter: true}      # check
+  # Google Alerts delivered as RSS (official feature). Create alerts at
+  # google.com/alerts -> "Deliver to: RSS feed", then paste each feed URL here:
+  # - {name: "Google Alert — NIFC", type: rss, url: "https://www.google.com/alerts/feeds/XXXX/YYYY", filter: false}
+  # Phase 2: Bloomberg / Factiva saved-search email alerts -> dedicated inbox
+  # - {name: "Bloomberg alerts", type: email, folder: "bloomberg"}
+
+# ---------------------------------------------------------------------
+# (d) GREY LITERATURE — think tanks, IFIs, DFIs, central banks, blogs.
+# ---------------------------------------------------------------------
+grey:
+  - {name: "IMF — Publications", type: rss, url: "https://www.imf.org/en/Publications/RSS?language=eng", filter: true}               # check
+  - {name: "IMF — Blog", type: rss, url: "https://www.imf.org/en/Blogs/rss", filter: true}                                            # check
+  - {name: "BIS — Publications", type: rss, url: "https://www.bis.org/doclist/all_pubs.rss", filter: true}                           # check
+  - {name: "World Bank — Blogs", type: rss, url: "https://blogs.worldbank.org/en/rss.xml", filter: true}                              # check
+  - {name: "Center for Global Development", type: rss, url: "https://www.cgdev.org/rss.xml", filter: true}                           # check
+  - {name: "ODI", type: rss, url: "https://odi.org/en/rss/", filter: true}                                                            # check
+  - {name: "Bretton Woods Project", type: rss, url: "https://www.brettonwoodsproject.org/feed/", filter: true}                        # check
+  - {name: "Eurodad", type: rss, url: "https://www.eurodad.org/rss", filter: true}                                                    # check
+  - {name: "Debt Justice", type: rss, url: "https://debtjustice.org.uk/feed", filter: true}                                           # check
+  - {name: "Tax Justice Network", type: rss, url: "https://taxjustice.net/feed/", filter: true}                                      # check
+  - {name: "OMFIF", type: rss, url: "https://www.omfif.org/feed/", filter: true}                                                      # check
+  - {name: "UNCTAD", type: rss, url: "https://unctad.org/rss.xml", filter: true}                                                      # check
+  - {name: "African Development Bank", type: rss, url: "https://www.afdb.org/en/rss.xml", filter: true}                              # check
+  - {name: "FSD Africa", type: rss, url: "https://fsdafrica.org/feed/", filter: true}                                                 # check
+  - {name: "Afreximbank", type: rss, url: "https://www.afreximbank.com/feed/", filter: true}                                          # check
+  - {name: "Finance in Common", type: rss, url: "https://financeincommon.org/feed", filter: true}                                    # check
+  - {name: "Chatham House", type: rss, url: "https://www.chathamhouse.org/rss.xml", filter: true}                                    # check
+  - {name: "Boston University GDP Center", type: rss, url: "https://www.bu.edu/gdp/feed/", filter: true}                             # check
+  - {name: "Institute for Economic Justice (SA)", type: rss, url: "https://iej.org.za/feed/", filter: true}                          # check
+  - {name: "AfronomicsLaw", type: rss, url: "https://www.afronomicslaw.org/rss.xml", filter: true}                                   # check
+  - {name: "Phenomenal World", type: rss, url: "https://www.phenomenalworld.org/feed/", filter: true}                                 # check
+  - {name: "Developing Economics", type: rss, url: "https://developingeconomics.org/feed/", filter: true}                             # check
+  - {name: "ROAPE blog", type: rss, url: "https://roape.net/feed/", filter: true}                                                     # check
+  - {name: "LSE Africa at LSE", type: rss, url: "https://blogs.lse.ac.uk/africaatlse/feed/", filter: true}                           # check
+  - {name: "CEPR / VoxEU", type: rss, url: "https://cepr.org/rss/vox-content", filter: true}                                         # check
+  # Grey literature that isn't on RSS (World Bank documents, central-bank
+  # reports, GFCI releases, WFE statistics) is picked up by GDELT/OpenAlex
+  # or added by hand with the "Suggest an item" form.

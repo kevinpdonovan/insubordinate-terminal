@@ -1,0 +1,555 @@
+# =====================================================================
+#  SWEEP PROFILE — Insubordinate Finance
+#  This file tells the weekly sweep what the project cares about.
+#  Edit it freely: add a keyword, a city institution, an author, a theme.
+#  Every change takes effect at the next weekly run.
+#  Seeded from the ERC proposal (Parts B1/B2), Sept 2026.
+# =====================================================================
+
+project:
+  name: "Insubordinate Finance Terminal"
+  short_name: "InsubordinateFINANCE"
+  tagline: "A weekly sweep of research, news and grey literature on the postcolonial politics of financial centres in the Global South"
+  # Used to brief the AI tagger. Keep it to a paragraph; update as focuses shift.
+  brief: >
+    ERC project asking whether financial centres in the Global South are vectors of
+    international financial subordination or offer independence from Northern financial
+    dominance. It studies 11 cities (São Paulo, Santiago, Montevideo, Casablanca, Abidjan,
+    Nairobi, Johannesburg, Port Louis, Mumbai, Bangkok, Ho Chi Minh City) through their
+    financial histories, professional networks, sector ownership, and the circulation of
+    financial devices (innovations in integration, valuation, and regulation), and the
+    political disputes and critiques that surround them. Approach: postcolonial theory,
+    ethnography, STS / social studies of finance ("follow-the-financial-device").
+    We want items that illuminate Southern financial centres, South–South and North–South
+    financial linkages, specific market devices and their controversies, and the
+    professionals who build them. We do NOT want routine market reports, stock tips,
+    earnings results, or generic macro commentary without an institutional angle.
+
+# ---------------------------------------------------------------------
+#  THEMES — each item gets tagged with 0..n of these.
+#  keywords: phrases that count as evidence for the theme (case-insensitive).
+# ---------------------------------------------------------------------
+themes:
+  - id: subordination
+    label: "Financial subordination & dependency"
+    description: "International financial subordination (IFS), subordinate financialization, currency hierarchy, dependency, the 'Wall Street Consensus', de-risking."
+    keywords:
+      - financial subordination
+      - subordinate financialization
+      - subordinated financialisation
+      - subordinate financialisation
+      - currency hierarchy
+      - monetary hierarchy
+      - wall street consensus
+      - de-risking state
+      - derisking
+      - dependency theory
+      - peripheral financialization
+      - peripheral financialisation
+      - emerging market financialization
+      - monetary sovereignty
+      - financial sovereignty
+      - souveraineté monétaire
+      - dependência financeira
+
+  - id: centres
+    label: "Southern financial centres"
+    description: "International/regional financial centres, hubs, offshore jurisdictions, GFCI rankings, financial-centre strategies."
+    keywords:
+      - financial centre
+      - financial center
+      - international financial centre
+      - international financial center
+      - financial hub
+      - global financial centres index
+      - gfci
+      - offshore financial
+      - place financière
+      - centro financeiro
+      - centro financiero
+      - trung tâm tài chính
+
+  - id: networks
+    label: "South–South & North–South networks"
+    description: "Regional market integration, exchange linkages, cross-border investment, BRICS/South–South finance, professional networks and conferences."
+    keywords:
+      - south-south
+      - south–south
+      - cross-listing
+      - cross listing
+      - exchange linkage
+      - african exchanges linkage
+      - regional integration
+      - capital market integration
+      - brics bank
+      - new development bank
+      - afreximbank
+      - papss
+      - local currency settlement
+      - de-dollarization
+      - de-dollarisation
+      - dédollarisation
+
+  - id: valuation
+    label: "Devices of valuation"
+    description: "Credit ratings, benchmarks and indices, index inclusion/reclassification, yield curves, pricing models, risk metrics, ESG scores."
+    keywords:
+      - credit rating
+      - sovereign rating
+      - rating agency
+      - african credit rating agency
+      - afcra
+      - downgrade
+      - index inclusion
+      - frontier market
+      - emerging market index
+      - msci
+      - ftse russell
+      - gbi-em
+      - benchmark index
+      - yield curve
+      - notation souveraine
+      - agence de notation
+      - classificação de risco
+
+  - id: integration
+    label: "Devices of integration"
+    description: "Market infrastructure promoting liquidity and cross-border trust: depositories, trading platforms, market linkages, listings, fund passports."
+    keywords:
+      - market infrastructure
+      - central securities depository
+      - stock exchange
+      - bourse
+      - listing
+      - ipo
+      - liquidity
+      - bond market
+      - capital market
+      - capital markets
+      - marché financier
+      - mercado de capitais
+      - mercado de capitales
+
+  - id: regulation
+    label: "Devices of regulation"
+    description: "Regulatory innovations: capital markets regulators, sandboxes, FATF listing, macroprudential rules, disclosure and transparency regimes."
+    keywords:
+      - regulatory sandbox
+      - fatf
+      - grey list
+      - gray list
+      - greylist
+      - capital markets authority
+      - securities regulator
+      - macroprudential
+      - basel iii
+      - disclosure rules
+      - financial regulation
+      - régulation financière
+
+  - id: debt
+    label: "Sovereign & domestic debt"
+    description: "Sovereign debt, Eurobonds, domestic/local-currency debt markets, debt restructuring, foreign vs domestic holders."
+    keywords:
+      - sovereign debt
+      - eurobond
+      - local currency debt
+      - domestic debt
+      - government securities
+      - treasury bills
+      - debt restructuring
+      - common framework
+      - debt crisis
+      - bond issuance
+      - dette souveraine
+      - dívida pública
+
+  - id: histories
+    label: "Colonial & postcolonial financial histories"
+    description: "Colonial banking, decolonisation and finance, currency boards, CFA franc, histories of exchanges and central banks."
+    keywords:
+      - colonial bank
+      - colonial finance
+      - decolonization
+      - decolonisation
+      - postcolonial
+      - currency board
+      - cfa franc
+      - franc cfa
+      - eco currency
+      - financial history
+      - imperial finance
+
+  - id: professionals
+    label: "Financial professionals & institutions"
+    description: "Bankers, asset managers, pension funds, domestic institutional investors, investment banks, private equity, the careers and training of financiers."
+    keywords:
+      - asset manager
+      - asset management
+      - pension fund
+      - institutional investor
+      - private equity
+      - investment bank
+      - fund manager
+      - bankers
+      - financiers
+      - cfa institute
+      - fonds de pension
+
+  - id: development_finance
+    label: "Development, blended & green finance"
+    description: "DFIs, blended finance, impact investing, green/sustainable bonds, carbon markets, climate finance as financial-sector deepening."
+    keywords:
+      - blended finance
+      - impact investing
+      - development finance institution
+      - green bond
+      - sustainability-linked
+      - social bond
+      - carbon market
+      - carbon credit
+      - climate finance
+      - financial sector deepening
+      - fsd africa
+      - finance in common
+
+  - id: digital
+    label: "Fintech & digital payments"
+    description: "Mobile money, fast payment systems, digital public infrastructure, CBDCs, stablecoins — where they reshape financial centres or sovereignty."
+    keywords:
+      - mobile money
+      - m-pesa
+      - fintech
+      - digital public infrastructure
+      - upi
+      - pix
+      - cbdc
+      - central bank digital currency
+      - stablecoin
+      - instant payment
+
+  - id: urban
+    label: "Urban & real-estate finance"
+    description: "Municipal finance and bonds, REITs, housing finance, land-based finance, city-level financial politics."
+    keywords:
+      - municipal bond
+      - municipal finance
+      - reit
+      - real estate investment trust
+      - housing finance
+      - land value capture
+      - urban finance
+      - obligations municipales
+
+# ---------------------------------------------------------------------
+#  CASE-STUDY CITIES — institutions/aliases help match news items.
+#  lead: who on the team covers it (update as roles change).
+# ---------------------------------------------------------------------
+places:
+  - id: sao_paulo
+    city: "São Paulo"
+    country: "Brazil"
+    region: "Latin America"
+    lead: "PR1"
+    aliases: ["sao paulo", "são paulo", "faria lima", "b3", "bovespa", "brazilian stock exchange", "cvm brazil", "banco central do brasil", "brazil's central bank", "brazilian bank"]
+    languages: [pt, en]
+
+  - id: santiago
+    city: "Santiago"
+    country: "Chile"
+    region: "Latin America"
+    lead: "PI (Mizes)"
+    aliases: ["santiago stock exchange", "bolsa de santiago", "bolsa de comercio de santiago", "chile's pension", "chilean pension", "afp chile", "cmf chile", "banco central de chile", "chile's central bank", "nuam"]
+    languages: [es, en]
+
+  - id: montevideo
+    city: "Montevideo"
+    country: "Uruguay"
+    region: "Latin America"
+    lead: "PR1"
+    aliases: ["montevideo", "uruguay", "bolsa de valores de montevideo", "banco central del uruguay"]
+    languages: [es, en]
+
+  - id: casablanca
+    city: "Casablanca"
+    country: "Morocco"
+    region: "Africa"
+    lead: "PR2"
+    aliases: ["casablanca finance city", "casablanca stock exchange", "bourse de casablanca", "ammc", "bank al-maghrib", "morocco's central bank", "cfc casablanca"]
+    languages: [fr, en]
+
+  - id: abidjan
+    city: "Abidjan"
+    country: "Côte d'Ivoire"
+    region: "Africa"
+    lead: "PI (Mizes)"
+    aliases: ["abidjan", "brvm", "bceao", "uemoa", "waemu", "umoa-titres", "amf-umoa", "west african stock exchange", "bourse régionale des valeurs mobilières", "cfa franc", "franc cfa"]
+    languages: [fr, en]
+
+  - id: nairobi
+    city: "Nairobi"
+    country: "Kenya"
+    region: "Africa"
+    lead: "AR1 (Donovan)"
+    aliases: ["nairobi", "nairobi securities exchange", "nairobi international financial centre", "nifc", "capital markets authority kenya", "central bank of kenya", "cbk", "kenya's eurobond", "kenyan bank", "safaricom", "m-pesa"]
+    languages: [en, sw]
+
+  - id: johannesburg
+    city: "Johannesburg"
+    country: "South Africa"
+    region: "Africa"
+    lead: "AR2 (Cirolia)"
+    aliases: ["johannesburg", "jse", "johannesburg stock exchange", "south african reserve bank", "sarb", "fsca", "a2x", "sandton"]
+    languages: [en]
+
+  - id: port_louis
+    city: "Port Louis"
+    country: "Mauritius"
+    region: "Africa / Indian Ocean"
+    lead: "PR2"
+    aliases: ["port louis", "mauritius", "stock exchange of mauritius", "financial services commission mauritius", "bank of mauritius", "global business licence"]
+    languages: [en, fr]
+
+  - id: mumbai
+    city: "Mumbai (Bombay)"
+    country: "India"
+    region: "South Asia"
+    lead: "AR3 (Trisal)"
+    aliases: ["mumbai", "bombay", "bombay stock exchange", "national stock exchange of india", "sebi", "reserve bank of india", "rbi", "gift city", "dalal street"]
+    languages: [en]
+
+  - id: bangkok
+    city: "Bangkok"
+    country: "Thailand"
+    region: "Southeast Asia"
+    lead: "PR3"
+    aliases: ["bangkok", "stock exchange of thailand", "set index", "bank of thailand", "thai sec", "thailand's securities"]
+    languages: [en, th]
+
+  - id: hcmc
+    city: "Ho Chi Minh City"
+    country: "Vietnam"
+    region: "Southeast Asia"
+    lead: "PR3"
+    aliases: ["ho chi minh city", "saigon", "ho chi minh stock exchange", "vietnam international financial centre", "vietnam international financial center", "state bank of vietnam", "state securities commission of vietnam", "vn-index", "vietnam's stock market"]
+    languages: [vi, en]
+
+# Comparison / context centres — tagged but not core.
+context_places: ["kigali", "lagos", "accra", "cairo", "dubai", "difc", "singapore", "hong kong", "astana", "aifc", "london", "new york", "paris", "shanghai"]
+
+# ---------------------------------------------------------------------
+#  RELEVANCE GATE — an item must mention at least one FINANCE anchor
+#  AND (a place OR a theme keyword) to reach the AI tagger.
+# ---------------------------------------------------------------------
+finance_anchors:
+  - finance
+  - financial
+  - financière
+  - financier
+  - financiers
+  - banque
+  - banques
+  - banco
+  - bancos
+  - bolsa
+  - marché financier
+  - mercado financeiro
+  - investment
+  - investimento
+  - inversión
+  - bank
+  - stock exchange
+  - bourse
+  - bond
+  - debt
+  - capital market
+  - securities
+  - investor
+  - credit
+  - currency
+  - monetary
+  - rating
+  - fintech
+  - finances
+  - finanças
+  - financiero
+  - mercado de valores
+
+# Items whose TITLE matches any of these are dropped before scoring.
+negative_keywords:
+  - "stock to buy"
+  - "stocks to buy"
+  - "shares rise"
+  - "shares fall"
+  - "shares jump"
+  - "sensex today"
+  - "nifty today"
+  - "market live"
+  - "live updates"
+  - "stock price today"
+  - "share price target"
+  - "q1 results"
+  - "q2 results"
+  - "q3 results"
+  - "q4 results"
+  - "quarterly results"
+  - "dividend announcement"
+  - "horoscope"
+  - "football"
+  - "cricket"
+
+# ---------------------------------------------------------------------
+#  SCHOLARSHIP WATCHLISTS (used by the OpenAlex harvester)
+# ---------------------------------------------------------------------
+# Search phrases run against OpenAlex titles/abstracts each week.
+research_queries:
+  - "financial subordination"
+  - "subordinate financialization"
+  - "financial centre Africa"
+  - "financial center Global South"
+  - "stock exchange Africa"
+  - "capital market development Africa"
+  - "credit rating Africa"
+  - "sovereign debt Africa"
+  - "local currency bond market"
+  - "financial geography Global South"
+  - "global financial networks"
+  - "social studies of finance postcolonial"
+  - "market devices finance"
+  - "financialization Global South"
+  - "financialisation Latin America"
+  - "financialization Brazil"
+  - "Chile pension funds financialization"
+  - "Vietnam stock market"
+  - "Thailand capital market"
+  - "India financial markets history"
+  - "Mauritius offshore finance"
+  - "Casablanca Finance City"
+  - "CFA franc"
+  - "monetary sovereignty Africa"
+  - "mobile money Kenya"
+  - "de-risking development finance"
+  - "Wall Street Consensus"
+  - "emerging markets investors"
+  - "colonial banking history"
+  - "decolonization finance"
+
+# Authors whose new work should always surface (name as it appears on publications).
+# The first run resolves each to an OpenAlex ID; check config/openalex_lock.yaml.
+watch_authors:
+  - "J. Christopher Mizes"
+  - "Kevin P. Donovan"
+  - "Liza Rose Cirolia"
+  - "Nishita Trisal"
+  - "Ilias Alami"
+  - "Ingrid Harvold Kvangraven"
+  - "Kai Koddenbrock"
+  - "Annina Kaltenbrunner"
+  - "Bruno Bonizzi"
+  - "Jeff Powell"
+  - "Carolina Alves"
+  - "Daniela Gabor"
+  - "Dariusz Wójcik"
+  - "Dan Haberly"
+  - "David Bassens"
+  - "Manuel B. Aalbers"
+  - "Rodrigo Fernandez"
+  - "Karen P. Y. Lai"
+  - "Hannah Appel"
+  - "Stefan Ouma"
+  - "Nick Bernards"
+  - "Ndongo Samba Sylla"
+  - "Ewa Karwowski"
+  - "Lena Rethel"
+  - "Andrea Pollio"
+  - "Michael Soener"
+  - "Emma Park"
+  - "Sarah Bracking"
+
+# Journals whose every new article is checked against the themes.
+watch_journals:
+  - "Finance and Space"
+  - "Review of International Political Economy"
+  - "New Political Economy"
+  - "Economy and Society"
+  - "Environment and Planning A: Economy and Space"
+  - "Antipode"
+  - "Africa"
+  - "Review of African Political Economy"
+  - "Development and Change"
+  - "Socio-Economic Review"
+  - "Valuation Studies"
+  - "Journal of Cultural Economy"
+  - "International Journal of Urban and Regional Research"
+  - "Competition & Change"
+  - "Journal of Economic Geography"
+  - "Economic Anthropology"
+  - "Finance and Society"
+  - "Journal of Modern African Studies"
+  - "African Affairs"
+  - "Geoforum"
+  - "Transactions of the Institute of British Geographers"
+  - "Politique africaine"
+  - "Journal of Eastern African Studies"
+  - "Latin American Perspectives"
+  - "Journal of Contemporary Asia"
+  - "Business History Review"
+  - "Enterprise & Society"
+
+# ---------------------------------------------------------------------
+#  NEWS QUERIES — run through news search feeds each week.
+#  Keep them specific; broad queries drown in market noise.
+# ---------------------------------------------------------------------
+#  Syntax (GDELT): "exact phrase", plain words are ANDed, and OR-groups
+#  must sit in parentheses: ("A" OR "B"). Words under 3 letters are ignored.
+news_queries:
+  - '"financial centre" Africa'
+  - '"financial center" Africa'
+  - '"Nairobi International Financial Centre"'
+  - '("Nairobi Securities Exchange" OR "Capital Markets Authority") Kenya'
+  - '"Casablanca Finance City"'
+  - '(BRVM OR "West African stock exchange")'
+  - '("Stock Exchange of Mauritius" OR "Mauritius financial centre" OR "Mauritius International Financial Centre")'
+  - '"Johannesburg Stock Exchange" (listing OR delisting OR reform)'
+  - '("GIFT City" OR "Mumbai financial centre" OR "Mumbai financial hub")'
+  - '("Vietnam International Financial Centre" OR "Vietnam International Financial Center")'
+  - '"Stock Exchange of Thailand" (reform OR regulation OR listing)'
+  - '"African Credit Rating Agency"'
+  - '"African Exchanges Linkage"'
+  - '(MSCI OR "FTSE Russell") ("frontier market" OR reclassification OR upgrade) (Vietnam OR Kenya OR Morocco OR Nigeria OR Egypt OR India OR Brazil OR Chile)'
+  - 'Eurobond (Kenya OR Nigeria OR Egypt OR Ivory OR Morocco OR "South Africa")'
+  - '"local currency" bond market Africa'
+  - '"international financial centre" ("Global South" OR emerging OR Africa OR Asia)'
+  - '"place financière" (Abidjan OR Casablanca OR Maurice)'
+  - 'BRVM "marché financier"'
+  - '("franc CFA" OR UEMOA) monnaie'
+  - '"centro financeiro" ("São Paulo" OR "Faria Lima")'
+  - '"mercado de capitais" regulação Brasil'
+  - '("Bolsa de Santiago" OR nuam) integración'
+  - '("Bolsa de Valores de Montevideo" OR "mercado de capitales") Uruguay'
+
+# ---------------------------------------------------------------------
+#  TEAM — who is working on what. Update via the participant form.
+# ---------------------------------------------------------------------
+participants:
+  - name: "J. Christopher Mizes"
+    role: "PI"
+    focus: ["Abidjan", "Santiago", "credit ratings (West Africa)", "financial politics"]
+  - name: "Kevin P. Donovan"
+    role: "AR1"
+    focus: ["Nairobi", "Kenya", "East Africa", "parastatals", "Safaricom", "monetary theory"]
+  - name: "Liza Rose Cirolia"
+    role: "AR2"
+    focus: ["Johannesburg", "urban finance", "municipal finance"]
+  - name: "Nishita Trisal"
+    role: "AR3"
+    focus: ["Mumbai", "India"]
+  - name: "PR1 (TBC)"
+    role: "Postdoc"
+    focus: ["São Paulo", "Montevideo"]
+  - name: "PR2 (TBC)"
+    role: "Postdoc"
+    focus: ["Casablanca", "Port Louis"]
+  - name: "PR3 (TBC)"
+    role: "Postdoc"
+    focus: ["Bangkok", "Ho Chi Minh City"]

@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}{{ issue.week }} · {{ site.title }}{% endblock %}
+{% macro render_item(it) %}
+<li class="item" data-section="{{ it.section }}" data-places="{{ it.place_ids|join(' ') }}" data-themes="{{ it.theme_ids|join(' ') }}">
+  <a class="item-title{% if it.scholarly %} scholarly{% endif %}" href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }}</a>
+  <div class="item-meta mono">
+    <span class="src">{{ it.source }}</span>
+    {% if it.byline %}<span>{{ it.byline }}</span>{% endif %}
+    {% if it.section == 'archive' and it.year %}<span>{{ it.year }}</span>{% elif it.date %}<span>{{ it.date|nicedate }}</span>{% endif %}
+    {% if it.suggested_by %}<span class="sugg">suggested by {{ it.suggested_by }}</span>{% endif %}
+  </div>
+  {% if it.note %}<p class="item-note">{{ it.note }}</p>{% endif %}
+  {% if it.place_labels or it.theme_labels %}
+  <div class="tags">
+    {% for p in it.place_labels %}<span class="tag tag-place">{{ p }}</span>{% endfor %}
+    {% for t in it.theme_labels %}<span class="tag">{{ t }}</span>{% endfor %}
+  </div>
+  {% endif %}
+</li>
+{% endmacro %}
+{% block main %}
+<section class="issue-head">
+  <div>
+    <p class="kicker mono">Issue {{ issue.week }} · {{ issue.range }}</p>
+    <h1>This week in insubordinate finance</h1>
+  </div>
+  <nav class="issue-nav mono" aria-label="Issues">
+    {% if prev %}<a href="{{ root }}weeks/{{ prev }}.html">← {{ prev }}</a>{% endif %}
+    {% if next %}<a href="{{ root }}weeks/{{ next }}.html">{{ next }} →</a>{% endif %}
+  </nav>
+</section>
+
+{% if issue.notice %}<p class="notice">{{ issue.notice }}</p>{% endif %}
+{% if issue.digest %}<p class="digest">{{ issue.digest }}</p>{% endif %}
+
+<dl class="stats mono">
+  {% for s in sections %}<div><dt>{{ labels[s] }}</dt><dd>{{ issue.counts[s] }}</dd></div>{% endfor %}
+</dl>
+
+{% if issue.featured_items %}
+<section class="featured" aria-labelledby="feat-h">
+  <h2 id="feat-h" class="section-h">Featured</h2>
+  <ul class="feat-grid">
+    {% for it in issue.featured_items %}
+    <li class="feat">
+      <span class="feat-sec mono">{{ labels[it.section] }}</span>
+      <a class="feat-title{% if it.scholarly %} scholarly{% endif %}" href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }}</a>
+      <span class="item-meta mono"><span class="src">{{ it.source }}</span>{% if it.byline %}<span>{{ it.byline }}</span>{% endif %}</span>
+      {% if it.note %}<p class="item-note">{{ it.note }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<section class="filters" aria-label="Filter items">
+  <div class="seg" role="group" aria-label="Section">
+    <button type="button" class="seg-btn" aria-pressed="true" data-sec="">All</button>
+    {% for s in sections %}{% if issue.counts[s] %}<button type="button" class="seg-btn" aria-pressed="false" data-sec="{{ s }}">{{ labels[s] }}</button>{% endif %}{% endfor %}
+  </div>
+  <div class="filter-row">
+    <label class="sel"><span class="visually-hidden">City</span>
+      <select id="f-place"><option value="">All cities</option>
+        {% for id, label in issue.filter_places %}<option value="{{ id }}">{{ label }}</option>{% endfor %}
+      </select></label>
+    <label class="sel"><span class="visually-hidden">Theme</span>
+      <select id="f-theme"><option value="">All themes</option>
+        {% for id, label in issue.filter_themes %}<option value="{{ id }}">{{ label }}</option>{% endfor %}
+      </select></label>
+    <label class="search"><span class="visually-hidden">Search</span>
+      <input id="f-q" type="search" placeholder="Search titles, sources, notes"></label>
+    <span id="f-count" class="mono muted" aria-live="polite"></span>
+  </div>
+</section>
+
+<div class="columns">
+{% for group in (('research', 'archive'), ('news', 'grey')) %}
+  <div class="colgroup">
+  {% for s in group %}
+  <section class="col" data-col="{{ s }}" aria-labelledby="h-{{ s }}">
+    <h2 id="h-{{ s }}" class="section-h">{{ labels[s] }} <span class="count mono">{{ issue.counts[s] }}</span></h2>
+    {% if issue.by_section[s] %}
+    <ul class="items">{% for it in issue.by_section[s] %}{{ render_item(it) }}{% endfor %}</ul>
+    {% else %}
+    <p class="muted empty">Nothing this week.</p>
+    {% endif %}
+    <p class="muted empty filtered-empty" hidden>No items match these filters.</p>
+  </section>
+  {% endfor %}
+  </div>
+{% endfor %}
+</div>
+{% endblock %}

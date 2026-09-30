@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Themes &amp; sources · {{ site.title }}{% endblock %}
+{% block main %}
+<section class="page-head">
+  <p class="kicker mono">Method</p>
+  <h1>Themes &amp; sources</h1>
+  <p class="lede">{{ profile.project.tagline }}. Every week an automated sweep collects metadata from the sources below,
+  applies a keyword relevance gate, and has a language model score and annotate the survivors.
+  A member of the team then reviews the list before anything is published. The sweep profile is
+  maintained by the team and changes as research focuses shift.</p>
+</section>
+
+<section class="about-grid">
+  <div>
+    <h2 class="section-h">How items are chosen</h2>
+    <ol class="steps">
+      <li><strong>Harvest.</strong> Open scholarly metadata (OpenAlex), global news indexes (GDELT), and publisher and institutional RSS feeds. Only titles, links, dates and abstracts are collected.</li>
+      <li><strong>Gate.</strong> An item must mention a finance term <em>and</em> either a case-study city/institution or at least two theme terms. Routine market chatter is filtered out by negative keywords.</li>
+      <li><strong>Annotate.</strong> Claude rates relevance (0–3) against the project brief, assigns cities and themes, and drafts a one-line note.</li>
+      <li><strong>Review.</strong> A team member ticks what to publish and features the most important items.</li>
+      <li><strong>From the archive.</strong> Older works (10+ years) cited by this week's new research are surfaced through the citation graph.</li>
+    </ol>
+  </div>
+  <div>
+    <h2 class="section-h">Team &amp; case-study cities</h2>
+    <table class="table compact">
+      <thead><tr><th>City</th><th>Region</th><th>Lead</th></tr></thead>
+      <tbody>
+      {% for p in profile.places %}<tr><td>{{ p.city }}</td><td>{{ p.region }}</td><td>{{ p.lead }}</td></tr>{% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-h">Themes</h2>
+  <dl class="themes">
+  {% for t in profile.themes %}
+    <div class="theme"><dt>{{ t.label }}</dt><dd>{{ t.description }}</dd></div>
+  {% endfor %}
+  </dl>
+</section>
+
+<section>
+  <h2 class="section-h">Sources</h2>
+  <div class="src-grid">
+  {% for sec in sections %}
+    <div>
+      <h3 class="mono small-h">{{ labels[sec] }}</h3>
+      <ul class="plain">
+      {% for s in sources.get(sec) or [] %}<li>{{ s.name }}</li>{% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h2 class="section-h">Contributing</h2>
+  <p>Team members can suggest an item or update their research focus using the forms in the project's GitHub repository (<em>Issues → New issue</em>). New focus areas feed into the following week's sweep.</p>
+</section>
+{% endblock %}

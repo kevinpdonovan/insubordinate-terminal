@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if not site.public %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<title>{% block title %}{{ site.title }}{% endblock %}</title>
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ root }}feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ root }}static/style.css">
+<script>
+  try { var t = localStorage.getItem('ift-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body data-page="{{ page }}">
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a class="brand" href="{{ root }}index.html">
+      <span class="brand-mark" aria-hidden="true">IF</span>
+      <span class="brand-text">
+        <span class="brand-name">{{ site.title }}</span>
+        <span class="brand-sub">{{ site.subtitle }}</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="{{ root }}index.html" {% if page in ('home','week') %}aria-current="page"{% endif %}>This week</a>
+      <a href="{{ root }}archive.html" {% if page == 'archive' %}aria-current="page"{% endif %}>Past issues</a>
+      <a href="{{ root }}about.html" {% if page == 'about' %}aria-current="page"{% endif %}>Themes &amp; sources</a>
+      <a href="{{ root }}health.html" {% if page == 'health' %}aria-current="page"{% endif %}>Source health</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+{% block main %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p><strong>{{ site.maintainer }}</strong>. Links go to the original publishers; nothing here republishes their text.
+      Short notes are machine-drafted and human-reviewed.</p>
+      <p class="mono muted">Built {{ built }} · <a href="{{ root }}feed.xml">RSS</a>{% if site.newsletter_url %} · <a href="{{ site.newsletter_url }}">Newsletter</a>{% endif %}</p>
+    </div>
+    <div class="prefs">
+      <label class="pref">
+        <span>Library access</span>
+        <select id="proxy-select" data-proxies='{{ proxies_json }}'>
+          <option value="">Direct links</option>
+        </select>
+      </label>
+      <label class="pref">
+        <span>Theme</span>
+        <select id="theme-select">
+          <option value="">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </label>
+    </div>
+  </div>
+</footer>
+<script src="{{ root }}static/app.js"></script>
+</body>
+</html>
