@@ -22,6 +22,11 @@ market news is NOT relevant. Relevance scale:
 2 = clearly useful context (regulatory changes, debt/ratings events, major deals or
     institutional moves in the case-study countries; relevant scholarship on adjacent cases);
 1 = marginal; 0 = irrelevant (price moves, earnings, tips, unrelated topics).
+For scholarly items (section research or archive) also give "quality" 0–2 for scholarly
+substance, judged from the title, abstract and venue information supplied: 2 = substantive
+peer-reviewed scholarship with a clear argument or evidence; 1 = acceptable (thin abstract,
+working paper, review, or modest venue); 0 = poor (generic, formulaic or incoherent abstract,
+predatory-looking venue, or not really scholarship). Omit "quality" for news and reports.
 The one-line note (max 25 words) says concretely why a researcher on this project would care.
 Do not repeat the title. Do not speculate beyond the text given. Write notes in English."""
 
@@ -31,7 +36,10 @@ def _prompt(profile: dict, batch: list[dict]) -> str:
     places = ", ".join(f"{p['id']} ({p['city']})" for p in profile["places"])
     items = "\n".join(
         json.dumps({"id": it["id"], "section": it["section"], "title": it["title"],
-                    "source": it.get("source", ""), "text": it.get("summary", "")[:700]},
+                    "source": it.get("source", ""), "text": it.get("summary", "")[:700],
+                    **({"venue": it.get("venue", ""), "venue_level": (it.get("venue_quality") or {}).get("level"),
+                        "venue_h_index": (it.get("venue_quality") or {}).get("h_index"), "type": it.get("work_type")}
+                       if it["section"] in ("research", "archive") else {})},
                    ensure_ascii=False)
         for it in batch)
     return f"""PROJECT BRIEF
@@ -47,8 +55,8 @@ ITEMS (one JSON object per line)
 {items}
 
 Return ONLY a JSON array with one object per item, in the same order:
-[{{"id": "...", "relevance": 0-3, "themes": ["theme_id", ...], "places": ["place_id", ...],
-   "note": "one line"}}]"""
+[{{"id": "...", "relevance": 0-3, "quality": 0-2 (scholarly items only), "themes": ["theme_id", ...],
+   "places": ["place_id", ...], "note": "one line"}}]"""
 
 
 def _parse(text: str) -> list[dict]:
@@ -87,6 +95,8 @@ def tag_items(profile: dict, items: list[dict], log=print) -> bool:
                 "places": [p for p in r.get("places", []) if p in valid_p],
                 "note": (r.get("note") or "").strip()[:240],
             }
+            if it["section"] in ("research", "archive") and isinstance(r.get("quality"), (int, float)):
+                it["ai"]["quality"] = int(r["quality"])
     return True
 
 

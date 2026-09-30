@@ -18,13 +18,23 @@ It publishes a static website that links to the originals, plus an RSS feed that
 
 | Section | Where it comes from |
 |---|---|
-| New research | OpenAlex (open scholarly index): keyword queries, watched journals, watched authors; RePEc NEP feeds |
-| From the archive | Works 10+ years old cited by this week's new research (OpenAlex citation graph); Zotero group library in phase 2 |
-| News | GDELT global news index (65+ languages), regional outlets' RSS feeds, Bloomberg via GDELT and public feeds, and Google Alerts (RSS) |
-| Reports & grey literature | IMF, BIS, World Bank, UNCTAD, AfDB, FSD Africa, CGD, ODI, Bretton Woods Project, Eurodad, OMFIF and others, via RSS |
+| New research | OpenAlex (open scholarly index): keyword queries in English, French, Portuguese and Spanish, plus watched journals and watched authors; Google Scholar alerts by email |
+| From the archive | Works 10+ years old cited by this week's new research (OpenAlex citation graph) |
+| News | GDELT global news index, **restricted to an allowlist of quality outlets**; regional outlets' RSS feeds; **your own Bloomberg alerts and Google Alerts by email** |
+| Reports & grey literature | World Bank Documents & Reports database; OpenAlex reports and IFI working-paper series (IMF, BIS, World Bank); **watched publication pages** of central banks, regulators and exchanges; think-tank RSS feeds |
+
+**Quality controls:**
+
+- **Duplicates.** Preprint, repository and journal versions of the same work are merged (the journal version is kept). Syndicated copies of a news story are clustered (the best outlet is kept). Nothing shown in an earlier week reappears, even under a new link.
+- **Venues.** Journals are graded by OpenAlex h-index. Watched journals are trusted, deny-listed venues and publishers are dropped (edit the lists in `themes.yaml → quality`), and low-signal venues are flagged ⚠ in the review issue and never pre-ticked.
+- **Claude** rates relevance 0–3 and, for scholarship, substance 0–2. News is only pre-ticked at relevance 3.
 
 Only metadata is collected: title, link, date, source and authors. Abstracts are used for tagging but never
 published, and news text is never stored.
+
+## The website
+
+The site has four pages. **This week** shows the latest issue, with filters. **Past issues** lists every week, each kept permanently. **Search** covers every item ever published, filterable by section, city, theme and date. **Themes & sources** lists everything the sweep looks for.
 
 ## The files you edit
 
@@ -64,15 +74,32 @@ You can also ask Claude to make the edit.
 7. **Check the Source health page.** Feeds marked `# check` in `sources.yaml` couldn't be tested before launch.
    Fix or delete any that fail.
 
+## Email alerts (Bloomberg, Google Scholar, Google Alerts)
+
+Your own alerts are the best-quality inputs, and the sweep can read them from a dedicated inbox. Setup takes about 15 minutes:
+
+1. **Create a Gmail account just for this**, e.g. `insubordinate.terminal@gmail.com`. Don't use your personal inbox: the automation can read everything in it.
+2. In that account, turn on **2-Step Verification** (Google Account → Security), then create an **App password** (Security → App passwords). Copy the 16-character password.
+3. In GitHub → **Settings → Secrets and variables → Actions** add two **secrets**: `IMAP_USER` (the Gmail address) and `IMAP_PASSWORD` (the app password).
+4. Point alerts at that address:
+   - **Google Scholar:** scholar.google.com → Alerts → create alerts for key phrases and authors, delivered to the project address.
+   - **Google Alerts:** google.com/alerts, signed in as the project account → one alert per query (e.g. `"Nairobi International Financial Centre"`, `"Casablanca Finance City"`, `BRVM`, `"African Credit Rating Agency"`, `sukuk Morocco`) → *How often: at most once a day*, *Deliver to: the project address*.
+   - **Bloomberg:** set up saved-search alerts and newsletters in your Bloomberg account, then in your own mail add a filter that **forwards** Bloomberg alert emails to the project address. Only headlines and links are extracted; no article text is stored.
+
+The Source health page shows "not configured" for these until the secrets exist.
+
+## Watched publication pages
+
+`sources.yaml` lists central-bank, regulator and exchange pages under `type: pagewatch`. Each week the sweep notes links that are **new** since last week (the first run only records a baseline). Pages that build their content with JavaScript can't be read this way. They'll show as failing on the Source health page, and it's best to delete them.
+
 ## Paywalled sources and logins
 
 - **Don't put university credentials into the automation.** Publisher licences and university IT policy
   forbid systematic automated access. Discovery only needs metadata, which is open.
 - **Library proxy:** readers choose their library in the site footer, and scholarly links are rewritten through
   that proxy (Edinburgh is preset; please verify the prefix with the library). Colleagues elsewhere can paste their own proxy prefix.
-- **Bloomberg:** don't scrape it (terms of service). Bloomberg headlines arrive via GDELT and Bloomberg's public
-  feeds. For saved searches, set up email alerts to a dedicated inbox; ingesting that inbox is a phase-2 add-on.
-  Factiva/Nexis alerts through Edinburgh can use the same route.
+- **Bloomberg:** don't scrape it (terms of service). Headlines arrive via GDELT, and your own alerts come by email (see above).
+  Factiva/Nexis alerts through Edinburgh can use the same route; add a matching `type: email` entry in `sources.yaml`.
 - **Google Alerts** can be delivered as RSS (google.com/alerts → *Deliver to: RSS feed*). Paste those URLs into `sources.yaml`.
 
 ## Newsletter (phase 2)

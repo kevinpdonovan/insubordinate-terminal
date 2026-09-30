@@ -36,7 +36,7 @@ class Scorer:
         title = norm(item.get("title", ""))
         text = title + " " + norm(item.get("summary", ""))
         if hits(title, self.neg):
-            return {"pass": False, "score": 0, "reason": "negative keyword"}
+            return {"pass": False, "score": 0, "places": [], "themes": [], "reason": "negative keyword"}
         place_hits = {pid: h for pid, terms in self.places.items() if (h := hits(text, terms))}
         theme_hits = {tid: h for tid, terms in self.themes.items() if (h := hits(text, terms))}
         n_theme_terms = sum(len(h) for h in theme_hits.values())
@@ -48,12 +48,17 @@ class Scorer:
                  + (3 if watched else 0) + (1 if item.get("section") == "research" else 0))
         if watched or item.get("filter") is False:
             ok = True
+        elif item.get("section") == "grey":
+            # Report blurbs are short: a place or one theme term is enough here;
+            # the AI tagger does the real filtering afterwards.
+            ok = bool(place_hits) or n_theme_terms >= 1 or bool(extra) or (anchor and bool(context))
         else:
-            ok = anchor and (bool(place_hits) or n_theme_terms >= 2 or bool(extra))
+            # A place name alone is not enough ("investment in Bangkok"); it needs a theme term too.
+            ok = anchor and ((bool(place_hits) and n_theme_terms >= 1) or n_theme_terms >= 2 or bool(extra))
         return {
             "pass": ok,
             "score": score,
             "places": sorted(place_hits),
             "themes": sorted(theme_hits, key=lambda t: -len(theme_hits[t])),
-            "reason": "" if ok else ("no finance anchor" if not anchor else "no place/theme match"),
+            "reason": "" if ok else ("no finance anchor" if not anchor else "no place+theme match"),
         }

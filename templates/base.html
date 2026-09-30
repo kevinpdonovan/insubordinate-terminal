@@ -27,6 +27,7 @@
     <nav class="nav" aria-label="Main">
       <a href="{{ root }}index.html" {% if page in ('home','week') %}aria-current="page"{% endif %}>This week</a>
       <a href="{{ root }}archive.html" {% if page == 'archive' %}aria-current="page"{% endif %}>Past issues</a>
+      <a href="{{ root }}search.html" {% if page == 'search' %}aria-current="page"{% endif %}>Search</a>
       <a href="{{ root }}about.html" {% if page == 'about' %}aria-current="page"{% endif %}>Themes &amp; sources</a>
       <a href="{{ root }}health.html" {% if page == 'health' %}aria-current="page"{% endif %}>Source health</a>
     </nav>

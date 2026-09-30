@@ -151,3 +151,24 @@ body.one-section .columns { grid-template-columns: 1fr; }
 .prefs { display: flex; flex-wrap: wrap; gap: 12px; }
 .pref { display: flex; flex-direction: column; gap: 4px; font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 .pref select { text-transform: none; letter-spacing: 0; }
+
+/* Chips, table of contents, two-column blocks (about page) */
+.toc { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 16px; }
+.toc a { text-decoration: none; color: var(--accent); }
+section[id] { scroll-margin-top: 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { font: 400 .75rem/1.2 var(--sans); padding: 3px 7px; border-radius: 3px; background: var(--accent-soft); color: var(--ink-2); }
+.chip-place { background: var(--place-soft); color: var(--place); }
+.chip-neg { color: var(--bad); background: transparent; border: 1px solid currentColor; }
+.chip-anchor { background: transparent; border: 1px solid var(--rule); }
+.small-h + .chips { margin-bottom: 16px; }
+.theme-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); margin: 0 0 24px; }
+.theme-card { background: var(--surface); border: 1px solid var(--rule); border-top: 3px solid var(--accent); padding: 12px 14px; }
+.theme-card h3 { font: 600 1.05rem/1.3 var(--serif); margin: 0; }
+.theme-card p { font-size: .875rem; color: var(--ink-2); margin: 4px 0 10px; }
+.two-col { display: grid; gap: 32px; grid-template-columns: 1fr; margin: 24px 0 32px; }
+@media (min-width: 900px) { .two-col { grid-template-columns: 1fr 1fr; gap: 48px; } }
+.plain.mono li { font-size: .78rem; }
+#cities, #themes, #sources, #team { margin: 24px 0 32px; }
+.item-meta .also { color: var(--muted); font-style: italic; }
+.item-meta .sec { color: var(--accent); }

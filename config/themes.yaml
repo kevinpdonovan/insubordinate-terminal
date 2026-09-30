@@ -114,21 +114,32 @@ themes:
 
   - id: integration
     label: "Devices of integration"
-    description: "Market infrastructure promoting liquidity and cross-border trust: depositories, trading platforms, market linkages, listings, fund passports."
+    description: "Market infrastructure promoting liquidity and cross-border trust: depositories, trading and settlement platforms, market linkages, dual listings, depositary receipts, fund passports, primary dealers."
     keywords:
-      - market infrastructure
+      - cross-listing
+      - cross listing
+      - dual listing
+      - dual-listed
+      - market linkage
+      - exchange linkage
       - central securities depository
-      - stock exchange
-      - bourse
-      - listing
-      - ipo
-      - liquidity
-      - bond market
-      - capital market
-      - capital markets
-      - marché financier
-      - mercado de capitais
-      - mercado de capitales
+      - securities depository
+      - clearing and settlement
+      - settlement system
+      - trading platform
+      - market maker
+      - primary dealer
+      - depositary receipt
+      - exchange-traded fund
+      - demutualisation
+      - demutualization
+      - fund passport
+      - capital market development
+      - capital markets development
+      - bond market development
+      - listing rules
+      - interconnexion boursière
+      - integração de mercados
 
   - id: regulation
     label: "Devices of regulation"
@@ -195,6 +206,15 @@ themes:
       - financiers
       - cfa institute
       - fonds de pension
+      - africa financial summit
+      - africa ceo forum
+      - africa debt forum
+      - global financial centres
+      - financial centre forum
+      - investment summit
+      - bankers association
+      - association of stock exchanges
+      - african securities exchanges association
 
   - id: development_finance
     label: "Development, blended & green finance"
@@ -241,6 +261,89 @@ themes:
       - urban finance
       - obligations municipales
 
+  - id: gulf_capital
+    label: "Gulf capital & centres"
+    description: "Gulf sovereign funds, banks and financial centres (DIFC, ADGM, QFC) as investors in, partners of, or models for Southern centres."
+    keywords:
+      - difc
+      - dubai international financial centre
+      - adgm
+      - abu dhabi global market
+      - qatar financial centre
+      - gulf investors
+      - gulf capital
+      - mubadala
+      - adq
+      - abu dhabi investment authority
+      - qatar investment authority
+      - public investment fund
+      - emirati investment
+      - saudi investment
+
+  - id: china_finance
+    label: "Chinese finance"
+    description: "Chinese lending and investment, renminbi internationalisation, panda bonds, Belt and Road finance, and Chinese payment infrastructure."
+    keywords:
+      - belt and road
+      - panda bond
+      - renminbi
+      - yuan clearing
+      - rmb settlement
+      - cips
+      - china development bank
+      - export-import bank of china
+      - china exim
+      - chinese loans
+      - chinese lending
+      - debt-trap
+
+  - id: islamic_finance
+    label: "Islamic finance"
+    description: "Sukuk, Islamic banking and Sharia-compliant instruments as devices of market deepening (notably Casablanca, Nairobi, Port Louis)."
+    keywords:
+      - sukuk
+      - islamic finance
+      - islamic banking
+      - islamic bank
+      - sharia-compliant
+      - shariah-compliant
+      - participative bank
+      - banque participative
+      - takaful
+
+  - id: state_finance
+    label: "State capital & parastatals"
+    description: "Sovereign wealth funds, state-owned enterprises and parastatals in capital markets: privatisations, public listings, state stakes, development banks."
+    keywords:
+      - sovereign wealth fund
+      - fonds souverain
+      - state-owned enterprise
+      - state owned enterprise
+      - parastatal
+      - privatisation
+      - privatization
+      - privatização
+      - government stake
+      - state stake
+      - national development bank
+      - public investment corporation
+      - caisse de dépôt
+
+  - id: imf_programmes
+    label: "IMF & multilateral programmes"
+    description: "IMF programmes, reviews and conditionality; World Bank and AfDB policy lending; G20 debt frameworks, where they shape financial-sector policy."
+    keywords:
+      - imf programme
+      - imf program
+      - extended credit facility
+      - extended fund facility
+      - staff-level agreement
+      - article iv
+      - imf bailout
+      - imf review
+      - development policy operation
+      - conditionality
+
 # ---------------------------------------------------------------------
 #  CASE-STUDY CITIES — institutions/aliases help match news items.
 #  lead: who on the team covers it (update as roles change).
@@ -267,7 +370,7 @@ places:
     country: "Uruguay"
     region: "Latin America"
     lead: "PR1"
-    aliases: ["montevideo", "uruguay", "bolsa de valores de montevideo", "banco central del uruguay"]
+    aliases: ["montevideo", "bolsa de valores de montevideo", "banco central del uruguay", "uruguayan bond", "uruguay's central bank"]
     languages: [es, en]
 
   - id: casablanca
@@ -307,7 +410,7 @@ places:
     country: "Mauritius"
     region: "Africa / Indian Ocean"
     lead: "PR2"
-    aliases: ["port louis", "mauritius", "stock exchange of mauritius", "financial services commission mauritius", "bank of mauritius", "global business licence"]
+    aliases: ["port louis", "stock exchange of mauritius", "financial services commission mauritius", "fsc mauritius", "bank of mauritius", "global business licence", "mauritius international financial centre", "mauritius financial centre", "mauritian offshore"]
     languages: [en, fr]
 
   - id: mumbai
@@ -433,6 +536,22 @@ research_queries:
   - "emerging markets investors"
   - "colonial banking history"
   - "decolonization finance"
+  - "sukuk capital market"
+  - "Gulf capital Africa investment"
+  - "Chinese lending Africa finance"
+  - "sovereign wealth fund Africa"
+  - "state-owned enterprise privatisation stock exchange"
+  - "financial professionals ethnography"
+  - "credit rating agencies Global South"
+  - "place financière Afrique"
+  - "marchés financiers Afrique"
+  - "notation financière souveraine Afrique"
+  - "bourse régionale BRVM"
+  - "souveraineté monétaire franc CFA"
+  - "financeirização Brasil"
+  - "mercado de capitais Brasil história"
+  - "financiarización América Latina"
+  - "fondos de pensiones Chile financiarización"
 
 # Authors whose new work should always surface (name as it appears on publications).
 # The first run resolves each to an OpenAlex ID; check config/openalex_lock.yaml.
@@ -495,6 +614,16 @@ watch_journals:
   - "Journal of Contemporary Asia"
   - "Business History Review"
   - "Enterprise & Society"
+  - "Cahiers d'études africaines"
+  - "Revue Tiers Monde"
+  - "Critique internationale"
+  - "Revue de la régulation"
+  - "Afrique contemporaine"
+  - "Brazilian Journal of Political Economy"
+  - "Journal of Latin American Studies"
+  - "Journal of Southeast Asian Studies"
+  - "Modern Asian Studies"
+  - "African Studies Review"
 
 # ---------------------------------------------------------------------
 #  NEWS QUERIES — run through news search feeds each week.
@@ -527,6 +656,66 @@ news_queries:
   - '"mercado de capitais" regulação Brasil'
   - '("Bolsa de Santiago" OR nuam) integración'
   - '("Bolsa de Valores de Montevideo" OR "mercado de capitales") Uruguay'
+  - '("Africa Financial Summit" OR "Africa CEO Forum" OR "Africa Debt Forum")'
+  - 'sukuk (Morocco OR Kenya OR Nigeria OR Senegal OR "Ivory Coast" OR Mauritius)'
+  - '(Mubadala OR ADQ OR "Qatar Investment Authority" OR "Abu Dhabi") Africa (bank OR exchange OR bond OR stake)'
+  - '("panda bond" OR renminbi OR yuan) (Africa OR Kenya OR Egypt OR Nigeria OR Brazil)'
+  - '("sovereign wealth fund") (Kenya OR Nigeria OR Morocco OR Senegal OR "South Africa" OR Vietnam OR Thailand)'
+  - '(privatisation OR privatization OR IPO) (Safaricom OR "Kenya Pipeline" OR KenGen OR "state-owned") Nairobi'
+  - '"IMF" ("staff-level agreement" OR "extended credit facility") (Kenya OR Ghana OR Egypt OR "Côte d''Ivoire" OR Senegal OR Zambia)'
+
+# ---------------------------------------------------------------------
+#  GREY LITERATURE — searches run against the World Bank Documents &
+#  Reports database and OpenAlex's "report" records each week.
+# ---------------------------------------------------------------------
+grey_queries:
+  - "capital market development"
+  - "stock exchange"
+  - "financial centre"
+  - "financial sector deepening"
+  - "local currency bond market"
+  - "sovereign debt restructuring"
+  - "credit rating"
+  - "pension fund investment"
+  - "state-owned enterprises"
+  - "sukuk"
+  - "financial market infrastructure"
+  - "debt management"
+
+# Working-paper and report series from IFIs (resolved to OpenAlex IDs on first run)
+watch_series:
+  - "IMF Working Papers"
+  - "IMF Staff Country Reports"
+  - "Selected Issues Papers"
+  - "Departmental Papers"
+  - "BIS Working Papers"
+  - "BIS Quarterly Review"
+  - "Policy Research Working Papers"
+  - "Working Paper Series (African Development Bank)"
+
+# ---------------------------------------------------------------------
+#  QUALITY — venue rules for scholarship. Watched journals count as
+#  trusted automatically. Venues/publishers on the deny lists are dropped
+#  (unless the author is watched). Starting lists: edit freely.
+# ---------------------------------------------------------------------
+quality:
+  established_h_index: 20
+  modest_h_index: 5
+  venue_allowlist: []
+  venue_denylist:
+    - "International Journal of Research and Innovation in Social Science"
+    - "International Journal of Science and Research"
+    - "Journal of Economics and Sustainable Development"
+    - "European Journal of Business and Management"
+    - "Research Journal of Finance and Accounting"
+    - "International Journal of Innovative Science and Research Technology"
+  publisher_denylist:
+    - "Scientific Research Publishing"
+    - "OMICS"
+    - "Science Publishing Group"
+    - "IISTE"
+    - "Academic Journals"
+    - "Sciencedomain"
 
 # ---------------------------------------------------------------------
 #  TEAM — who is working on what. Update via the participant form.
@@ -537,7 +726,7 @@ participants:
     focus: ["Abidjan", "Santiago", "credit ratings (West Africa)", "financial politics"]
   - name: "Kevin P. Donovan"
     role: "AR1"
-    focus: ["Nairobi", "Kenya", "East Africa", "parastatals", "Safaricom", "monetary theory"]
+    focus: ["Nairobi", "Kenya", "East Africa", "monetary theory", "parastatals & state capital", "Safaricom / M-Pesa", "Central Bank of Kenya", "Kenyan sovereign debt"]
   - name: "Liza Rose Cirolia"
     role: "AR2"
     focus: ["Johannesburg", "urban finance", "municipal finance"]

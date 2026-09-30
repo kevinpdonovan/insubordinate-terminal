@@ -4,44 +4,95 @@
 <section class="page-head">
   <p class="kicker mono">Method</p>
   <h1>Themes &amp; sources</h1>
-  <p class="lede">{{ profile.project.tagline }}. Every week an automated sweep collects metadata from the sources below,
-  applies a keyword relevance gate, and has a language model score and annotate the survivors.
-  A member of the team then reviews the list before anything is published. The sweep profile is
-  maintained by the team and changes as research focuses shift.</p>
+  <p class="lede">{{ profile.project.tagline }}. This page lists everything the weekly sweep looks for. It is generated
+  from the project's sweep profile, so it always matches what actually runs.</p>
+  <nav class="toc mono" aria-label="On this page">
+    <a href="#how">How items are chosen</a><a href="#themes">Themes</a><a href="#cities">Cities</a>
+    <a href="#queries">Searches</a><a href="#watch">Authors &amp; journals</a><a href="#sources">Sources</a><a href="#team">Team</a>
+  </nav>
 </section>
 
-<section class="about-grid">
+<section id="how" class="about-grid">
   <div>
     <h2 class="section-h">How items are chosen</h2>
     <ol class="steps">
-      <li><strong>Harvest.</strong> Open scholarly metadata (OpenAlex), global news indexes (GDELT), and publisher and institutional RSS feeds. Only titles, links, dates and abstracts are collected.</li>
-      <li><strong>Gate.</strong> An item must mention a finance term <em>and</em> either a case-study city/institution or at least two theme terms. Routine market chatter is filtered out by negative keywords.</li>
-      <li><strong>Annotate.</strong> Claude rates relevance (0–3) against the project brief, assigns cities and themes, and drafts a one-line note.</li>
-      <li><strong>Review.</strong> A team member ticks what to publish and features the most important items.</li>
-      <li><strong>From the archive.</strong> Older works (10+ years) cited by this week's new research are surfaced through the citation graph.</li>
+      <li><strong>Harvest.</strong> Scholarly metadata (OpenAlex), the World Bank documents database, a global news index (GDELT, restricted to the outlets listed below), publisher and institutional RSS feeds, watched publication pages, and alert emails (Bloomberg, Google Scholar, Google Alerts). Only titles, links, dates and abstracts are collected.</li>
+      <li><strong>De-duplicate.</strong> Preprint, repository and journal versions of the same work are merged, keeping the journal version. Syndicated copies of a news story are clustered, keeping the best outlet. Anything shown in an earlier week is not shown again.</li>
+      <li><strong>Gate.</strong> News and research must mention a finance term <em>and</em> either a case-study city or institution <em>plus</em> a theme term, or two theme terms. Reports need one city or theme term. Titles with negative keywords are dropped.</li>
+      <li><strong>Venue check.</strong> Journals are graded by OpenAlex h-index. Watched journals are trusted, deny-listed venues are dropped, and low-signal venues are flagged and never pre-selected.</li>
+      <li><strong>Annotate.</strong> Claude rates relevance (0–3) against the project brief and scholarly substance (0–2), assigns cities and themes, and drafts a one-line note.</li>
+      <li><strong>Review.</strong> A team member ticks what to publish. News is only pre-selected at relevance 3.</li>
+      <li><strong>From the archive.</strong> Older works (10+ years) cited by this week's new research.</li>
     </ol>
   </div>
   <div>
-    <h2 class="section-h">Team &amp; case-study cities</h2>
-    <table class="table compact">
-      <thead><tr><th>City</th><th>Region</th><th>Lead</th></tr></thead>
-      <tbody>
-      {% for p in profile.places %}<tr><td>{{ p.city }}</td><td>{{ p.region }}</td><td>{{ p.lead }}</td></tr>{% endfor %}
-      </tbody>
-    </table>
+    <h2 class="section-h">Relevance gate</h2>
+    <h3 class="mono small-h">Finance terms ({{ profile.finance_anchors|length }})</h3>
+    <div class="chips">{% for k in profile.finance_anchors %}<span class="chip chip-anchor">{{ k }}</span>{% endfor %}</div>
+    <h3 class="mono small-h">Negative keywords (title only)</h3>
+    <div class="chips">{% for k in profile.negative_keywords %}<span class="chip chip-neg">{{ k }}</span>{% endfor %}</div>
+    <h3 class="mono small-h">Context places</h3>
+    <div class="chips">{% for k in profile.context_places %}<span class="chip">{{ k }}</span>{% endfor %}</div>
   </div>
 </section>
 
-<section>
-  <h2 class="section-h">Themes</h2>
-  <dl class="themes">
+<section id="themes">
+  <h2 class="section-h">Themes <span class="count mono">{{ profile.themes|length }}</span></h2>
+  <div class="theme-grid">
   {% for t in profile.themes %}
-    <div class="theme"><dt>{{ t.label }}</dt><dd>{{ t.description }}</dd></div>
+    <article class="theme-card">
+      <h3>{{ t.label }}</h3>
+      <p>{{ t.description }}</p>
+      <div class="chips">{% for k in t.keywords %}<span class="chip">{{ k }}</span>{% endfor %}</div>
+    </article>
   {% endfor %}
-  </dl>
+  </div>
+  {% if profile.extra_keywords %}
+  <h3 class="mono small-h">Added by team members</h3>
+  <div class="chips">{% for k in profile.extra_keywords %}<span class="chip">{{ k }}</span>{% endfor %}</div>
+  {% endif %}
 </section>
 
-<section>
+<section id="cities">
+  <h2 class="section-h">Case-study cities <span class="count mono">{{ profile.places|length }}</span></h2>
+  <table class="table">
+    <thead><tr><th>City</th><th>Lead</th><th>Names &amp; institutions matched</th></tr></thead>
+    <tbody>
+    {% for p in profile.places %}
+      <tr><td><strong>{{ p.city }}</strong><br><span class="muted small">{{ p.country }} · {{ p.region }}</span></td><td>{{ p.lead }}</td>
+      <td><div class="chips">{% for a in p.aliases %}<span class="chip chip-place">{{ a }}</span>{% endfor %}</div></td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section id="queries" class="two-col">
+  <div>
+    <h2 class="section-h">Scholarly searches <span class="count mono">{{ profile.research_queries|length }}</span></h2>
+    <ul class="plain">{% for q in profile.research_queries %}<li>{{ q }}</li>{% endfor %}</ul>
+    <h2 class="section-h" style="margin-top:32px">Report searches <span class="count mono">{{ (profile.grey_queries or [])|length }}</span></h2>
+    <ul class="plain">{% for q in profile.grey_queries or [] %}<li>{{ q }}</li>{% endfor %}</ul>
+  </div>
+  <div>
+    <h2 class="section-h">News searches <span class="count mono">{{ profile.news_queries|length }}</span></h2>
+    <ul class="plain mono">{% for q in profile.news_queries %}<li>{{ q }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section id="watch" class="two-col">
+  <div>
+    <h2 class="section-h">Watched authors <span class="count mono">{{ profile.watch_authors|length }}</span></h2>
+    <div class="chips">{% for a in profile.watch_authors %}<span class="chip">{{ a }}</span>{% endfor %}</div>
+    <h2 class="section-h" style="margin-top:32px">Watched report series</h2>
+    <div class="chips">{% for a in profile.watch_series or [] %}<span class="chip">{{ a }}</span>{% endfor %}</div>
+  </div>
+  <div>
+    <h2 class="section-h">Watched journals <span class="count mono">{{ profile.watch_journals|length }}</span></h2>
+    <div class="chips">{% for j in profile.watch_journals %}<span class="chip">{{ j }}</span>{% endfor %}</div>
+  </div>
+</section>
+
+<section id="sources">
   <h2 class="section-h">Sources</h2>
   <div class="src-grid">
   {% for sec in sections %}
@@ -53,10 +104,20 @@
     </div>
   {% endfor %}
   </div>
+  {% if sources.news_outlets %}
+  <h3 class="mono small-h">News outlets allowed from the global index ({{ sources.news_outlets|length }})</h3>
+  <div class="chips">{% for d in sources.news_outlets %}<span class="chip">{{ d }}</span>{% endfor %}</div>
+  {% endif %}
 </section>
 
-<section>
-  <h2 class="section-h">Contributing</h2>
+<section id="team">
+  <h2 class="section-h">Team</h2>
+  <table class="table compact">
+    <thead><tr><th>Name</th><th>Role</th><th>Focus</th></tr></thead>
+    <tbody>
+    {% for p in profile.participants %}<tr><td>{{ p.name }}</td><td>{{ p.role }}</td><td>{{ (p.focus or [])|join(', ') }}</td></tr>{% endfor %}
+    </tbody>
+  </table>
   <p>Team members can suggest an item or update their research focus using the forms in the project's GitHub repository (<em>Issues → New issue</em>). New focus areas feed into the following week's sweep.</p>
 </section>
 {% endblock %}

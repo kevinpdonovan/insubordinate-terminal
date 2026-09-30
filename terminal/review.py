@@ -11,20 +11,28 @@ import re
 from .items import SECTION_LABELS, SECTIONS
 
 MAX_PER_SECTION = {"research": 60, "archive": 12, "news": 70, "grey": 45}
-PRETICK = 2          # AI relevance >= 2 is pre-ticked
+PRETICK = {"research": 2, "archive": 2, "news": 3, "grey": 2}  # AI relevance needed to pre-tick
 PRETICK_KEYWORD = 5  # ...or keyword score >= 5 when no AI tags exist
 LINE_RX = re.compile(r"^\s*[-*]\s*\[(?P<tick>[ xX])\]\s*(?P<star>★|⭐)?.*?<!--id:(?P<id>[0-9a-f]{10})-->", re.M)
 
 
 def rank_key(it: dict):
     ai = it.get("ai") or {}
-    return (ai.get("relevance", -1), it.get("kw", {}).get("score", 0), it.get("date", ""))
+    return (ai.get("relevance", -1), ai.get("quality", 1), it.get("kw", {}).get("score", 0), it.get("date", ""))
 
 
 def pretick(it: dict) -> bool:
     ai = it.get("ai")
     if ai:
-        return ai.get("relevance", 0) >= PRETICK
+        sec = it.get("section", "news")
+        if ai.get("relevance", 0) < PRETICK.get(sec, 2):
+            return False
+        if sec in ("research", "archive") and not it.get("watched"):
+            if (it.get("venue_quality") or {}).get("level") in ("low", "denied"):
+                return False
+            if ai.get("quality") is not None and ai["quality"] < 1:
+                return False
+        return True
     if it.get("section") == "archive":
         return it.get("kw", {}).get("score", 0) >= 2
     return it.get("kw", {}).get("score", 0) >= PRETICK_KEYWORD or bool(it.get("watched"))
@@ -49,7 +57,9 @@ def _tags(it: dict) -> str:
 def issue_body(week: str, chosen: dict[str, list[dict]], stats: dict) -> str:
     L = [f"<!-- terminal:week={week} -->",
          f"**Weekly review for {week}.** Harvested {stats.get('harvested', 0)} items; "
-         f"{stats.get('passed', 0)} passed the relevance gate; the strongest are listed below.",
+         f"{stats.get('duplicates_removed', 0)} duplicates and {stats.get('repeats_removed', 0)} repeats from earlier weeks were removed; "
+         f"{stats.get('passed', 0)} passed the relevance gate; the strongest are listed below. "
+         f"News is only pre-ticked when rated 3/3; scholarship in low-signal venues is never pre-ticked.",
          "",
          "**How to review:** untick anything that shouldn't be published. To *feature* an item "
          "(top of the page and the newsletter), edit this issue and add ★ right after its box. "
@@ -67,7 +77,11 @@ def issue_body(week: str, chosen: dict[str, list[dict]], stats: dict) -> str:
             badge = f"r{rel}" if rel is not None else f"k{it.get('kw', {}).get('score', 0)}"
             note = (it.get("ai") or {}).get("note", "")
             title = it["title"].replace("[", "(").replace("]", ")")[:180]
-            meta = " · ".join(x for x in [it.get("source", ""), it.get("date", ""), _tags(it)] if x)
+            vq = (it.get("venue_quality") or {}).get("level", "")
+            flag = {"low": "⚠ low-signal venue", "repository": "preprint/repository", "unknown": "venue unknown",
+                    "watched": "watched journal"}.get(vq, "")
+            also = f"also: {', '.join(it['also_at'][:3])}" if it.get("also_at") else ""
+            meta = " · ".join(x for x in [it.get("source", ""), it.get("date", ""), _tags(it), flag, also] if x)
             L.append(f"- [{tick}] [{title}]({it['url']}) · {meta} · `{badge}`"
                      + (f" — {note}" if note else "") + f" <!--id:{it['id']}-->")
         L.append("")

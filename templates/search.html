@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Search · {{ site.title }}{% endblock %}
+{% block main %}
+<section class="page-head">
+  <p class="kicker mono">All issues</p>
+  <h1>Search everything</h1>
+  <p class="lede">Every item published since the first issue. Filters combine; results are newest first.</p>
+</section>
+
+<section class="filters" aria-label="Search and filter">
+  <div class="filter-row">
+    <label class="search"><span class="visually-hidden">Search</span>
+      <input id="s-q" type="search" placeholder="Search titles, sources, authors, notes" autofocus></label>
+  </div>
+  <div class="filter-row">
+    <label class="sel"><span class="visually-hidden">Section</span>
+      <select id="s-sec"><option value="">All sections</option>
+        {% for s in sections %}<option value="{{ s }}">{{ labels[s] }}</option>{% endfor %}
+      </select></label>
+    <label class="sel"><span class="visually-hidden">City</span>
+      <select id="s-place"><option value="">All cities</option>
+        {% for p in profile.places %}<option value="{{ p.id }}">{{ p.city }}</option>{% endfor %}
+      </select></label>
+    <label class="sel"><span class="visually-hidden">Theme</span>
+      <select id="s-theme"><option value="">All themes</option>
+        {% for t in profile.themes %}<option value="{{ t.id }}">{{ t.label }}</option>{% endfor %}
+      </select></label>
+    <label class="sel"><span class="visually-hidden">From issue</span>
+      <select id="s-from"><option value="">From: first issue</option>
+        {% for iss in issues|reverse %}<option value="{{ iss.week }}">From {{ iss.week }}</option>{% endfor %}
+      </select></label>
+    <span id="s-count" class="mono muted" aria-live="polite"></span>
+  </div>
+</section>
+
+<ul id="s-results" class="items search-results"></ul>
+<p id="s-empty" class="muted empty" hidden>No items match.</p>
+<p><button id="s-more" type="button" class="seg-btn" hidden>Show more</button></p>
+<noscript><p class="muted">Search needs JavaScript. The <a href="archive.html">past issues</a> list works without it.</p></noscript>
+<script>
+window.IFT_LABELS = {
+  places: {{ place_labels_json|safe }},
+  themes: {{ theme_labels_json|safe }},
+  sections: {{ section_labels_json|safe }}
+};
+</script>
+<script src="static/search.js"></script>
+{% endblock %}

@@ -8,6 +8,7 @@
     {% if it.byline %}<span>{{ it.byline }}</span>{% endif %}
     {% if it.section == 'archive' and it.year %}<span>{{ it.year }}</span>{% elif it.date %}<span>{{ it.date|nicedate }}</span>{% endif %}
     {% if it.suggested_by %}<span class="sugg">suggested by {{ it.suggested_by }}</span>{% endif %}
+    {% if it.also_at %}<span class="also">also in {{ it.also_at[:3]|join(', ') }}</span>{% endif %}
   </div>
   {% if it.note %}<p class="item-note">{{ it.note }}</p>{% endif %}
   {% if it.place_labels or it.theme_labels %}

@@ -112,6 +112,12 @@ def build(log=print) -> None:
     if not issues:
         render("empty.html", "index.html", root="", page="home")
     render("archive.html", "archive.html", root="", page="archive")
+    def js(obj):
+        return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
+    render("search.html", "search.html", root="", page="search",
+           place_labels_json=js({p["id"]: p["city"] for p in profile["places"]}),
+           theme_labels_json=js({t["id"]: t["label"] for t in profile["themes"]}),
+           section_labels_json=js(SECTION_LABELS))
     render("about.html", "about.html", root="", page="about", sources=sources)
     health = load_json(DATA / "health.json", {})
     render("health.html", "health.html", root="", page="health", health=health)

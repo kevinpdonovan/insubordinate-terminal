@@ -17,7 +17,10 @@ from pathlib import Path
 import yaml
 
 from . import build as site_build
-from .harvesters import HARVESTERS, harvest_citation_trail
+from .dedupe import cluster_news, keys_for, merge_versions, work_key
+from .harvesters import (HARVESTERS, harvest_citation_trail, harvest_email, harvest_pagewatch,
+                         harvest_rss, venue_stats)
+from .quality import LEVEL_SCORE, apply_venue_quality, outlet_ok, outlet_rank
 from .items import DATA, SECTIONS, SeenStore, iso_week, load_json, make_item, save_json
 from .profile import CONFIG, load_profile, load_sources
 from .relevance import Scorer
@@ -30,47 +33,92 @@ def log(*a):
 
 
 # ------------------------------------------------------------------ harvest
+def _run_sources(sources, profile, since, health, log):
+    raw = []
+    for section in ("research", "news", "grey"):
+        for src in sources.get(section) or []:
+            t = src.get("type")
+            try:
+                if t == "rss":
+                    items, h = harvest_rss(src, section, since)
+                elif t == "pagewatch":
+                    items, h = harvest_pagewatch(src, section, DATA / "pagewatch")
+                elif t == "email":
+                    items, h = harvest_email(src, section, since)
+                elif t in HARVESTERS:
+                    items, h = HARVESTERS[t](src, profile, section)
+                else:
+                    continue
+            except Exception as ex:  # one broken source must never sink the run
+                items, h = [], {"source": src.get("name", "?"), "ok": False, "count": 0, "note": str(ex)[:200]}
+            log(f"· {section:8} {src.get('name')}: {h['count']}{'' if h['ok'] else '  (FAILED)'}")
+            raw += items
+            health.append(h)
+    return raw
+
+
 def cmd_harvest(args):
     profile, sources = load_profile(), load_sources()
     week = args.week or iso_week()
     since = dt.date.today() - dt.timedelta(days=args.days)
     seen = SeenStore()
     scorer = Scorer(profile)
-    raw, health = [], []
+    health, stats = [], {}
 
-    for section in ("research", "news", "grey"):
-        for src in sources.get(section) or []:
-            fn = HARVESTERS.get(src.get("type"))
-            if not fn:
-                continue
-            log(f"· {section:8} {src['name']}")
-            if src["type"] == "rss":
-                items, h = fn(src, section, since)
-            else:
-                items, h = fn(src, profile, section)
-            raw += items
-            health.append(h)
+    raw = _run_sources(sources, profile, since, health, log)
+    stats["harvested"] = len(raw)
 
-    # de-duplicate within the week, then against previous weeks
+    # --- news: keep only allow-listed outlets for broad index searches (GDELT)
+    ranks = outlet_rank(sources)
+    if ranks:
+        before = len(raw)
+        raw = [it for it in raw if not it.get("origin", "").startswith("gdelt") or outlet_ok(it, ranks)]
+        stats["dropped_outlet"] = before - len(raw)
+
+    # --- duplicates: exact ids, then versions of the same work, then syndicated news
     uniq = {}
     for it in raw:
-        uniq.setdefault(it["id"], it)
-    fresh = [it for it in uniq.values() if it["id"] not in seen and it["title"]]
+        if not it["title"]:
+            continue
+        if it["section"] in ("research", "archive", "grey"):
+            it["work_key"] = work_key(it)
+        if it["id"] in uniq:  # same DOI/URL from two harvesters: keep the richer record
+            if len(it.get("summary", "")) > len(uniq[it["id"]].get("summary", "")):
+                it["watched"] = it.get("watched") or uniq[it["id"]].get("watched")
+                uniq[it["id"]] = it
+            else:
+                uniq[it["id"]]["watched"] = uniq[it["id"]].get("watched") or it.get("watched")
+            continue
+        uniq[it["id"]] = it
+    items, n_versions = merge_versions(list(uniq.values()))
+    items, n_syndicated = cluster_news(items, {d: r for d, r in ranks.items()})
+    stats["duplicates_removed"] = (len(raw) - len(uniq)) + n_versions + n_syndicated
+
+    # --- against previous weeks (by id AND fuzzy key)
+    fresh = [it for it in items if not any(k in seen for k in keys_for(it))]
+    stats["repeats_removed"] = len(items) - len(fresh)
+
+    # --- venue quality for scholarship
+    venues = load_json(DATA / "venues.json", {})
+    venue_stats([it.get("venue_id", "") for it in fresh if it["section"] == "research"], venues)
+    save_json(DATA / "venues.json", venues)
+    stats["dropped_venue"] = apply_venue_quality(fresh, venues, profile)
 
     passed = []
     for it in fresh:
+        if it.get("drop"):
+            continue
         it["kw"] = scorer.assess(it)
         if it["kw"]["pass"]:
+            if it.get("venue_quality"):
+                it["kw"]["score"] += LEVEL_SCORE.get(it["venue_quality"]["level"], 0)
             passed.append(it)
-    log(f"harvested {len(raw)}, unique {len(uniq)}, new {len(fresh)}, passed gate {len(passed)}")
+    stats["passed"] = len(passed)
+    log(f"harvested {len(raw)}; new after de-duplication {len(fresh)}; passed gate {len(passed)}")
 
     # tag research first so the citation trail can use the strongest items
-    research = [i for i in passed if i["section"] == "research"]
-    research.sort(key=lambda i: i["kw"]["score"], reverse=True)
-    research = research[:150]
-    others = [i for i in passed if i["section"] != "research"]
-    others.sort(key=lambda i: i["kw"]["score"], reverse=True)
-    others = others[:300]  # cap tagging cost
+    research = sorted([i for i in passed if i["section"] == "research"], key=lambda i: i["kw"]["score"], reverse=True)[:150]
+    others = sorted([i for i in passed if i["section"] != "research"], key=lambda i: i["kw"]["score"], reverse=True)[:300]
     tagged = tag_items(profile, research, log)
 
     # from the archive: older works cited by this week's best research
@@ -79,19 +127,26 @@ def cmd_harvest(args):
         if src.get("mode") == "citations":
             arch, h = harvest_citation_trail(src, strong)
             health.append(h)
-            arch = [a for a in arch if a["id"] not in seen]
+            for a in arch:
+                a["work_key"] = work_key(a)
+            arch = [a for a in arch if not any(k in seen for k in keys_for(a))]
+            venue_stats([a.get("venue_id", "") for a in arch], venues)
+            apply_venue_quality(arch, venues, profile)
             for a in arch:
                 a["kw"] = scorer.assess(a)
-            arch = [a for a in arch if a["kw"]["pass"]]
+                if a.get("venue_quality"):
+                    a["kw"]["score"] += LEVEL_SCORE.get(a["venue_quality"]["level"], 0)
+            arch = [a for a in arch if a["kw"]["pass"] and not a.get("drop")]
             arch.sort(key=lambda a: (a.get("cited_by_this_week", 0), a["kw"]["score"]), reverse=True)
             others += arch[: src.get("max_items", 8) * 2]
+    save_json(DATA / "venues.json", venues)
     tag_items(profile, others, log)
+    stats["tagged"] = tagged
 
     candidates = research + others
     chosen = select_for_review(candidates)
     run_dir = DATA / "runs" / week
     save_json(run_dir / "candidates.json", candidates)
-    stats = {"harvested": len(raw), "passed": len(passed), "tagged": tagged}
     body = issue_body(week, chosen, stats)
     (run_dir / "review.md").write_text(body, encoding="utf-8")
 
@@ -103,8 +158,10 @@ def cmd_harvest(args):
     save_json(DATA / "health.json", {"week": week, "run_at": dt.datetime.utcnow().isoformat(timespec="seconds"),
                                      "sources": health, "stats": stats})
     for it in fresh:
-        seen.add(it["id"], week)
+        for k in keys_for(it):
+            seen.add(k, week)
     seen.save()
+    log(f"stats: {stats}")
     log(f"review queue: {run_dir / 'review.md'}")
     print(run_dir / "review.md")
 
@@ -121,7 +178,7 @@ def cmd_publish(args):
     for iid in approved:
         it = cands.get(iid)
         if it:
-            it = {k: v for k, v in it.items() if k not in ("summary", "referenced_works")}
+            it = {k: v for k, v in it.items() if k not in ("summary", "referenced_works", "work_key", "filter")}
             it["featured"] = iid in featured
             items.append(it)
     # hand-suggested items waiting in data/suggestions
