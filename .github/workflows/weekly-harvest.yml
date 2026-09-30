@@ -1,0 +1,48 @@
+# Every Monday: sweep sources, tag with Claude, open a review issue.
+name: Weekly harvest
+on:
+  schedule:
+    - cron: "17 5 * * 1"     # Mondays 05:17 UTC (06:17 UK summer time)
+  workflow_dispatch: {}       # "Run workflow" button for manual runs
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: repo-write, cancel-in-progress: false }
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - name: Harvest and tag
+        id: harvest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          TAGGER_MODEL: ${{ vars.TAGGER_MODEL }}
+        run: |
+          path=$(python -m terminal harvest)
+          echo "review=$path" >> "$GITHUB_OUTPUT"
+          echo "week=$(basename $(dirname $path))" >> "$GITHUB_OUTPUT"
+      - name: Save run data
+        run: |
+          git config user.name "terminal-bot"
+          git config user.email "terminal-bot@users.noreply.github.com"
+          git add -A data config
+          git commit -m "Harvest ${{ steps.harvest.outputs.week }}" || echo "nothing to commit"
+          git pull --rebase && git push
+      - name: Open review issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REVIEWER: ${{ vars.REVIEWER }}
+        run: |
+          gh label create weekly-review --color B45309 --description "Weekly review queue" --force
+          gh label create suggestion --color 0F5454 --description "Suggested item (form)" --force
+          gh label create focus --color 4A4740 --description "Research focus update (form)" --force
+          args=(--title "Weekly review — ${{ steps.harvest.outputs.week }}" --label weekly-review --body-file "${{ steps.harvest.outputs.review }}")
+          if [ -n "$REVIEWER" ]; then args+=(--assignee "$REVIEWER"); fi
+          gh issue create "${args[@]}"
