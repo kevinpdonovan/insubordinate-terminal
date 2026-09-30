@@ -1,0 +1,22 @@
+name: Update my research focus
+description: Tell the weekly sweep what you're working on now. Adds to (never removes from) the shared profile.
+title: "Focus: "
+labels: [focus]
+body:
+  - type: input
+    attributes: { label: "Your name (as it appears on publications)" }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Role on the project, description: "e.g. PI, postdoc (PR2), affiliated researcher" }
+  - type: input
+    attributes: { label: ORCID (optional) }
+  - type: textarea
+    attributes: { label: "Current focus (cities, devices, topics — one per line)" }
+  - type: textarea
+    attributes: { label: "Keywords the sweep should watch for (one per line)", description: "Specific terms work best: 'Nairobi International Financial Centre', 'sukuk', 'UMOA-Titres'." }
+  - type: textarea
+    attributes: { label: "Scholarly search phrases (one per line)", description: "Run against new publications each week, e.g. 'credit rating West Africa'." }
+  - type: textarea
+    attributes: { label: "News search phrases (one per line)", description: "Use quotes for exact phrases; put OR-groups in brackets: (\"BRVM\" OR \"UEMOA\")." }
+  - type: textarea
+    attributes: { label: "Authors to follow (one per line)" }
