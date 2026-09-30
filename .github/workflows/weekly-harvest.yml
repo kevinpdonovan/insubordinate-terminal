@@ -24,6 +24,9 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
           TAGGER_MODEL: ${{ vars.TAGGER_MODEL }}
+          IMAP_HOST: ${{ vars.IMAP_HOST }}
+          IMAP_USER: ${{ secrets.IMAP_USER }}
+          IMAP_PASSWORD: ${{ secrets.IMAP_PASSWORD }}
         run: |
           path=$(python -m terminal harvest)
           echo "review=$path" >> "$GITHUB_OUTPUT"
