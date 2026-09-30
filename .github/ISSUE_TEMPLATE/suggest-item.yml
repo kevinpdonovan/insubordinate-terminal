@@ -1,0 +1,20 @@
+name: Suggest an item
+description: Add a paper, article, report or news story to the next weekly issue.
+title: "Suggestion: "
+labels: [suggestion]
+body:
+  - type: input
+    attributes: { label: Link, description: "URL of the original (DOI links welcome)." }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Title }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Source / outlet, description: "Journal, newspaper, organisation…" }
+  - type: dropdown
+    attributes:
+      label: Section
+      options: ["New research", "Older work", "News", "Report / grey literature"]
+    validations: { required: true }
+  - type: input
+    attributes: { label: Why it matters (one line) }
