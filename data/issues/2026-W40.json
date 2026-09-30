@@ -1,411 +1,2066 @@
 {
  "week": "2026-W40",
- "published_at": "2026-09-30T16:00:00",
+ "published_at": "2026-09-30T19:06:38",
  "items": [
   {
-   "id": "7bd861d32e",
+   "id": "8f9c403387",
    "section": "research",
-   "title": "Green energy transitions under financial subordination: climate finance, structure, and agency in the Global South",
-   "url": "https://doi.org/10.1080/09692290.2026.2658646",
-   "doi": "10.1080/09692290.2026.2658646",
-   "source": "Review of International Political Economy",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": true,
-   "ai": {
-    "relevance": 3,
-    "places": [],
-    "themes": [
-     "subordination",
-     "development_finance"
-    ],
-    "note": "New RIPE piece extending the IFS framework to climate finance; note how it treats Southern 'agency', a direct foil for the project's hypothesis."
-   },
-   "featured": true
-  },
-  {
-   "id": "079ab6a426",
-   "section": "research",
-   "title": "Subordinated financialisation and banking consolidation in post-socialist Croatia",
-   "url": "https://doi.org/10.1080/2833115X.2026.2656170",
-   "doi": "10.1080/2833115X.2026.2656170",
-   "source": "Finance and Space",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": true,
-   "ai": {
-    "relevance": 3,
-    "places": [],
-    "themes": [
-     "subordination",
-     "professionals"
-    ],
-    "note": "Applies subordinate financialisation to a post-socialist banking sector, a comparative angle for the Ho Chi Minh City case."
-   },
-   "featured": false
-  },
-  {
-   "id": "cc8f25d528",
-   "section": "research",
-   "title": "Article collection: Permanence and transformations in the financialization of the Global South",
-   "url": "https://www.tandfonline.com/journals/rfas20/collections/Permanence-and-transformations",
-   "doi": "",
-   "source": "Finance and Space",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": true,
-   "ai": {
-    "relevance": 3,
-    "places": [],
-    "themes": [
-     "subordination"
-    ],
-    "note": "Themed collection in Finance and Space; worth screening in full for case-study cities."
-   },
-   "featured": false
-  },
-  {
-   "id": "ffcd13c611",
-   "section": "archive",
-   "title": "Beyond the global city concept and the myth of ‘command and control’",
-   "url": "https://doi.org/10.1111/1468-2427.12024",
-   "doi": "10.1111/1468-2427.12024",
-   "source": "International Journal of Urban and Regional Research",
-   "venue": "",
+   "title": "Institutional Changes in Capital Markets and the Efficiency of Resource Allocation Amid the Reshaping of the Global Financial Landscape: A Comparative Analysis of the Chinese and US Markets",
+   "url": "https://doi.org/10.30560/jems.v9n5p108",
+   "doi": "10.30560/jems.v9n5p108",
+   "source": "Journal of Economics and Management Sciences",
+   "venue": "Journal of Economics and Management Sciences",
    "authors": [
-    "Richard G. Smith"
+    "Yidan Han",
+    "Ying Zhou",
+    "Zhihui Wang"
    ],
-   "date": "2014-01-01",
-   "origin": "pilot",
+   "date": "2026-09-30",
+   "origin": "openalex:query:emerging markets investors",
    "scholarly": true,
-   "ai": {
-    "relevance": 3,
+   "openalex_id": "https://openalex.org/W7214761043",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
     "places": [],
     "themes": [
-     "centres"
+     "integration"
     ],
-    "note": "Cited in the proposal's state of the art: the critique of 'command and control' that the project extends to Southern centres."
+    "reason": ""
    },
-   "featured": false,
-   "year": 2014
-  },
-  {
-   "id": "678539785b",
-   "section": "archive",
-   "title": "World cities under conditions of financialized globalization: towards an augmented world city hypothesis",
-   "url": "https://doi.org/10.1177/0309132514558441",
-   "doi": "10.1177/0309132514558441",
-   "source": "Progress in Human Geography",
-   "venue": "",
-   "authors": [
-    "David Bassens",
-    "Michiel van Meeteren"
-   ],
-   "date": "2015-01-01",
-   "origin": "pilot",
-   "scholarly": true,
    "ai": {
     "relevance": 3,
-    "places": [],
     "themes": [
      "centres",
-     "networks"
+     "integration",
+     "regulation"
     ],
-    "note": "World cities as hubs of advanced business services under financialisation: the GFN-style baseline the project argues against."
-   },
-   "featured": false,
-   "year": 2015
-  },
-  {
-   "id": "e342202e18",
-   "section": "news",
-   "title": "African Union to launch African credit rating agency in October, adviser says",
-   "url": "https://www.polity.org.za/article/african-union-to-launch-african-credit-rating-agency-in-october-adviser-says-2026-08-26",
-   "doi": "",
-   "source": "Polity",
-   "venue": "",
-   "authors": [],
-   "date": "2026-08-26",
-   "origin": "pilot",
-   "scholarly": false,
-   "ai": {
-    "relevance": 3,
-    "places": [],
-    "themes": [
-     "valuation"
+    "places": [
+     "mumbai"
     ],
-    "note": "Launch timetable for AfCRA, the clearest 'insubordinate' valuation device on the continent; central to WP4 and the credit-ratings monograph."
-   },
-   "featured": true
-  },
-  {
-   "id": "1126ef983b",
-   "section": "news",
-   "title": "Africa’s new credit rating agency faces trust test to cut borrowing costs",
-   "url": "https://businessday.ng/africa/article/africas-new-credit-rating-agency-faces-trust-test-to-cut-borrowing-costs",
-   "doi": "",
-   "source": "BusinessDay (Nigeria)",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": false,
-   "ai": {
-    "relevance": 3,
-    "places": [],
-    "themes": [
-     "valuation",
-     "debt"
-    ],
-    "note": "Frames AfCRA's problem as one of credibility with foreign investors: the 'standards of trust' question from the GFN literature, in the press."
+    "note": "Comparative institutional analysis of Chinese and US capital markets; registration reform, investor protection, market connectivity; addresses resource-allocation efficiency and institutional change."
    },
    "featured": false
   },
   {
-   "id": "d30ea286c6",
-   "section": "news",
-   "title": "Côte d'Ivoire: Bridge Bank to start trading on BRVM Sept 24 after oversubscribed IPO",
-   "url": "https://allafrica.com/stories/202609230601.html",
-   "doi": "",
-   "source": "allAfrica",
-   "venue": "",
-   "authors": [],
-   "date": "2026-09-23",
-   "origin": "pilot",
-   "scholarly": false,
+   "id": "d07bd034a1",
+   "section": "research",
+   "title": "The geographies of digital public monetary exclusion: examining the territorialising effects of central bank digital currencies in the Caribbean",
+   "url": "https://doi.org/10.1016/j.geoforum.2026.104845",
+   "doi": "10.1016/j.geoforum.2026.104845",
+   "source": "Geoforum",
+   "venue": "Geoforum",
+   "authors": [
+    "Andrew Hook"
+   ],
+   "date": "2026-09-29",
+   "origin": "openalex:journals",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214755364",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "watched": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "histories",
+     "digital"
+    ],
+    "reason": ""
+   },
    "ai": {
     "relevance": 3,
+    "themes": [
+     "digital",
+     "regulation",
+     "subordination"
+    ],
+    "places": [
+     "port_louis"
+    ],
+    "note": "CBDCs (Sand Dollar, DCash) in Caribbean; financial exclusion through digital monetary sovereignty; directly addresses digital devices and Southern financial autonomy."
+   },
+   "featured": false
+  },
+  {
+   "id": "e8e3d6b99d",
+   "section": "research",
+   "title": "From the CFA Franc to the ECO: Endogenous Monetary Geography and the Sequencing of a West African Monetary Union",
+   "url": "https://doi.org/10.13140/rg.2.2.16357.77280",
+   "doi": "10.13140/rg.2.2.16357.77280",
+   "source": "OpenAlex",
+   "venue": "",
+   "authors": [
+    "Diallo Alassane",
+    "Adama Ba"
+   ],
+   "date": "2026-09-27",
+   "origin": "openalex:query:CFA franc",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214536159",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
     "places": [
      "abidjan"
     ],
     "themes": [
-     "integration",
-     "professionals"
+     "histories"
     ],
-    "note": "An oversubscribed bank IPO on the regional exchange; a live case of regional investor appetite and listing devices on the BRVM."
+    "reason": ""
    },
-   "featured": true
-  },
-  {
-   "id": "f09567891a",
-   "section": "news",
-   "title": "Kenya eyes Sh26bn in investments as Nairobi financial centre lists 15 firms",
-   "url": "https://www.the-star.co.ke/business/2026-07-03-kenya-eyes-sh26bn-in-investments-as-nairobi-financial-centre-lists-15-firms",
-   "doi": "",
-   "source": "The Star (Kenya)",
-   "venue": "",
-   "authors": [],
-   "date": "2026-07-03",
-   "origin": "pilot",
-   "scholarly": false,
    "ai": {
     "relevance": 3,
-    "places": [
-     "nairobi"
-    ],
     "themes": [
-     "centres"
+     "histories",
+     "subordination",
+     "regulation"
     ],
-    "note": "Baseline for NIFC membership: which firms, from where. Useful for the WP3 inventory of Northern vs domestic ownership."
+    "places": [
+     "abidjan"
+    ],
+    "note": "CFA franc to ECO monetary union sequencing directly engages colonial financial subordination and regional monetary geography."
    },
    "featured": false
   },
   {
-   "id": "d1dfa31187",
-   "section": "news",
-   "title": "Nairobi International Financial Centre Authority deepens strategic partnership with CHAINBLX SPC",
-   "url": "https://www.barchart.com/story/news/2561564/nairobi-international-financial-centre-authority-deepens-strategic-partnership-with-chainblx-spc-to-advance-africa-s-ai-innovation-and-digital-capital-ecosystem",
-   "doi": "",
-   "source": "Barchart (press release)",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": false,
+   "id": "2c00683f43",
+   "section": "research",
+   "title": "The quiet side of financialization: The infrastructural power of finance and sovereign debt management in Brazil",
+   "url": "https://doi.org/10.1017/fas.2026.10054",
+   "doi": "10.1017/fas.2026.10054",
+   "source": "Finance and Society",
+   "venue": "Finance and Society",
+   "authors": [
+    "Maria Teresa Ruas Coelho"
+   ],
+   "date": "2026-09-21",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213934464",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
    "ai": {
     "relevance": 3,
+    "themes": [
+     "subordination",
+     "debt",
+     "centres",
+     "integration"
+    ],
     "places": [
-     "nairobi"
+     "sao_paulo"
+    ],
+    "note": "Financialization of Brazilian public debt management and state-market relations; directly addresses São Paulo financial centre."
+   },
+   "featured": false
+  },
+  {
+   "id": "b14323c801",
+   "section": "research",
+   "title": "Du franc CFA à l’ECO : géographie monétaire endogène et séquençage d’une union monétaire ouest-africaine",
+   "url": "https://mpra.ub.uni-muenchen.de/131048/1/MPRA_paper_131048.pdf",
+   "doi": "",
+   "source": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)",
+   "venue": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)",
+   "authors": [
+    "Alassane Diallo",
+    "Ba Adama"
+   ],
+   "date": "2026-09-20",
+   "origin": "openalex:query:CFA franc",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214416653",
+   "year": 2026,
+   "work_type": "report",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "abidjan"
     ],
     "themes": [
-     "centres",
+     "histories"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "histories",
+     "subordination"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "Endogenous monetary geography and West African monetary union; colonial-era CFA franc subordination and policy sequencing."
+   },
+   "featured": false
+  },
+  {
+   "id": "a150575ff9",
+   "section": "research",
+   "title": "BRICS AND THE TRANSFORMATION OF THE GLOBAL POLITICAL ECONOMY: AN ADVANCED IMPACT ASSESSMENT OF ECONOMIC DE-WESTERNISATION, FINANCIAL DE-DOLLARISATION, GEOPOLITICAL FRAGMENTATION, BEHAVIOURAL RESPONSES AND GLOBAL SOUTH ECONOMIC EMPOWERMENT",
+   "url": "https://doi.org/10.5281/zenodo.22855615",
+   "doi": "10.5281/zenodo.22855615",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Dr. G. YOGANANDHAM"
+   ],
+   "date": "2026-09-20",
+   "origin": "openalex:query:financialization Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213786782",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "networks"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "networks",
+     "subordination",
+     "integration"
+    ],
+    "places": [
+     "sao_paulo",
+     "johannesburg",
+     "mumbai"
+    ],
+    "note": "BRICS de-dollarization, de-Westernization, local-currency settlements, alternative financial institutions; directly addresses North–South subordination and South–South networks."
+   },
+   "featured": false
+  },
+  {
+   "id": "d1dc91c28c",
+   "section": "research",
+   "title": "\"Liberation Day' and the Roots of Dollar Dominance",
+   "url": "https://doi.org/10.63478/gqm8lpm2",
+   "doi": "10.63478/gqm8lpm2",
+   "source": "Spectre Journal",
+   "venue": "Spectre Journal",
+   "authors": [
+    "Ingrid Harvold Kvangraven"
+   ],
+   "date": "2026-09-11",
+   "origin": "openalex:authors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212142048",
+   "year": 2026,
+   "work_type": "article",
+   "filter": false,
+   "watched": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "histories",
+     "centres"
+    ],
+    "places": [],
+    "note": "Dollar dominance and historical roots; directly addresses currency hierarchy and financial subordination."
+   },
+   "featured": false
+  },
+  {
+   "id": "cd1607a734",
+   "section": "research",
+   "title": "Historical Reflections on Interest Rates and the Emergence of the Yield Curve",
+   "url": "https://d.repec.org/n?u=RePEc%3Aarx%3Apapers%3A2609.07958&r=fdg",
+   "doi": "",
+   "source": "RePEc NEP — Financial development & growth",
+   "venue": "",
+   "authors": [
+    "Olivier Gu\\'eant"
+   ],
+   "date": "2026-09-30",
+   "origin": "rss:RePEc NEP — Financial development & growth",
+   "scholarly": true,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "valuation",
+     "integration",
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "histories"
+    ],
+    "places": [],
+    "note": "Historical foundations of yield curve as financial device; relevant to understanding valuation infrastructure."
+   },
+   "featured": false
+  },
+  {
+   "id": "d517c0444f",
+   "section": "research",
+   "title": "Theory and explanation in financial geographies: Engaging with economics strategically",
+   "url": "https://doi.org/10.1177/20438206261492802",
+   "doi": "10.1177/20438206261492802",
+   "source": "Dialogues in Human Geography",
+   "venue": "Dialogues in Human Geography",
+   "authors": [
+    "Dariusz Wójcik",
+    "William Bratton"
+   ],
+   "date": "2026-09-29",
+   "origin": "openalex:authors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214702267",
+   "year": 2026,
+   "work_type": "article",
+   "filter": false,
+   "watched": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination"
+    ],
+    "places": [],
+    "note": "Methodological framework for financial geographies engaging with economics and finance practitioners."
+   },
+   "featured": false
+  },
+  {
+   "id": "d507fb83ee",
+   "section": "research",
+   "title": "Basel III Capital Requirements and the Growth of Non‐Bank Financial Institutions in South Africa",
+   "url": "https://doi.org/10.1111/saje.70038",
+   "doi": "10.1111/saje.70038",
+   "source": "South African Journal of Economics",
+   "venue": "South African Journal of Economics",
+   "authors": [
+    "Chimwemwe Chipeta",
+    "Lerato Mapela"
+   ],
+   "date": "2026-09-28",
+   "origin": "openalex:query:financial centre Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214787082",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "regulation",
      "digital"
     ],
-    "note": "Press release, so treat with caution; shows NIFC positioning around digital assets and Gulf-linked partners."
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "digital",
+     "subordination"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "Basel III and fintech growth in South Africa; regulatory arbitrage and alternative financial institutions."
    },
    "featured": false
   },
   {
-   "id": "d05dd6e5c6",
-   "section": "news",
-   "title": "Vietnam's International Financial Center must have ‘real deals’ by November: official",
-   "url": "https://theinvestor.vn/vietnams-international-financial-center-must-have-real-deals-by-november-official-d19957.html",
-   "doi": "",
-   "source": "The Investor (Vietnam)",
+   "id": "a87f9560be",
+   "section": "research",
+   "title": "New Directions in the Arms Trade",
+   "url": "https://doi.org/10.4324/9781003671862-12",
+   "doi": "10.4324/9781003671862-12",
+   "source": "OpenAlex",
    "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": false,
-   "ai": {
-    "relevance": 3,
-    "places": [
-     "hcmc"
-    ],
+   "authors": [
+    "Omar S. Dahi",
+    "Fırat Demir",
+    "Shana Marshall"
+   ],
+   "date": "2026-09-28",
+   "origin": "openalex:query:financial center Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214638289",
+   "year": 2026,
+   "work_type": "book-chapter",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
     "themes": [
-     "centres"
+     "networks"
     ],
-    "note": "Official pressure on the new VIFC to show transactions; a window onto the post-socialist centre-building strategy."
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "networks"
+    ],
+    "places": [],
+    "note": "South–South arms trade and petrodollar financialization; engages North–South and South–South financial hierarchies."
    },
    "featured": false
   },
   {
-   "id": "1df32ea011",
-   "section": "news",
-   "title": "Banks step up presence at Vietnam’s international financial centre",
-   "url": "https://en.vietnamplus.vn/banks-step-up-presence-at-vietnams-international-financial-centre-post339803.vnp",
-   "doi": "",
-   "source": "VietnamPlus",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": false,
-   "ai": {
-    "relevance": 3,
-    "places": [
-     "hcmc"
-    ],
+   "id": "1d2ae945c7",
+   "section": "research",
+   "title": "Leveraging Digital Financial Technologies for Sustainable Rural Entrepreneurship in India: An Analytical Study Using Secondary Data",
+   "url": "https://doi.org/10.48175/ijarsct-38508",
+   "doi": "10.48175/ijarsct-38508",
+   "source": "International Journal of Advanced Research in Science Communication and Technology",
+   "venue": "International Journal of Advanced Research in Science Communication and Technology",
+   "authors": [
+    "Bindu Bharti, Leena Sharad Shimpi, Prof. Kushendra Mishra"
+   ],
+   "date": "2026-09-28",
+   "origin": "openalex:query:India financial markets history",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214597213",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
     "themes": [
-     "centres",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
      "professionals"
     ],
-    "note": "Which banks, domestic or foreign, are joining VIFC: directly relevant to RQ3."
+    "places": [
+     "mumbai"
+    ],
+    "note": "UPI, AEPS, FinTech in rural India; digital financial infrastructure reshaping access and potentially subordination dynamics."
    },
    "featured": false
   },
   {
-   "id": "eae9c9a06b",
-   "section": "news",
-   "title": "Casablanca Finance City breaks into world’s top 40 financial centers",
-   "url": "https://www.ecofinagency.com/news-finances/1709-59018-casablanca-finance-city-breaks-into-world-s-top-40-financial-centers",
-   "doi": "",
-   "source": "Ecofin Agency",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": false,
-   "ai": {
-    "relevance": 3,
+   "id": "b45670c72b",
+   "section": "research",
+   "title": "Dividend signals, market imperfections and speculative bubble dynamics in an emerging market: Empirical evidence from the Moroccan stock market",
+   "url": "https://doi.org/10.1080/23311975.2026.2739042",
+   "doi": "10.1080/23311975.2026.2739042",
+   "source": "Cogent Business & Management",
+   "venue": "Cogent Business & Management",
+   "authors": [
+    "Sara Khta Khta",
+    "Achraf Louati"
+   ],
+   "date": "2026-09-25",
+   "origin": "openalex:query:stock exchange Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214331443",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
     "places": [
      "casablanca"
     ],
     "themes": [
-     "centres"
+     "integration"
     ],
-    "note": "GFCI movement for Casablanca. The ranking itself is one of the project's objects: who produces it, and how centres court it."
+    "reason": ""
    },
-   "featured": false
-  },
-  {
-   "id": "69b6cff8bc",
-   "section": "grey",
-   "title": "Judging one’s own credit: risks and promises of an African Credit Rating Agency",
-   "url": "https://www.swp-berlin.org/en/publication/mta-spotlight-66-risks-and-promises-of-an-african-credit-rating-agency",
-   "doi": "",
-   "source": "SWP Berlin",
-   "venue": "",
-   "authors": [],
-   "date": "",
-   "origin": "pilot",
-   "scholarly": false,
    "ai": {
-    "relevance": 3,
-    "places": [],
+    "relevance": 2,
     "themes": [
      "valuation"
     ],
-    "note": "German think-tank assessment of AfCRA; a Northern policy reading of a Southern valuation device, useful as a foil."
-   },
-   "featured": false
-  },
-  {
-   "id": "02e27d9b2b",
-   "section": "grey",
-   "title": "The Global Financial Centres Index 39 (March 2026)",
-   "url": "https://www.longfinance.net/media/documents/GFCI_39_Report_2026.03.26_v1.1.pdf",
-   "doi": "",
-   "source": "Long Finance / Z/Yen",
-   "venue": "",
-   "authors": [],
-   "date": "2026-03-26",
-   "origin": "pilot",
-   "scholarly": false,
-   "ai": {
-    "relevance": 3,
-    "places": [],
-    "themes": [
-     "centres"
+    "places": [
+     "casablanca"
     ],
-    "note": "The latest full GFCI report before the September edition; source data for the proposal's count of Southern centres."
+    "note": "Speculative dynamics and dividend signalling on Casablanca Stock Exchange; specific device governing market behaviour."
    },
    "featured": false
   },
   {
-   "id": "ca37a85de8",
-   "section": "grey",
-   "title": "Financial statecraft or subordination: emerging markets in global finance",
-   "url": "https://economicsociology.org/2026/08/01/financial-statecraft-or-subordination-emerging-markets-in-global-finance",
-   "doi": "",
-   "source": "Economic Sociology & Political Economy",
-   "venue": "",
-   "authors": [],
-   "date": "2026-08-01",
-   "origin": "pilot",
-   "scholarly": false,
-   "ai": {
-    "relevance": 3,
+   "id": "397c6d3bb3",
+   "section": "research",
+   "title": "THE UNINTENDED CONSEQUENCES OF FINANCIAL ACTION TASK FORCE (FATF) INTERNATIONAL STANDARDS IN NIGERIA",
+   "url": "https://doi.org/10.70382/tijfrms.v13i7.084",
+   "doi": "10.70382/tijfrms.v13i7.084",
+   "source": "International Journal of Financial Research and Management Science",
+   "venue": "International Journal of Financial Research and Management Science",
+   "authors": [
+    "GODWIN AGABA OCHUBE"
+   ],
+   "date": "2026-09-25",
+   "origin": "openalex:query:de-risking development finance",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214507776",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
     "places": [],
     "themes": [
+     "integration",
+     "regulation",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
      "subordination"
     ],
-    "note": "Blog framing that sets 'statecraft' against 'subordination'; close to the project's primary research question."
+    "places": [
+     "nairobi"
+    ],
+    "note": "FATF standards, AML/CFT compliance, and unintended consequences in Nigeria; regulatory device politics and sovereignty."
    },
    "featured": false
   },
   {
-   "id": "2b9179ef50",
-   "section": "grey",
-   "title": "FSC Mauritius at 25: international recognition, regulatory credibility, and market confidence",
-   "url": "https://salvusfunds.com/2026/07/13/fsc-mauritius-at-25-international-recognition-regulatory-credibility-and-market-confidence",
-   "doi": "",
-   "source": "Salvus Funds (industry)",
-   "venue": "",
-   "authors": [],
-   "date": "2026-07-13",
-   "origin": "pilot",
-   "scholarly": false,
+   "id": "e87ed60d37",
+   "section": "research",
+   "title": "Dynamic relationship between interest rate, exchange rate and stock price returns: The case of Vietnam",
+   "url": "https://doi.org/10.1142/s2424786326500465",
+   "doi": "10.1142/s2424786326500465",
+   "source": "International Journal of Financial Engineering",
+   "venue": "International Journal of Financial Engineering",
+   "authors": [
+    "Dong Xuan Nguyen",
+    "Quoc Anh Nguyen"
+   ],
+   "date": "2026-09-24",
+   "origin": "openalex:query:Vietnam stock market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214206051",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "hcmc"
+    ],
+    "themes": [],
+    "reason": ""
+   },
    "ai": {
-    "relevance": 3,
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "valuation"
+    ],
+    "places": [
+     "hcmc"
+    ],
+    "note": "Interest rate, exchange rate, and stock returns in Vietnam; monetary policy interactions and currency subordination."
+   },
+   "featured": false
+  },
+  {
+   "id": "ebd00b32bd",
+   "section": "research",
+   "title": "Effect of Product Innovation by Capital Market Intermediaries On Retail Investor Participation in The Nairobi Securities Exchange",
+   "url": "https://doi.org/10.58216/kjri.v16i3.765",
+   "doi": "10.58216/kjri.v16i3.765",
+   "source": "Kabarak journal of research and innovation.",
+   "venue": "Kabarak journal of research and innovation.",
+   "authors": [
+    "Elizabeth Masakhwe Emongor",
+    "Elizabeth Kalunda",
+    "Albert Bwire"
+   ],
+   "date": "2026-09-23",
+   "origin": "openalex:query:capital market development Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214096936",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "integration",
+     "regulation"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "integration",
+     "professionals"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Product innovation by NSE intermediaries and retail participation decline reveals infrastructure gaps in Southern financial centre."
+   },
+   "featured": false
+  },
+  {
+   "id": "b374c50fd4",
+   "section": "research",
+   "title": "Macroeconomic indicators and the Johannesburg Stock Exchange Financial 15 Index nexus in South Africa",
+   "url": "https://doi.org/10.1108/jeas-11-2025-0842",
+   "doi": "10.1108/jeas-11-2025-0842",
+   "source": "Journal of economic and administrative sciences.",
+   "venue": "Journal of economic and administrative sciences.",
+   "authors": [
+    "Keitumetse Mashabela",
+    "Charles Shaaba Saba"
+   ],
+   "date": "2026-09-23",
+   "origin": "openalex:query:stock exchange Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214077719",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "valuation"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "JSE Financial 15 index macroeconomic linkages illustrates Johannesburg exchange integration and pricing mechanisms."
+   },
+   "featured": false
+  },
+  {
+   "id": "48b364ea5f",
+   "section": "research",
+   "title": "Fintech Partnerships and Perceived Financial Performance of Commercial Banks Listed on the Nairobi Securities Exchange in Kenya",
+   "url": "https://doi.org/10.56578/jafas120401",
+   "doi": "10.56578/jafas120401",
+   "source": "Journal of Accounting Finance and Auditing Studies",
+   "venue": "Journal of Accounting Finance and Auditing Studies",
+   "authors": [
+    "Hesbon Oyieko Omollo",
+    "Lawrence Odollo",
+    "Prof. Washington Okeyo"
+   ],
+   "date": "2026-09-23",
+   "origin": "openalex:query:mobile money Kenya",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214089484",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "integration"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Fintech partnerships reshape NSE-listed bank performance; explores intermediary innovation and financial-centre integration."
+   },
+   "featured": false
+  },
+  {
+   "id": "90c8c0a18a",
+   "section": "research",
+   "title": "Sovereign Grassroots Currencies: A CBDC Architecture for Credit and Monetary Policy (Full Version)",
+   "url": "https://doi.org/10.48550/arxiv.2609.27727",
+   "doi": "10.48550/arxiv.2609.27727",
+   "source": "arXiv (Cornell University)",
+   "venue": "arXiv (Cornell University)",
+   "authors": [
+    "Ehud Shapiro"
+   ],
+   "date": "2026-09-23",
+   "origin": "openalex:query:local currency bond market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214166903",
+   "year": 2026,
+   "work_type": "preprint",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "digital",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "regulation",
+     "integration"
+    ],
+    "places": [],
+    "note": "CBDC architecture and monetary policy innovation; relevant to digital financial devices and sovereign monetary control."
+   },
+   "featured": false
+  },
+  {
+   "id": "8b3efedb9c",
+   "section": "research",
+   "title": "Circumscribed disruption: FinTech narratives in central banking",
+   "url": "https://doi.org/10.1080/13563467.2026.2737145",
+   "doi": "10.1080/13563467.2026.2737145",
+   "source": "New Political Economy",
+   "venue": "New Political Economy",
+   "authors": [
+    "Alfredo Hernández Sánchez"
+   ],
+   "date": "2026-09-23",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214111904",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "professionals",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "digital"
+    ],
+    "places": [],
+    "note": "Central bank discourse on fintech regulation; relevant to regulatory innovation and digital finance governance."
+   },
+   "featured": false
+  },
+  {
+   "id": "c4730a58ad",
+   "section": "research",
+   "title": "Rethinking Credit Ratings for Africa: A Context-Integrated Conceptual Model for the Insurance Sector under the African Continental Free Trade Area",
+   "url": "https://doi.org/10.59857/41sthc36",
+   "doi": "10.59857/41sthc36",
+   "source": "International Journal of Advanced Business Studies",
+   "venue": "International Journal of Advanced Business Studies",
+   "authors": [
+    "Pearson Chaurura"
+   ],
+   "date": "2026-09-22",
+   "origin": "openalex:query:capital market development Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214032101",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "valuation",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "subordination"
+    ],
+    "places": [
+     "abidjan",
+     "johannesburg",
+     "nairobi"
+    ],
+    "note": "Credit ratings for African insurance under AFCTA; challenges Northern rating methodologies in Southern context."
+   },
+   "featured": false
+  },
+  {
+   "id": "22d82963fe",
+   "section": "research",
+   "title": "BRICS+ smart mobility governance: digital sovereignty and infrastructure financing for urban transport innovation in the Global South",
+   "url": "https://doi.org/10.1007/s44213-026-00084-9",
+   "doi": "10.1007/s44213-026-00084-9",
+   "source": "City and Built Environment",
+   "venue": "City and Built Environment",
+   "authors": [
+    "Marten Hanura",
+    "Dewi Setiyaningsih",
+    "Tri Yuniningsih"
+   ],
+   "date": "2026-09-20",
+   "origin": "openalex:query:financial center Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213750995",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "networks",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "development_finance",
+     "digital"
+    ],
+    "places": [],
+    "note": "South–South governance and digital sovereignty in BRICS+ urban mobility; frames emerging-economy coordination on infrastructure."
+   },
+   "featured": false
+  },
+  {
+   "id": "0ccf088fa4",
+   "section": "research",
+   "title": "Withholding-while-Giving: Safaricom, the State and Parastatal Cohabitation",
+   "url": "https://doi.org/10.1080/00141844.2026.2706829",
+   "doi": "10.1080/00141844.2026.2706829",
+   "source": "Ethnos",
+   "venue": "Ethnos",
+   "authors": [
+    "Kevin P. Donovan"
+   ],
+   "date": "2026-09-17",
+   "origin": "openalex:query:monetary sovereignty Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213472788",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "integration"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Safaricom parastatal cohabitation and M-PESA mobile money governance reveals institutional hybridity in Nairobi financial ecosystem."
+   },
+   "featured": false
+  },
+  {
+   "id": "4ef37562b1",
+   "section": "research",
+   "title": "Facing Goliath with the ESG-slingshot: a financial tale of sustainable investing",
+   "url": "https://doi.org/10.1080/17530350.2026.2694362",
+   "doi": "10.1080/17530350.2026.2694362",
+   "source": "Journal of Cultural Economy",
+   "venue": "Journal of Cultural Economy",
+   "authors": [
+    "Paul Niklas Kullick"
+   ],
+   "date": "2026-09-17",
+   "origin": "openalex:query:Wall Street Consensus",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213453517",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "subordination",
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "subordination"
+    ],
+    "places": [],
+    "note": "ESG imaginary and asset-manager capitalism; addresses financialization and de-risking state relevant to subordination dynamics."
+   },
+   "featured": false
+  },
+  {
+   "id": "7df3af6b49",
+   "section": "research",
+   "title": "Inflation, currency depreciation, and the sovereign-bank nexus: a quantile panel analysis of banking fragility across eight African economies",
+   "url": "https://doi.org/10.1186/s43093-026-00973-9",
+   "doi": "10.1186/s43093-026-00973-9",
+   "source": "Future Business Journal",
+   "venue": "Future Business Journal",
+   "authors": [
+    "Joyce Ama Quartey",
+    "Reindolph Osei- Anim",
+    "Patricia Adutwumwaa",
+    "Samuel Nkansah",
+    "Stephen Banahene"
+   ],
+   "date": "2026-09-16",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213318458",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 7,
     "places": [
      "port_louis"
     ],
     "themes": [
+     "debt",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt"
+    ],
+    "places": [
+     "johannesburg",
+     "nairobi"
+    ],
+    "note": "Currency depreciation and sovereign-bank nexus across African economies including Mauritius case study demonstrates subordination mechanisms."
+   },
+   "featured": false
+  },
+  {
+   "id": "1c093154ff",
+   "section": "research",
+   "title": "The asymmetric impact of foreign equity investment on the financial growth of Nairobi Stock Exchange [NSE]-listed firms. A Non-Linear Autoregressive Distributed Lag (NARDL) approach",
+   "url": "https://doi.org/10.51867/ajernet.7.3.134",
+   "doi": "10.51867/ajernet.7.3.134",
+   "source": "African Journal of Empirical Research",
+   "venue": "African Journal of Empirical Research",
+   "authors": [
+    "Joseph Kiplangat Serem",
+    "Francis Nyachwaya Nyarombe",
+    "Cornelius Kipkemei Kurere"
+   ],
+   "date": "2026-09-16",
+   "origin": "openalex:query:stock exchange Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214454412",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "networks"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Foreign equity investment asymmetries and capital flight patterns reveal North-South financial subordination at NSE."
+   },
+   "featured": false
+  },
+  {
+   "id": "fad3af13b6",
+   "section": "research",
+   "title": "The identification of systemically important financial institutions from the aspect of “Too Connected to Fail”",
+   "url": "https://doi.org/10.1057/s41599-026-09055-1",
+   "doi": "10.1057/s41599-026-09055-1",
+   "source": "Humanities and Social Sciences Communications",
+   "venue": "Humanities and Social Sciences Communications",
+   "authors": [
+    "Yanhong Guo",
+    "Zhongfei Li",
+    "Ping Li"
+   ],
+   "date": "2026-09-16",
+   "origin": "openalex:query:local currency bond market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213255331",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "integration",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "digital"
+    ],
+    "places": [],
+    "note": "Systemically important financial institutions in China; fintech and digital payment channels; relevant to South–South financial architecture."
+   },
+   "featured": false
+  },
+  {
+   "id": "ccaefcb3f6",
+   "section": "research",
+   "title": "The Scaling of Social Innovations in Africa and Beyond",
+   "url": "https://doi.org/10.46697/001c.168305",
+   "doi": "10.46697/001c.168305",
+   "source": "AIB Insights",
+   "venue": "AIB Insights",
+   "authors": [
+    "Melodena Stephens Balakrishnan",
+    "Tanvi H. Kothari",
+    "Sadaf Khurshid"
+   ],
+   "date": "2026-09-15",
+   "origin": "openalex:query:credit rating Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213313314",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "digital",
+     "development_finance"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "M-PESA Kenyan innovation and international network scaling reveals South-based financial device diffusion patterns."
+   },
+   "featured": false
+  },
+  {
+   "id": "32d857cd01",
+   "section": "research",
+   "title": "Systemic shocks and firm-level stock performance: evidence from Vietnam",
+   "url": "https://doi.org/10.1080/23322039.2026.2730656",
+   "doi": "10.1080/23322039.2026.2730656",
+   "source": "Cogent Economics & Finance",
+   "venue": "Cogent Economics & Finance",
+   "authors": [
+    "Hoang Truc Linh Tran",
+    "Sundar Venkatesh"
+   ],
+   "date": "2026-09-15",
+   "origin": "openalex:query:Vietnam stock market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213348195",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "hcmc"
+    ],
+    "themes": [
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "subordination"
+    ],
+    "places": [
+     "hcmc"
+    ],
+    "note": "COVID shock impact on Ho Chi Minh Stock Exchange firm performance; illustrates emerging market vulnerability and ownership dynamics."
+   },
+   "featured": false
+  },
+  {
+   "id": "312569440f",
+   "section": "research",
+   "title": "Energy Sustainability of Cryptocurrencies in Africa: The PoW - PoS Dilemma",
+   "url": "https://doi.org/10.47260/bae/1324",
+   "doi": "10.47260/bae/1324",
+   "source": "Bulletin of Applied Economics",
+   "venue": "Bulletin of Applied Economics",
+   "authors": [
+    "Mamadou Mbaye"
+   ],
+   "date": "2026-09-14",
+   "origin": "openalex:query:financial centre Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212436931",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "Blockchain energy costs and monetary stability in West Africa; contextual for digital financial infrastructure in BCEAO zone."
+   },
+   "featured": false
+  },
+  {
+   "id": "8ae5ecf78c",
+   "section": "research",
+   "title": "International Capital Mobility: A Study of BRICS Countries",
+   "url": "https://doi.org/10.52403/ijrr.20260915",
+   "doi": "10.52403/ijrr.20260915",
+   "source": "International Journal of Research and Review",
+   "venue": "International Journal of Research and Review",
+   "authors": [
+    "Ruby Singh",
+    "Sumi Goswami"
+   ],
+   "date": "2026-09-11",
+   "origin": "openalex:query:monetary sovereignty Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213316004",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "subordination",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "integration"
+    ],
+    "places": [
+     "sao_paulo",
+     "johannesburg",
+     "mumbai"
+    ],
+    "note": "Capital mobility in BRICS 1994–2018; directly addresses South–South financial integration and North–South linkage patterns."
+   },
+   "featured": false
+  },
+  {
+   "id": "b26f45d22c",
+   "section": "research",
+   "title": "Foreign Ownership, Digital Transformation, and Monetary Policy as Drivers of Vietcombank Stock Valuation: ARDL Evidence from 2015-2026",
+   "url": "https://doi.org/10.62225/2583049x.2026.6.5.6854",
+   "doi": "10.62225/2583049x.2026.6.5.6854",
+   "source": "International Journal of Advanced Multidisciplinary Research and Studies",
+   "venue": "International Journal of Advanced Multidisciplinary Research and Studies",
+   "authors": [
+    "Nguyen Kieu Anh"
+   ],
+   "date": "2026-09-10",
+   "origin": "openalex:query:Vietnam stock market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212178065",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "hcmc"
+    ],
+    "themes": [
+     "regulation"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "subordination"
+    ],
+    "places": [
+     "hcmc"
+    ],
+    "note": "Foreign ownership and digital transformation driving Vietnamese bank valuation; North-South linkage in pricing mechanisms."
+   },
+   "featured": false
+  },
+  {
+   "id": "d545d07839",
+   "section": "research",
+   "title": "RIDING THE DOLLAR TIDE: RISK-MANAGEMENT STRATEGIES AND FINANCIAL PERFORMANCE OF BRAZILIAN AGRIBUSINESS EXPORTERS AMID EXCHANGE-RATE VOLATILITY",
+   "url": "https://doi.org/10.23900/artefactum.v25i7.4110",
+   "doi": "10.23900/artefactum.v25i7.4110",
+   "source": "Artefactum",
+   "venue": "Artefactum",
+   "authors": [
+    "Raimundo Lima Filho"
+   ],
+   "date": "2026-09-10",
+   "origin": "openalex:query:financialization Brazil",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212154703",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "sao_paulo"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Exchange-rate volatility and BRL/USD exposure in Brazilian exporters; currency hierarchy and financial vulnerability."
+   },
+   "featured": false
+  },
+  {
+   "id": "b375cbbe3b",
+   "section": "research",
+   "title": "Fintech on campus: mobile money and student entrepreneurship in Ghana",
+   "url": "https://doi.org/10.1007/s43546-026-01402-3",
+   "doi": "10.1007/s43546-026-01402-3",
+   "source": "SN Business & Economics",
+   "venue": "SN Business & Economics",
+   "authors": [
+    "Forster Ampadu",
+    "Sara Carbone",
+    "Eric Benjamin Hayfron",
+    "Vera Ampadu"
+   ],
+   "date": "2026-09-10",
+   "origin": "openalex:query:mobile money Kenya",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212110127",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "digital",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "professionals"
+    ],
+    "places": [],
+    "note": "Mobile money and fintech use by entrepreneurs in Ghana; user practices and digital financial infrastructure adoption."
+   },
+   "featured": false
+  },
+  {
+   "id": "d5564821b5",
+   "section": "research",
+   "title": "TRENDS IN THE DIGITALIZATION OF IPO PROCESSES AND INCREASING RETAIL INVESTOR ACTIVITY IN EMERGING CAPITAL MARKETS",
+   "url": "https://doi.org/10.5281/zenodo.22689880",
+   "doi": "10.5281/zenodo.22689880",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "BABAXANOVA NOZIMA"
+   ],
+   "date": "2026-09-10",
+   "origin": "openalex:query:emerging markets investors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212159351",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "integration",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "integration",
+     "professionals"
+    ],
+    "places": [],
+    "note": "IPO digitization and retail investor access in emerging markets; market-access device and inclusion politics."
+   },
+   "featured": false
+  },
+  {
+   "id": "26449f3339",
+   "section": "research",
+   "title": "Reassessing SEBI Regulations: Balancing Investor Protection, Market Integrity, and Regulatory Innovation in India's Securities Market",
+   "url": "https://doi.org/10.5281/zenodo.22678852",
+   "doi": "10.5281/zenodo.22678852",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Komal Muskan Pandita"
+   ],
+   "date": "2026-09-09",
+   "origin": "openalex:query:emerging markets investors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212048462",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
      "regulation",
      "centres"
     ],
-    "note": "Industry self-narration of Mauritius's regulator: 'credibility' as a device of the offshore centre."
+    "places": [
+     "mumbai"
+    ],
+    "note": "SEBI regulation of Indian securities market examines device innovation and investor protection in major Southern financial centre."
+   },
+   "featured": false
+  },
+  {
+   "id": "7217bfe787",
+   "section": "research",
+   "title": "Reassessing SEBI Regulations: Balancing Investor Protection, Market Integrity, and Regulatory Innovation in India's Securities Market",
+   "url": "https://doi.org/10.5281/zenodo.22678851",
+   "doi": "10.5281/zenodo.22678851",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Komal Muskan Pandita"
+   ],
+   "date": "2026-09-09",
+   "origin": "openalex:query:emerging markets investors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212046427",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "centres"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "SEBI regulation of Indian securities market examines device innovation and investor protection in major Southern financial centre."
+   },
+   "featured": false
+  },
+  {
+   "id": "1e3bd802d6",
+   "section": "research",
+   "title": "DIGITAL RETAIL INVESTOR PARTICIPATION IN SOVEREIGN IPOS: CATALYSTS AND REGULATORY CHALLENGES",
+   "url": "https://doi.org/10.5281/zenodo.22678700",
+   "doi": "10.5281/zenodo.22678700",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Babakhanova Nozima"
+   ],
+   "date": "2026-09-09",
+   "origin": "openalex:query:emerging markets investors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212078019",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "integration",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "regulation",
+     "integration"
+    ],
+    "places": [],
+    "note": "Digital retail investor access, fintech, and e-KYC in sovereign IPOs; market-access device and regulatory challenges."
+   },
+   "featured": false
+  },
+  {
+   "id": "39045a647c",
+   "section": "research",
+   "title": "Does financialization threaten productive development?",
+   "url": "https://doi.org/10.1093/icc/dtag037",
+   "doi": "10.1093/icc/dtag037",
+   "source": "Industrial and Corporate Change",
+   "venue": "Industrial and Corporate Change",
+   "authors": [
+    "Jimena Castillo",
+    "Gary Arthur Dymski",
+    "Annina Kaltenbrunner",
+    "Sandra Lancheros"
+   ],
+   "date": "2026-09-05",
+   "origin": "openalex:authors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214065104",
+   "year": 2026,
+   "work_type": "article",
+   "filter": false,
+   "watched": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "development_finance"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Financialization harms economic complexity in Latin America; directly engages subordination thesis."
+   },
+   "featured": false
+  },
+  {
+   "id": "95b0c9bdef",
+   "section": "research",
+   "title": "Platform Economies in the Global South and the Convergence of Informal Markets with Digital Infrastructure",
+   "url": "https://doi.org/10.5281/zenodo.22980941",
+   "doi": "10.5281/zenodo.22980941",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Hunter Hughes"
+   ],
+   "date": "2026-09-26",
+   "origin": "openalex:query:financialization Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214462204",
+   "year": 2026,
+   "work_type": "report",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "sao_paulo"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "digital"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Digital platform governance in informal economies peripherally touches São Paulo but lacks financial-centre institutional focus."
+   },
+   "featured": false
+  },
+  {
+   "id": "5dd2822ea1",
+   "section": "research",
+   "title": "Sharing Fraud Intelligence Across Institutions: A Consortium Blockchain Framework for Banks and Mobile Money Providers in Kenya",
+   "url": "https://doi.org/10.7753/ijcatr1509.1006",
+   "doi": "10.7753/ijcatr1509.1006",
+   "source": "International Journal of Computer Applications Technology and Research",
+   "venue": "International Journal of Computer Applications Technology and Research",
+   "authors": [
+    "Kevina Mbati"
+   ],
+   "date": "2026-09-12",
+   "origin": "openalex:query:mobile money Kenya",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7212364150",
+   "year": 2026,
+   "work_type": "article",
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "digital",
+     "regulation"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Blockchain fraud intelligence sharing; technical infrastructure rather than financial-centre dynamics or device politics."
+   },
+   "featured": false
+  },
+  {
+   "id": "15ae5a14c3",
+   "section": "archive",
+   "title": "The Sovereign-Bank Diabolic Loop and ESBies",
+   "url": "https://doi.org/10.1257/aer.p20161107",
+   "doi": "10.1257/aer.p20161107",
+   "source": "American Economic Review",
+   "venue": "American Economic Review",
+   "authors": [
+    "Markus Konrad Brunnermeier",
+    "Luis Garicano",
+    "Philip R. Lane",
+    "Marco Pagano",
+    "Ricardo A.M.R. Reis",
+    "Tano Santos",
+    "David Thesmar",
+    "Stijn Van Nieuwerburgh",
+    "Dimitri Vayanos"
+   ],
+   "date": "2016-05-01",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W3125465412",
+   "year": 2016,
+   "work_type": "article",
+   "filter": true,
+   "cited_by_this_week": 1,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt",
+     "valuation"
+    ],
+    "places": [],
+    "note": "Sovereign-bank diabolic loop and ESBies securitization; academic scholarship on debt devices and currency-zone financial architecture."
+   },
+   "featured": false
+  },
+  {
+   "id": "39d33fc2d4",
+   "section": "news",
+   "title": "Astana International Financial Centre explores to partner with India GIFT City",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/astana-international-financial-centre-explores-to-partner-with-indias-gift-city/articleshow/134582312.cms",
+   "doi": "",
+   "source": "economictimes.indiatimes.com",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-30",
+   "origin": "gdelt:(\"GIFT City\" OR \"Mumbai financial centre\" OR \"Mumbai financi",
+   "scholarly": false,
+   "filter": true,
+   "language": "English",
+   "source_country": "India",
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "networks",
+     "integration"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "Cross-border financial centre partnership between Central Asian and Indian GIFT hubs; South–South integration device."
+   },
+   "featured": false
+  },
+  {
+   "id": "27a1695db0",
+   "section": "news",
+   "title": "Bilionário nigeriano Aliko Dangote e Quênia iniciam obras de refinaria de US$ 16 bilhões",
+   "url": "https://valor.globo.com/empresas/noticia/2026/09/30/bilionario-nigeriano-aliko-dangote-e-quenia-iniciam-obras-de-refinaria-de-us-16-bilhoes.ghtml",
+   "doi": "",
+   "source": "Valor Econômico",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-30",
+   "origin": "rss:Valor Econômico",
+   "scholarly": false,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "development_finance"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Nigerian billionaire's transnational oil-refinery investment in Kenya; South–South capital flows and regional integration."
+   },
+   "featured": false
+  },
+  {
+   "id": "61c52cfc08",
+   "section": "news",
+   "title": "FIDC de R$ 150 mi impulsiona Pix Consignado da UNI FY",
+   "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/09/30/fidc-de-r-150-mi-impulsiona-pix-consignado-da-uni-fy-1.ghtml",
+   "doi": "",
+   "source": "Valor Econômico",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-30",
+   "origin": "rss:Valor Econômico",
+   "scholarly": false,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "integration",
+     "professionals"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Fintech FIDC securitization device for payroll-deducted lending; digital payment infrastructure (Pix) deepening financial market integration."
+   },
+   "featured": false
+  },
+  {
+   "id": "fdd266c929",
+   "section": "news",
+   "title": "Can Senegal escape a Ghana-style banking crisis?",
+   "url": "https://www.theafricareport.com/431900/can-senegal-escape-a-ghana-style-banking-crisis",
+   "doi": "",
+   "source": "The Africa Report",
+   "venue": "",
+   "authors": [
+    "Alix Lavoué"
+   ],
+   "date": "2026-09-29",
+   "origin": "rss:The Africa Report",
+   "scholarly": false,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [
+     "debt",
+     "histories"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt",
+     "histories"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "CFA franc debt vulnerability in West Africa; colonial currency's role in financial subordination and crisis transmission."
+   },
+   "featured": false
+  },
+  {
+   "id": "7269684517",
+   "section": "news",
+   "title": "RBI drains $20 billion liquidity via FX operations: What it means for rupee, rates",
+   "url": "https://www.livemint.com/economy/rbi-drains-20-billion-liquidity-via-fx-operations-what-it-means-for-rupee-rates-11790667275406.html",
+   "doi": "",
+   "source": "Mint — Economy",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-29",
+   "origin": "rss:Mint — Economy",
+   "scholarly": false,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "regulation"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "RBI liquidity management via FX swaps; regulatory tool for controlling financial market behavior and currency stability."
+   },
+   "featured": false
+  },
+  {
+   "id": "6f0818d3db",
+   "section": "news",
+   "title": "Thai billionaire Charoen Sirivadhanabhakdi's firm eyes $1B listing for real estate investment trust",
+   "url": "https://e.vnexpress.net/news/business/property/thai-billionaire-charoen-sirivadhanabhakdi-s-firm-eyes-1b-listing-for-real-estate-investment-trust-5125590.html",
+   "doi": "",
+   "source": "VnExpress International — Business",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-28",
+   "origin": "rss:VnExpress International — Business",
+   "scholarly": false,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "urban",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "integration",
+     "professionals"
+    ],
+    "places": [
+     "bangkok"
+    ],
+    "note": "REIT IPO targeting major capital raise; financial device (REIT) reshaping Bangkok's integration and institutional investor base."
+   },
+   "featured": false
+  },
+  {
+   "id": "6f5cf81df0",
+   "section": "grey",
+   "title": "African Development Bank President Secures €270 Million Financing Agreement to Expand Morocco’s Airport Infrastructure",
+   "url": "https://www.afdb.org/en/news-and-events/press-releases/african-development-bank-president-secures-eu270-million-financing-agreement-expand-moroccos-airport-infrastructure-97171",
+   "doi": "",
+   "source": "African Development Bank",
+   "venue": "",
+   "authors": [
+    "moulo"
+   ],
+   "date": "2026-09-30",
+   "origin": "rss:African Development Bank",
+   "scholarly": false,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "casablanca"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "centres"
+    ],
+    "places": [
+     "casablanca"
+    ],
+    "note": "African Development Bank financing Morocco airport infrastructure; DFI-led infrastructure finance shaping Casablanca's regional role."
+   },
+   "featured": false
+  },
+  {
+   "id": "5687732fdd",
+   "section": "grey",
+   "title": "African Development Fund’s Climate Action Window advances East and Southern Africa projects toward financing",
+   "url": "https://www.afdb.org/en/news-and-events/press-releases/african-development-funds-climate-action-window-advances-east-and-southern-africa-projects-toward-financing-97097",
+   "doi": "",
+   "source": "African Development Bank",
+   "venue": "",
+   "authors": [
+    "moulo"
+   ],
+   "date": "2026-09-28",
+   "origin": "rss:African Development Bank",
+   "scholarly": false,
+   "filter": true,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "development_finance"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "African Development Fund climate financing for East Africa; development finance instrument with limited centre-specific relevance."
    },
    "featured": false
   }
  ],
- "notice": "Pilot issue. Claude assembled it by hand from web searches on 30 September 2026 to preview the layout; items span recent months rather than one week, and notes are based on headlines and snippets only. The automated weekly sweep starts once the GitHub repository is set up.",
- "digest": "This pilot gathers the threads the sweep will follow weekly. The African Union's credit rating agency is moving towards launch, and the press is already asking whether investors will trust it. New Southern financial centres in Nairobi and Ho Chi Minh City are under pressure to show real firms and real deals. On the scholarly side, RIPE and Finance and Space continue to extend the financial-subordination framework, to climate finance and to post-socialist banking, which makes both useful foils for the project's own hypothesis."
+ "digest": "This week's digest gathers research on financial devices, regulatory architectures, and institutional change across Southern financial centres and their North–South linkages. The Geoforum study of Caribbean central bank digital currencies and the work on West African monetary union sequencing examine how digital and monetary sovereignty interact with inherited colonial financial structures. Research on Brazilian debt management, Chinese capital-market reform, and regulatory innovation at India's SEBI illustrates how specific devices—from securitization to disclosure rules—reshape state capacity and market integration. We also note studies on intermediary innovation at the Nairobi and Ho Chi Minh exchanges, exchange-rate exposure in Brazilian agribusiness, and fintech-banking partnerships that reveal how Southern financial centres navigate North–South capital flows and South–South integration simultaneously."
 }
