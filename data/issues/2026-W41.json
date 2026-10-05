@@ -1,0 +1,788 @@
+{
+ "week": "2026-W41",
+ "published_at": "2026-10-05T13:21:59",
+ "items": [
+  {
+   "id": "425941dee6",
+   "section": "research",
+   "title": "Central bank digital currencies, financial subordination and the quest for infrastructural autonomy: the introduction of the eNaira in Nigeria",
+   "url": "https://doi.org/10.1080/13563467.2026.2737141",
+   "doi": "10.1080/13563467.2026.2737141",
+   "source": "New Political Economy",
+   "venue": "New Political Economy",
+   "authors": [
+    "Florence Dafe"
+   ],
+   "date": "2026-10-03",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7218986013",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S146242404",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "watched": false,
+   "venue_quality": {
+    "level": "watched",
+    "h_index": 112
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [],
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "digital",
+     "regulation"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "CBDC as response to infrastructural subordination; directly engages financial autonomy and IFS in Global South case.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "9a67084590",
+   "section": "research",
+   "title": "The Sri Lankan Economy: The Sovereign Debt Crisis, Imf-Supported Stabilization, and Beyond",
+   "url": "https://hdl.handle.net/1885/733816004",
+   "doi": "",
+   "source": "ANU Open Research (Australian National University)",
+   "venue": "ANU Open Research (Australian National University)",
+   "authors": [
+    "Prema‐chandra Athukorala"
+   ],
+   "date": "2026-10-02",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7219192611",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4306402539",
+   "venue_type": "repository",
+   "publisher": "Australian National University",
+   "watched": null,
+   "venue_quality": {
+    "level": "repository",
+    "h_index": 123
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "debt",
+     "imf_programmes"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt",
+     "imf_programmes",
+     "subordination"
+    ],
+    "places": [],
+    "note": "Sri Lankan sovereign debt and IMF stabilization; illuminates debt crisis and conditional reform, relevant to subordination.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "c872d20112",
+   "section": "research",
+   "title": "International Financial Centers, Foreign Direct Investment, and Economic Volatility",
+   "url": "https://doi.org/10.1111/boer.70082",
+   "doi": "10.1111/boer.70082",
+   "source": "Bulletin of Economic Research",
+   "venue": "Bulletin of Economic Research",
+   "authors": [
+    "Ozan Ekşi",
+    "Neslihan Kaya Eksi"
+   ],
+   "date": "2026-10-01",
+   "origin": "openalex:query:financial center Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7215073319",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S170913539",
+   "venue_type": "journal",
+   "publisher": "Wiley",
+   "watched": null,
+   "venue_quality": {
+    "level": "established",
+    "h_index": 60
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "centres",
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "subordination"
+    ],
+    "places": [],
+    "note": "IFC status and capital flows asymmetry; addresses whether centres attract FDI or export capital, key to subordination thesis.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "1e621919c3",
+   "section": "research",
+   "title": "BRICS under strain: Internal economic challenges in a rising coalition",
+   "url": "https://doi.org/10.68065/joetssh.03.04.105",
+   "doi": "10.68065/joetssh.03.04.105",
+   "source": "Journal of Emerging Trends in Social Sciences and Humanities",
+   "venue": "Journal of Emerging Trends in Social Sciences and Humanities",
+   "authors": [
+    "Uroosa Ishfaq",
+    "Muneeba Shahid"
+   ],
+   "date": "2026-10-01",
+   "origin": "openalex:query:monetary sovereignty Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7219729114",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407064755",
+   "venue_type": "journal",
+   "publisher": "",
+   "venue_quality": {
+    "level": "low",
+    "h_index": 0
+   },
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "networks"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "subordination",
+     "state_finance"
+    ],
+    "places": [],
+    "note": "BRICS institutional weaknesses and de-dollarization constraints; South–South financial integration limits and Chinese dominance dynamics.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "70adfd9a88",
+   "section": "research",
+   "title": "Do Shariah-ESG indices offer downside risk protection? Regime-dependent evidence from Sukuk and Islamic equity benchmarks",
+   "url": "https://doi.org/10.1108/imefm-04-2026-0286",
+   "doi": "10.1108/imefm-04-2026-0286",
+   "source": "International Journal of Islamic and Middle Eastern Finance and Management",
+   "venue": "International Journal of Islamic and Middle Eastern Finance and Management",
+   "authors": [
+    "Eyyüp Ensari Şahin"
+   ],
+   "date": "2026-09-29",
+   "origin": "openalex:query:sovereign wealth fund Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214777022",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S157427695",
+   "venue_type": "journal",
+   "publisher": "Emerald Publishing Limited",
+   "venue_quality": {
+    "level": "established",
+    "h_index": 73
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [],
+    "themes": [
+     "islamic_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "islamic_finance"
+    ],
+    "places": [],
+    "note": "Islamic finance benchmarks and risk metrics; relevant to valuation devices but not anchored in Southern financial centres.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "78f249e1eb",
+   "section": "research",
+   "title": "From Pontes to Appia, but not to an Agorá: strategic hedging and infrastructural geoeconomics in the ECB's wCBDC initiative",
+   "url": "https://doi.org/10.1080/13563467.2026.2737133",
+   "doi": "10.1080/13563467.2026.2737133",
+   "source": "New Political Economy",
+   "venue": "New Political Economy",
+   "authors": [
+    "Nicola Bilotta"
+   ],
+   "date": "2026-09-29",
+   "origin": "openalex:journals",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214915006",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S146242404",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "watched": false,
+   "venue_quality": {
+    "level": "watched",
+    "h_index": 112
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "subordination",
+     "integration"
+    ],
+    "places": [],
+    "note": "Wholesale CBDC infrastructure and strategic dependencies; Northern-focused but illuminates digital integration devices and geoeconomics.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "4638e33280",
+   "section": "research",
+   "title": "Offshore Financial Centres and Banks' Funding Responses to Liquidity Shocks",
+   "url": "https://openaccess.city.ac.uk/view/creators_id/barbara=2Ecasu-lukac=2E1.html>",
+   "doi": "",
+   "source": "City Research Online (City University London)",
+   "venue": "City Research Online (City University London)",
+   "authors": [
+    "S. Maiani",
+    "B. Casu",
+    "A. Gallo",
+    "A. Kontonikas"
+   ],
+   "date": "2026-09-26",
+   "origin": "openalex:query:global financial networks",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7215005986",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4306401940",
+   "venue_type": "repository",
+   "publisher": "City, University of London",
+   "venue_quality": {
+    "level": "repository",
+    "h_index": 52
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "debt",
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "integration",
+     "subordination"
+    ],
+    "places": [],
+    "note": "Offshore financial centres and bank funding networks; infrastructure embeddedness and crisis-contingent relationships.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "5b81a0fae5",
+   "section": "research",
+   "title": "AI-native credit intelligence on digital public infrastructure: evidence from India's account aggregator ecosystem",
+   "url": "https://doi.org/10.1108/fdar-03-2026-0027",
+   "doi": "10.1108/fdar-03-2026-0027",
+   "source": "Fintech and Digital Accounting Review",
+   "venue": "Fintech and Digital Accounting Review",
+   "authors": [
+    "Malcolm Athaide"
+   ],
+   "date": "2026-09-22",
+   "origin": "openalex:query:India financial markets history",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213976254",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S5407053786",
+   "venue_type": "journal",
+   "publisher": "Emerald Publishing Limited",
+   "venue_quality": {
+    "level": "low",
+    "h_index": 2
+   },
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "integration",
+     "professionals"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "India's Account Aggregator framework as digital public infrastructure reshaping credit markets and financial inclusion in South Asian financial centre.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "6797ca4f88",
+   "section": "research",
+   "title": "BRICS Challenges in the Era of Multipolarity: An Analytical Study of Political and Economic Divergences",
+   "url": "https://fra.st/rfm/article/view/198",
+   "doi": "",
+   "source": "Review of Futures Markets",
+   "venue": "Review of Futures Markets",
+   "authors": [
+    "Benabderrahmane Lyés."
+   ],
+   "date": "2026-09-17",
+   "origin": "openalex:query:Gulf capital Africa investment",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7215667427",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407065650",
+   "venue_type": "journal",
+   "publisher": "",
+   "venue_quality": {
+    "level": "low",
+    "h_index": 0
+   },
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "networks"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "subordination"
+    ],
+    "places": [],
+    "note": "BRICS expansion and diverging interests in global financial governance; addresses South–South coalition building and political contradictions.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "6c10e15ded",
+   "section": "research",
+   "title": "AN OVERVIEW OF SUKUK DEVELOPMENT IN INDONESIAN MARKETS: INSIGHTS FROM LITERATURE",
+   "url": "https://ojs.stiesa.ac.id/index.php/accruals/article/view/1762",
+   "doi": "",
+   "source": "ACCRUALS (Accounting Research Journal of Sutaatmadja)",
+   "venue": "ACCRUALS (Accounting Research Journal of Sutaatmadja)",
+   "authors": [
+    "Jojo Jojo",
+    "Nunik Nurmalasari",
+    "Devy Widya Apriandi",
+    "Ana Frasipa"
+   ],
+   "date": "2026-09-15",
+   "origin": "openalex:query:sukuk capital market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7216633623",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4210204520",
+   "venue_type": "journal",
+   "publisher": "",
+   "venue_quality": {
+    "level": "modest",
+    "h_index": 9
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "islamic_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "islamic_finance"
+    ],
+    "places": [],
+    "note": "Indonesian sukuk issuance and strategic role; Islamic finance device but outside case-study geographies.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "5d6994175f",
+   "section": "research",
+   "title": "Trust, privacy, and habit in retail central bank digital currency adoption among the unbanked",
+   "url": "https://doi.org/10.68217/gsvzcf27",
+   "doi": "10.68217/gsvzcf27",
+   "source": "Digital Enterprise Studies",
+   "venue": "Digital Enterprise Studies",
+   "authors": [
+    "Samuel Achebe",
+    "Leila Mansour"
+   ],
+   "date": "2026-10-03",
+   "origin": "openalex:query:Chile pension funds financialization",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7218508090",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407064807",
+   "venue_type": "journal",
+   "publisher": "",
+   "venue_quality": {
+    "level": "low",
+    "h_index": 0
+   },
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "digital"
+    ],
+    "places": [],
+    "note": "CBDC adoption among unbanked; behavioral study, not about centre infrastructure or subordination dynamics.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "a8c572c907",
+   "section": "research",
+   "title": "One Africa, Many Nations: Why and How African Nations Should Unite Through Sovereignty-Preserving Economic Integration",
+   "url": "https://doi.org/10.53819/81018102t2611",
+   "doi": "10.53819/81018102t2611",
+   "source": "Journal of Public Policy & Governance",
+   "venue": "Journal of Public Policy & Governance",
+   "authors": [
+    "Mohamed Abdinoor Dahir",
+    "Mahesh R. Pillai"
+   ],
+   "date": "2026-09-30",
+   "origin": "openalex:query:capital market development Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214938182",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4210240587",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "venue_quality": {
+    "level": "low",
+    "h_index": 4
+   },
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "networks"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "networks"
+    ],
+    "places": [],
+    "note": "Pan-African economic integration and leadership framework; broad policy survey without financial-centre focus.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "b50cdf9977",
+   "section": "research",
+   "title": "Assessing the Nexus Between Green Finance, Green Bonds and Environmental Sustainability in Selected Countries",
+   "url": "https://doi.org/10.64229/6mp2gz76",
+   "doi": "10.64229/6mp2gz76",
+   "source": "Integrated Economies and Policy Insights",
+   "venue": "Integrated Economies and Policy Insights",
+   "authors": [
+    "Toryila Raphael Orshio",
+    "Adofu Ilemona",
+    "Obadiah Jonathan Gimba",
+    "Abubakar Saad Bahuli"
+   ],
+   "date": "2026-09-18",
+   "origin": "openalex:query:Chinese lending Africa finance",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214076893",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S5407053232",
+   "venue_type": "journal",
+   "publisher": "",
+   "venue_quality": {
+    "level": "low",
+    "h_index": 1
+   },
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "development_finance"
+    ],
+    "places": [],
+    "note": "Green bonds and sustainability in mixed-country sample including Nigeria; lacks focus on Southern financial centres or subordination dynamics.",
+    "quality": 0
+   },
+   "featured": false
+  },
+  {
+   "id": "d4f3c2de25",
+   "section": "grey",
+   "title": "From pipeline to policy: designing India's Article 6 approval framework for climate finance and domestic decarbonisation",
+   "url": "https://doi.org/10.21953/researchonline.lse.ac.uk.00141188",
+   "doi": "10.21953/researchonline.lse.ac.uk.00141188",
+   "source": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+   "venue": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+   "authors": [
+    "Sanjena Narayanasamy Damodaran"
+   ],
+   "date": "2026-09-29",
+   "origin": "openalex:reports:stock exchange",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214786039",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S4306401593",
+   "venue_type": "repository",
+   "publisher": "London School of Economics and Political Science",
+   "watched": null,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "regulation"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "India's Article 6 carbon-market framework; relevant to development finance and sovereign climate-policy instruments."
+   },
+   "featured": false
+  },
+  {
+   "id": "9f4c8000d5",
+   "section": "grey",
+   "title": "Debt, Climate, and Conflict as a Self-Reinforcing Polycrisis Triangle",
+   "url": "https://doi.org/10.5281/zenodo.22966500",
+   "doi": "10.5281/zenodo.22966500",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Hunter Hughes"
+   ],
+   "date": "2026-09-25",
+   "origin": "openalex:reports:sovereign debt restructuring",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7214294040",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S4306400562",
+   "venue_type": "repository",
+   "publisher": "European Organization for Nuclear Research",
+   "also_at": [],
+   "watched": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt"
+    ],
+    "places": [],
+    "note": "Debt-climate-conflict polycrisis in developing states; relevant to subordination and sovereign-debt vulnerability."
+   },
+   "featured": false
+  },
+  {
+   "id": "a35eabd598",
+   "section": "grey",
+   "title": "Leveraging Strategic Assets: Attracting Financing in the Developing World in a Post-Aid Era",
+   "url": "https://doi.org/10.64503/20260921",
+   "doi": "10.64503/20260921",
+   "source": "OpenAlex",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-21",
+   "origin": "openalex:reports:financial sector deepening",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213965098",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "",
+   "venue_type": "",
+   "publisher": "",
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "bangkok"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "centres",
+     "integration"
+    ],
+    "places": [
+     "bangkok"
+    ],
+    "note": "Bangkok's pushback on financing standards; limited detail on financial centre strategy or devices."
+   },
+   "featured": false
+  },
+  {
+   "id": "a05390ac20",
+   "section": "grey",
+   "title": "Sustainable Development as a Strategy for Polycrisis Mitigation",
+   "url": "https://doi.org/10.5281/zenodo.22546826",
+   "doi": "10.5281/zenodo.22546826",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Hunter Hughes"
+   ],
+   "date": "2026-09-06",
+   "origin": "openalex:reports:capital market development",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7210279407",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S4306400562",
+   "venue_type": "repository",
+   "publisher": "European Organization for Nuclear Research",
+   "also_at": [],
+   "watched": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination",
+     "development_finance"
+    ],
+    "places": [],
+    "note": "Generic polycrisis framing; lacks institutional or financial-centre specificity for project scope."
+   },
+   "featured": false
+  }
+ ],
+ "digest": "This week's digest focuses on financial infrastructure and autonomy in the Global South, with particular attention to digital devices and debt dynamics. New Political Economy publishes two complementary pieces: Nigeria's eNaira rollout as an infrastructural response to financial subordination, and the ECB's wholesale CBDC initiative as a strategic geopolitical technology—together illuminating how monetary devices encode and contest dependencies. ANU's analysis of Sri Lanka's sovereign debt crisis and IMF conditionality, paired with work on international financial centres' asymmetric capital flows, grounds these technical questions in the lived subordination thesis. BRICS scholarship documents the coalition's internal fractures and de-dollarization constraints, revealing the limits of South–South financial integration. India's Account Aggregator ecosystem, studied in Fintech and Digital Accounting Review, exemplifies how public digital infrastructure can reshape credit markets and financial inclusion within a Southern centre; offshore financial centres' funding networks, examined through liquidity shocks, illustrate crisis-contingent embeddedness. Excluded this week: generic ESG and Islamic finance benchmarking studies, unbanked retail CBDC adoption behaviour, and pan-African policy surveys lacking institutional grounding."
+}
