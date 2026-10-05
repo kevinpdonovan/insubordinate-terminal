@@ -18,7 +18,7 @@ import yaml
 
 from . import build as site_build
 from .dedupe import cluster_news, keys_for, merge_versions, work_key
-from .harvesters import (HARVESTERS, harvest_citation_trail, harvest_email, harvest_pagewatch,
+from .harvesters import (HARVESTERS, harvest_citation_trail, harvest_email, harvest_gdelt, harvest_pagewatch,
                          harvest_rss, venue_stats)
 from .quality import LEVEL_SCORE, apply_venue_quality, outlet_ok, outlet_rank
 from .items import DATA, SECTIONS, SeenStore, iso_week, load_json, make_item, save_json
@@ -30,6 +30,58 @@ from .tagger import tag_items, write_digest
 
 def log(*a):
     print(*a, file=sys.stderr, flush=True)
+
+
+# ------------------------------------------------------------------ GDELT daily cache
+NEWS_CACHE = DATA / "news_cache"
+
+
+def _gdelt_cache_days(since):
+    return sorted(p for p in NEWS_CACHE.glob("*.json") if p.stem >= since.isoformat()) if NEWS_CACHE.exists() else []
+
+
+def _from_gdelt_cache(src, since):
+    """Read what the daily collector gathered for this source over the past week."""
+    items, notes, days = [], [], 0
+    for p in _gdelt_cache_days(since):
+        day = load_json(p, {})
+        rec = day.get(src["name"])
+        if not rec:
+            continue
+        days += 1
+        items += rec.get("items", [])
+        if rec.get("note"):
+            notes.append(f"{p.stem}: {rec['note'][:60]}")
+    ok = days > 0
+    return items, {"source": src["name"], "ok": ok, "count": len(items),
+                   "note": f"from daily collector ({days} day(s))" + (f"; {'; '.join(notes[:2])}" if notes else "")}
+
+
+def cmd_collect_news(args):
+    """Daily: query GDELT for the last day and add results to data/news_cache/<date>.json.
+
+    Spreading GDELT calls over seven small daily runs (instead of one big weekly burst)
+    keeps us under GDELT's rate limit; the weekly harvest then reads the cache.
+    """
+    profile, sources = load_profile(), load_sources()
+    today = dt.date.today().isoformat()
+    path = NEWS_CACHE / f"{today}.json"
+    day = load_json(path, {})
+    for src in sources.get("news") or []:
+        if src.get("type") != "gdelt":
+            continue
+        items, h = harvest_gdelt(src, profile, "news", timespan=args.timespan)
+        prev = day.get(src["name"], {}).get("items", [])
+        seen_ids = {i["id"] for i in prev}
+        day[src["name"]] = {"items": prev + [i for i in items if i["id"] not in seen_ids],
+                            "note": h.get("note", ""), "ok": h["ok"]}
+        log(f"· {src['name']}: {len(items)} items{'' if h['ok'] else ' (errors: ' + h['note'][:80] + ')'}")
+    save_json(path, day)
+    # keep five weeks of cache
+    cutoff = (dt.date.today() - dt.timedelta(days=35)).isoformat()
+    for p in NEWS_CACHE.glob("*.json"):
+        if p.stem < cutoff:
+            p.unlink()
 
 
 # ------------------------------------------------------------------ harvest
@@ -45,6 +97,8 @@ def _run_sources(sources, profile, since, health, log):
                     items, h = harvest_pagewatch(src, section, DATA / "pagewatch")
                 elif t == "email":
                     items, h = harvest_email(src, section, since)
+                elif t == "gdelt" and _gdelt_cache_days(since):
+                    items, h = _from_gdelt_cache(src, since)
                 elif t in HARVESTERS:
                     items, h = HARVESTERS[t](src, profile, section)
                 else:
@@ -258,8 +312,9 @@ def main(argv=None):
     h = sub.add_parser("harvest"); h.add_argument("--week"); h.add_argument("--days", type=int, default=8)
     p = sub.add_parser("publish"); p.add_argument("body"); p.add_argument("--week")
     sub.add_parser("build")
+    c = sub.add_parser("collect-news"); c.add_argument("--timespan", default="1d")
     s = sub.add_parser("suggest"); s.add_argument("body"); s.add_argument("user")
     f = sub.add_parser("focus"); f.add_argument("body"); f.add_argument("user")
     args = ap.parse_args(argv)
     {"harvest": cmd_harvest, "publish": cmd_publish, "build": cmd_build,
-     "suggest": cmd_suggest, "focus": cmd_focus}[args.cmd](args)
+     "suggest": cmd_suggest, "focus": cmd_focus, "collect-news": cmd_collect_news}[args.cmd](args)

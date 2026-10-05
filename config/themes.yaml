@@ -437,6 +437,21 @@ places:
     aliases: ["ho chi minh city", "saigon", "ho chi minh stock exchange", "vietnam international financial centre", "vietnam international financial center", "state bank of vietnam", "state securities commission of vietnam", "vn-index", "vietnam's stock market"]
     languages: [vi, en]
 
+# Country-level names. For NEWS and REPORTS these count like a city match
+# (most journalism is written at country level); for scholarship they don't.
+countries:
+  nairobi: ["kenya", "kenyan", "east africa", "east african"]
+  abidjan: ["cote d'ivoire", "côte d'ivoire", "ivory coast", "ivorian", "uemoa", "waemu", "west african monetary union", "senegal"]
+  casablanca: ["morocco", "moroccan", "maroc", "marocain"]
+  johannesburg: ["south africa", "south african"]
+  port_louis: ["mauritius", "mauritian", "maurice"]
+  mumbai: ["india", "indian"]
+  bangkok: ["thailand", "thai"]
+  hcmc: ["vietnam", "viet nam", "vietnamese"]
+  sao_paulo: ["brazil", "brazilian", "brasil", "brasileiro"]
+  santiago: ["chile", "chilean", "chileno"]
+  montevideo: ["uruguay", "uruguayan", "uruguayo"]
+
 # Comparison / context centres — tagged but not core.
 context_places: ["kigali", "lagos", "accra", "cairo", "dubai", "difc", "singapore", "hong kong", "astana", "aifc", "london", "new york", "paris", "shanghai"]
 

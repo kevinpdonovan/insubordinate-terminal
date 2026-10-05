@@ -90,7 +90,7 @@ news_outlets:
 # (a) NEW RESEARCH — open scholarly metadata; no login needed.
 # ---------------------------------------------------------------------
 research:
-  - {name: "OpenAlex — keyword queries", type: openalex, mode: queries, lookback_days: 21}
+  - {name: "OpenAlex — keyword queries", type: openalex, mode: queries, lookback_days: 21, per_query: 25}
   - {name: "OpenAlex — watched journals", type: openalex, mode: journals, lookback_days: 14}
   - {name: "OpenAlex — watched authors", type: openalex, mode: authors, lookback_days: 30}
   # Google Scholar alerts sent to the project inbox (see README → Email alerts)
@@ -112,7 +112,9 @@ archive:
 # (c) NEWS — link-only. Headline, outlet, date and URL; never text.
 # ---------------------------------------------------------------------
 news:
-  - {name: "GDELT global news search", type: gdelt, mode: queries, timespan: "7d", max_per_query: 150}
+  # GDELT is queried DAILY by the "Daily news collector" workflow (avoids its rate limit);
+  # the weekly harvest reads that cache, and only calls GDELT live if the cache is empty.
+  - {name: "GDELT global news search", type: gdelt, mode: queries, timespan: "7d", max_per_query: 150, spacing_seconds: 10}
   - name: "GDELT — Bloomberg"
     type: gdelt
     mode: domain
@@ -135,15 +137,11 @@ news:
     filter: false
   # Google Alerts delivered as RSS work too: paste each feed URL here, e.g.
   # - {name: "Google Alert — NIFC", type: rss, url: "https://www.google.com/alerts/feeds/XXXX/YYYY", filter: false}
-  # Regional outlets (filtered through the relevance gate)
-  - {name: "Business Daily Africa", type: rss, url: "https://www.businessdailyafrica.com/service/rss/bd/1938306/feed.rss", filter: true}   # check
-  - {name: "The East African", type: rss, url: "https://www.theeastafrican.co.ke/service/rss/tea/1289868/feed.rss", filter: true}      # check
+  # Regional outlets (filtered through the relevance gate).
+  # Removed after the 5 Oct run (404/403 from GitHub's servers): Business Daily Africa, The East African,
+  # Semafor Africa, BusinessLIVE, Médias24, Sika Finance. Their stories still arrive via GDELT and Google Alerts.
   - {name: "The Africa Report", type: rss, url: "https://www.theafricareport.com/feed/", filter: true}                                  # check
-  - {name: "Semafor Africa", type: rss, url: "https://www.semafor.com/vertical/africa/rss.xml", filter: true}                          # check
   - {name: "Jeune Afrique — Économie", type: rss, url: "https://www.jeuneafrique.com/rubriques/economie-entreprises/feed/", filter: true} # check
-  - {name: "BusinessLIVE (SA)", type: rss, url: "https://www.businesslive.co.za/rss/bd/", filter: true}                                # check
-  - {name: "Médias24 (Maroc)", type: rss, url: "https://medias24.com/feed/", filter: true}                                              # check
-  - {name: "Sika Finance (UEMOA)", type: rss, url: "https://www.sikafinance.com/rss", filter: true}                                    # check
   - {name: "Mint — Economy", type: rss, url: "https://www.livemint.com/rss/economy", filter: true}                                     # check
   - {name: "VnExpress International — Business", type: rss, url: "https://e.vnexpress.net/rss/business.rss", filter: true}            # check
   - {name: "Valor Econômico", type: rss, url: "https://valor.globo.com/rss/valor/", filter: true}                                       # check
@@ -155,7 +153,7 @@ news:
 # ---------------------------------------------------------------------
 grey:
   # Searchable databases (use themes.yaml > grey_queries)
-  - {name: "World Bank Documents & Reports", type: worldbank, lookback_days: 14, rows: 30}
+  - {name: "World Bank Documents & Reports", type: worldbank, lookback_days: 45, rows: 30}
   - {name: "OpenAlex — reports", type: openalex, mode: reports, lookback_days: 30}
   - {name: "OpenAlex — IFI working-paper series", type: openalex, mode: series, lookback_days: 30}   # uses themes.yaml > watch_series
   # Publication / press pages watched for NEW links (first run records a baseline)

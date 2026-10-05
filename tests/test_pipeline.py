@@ -167,8 +167,9 @@ def test_end_to_end():
     assert len(brvm) == 1 and "bloomberg.com" in brvm[0]["url"], brvm
     assert "allafrica.com" in brvm[0].get("also_at", [])
     assert not any("marketscreener" in c["url"] for c in cands)
-    # gate: a place name alone is not enough
-    assert not any("Bangkok property" in t for t in titles)
+    # news gate is deliberately looser now: weak matches reach the reviewer (and Claude) but aren't pre-ticked
+    bkk = [ln for ln in body.splitlines() if "Bangkok property" in ln]
+    assert bkk and bkk[0].lstrip().startswith("- [ ]"), bkk
     assert not any("shares rise" in t for t in titles)
     # email: redirect resolved to bloomberg.com, unsubscribe link ignored
     em = [c for c in cands if c.get("origin", "").startswith("email")]

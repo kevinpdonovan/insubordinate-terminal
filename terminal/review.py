@@ -10,7 +10,8 @@ import re
 
 from .items import SECTION_LABELS, SECTIONS
 
-MAX_PER_SECTION = {"research": 60, "archive": 12, "news": 70, "grey": 45}
+MAX_PER_SECTION = {"research": 60, "archive": 12, "news": 50, "grey": 45}
+MIN_SHOWN = {"news": 2}  # with AI tags, news rated below this isn't even listed
 PRETICK = {"research": 2, "archive": 2, "news": 3, "grey": 2}  # AI relevance needed to pre-tick
 PRETICK_KEYWORD = 5  # ...or keyword score >= 5 when no AI tags exist
 LINE_RX = re.compile(r"^\s*[-*]\s*\[(?P<tick>[ xX])\]\s*(?P<star>★|⭐)?.*?<!--id:(?P<id>[0-9a-f]{10})-->", re.M)
@@ -41,7 +42,9 @@ def pretick(it: dict) -> bool:
 def select_for_review(items: list[dict]) -> dict[str, list[dict]]:
     out = {}
     for sec in SECTIONS:
-        pool = [i for i in items if i["section"] == sec and (i.get("ai") or {}).get("relevance", 1) >= 1]
+        floor = MIN_SHOWN.get(sec, 1)
+        pool = [i for i in items if i["section"] == sec
+                and (i.get("ai") or {}).get("relevance", floor) >= (floor if i.get("ai") else 1)]
         pool.sort(key=rank_key, reverse=True)
         out[sec] = pool[: MAX_PER_SECTION[sec]]
     return out

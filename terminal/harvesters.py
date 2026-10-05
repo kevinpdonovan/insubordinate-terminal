@@ -73,6 +73,26 @@ def harvest_rss(src: dict, section: str, since: dt.date):
     return out, _health(name, True, len(out), "" if feed.entries else "feed returned no entries")
 
 
+# ---------------------------------------------------------------- polite retries
+def get_with_backoff(url: str, params: dict | None = None, tries: int = 4, base_wait: float = 15.0,
+                     sleep=None, **kw):
+    """GET that waits and retries on 429 / 5xx. Honours Retry-After when given."""
+    sleep = sleep or time.sleep
+    last = None
+    for attempt in range(tries):
+        r = S.get(url, params=params, timeout=TIMEOUT, **kw)
+        if r.status_code not in (429, 500, 502, 503, 504):
+            return r
+        last = r
+        wait = base_wait * (2 ** attempt)
+        try:
+            wait = max(wait, float(r.headers.get("Retry-After", 0)))
+        except (TypeError, ValueError, AttributeError):
+            pass
+        sleep(min(wait, 180))
+    return last
+
+
 # ---------------------------------------------------------------- GDELT
 GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
 
@@ -80,7 +100,7 @@ GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
 def _gdelt_call(query: str, timespan: str, maxrecords: int):
     params = {"query": query, "mode": "ArtList", "format": "json",
               "timespan": timespan, "maxrecords": maxrecords, "sort": "DateDesc"}
-    r = S.get(GDELT, params=params, timeout=TIMEOUT)
+    r = get_with_backoff(GDELT, params=params, tries=4, base_wait=20)
     r.raise_for_status()
     txt = r.text.strip()
     if not txt.startswith("{"):
@@ -88,18 +108,26 @@ def _gdelt_call(query: str, timespan: str, maxrecords: int):
     return r.json().get("articles", [])
 
 
-def harvest_gdelt(src: dict, profile: dict, section: str = "news"):
+def gdelt_queries(src: dict, profile: dict) -> list[str]:
     if src.get("mode") == "domain":
-        queries = [f'{src["query"]} domain:{src["domain"]}']
-    else:
-        queries = profile.get("news_queries", [])
-    out, errors = [], []
+        return [f'{src["query"]} domain:{src["domain"]}']
+    return profile.get("news_queries", [])
+
+
+def harvest_gdelt(src: dict, profile: dict, section: str = "news", timespan: str | None = None):
+    queries = gdelt_queries(src, profile)
+    out, errors, streak = [], [], 0
     for q in queries:
+        if streak >= 3:  # GDELT is refusing us today; stop rather than burn the run's time
+            errors.append(f"stopped after 3 consecutive refusals; {len(queries) - queries.index(q)} queries skipped")
+            break
         try:
-            arts = _gdelt_call(q, src.get("timespan", "7d"), min(250, src.get("max_per_query", 150)))
+            arts = _gdelt_call(q, timespan or src.get("timespan", "7d"), min(250, src.get("max_per_query", 150)))
+            streak = 0
         except Exception as ex:
             errors.append(f"{q[:40]}… → {ex}")
             arts = []
+            streak += 1
         for a in arts:
             out.append(make_item(
                 section=section, title=a.get("title", ""), url=a.get("url", ""),
@@ -108,7 +136,7 @@ def harvest_gdelt(src: dict, profile: dict, section: str = "news"):
                 extra={"filter": True, "language": a.get("language", ""),
                        "source_country": a.get("sourcecountry", "")},
             ))
-        time.sleep(6)  # GDELT asks for ≤1 request / 5 s
+        time.sleep(src.get("spacing_seconds", 10))  # GDELT asks for ≤1 request / 5 s; we go slower
     ok = len(errors) < max(1, len(queries))
     return out, _health(src["name"], ok, len(out), "; ".join(errors[:3]))
 
@@ -127,7 +155,7 @@ def _oa_params(extra: dict) -> dict:
 
 
 def _oa_get(path: str, params: dict) -> dict:
-    r = S.get(f"{OA}{path}", params=_oa_params(params), timeout=TIMEOUT)
+    r = get_with_backoff(f"{OA}{path}", params=_oa_params(params), tries=3, base_wait=10)
     r.raise_for_status()
     return r.json()
 
@@ -218,7 +246,7 @@ def norm_name(s: str) -> str:
 def _paged(filter_str: str, search: str | None, cap: int = 200) -> list[dict]:
     out, cursor = [], "*"
     while cursor and len(out) < cap:
-        params = {"filter": filter_str, "per-page": 100, "select": SELECT, "cursor": cursor}
+        params = {"filter": filter_str, "per-page": min(100, cap), "select": SELECT, "cursor": cursor}
         if search:
             params["search"] = search
         js = _oa_get("/works", params)
@@ -241,7 +269,7 @@ def harvest_openalex(src: dict, profile: dict, section: str = "research"):
         if mode == "queries":
             for q in profile.get("research_queries", []):
                 try:
-                    for w in _paged(base, q, cap=50):
+                    for w in _paged(base, q, cap=src.get("per_query", 25)):
                         out.append(oa_to_item(w, section, f"openalex:query:{q}", {"filter": True}))
                 except Exception as ex:
                     errors.append(f"{q}: {ex}")

@@ -88,6 +88,48 @@ Your own alerts are the best-quality inputs, and the sweep can read them from a 
 
 The Source health page shows "not configured" for these until the secrets exist.
 
+## Google Alerts in use
+
+These were created on 5 Oct 2026 in the project account (insubordinatefinanceterminal@gmail.com). All are delivered *at most once a day*. "All" means *All results*; "best" means *Only the best results*.
+
+| # | Query | Results | Language |
+|---|---|---|---|
+| 1 | `"Nairobi International Financial Centre"` | all | English |
+| 2 | `"Casablanca Finance City"` | all | English |
+| 3 | `"Vietnam International Financial Centre" OR "Vietnam International Financial Center"` | all | English |
+| 4 | `"GIFT City" IFSC` | all | English |
+| 5 | `"Mauritius International Financial Centre" OR "Mauritius financial centre" OR "Mauritius IFC"` | all | English |
+| 6 | `"African Credit Rating Agency" OR AfCRA` | all | English |
+| 7 | `"African Exchanges Linkage" OR "African Securities Exchanges Association"` | all | English |
+| 8 | `"Nairobi Securities Exchange" OR "Capital Markets Authority" Kenya` | all | English |
+| 9 | `sukuk Morocco OR Kenya OR Senegal OR Nigeria OR "Ivory Coast" OR Mauritius` | best | English |
+| 10 | `"Africa Financial Summit" OR "Africa CEO Forum" OR "Africa Debt Forum"` | all | English |
+| 11 | `Eurobond Kenya OR "Ivory Coast" OR Senegal OR Morocco OR Nigeria OR Ghana` | best | English |
+| 12 | `site:imf.org Kenya OR Morocco OR "Cote d'Ivoire" OR Mauritius OR "South Africa" OR Vietnam "financial sector"` | all | English |
+| 13 | `"frontier market" MSCI OR "FTSE Russell" reclassification OR upgrade` | best | English |
+| 14 | `BRVM` | best | any |
+| 15 | `"place financière" Abidjan OR Casablanca OR Maurice OR Dakar` | all | any |
+| 16 | `"centro financeiro" OR "mercado de capitais" "Faria Lima" OR "São Paulo" OR B3` | best | any |
+
+**Candidates for later** (add at google.com/alerts while signed in as the project account):
+
+- `"Stock Exchange of Thailand" reform OR regulation OR "foreign investors"`
+- `"Bolsa de Santiago" OR nuam integración`
+- `"Johannesburg Stock Exchange" listing OR delisting OR reform`
+- `"panda bond" Africa OR Kenya OR Egypt OR Nigeria`
+- `"sovereign wealth fund" Kenya OR Nigeria OR Senegal OR Morocco OR Vietnam`
+- `site:unctad.org OR site:cgdev.org OR site:eurodad.org "capital markets" OR "sovereign debt" Africa` (these sites block GitHub, so alerts stand in for them)
+- `"financial subordination" OR "subordinate financialization"`
+- `SEBI "foreign portfolio investors"`
+- `Safaricom privatisation OR "state-owned" Kenya Treasury`
+- `"franc CFA" OR "eco" UEMOA monnaie` (any language)
+
+Alerts only reach the dashboard once the inbox secrets (`IMAP_USER`, `IMAP_PASSWORD`) are set. See "Email alerts" above.
+
+## GDELT (global news index)
+
+GDELT limits how often any one internet address may query it, and GitHub's servers are shared, so one big weekly burst of about 30 queries got refused. The **Daily news collector** workflow (`.github/workflows/news-daily.yml`) instead asks GDELT about the *past day* every morning, spaced 10 seconds apart. It waits and retries when refused, gives up for the day after three refusals in a row, and saves the results to `data/news_cache/`. The Monday harvest reads the week's cache, and only calls GDELT live if the cache is empty.
+
 ## Watched publication pages
 
 `sources.yaml` lists central-bank, regulator and exchange pages under `type: pagewatch`. Each week the sweep notes links that are **new** since last week (the first run only records a baseline). Pages that build their content with JavaScript can't be read this way. They'll show as failing on the Source health page, and it's best to delete them.

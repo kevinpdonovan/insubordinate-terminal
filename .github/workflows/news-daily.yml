@@ -1,0 +1,30 @@
+# Every day: a small GDELT news query for the past day, saved to data/news_cache/.
+# Spreading GDELT calls over the week avoids its rate limit; the Monday harvest reads the cache.
+name: Daily news collector
+on:
+  schedule:
+    - cron: "41 4 * * *"     # every day 04:41 UTC
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: repo-write, cancel-in-progress: false }
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - name: Collect yesterday's news from GDELT
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+        run: python -m terminal collect-news --timespan 1d
+      - name: Save
+        run: |
+          git config user.name "terminal-bot"
+          git config user.email "terminal-bot@users.noreply.github.com"
+          git add -A data/news_cache
+          git commit -m "News cache $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase && git push
