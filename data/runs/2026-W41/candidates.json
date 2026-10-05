@@ -1,0 +1,2471 @@
+[
+ {
+  "id": "425941dee6",
+  "section": "research",
+  "title": "Central bank digital currencies, financial subordination and the quest for infrastructural autonomy: the introduction of the eNaira in Nigeria",
+  "url": "https://doi.org/10.1080/13563467.2026.2737141",
+  "doi": "10.1080/13563467.2026.2737141",
+  "source": "New Political Economy",
+  "venue": "New Political Economy",
+  "authors": [
+   "Florence Dafe"
+  ],
+  "date": "2026-10-03",
+  "summary": "Political economists have only recently begun to grapple with the question of how to conceptualise and systematically explain the responses of states in lower-income countries to the rise of digital money. This article connects scholarship on financial infrastructures and international financial subordination to conceptualise the factors that explain the investments of central banks in lower-income countries in the development of central bank digital currencies (CBDCs). My main contention is that limited control of infrastructure is an important dimension of international financial subordination. I illustrate this argument focusing on the case of Nigeria, the second country in the world which launched a CBDC. My analysis suggests that Nigeria introduced her CBDC, the eNaira, to enhance her autonomy in the context of a subordinated position in the global financial and monetary system. Nigerian authorities considered the eNaira as a state-controlled financial infrastructure which they envisaged to reduce the reliance on externally controlled payment infrastructures. As such, this paper contributes to broader debates about how lower-income countries navigate the disruptions associated with FinTech. This includes the questions of how much sovereignty they have in the governance of digital financial infrastructures and how much influence foreign players have over their digital financial infrastructure.",
+  "origin": "openalex:query:financial subordination",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7218986013",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W2775967975",
+   "https://openalex.org/W2950046408",
+   "https://openalex.org/W2965425066",
+   "https://openalex.org/W3081839787",
+   "https://openalex.org/W3093781492",
+   "https://openalex.org/W3185133529",
+   "https://openalex.org/W3213880590",
+   "https://openalex.org/W4200078577",
+   "https://openalex.org/W4223595318",
+   "https://openalex.org/W4225289255",
+   "https://openalex.org/W4285800985",
+   "https://openalex.org/W4292357002",
+   "https://openalex.org/W4303712423",
+   "https://openalex.org/W4310496980",
+   "https://openalex.org/W4327910549",
+   "https://openalex.org/W4366606206",
+   "https://openalex.org/W4385318664",
+   "https://openalex.org/W4387137403",
+   "https://openalex.org/W4387638784",
+   "https://openalex.org/W4388826220",
+   "https://openalex.org/W4390544884",
+   "https://openalex.org/W4391599581",
+   "https://openalex.org/W4392852178",
+   "https://openalex.org/W4393275494",
+   "https://openalex.org/W4397044875",
+   "https://openalex.org/W4399136882",
+   "https://openalex.org/W4399216894",
+   "https://openalex.org/W4399739445",
+   "https://openalex.org/W4410514394",
+   "https://openalex.org/W4410514448",
+   "https://openalex.org/W4410514468",
+   "https://openalex.org/W4410769777",
+   "https://openalex.org/W4411867973",
+   "https://openalex.org/W4414026735",
+   "https://openalex.org/W4415964743",
+   "https://openalex.org/W6927861143",
+   "https://openalex.org/W7115014565",
+   "https://openalex.org/W7129049764"
+  ],
+  "venue_id": "S146242404",
+  "venue_type": "journal",
+  "publisher": "Taylor & Francis",
+  "filter": true,
+  "work_key": "central bank digital currencies financial subordination quest infrastructural autonomy introduction enaira nigeria|dafe",
+  "watched": false,
+  "venue_quality": {
+   "level": "watched",
+   "h_index": 112
+  },
+  "kw": {
+   "pass": true,
+   "score": 7,
+   "places": [],
+   "themes": [
+    "digital",
+    "subordination"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 3,
+   "themes": [
+    "subordination",
+    "digital",
+    "regulation"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "CBDC as response to infrastructural subordination; directly engages financial autonomy and IFS in Global South case.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "7e1538c664",
+  "section": "research",
+  "title": "ADOPTION OF DIGITAL PAYMENTS AND REVENUE PERFORMANCE OF SMALL CHAIN SUPERMARKETS IN NAIROBI AND KIAMBU COUNTIES, KENYA",
+  "url": "https://ajoeijournal.org/sys/index.php/ajoei/article/view/1298",
+  "doi": "",
+  "source": "African Journal of Emerging Issues",
+  "venue": "African Journal of Emerging Issues",
+  "authors": [
+   "Njatha Dorine Gathoni",
+   "Peter Kibas",
+   "Beauttah Mwangi"
+  ],
+  "date": "2026-09-17",
+  "summary": "Kenya's retail sector has recorded near-universal uptake of mobile money and card-based payment platforms, yet small chain supermarkets continue to report weak and inconsistent financial returns from these investments. The purpose of this study was to assess the influence of the adoption of digital payments on revenue performance in small retail chain supermarkets in Nairobi and Kiambu Counties, Kenya. The problem addressed is the persistent disconnect between the widespread availability of digital payment platforms at the checkout counter and the ability of small chain retailers to translate that availability into measurable revenue gains, a gap attributed in earlier work to shallow integration, high transaction costs and reactive rather than strategic adoption. The study adopted a convergent parallel mixed-methods design anchored on Innovation Diffusion Theory and the Technology Acceptance Model. A sample of 117 employees was drawn from six branches of Magunas, Cleanshelf and Maathai supermarket chains using multi-stage stratified, purposive and random sampling, yielding 103 valid responses (88 per cent). Seventeen customers participated in qualitative interviews. Quantitative data were analysed using descriptive statistics and hierarchical multiple regression in SPSS version 28, while qualitative data were analysed thematically and integrated through triangulation. The findings show that all sampled branches had adopted at least two digital payment platforms, with M-Pesa a",
+  "origin": "openalex:query:mobile money Kenya",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215198838",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306500886",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "adoption digital payments revenue performance small chain supermarkets nairobi kiambu counties kenya|gathoni",
+  "venue_quality": {
+   "level": "modest",
+   "h_index": 5
+  },
+  "kw": {
+   "pass": true,
+   "score": 7,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "Retail-level mobile-money adoption; marginal to financial-centre and financial-device politics.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "70adfd9a88",
+  "section": "research",
+  "title": "Do Shariah-ESG indices offer downside risk protection? Regime-dependent evidence from Sukuk and Islamic equity benchmarks",
+  "url": "https://doi.org/10.1108/imefm-04-2026-0286",
+  "doi": "10.1108/imefm-04-2026-0286",
+  "source": "International Journal of Islamic and Middle Eastern Finance and Management",
+  "venue": "International Journal of Islamic and Middle Eastern Finance and Management",
+  "authors": [
+   "Eyyüp Ensari Şahin"
+  ],
+  "date": "2026-09-29",
+  "summary": "Purpose This study aims to examine whether Shariah-compliant environmental, social and governance (ESG) indices and Sukuk benchmarks provide regime-dependent downside risk protection during crisis episodes, addressing an empirical gap in the crisis-period tail-risk behaviour of Islamic finance instruments at the intersection of religious screening and sustainability constraints. The analysis is motivated by the growing institutional demand from Gulf Cooperation Council (GCC) and Middle East and North Africa (MENA) sovereign wealth funds, Takaful operators and Islamic fund managers for evidence-based regime-sensitive portfolio frameworks. Design/methodology/approach A two-state student-ν Hidden Markov Model (HMM) is estimated for five Shariah-ESG and Sukuk indices over 2013–2025 (n = 2,894 observations), spanning three macro-financial stress episodes: the 2018 emerging-market sell-off, the COVID-19 shock of March 2020 and the Federal Reserve tightening cycle of 2022. Regime-dependent conditional value-at-risk (CVaR) is computed at the 95% confidence level; bootstrap permutation tests (B = 5,000 replications) assess statistical significance. Economic value is quantified via the Jobson–Korkie Sharpe ratio test and certainty equivalent return (CER) under mean-variance utility (γ = 3). Findings Crisis-regime CVaR deteriorates significantly across all five indices (p < 0.001). Sukuk tail losses are 3.7–6.9 times smaller than Shariah equity counterparts during crises. Developed-mark",
+  "origin": "openalex:query:sovereign wealth fund Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214777022",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W1106997938",
+   "https://openalex.org/W1491718027",
+   "https://openalex.org/W1647779468",
+   "https://openalex.org/W1693972968",
+   "https://openalex.org/W1986468453",
+   "https://openalex.org/W1993641838",
+   "https://openalex.org/W1995562606",
+   "https://openalex.org/W1999996900",
+   "https://openalex.org/W2000564471",
+   "https://openalex.org/W2017116443",
+   "https://openalex.org/W2029629032",
+   "https://openalex.org/W2060102610",
+   "https://openalex.org/W2073928172",
+   "https://openalex.org/W2074812030",
+   "https://openalex.org/W2100338199",
+   "https://openalex.org/W2124148536",
+   "https://openalex.org/W2132527237",
+   "https://openalex.org/W2135633688",
+   "https://openalex.org/W2138837892",
+   "https://openalex.org/W2155179256",
+   "https://openalex.org/W2163969674",
+   "https://openalex.org/W2165714389",
+   "https://openalex.org/W2211074832",
+   "https://openalex.org/W2283189183",
+   "https://openalex.org/W2343343243",
+   "https://openalex.org/W2604035172",
+   "https://openalex.org/W2785606188",
+   "https://openalex.org/W2793663997",
+   "https://openalex.org/W3021709961",
+   "https://openalex.org/W3044042843",
+   "https://openalex.org/W3121714092",
+   "https://openalex.org/W3122114234",
+   "https://openalex.org/W3122420083",
+   "https://openalex.org/W3122672345",
+   "https://openalex.org/W3122780580",
+   "https://openalex.org/W3123598957",
+   "https://openalex.org/W3123909541",
+   "https://openalex.org/W3124530980",
+   "https://openalex.org/W3125064869",
+   "https://openalex.org/W3125969230",
+   "https://openalex.org/W4248292788",
+   "https://openalex.org/W4281296357",
+   "https://openalex.org/W4290960126",
+   "https://openalex.org/W4313829854",
+   "https://openalex.org/W4389280533",
+   "https://openalex.org/W4395661803",
+   "https://openalex.org/W4397004307",
+   "https://openalex.org/W4406530178",
+   "https://openalex.org/W4406713352",
+   "https://openalex.org/W4414865807",
+   "https://openalex.org/W7140330416"
+  ],
+  "venue_id": "S157427695",
+  "venue_type": "journal",
+  "publisher": "Emerald Publishing Limited",
+  "filter": true,
+  "work_key": "shariah esg indices offer downside risk protection regime dependent evidence from sukuk|sahin",
+  "venue_quality": {
+   "level": "established",
+   "h_index": 73
+  },
+  "kw": {
+   "pass": true,
+   "score": 7,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "valuation",
+    "islamic_finance"
+   ],
+   "places": [],
+   "note": "Islamic finance benchmarks and risk metrics; relevant to valuation devices but not anchored in Southern financial centres.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "d6e06a4f63",
+  "section": "research",
+  "title": "Assessing Students' Conceptual Understanding of an Islamic Financial System Course Using the Rasch Wright Map",
+  "url": "https://doi.org/10.22610/imbr.v18i3(i).4885",
+  "doi": "10.22610/imbr.v18i3(i).4885",
+  "source": "Information Management and Business Review",
+  "venue": "Information Management and Business Review",
+  "authors": [
+   "Mohd Rahim Khamis",
+   "Mohd Faizal Kamarudin",
+   "Nur Afizah Muhamad Ariffin",
+   "Mohd Faizan Mohd Afandi"
+  ],
+  "date": "2026-09-14",
+  "summary": "The rapid growth of Islamic finance has increased the need for effective assessment methods that accurately evaluate students’ conceptual understanding of Islamic financial principles beyond the traditional score-based approaches. This study examines the application of the Rasch Wright Map in assessing students’ conceptual understanding of the Islamic financial system course. A quantitative research design was employed involving 84 first-year Islamic Banking students at Universiti Teknologi MARA (UiTM). Data were collected using a nine-item Exit Survey Test (EST) designed to measure students’ general understanding and practical knowledge of the Islamic financial system. Rasch Model analysis using WINSTEPS 3.71.0.1 demonstrated strong psychometric properties, with item reliability recorded at +0.86 and person reliability at +0.68. The Wright Map provided a visual representation of students’ conceptual mastery by simultaneously mapping person ability and item difficulty along a single logit scale. The findings revealed that 61% of the students demonstrated good conceptual understanding and could apply their knowledge in practical contexts. However, several items related to Islamic capital markets, Islamic money markets, takaful, and retakaful were identified as challenging. The study concludes that the Rasch Wright Map is an effective psychometric tool for evaluating conceptual understanding in Islamic finance education and offers valuable implications for curriculum enhancemen",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213666829",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S2737009427",
+  "venue_type": "journal",
+  "publisher": "International Foundation for Research and Development",
+  "filter": true,
+  "work_key": "assessing students conceptual understanding islamic financial system course using rasch wright map|khamis",
+  "venue_quality": {
+   "level": "established",
+   "h_index": 26
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Pedagogical assessment tool; not relevant to financial centres or devices.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "78f249e1eb",
+  "section": "research",
+  "title": "From Pontes to Appia, but not to an Agorá: strategic hedging and infrastructural geoeconomics in the ECB's wCBDC initiative",
+  "url": "https://doi.org/10.1080/13563467.2026.2737133",
+  "doi": "10.1080/13563467.2026.2737133",
+  "source": "New Political Economy",
+  "venue": "New Political Economy",
+  "authors": [
+   "Nicola Bilotta"
+  ],
+  "date": "2026-09-29",
+  "summary": "The promotion of US dollar-denominated stablecoins under the Trump administration, together with the intensification of financial sanctions, has heightened the strategic dependencies embedded in existing wholesale financial infrastructures. Against this backdrop, the European Central Bank (ECB) has launched a dual-track wholesale central bank digital currency (wCBDC) initiative: Pontes, a near-term bridge between existing Eurosystem infrastructure and distributed ledger technology (DLT), and Appia, a longer-term, fully DLT-native architecture. Existing CBDC research has largely treated wCBDC design as a technical modernisation or focused on retail CBDCs and alternatives developed by rival powers. It has not yet explained why an advanced economy deeply embedded in the liberal financial order would develop two parallel infrastructures simultaneously. This article addresses that gap by bringing together infrastructural geoeconomics and strategic hedging theory. It develops a framework based on three observable mechanisms – risk recognition, functional redundancy, and international cooperation – and applies it to Pontes and Appia through qualitative analysis of ECB documents, technical reports, and eight semi-structured elite interviews conducted in 2025. The article argues that the ECB’s dual-track initiative is a form of strategic hedging: it builds redundancy to reduce European exposure to US-centric settlement infrastructure and dollar-denominated stablecoins while preserving",
+  "origin": "openalex:journals",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214915006",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W2005307637",
+   "https://openalex.org/W2026645508",
+   "https://openalex.org/W2054335601",
+   "https://openalex.org/W2144781240",
+   "https://openalex.org/W2316189000",
+   "https://openalex.org/W2950046408",
+   "https://openalex.org/W2953159954",
+   "https://openalex.org/W2965425066",
+   "https://openalex.org/W2971624628",
+   "https://openalex.org/W3199407252",
+   "https://openalex.org/W4285800985",
+   "https://openalex.org/W4297105180",
+   "https://openalex.org/W4298141488",
+   "https://openalex.org/W4307870018",
+   "https://openalex.org/W4322744791",
+   "https://openalex.org/W4385488978",
+   "https://openalex.org/W4388572081",
+   "https://openalex.org/W4390998093",
+   "https://openalex.org/W4391569542",
+   "https://openalex.org/W4397044875",
+   "https://openalex.org/W4400989802",
+   "https://openalex.org/W4402000509",
+   "https://openalex.org/W4403734197",
+   "https://openalex.org/W4410514308",
+   "https://openalex.org/W4410514315",
+   "https://openalex.org/W4410529559",
+   "https://openalex.org/W4410769777",
+   "https://openalex.org/W7081915067",
+   "https://openalex.org/W7128732992",
+   "https://openalex.org/W7147144937",
+   "https://openalex.org/W7147705019",
+   "https://openalex.org/W7214373110"
+  ],
+  "venue_id": "S146242404",
+  "venue_type": "journal",
+  "publisher": "Taylor & Francis",
+  "filter": true,
+  "watched": false,
+  "work_key": "from pontes appia but not agora strategic hedging infrastructural geoeconomics ecb s|bilotta",
+  "venue_quality": {
+   "level": "watched",
+   "h_index": 112
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital",
+    "subordination",
+    "integration"
+   ],
+   "places": [],
+   "note": "Wholesale CBDC infrastructure and strategic dependencies; Northern-focused but illuminates digital integration devices and geoeconomics.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "eff7f499a6",
+  "section": "research",
+  "title": "Capital in Crisis: Re-Evaluating the Insolvency and Bankruptcy Code’s Efficacy in Corporate Finance Post-2025 Amendments",
+  "url": "https://doi.org/10.63108/vab.ibl.1.9",
+  "doi": "10.63108/vab.ibl.1.9",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [
+   "Sejal",
+   "Vishrut Veerendra"
+  ],
+  "date": "2026-10-01",
+  "summary": "The Insolvency and Bankruptcy Code, 2016 (“IBC”), was heralded as a transformative framework intended to restore creditor primacy and institutional discipline within India’s distressed asset ecosystem. However, the Code’s expanding interface with corporate finance, particularly its influence on debt structuring, capital markets, and investor confidence, has exposed persistent structural limitations. This paper critically re-evaluates the IBC’s efficacy in light of the 2025 Insolvency and Bankruptcy Board of India (“IBBI”) amendments, questioning whether the current regime adequately supports the needs of a modern, investment-driven financial system. Adopting a multi-stakeholder lens, the study analyses recent and systemically significant insolvency proceedings such as Zee Entertainment Enterprises, Indiabulls Housing Finance, and Byju’s Alpha to highlight procedural asymmetries, erosion of asset value, and the Code’s limited adaptability to asset-light and sector-specific financial stress. These cases reveal the consequences of protracted timelines, undifferentiated moratoriums, and misaligned stakeholder incentives. The paper also considers evolving jurisprudence on differential treatment of creditors, valuation disputes, and CoC commercial discretion, as seen in key appellate rulings and regulatory commentaries that continue to shape the resolution landscape. Integrating doctrinal analysis with empirical indicators drawn from SEBI disclosures, CRISIL ratings, and judicial r",
+  "origin": "openalex:query:subordinate financialization",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215106675",
+  "year": 2026,
+  "work_type": "book-chapter",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "capital crisis re evaluating insolvency bankruptcy code s efficacy corporate finance post|sejal",
+  "venue_quality": {
+   "level": "unknown",
+   "h_index": null
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [
+    "urban"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "regulation"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "India's insolvency code; marginal institutional angle on regulation, no clear link to financial-centre strategy.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "c872d20112",
+  "section": "research",
+  "title": "International Financial Centers, Foreign Direct Investment, and Economic Volatility",
+  "url": "https://doi.org/10.1111/boer.70082",
+  "doi": "10.1111/boer.70082",
+  "source": "Bulletin of Economic Research",
+  "venue": "Bulletin of Economic Research",
+  "authors": [
+   "Ozan Ekşi",
+   "Neslihan Kaya Eksi"
+  ],
+  "date": "2026-10-01",
+  "summary": "ABSTRACT Comparing economies with and without international financial centers (IFCs) over 1970–2023, with IFC status determined from the 121 centers ranked by the Global Financial Centres Index, we find that IFCs are not significantly associated with FDI inflows but are strongly associated with higher FDI outflows—1.2%–2.5% of GDP for non‐offshore IFCs and 11%–16% for offshore IFCs. Observed across both regional and global centers, this asymmetry suggests that IFCs are associated with capital sent abroad by domestic firms rather than capital brought in by foreign investors. In parallel, we find no robust evidence of a significant association between IFC presence—whether offshore or not—and economic volatility.",
+  "origin": "openalex:query:financial center Global South",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215073319",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W23720081",
+   "https://openalex.org/W2014335114",
+   "https://openalex.org/W2069345790",
+   "https://openalex.org/W2117594039",
+   "https://openalex.org/W2123629945",
+   "https://openalex.org/W2311562352",
+   "https://openalex.org/W2596522959",
+   "https://openalex.org/W2610893534",
+   "https://openalex.org/W2745357400",
+   "https://openalex.org/W2755127879",
+   "https://openalex.org/W2791546167",
+   "https://openalex.org/W3021296440",
+   "https://openalex.org/W3122026207",
+   "https://openalex.org/W3122559466",
+   "https://openalex.org/W3122698708",
+   "https://openalex.org/W3125483003",
+   "https://openalex.org/W3182212168",
+   "https://openalex.org/W4226333456",
+   "https://openalex.org/W4247815198",
+   "https://openalex.org/W4283316443",
+   "https://openalex.org/W4387763018"
+  ],
+  "venue_id": "S170913539",
+  "venue_type": "journal",
+  "publisher": "Wiley",
+  "filter": true,
+  "work_key": "international financial centers foreign direct investment economic volatility|eksi",
+  "watched": null,
+  "venue_quality": {
+   "level": "established",
+   "h_index": 60
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "centres",
+    "professionals"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "centres",
+    "subordination"
+   ],
+   "places": [],
+   "note": "IFC status and capital flows asymmetry; addresses whether centres attract FDI or export capital, key to subordination thesis.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "6c19177103",
+  "section": "research",
+  "title": "Geopolitical Risk and Chinese Investment Financing in Kazakhstan",
+  "url": "https://doi.org/10.31489/2026ec3/1294",
+  "doi": "10.31489/2026ec3/1294",
+  "source": "BUKETOV BUSINESS REVIEW",
+  "venue": "BUKETOV BUSINESS REVIEW",
+  "authors": [
+   "Yingyi Zheng",
+   "Ainur Boranbayeva"
+  ],
+  "date": "2026-10-01",
+  "summary": "This article examines how geopolitical tensions and Western secondary sanctions imposed since 2022 have restructured the financial architecture supporting Chinese investment in Kazakhstan. Drawing on the theoretical frameworks of weaponized interdependence and infrastructural geoeconomics, the study integrates qualitative analysis of policy documents and regulatory cases with quantitative evidence on banking de-risking, payment-system fragmentation, and yuan internationalization. Empirical findings show that, despite intensifying compliance pressures, Chinese investment has accelerated rather than retreated: Kazakhstan was the largest single recipient of Belt and Road Initiative investment in 2025 (USD 25.8 billion), while bilateral trade reached USD 43.8 billion the same year. The architecture of that investment, however, has been recomposed. The yuan share of Kazakhstan-China trade settlement rose from approximately 4 per cent in 2022 to 12 per cent by mid-2024, with a Ministry of Trade target of 20 per cent by end-2025. Kazakhstan became the first Central Asian state with direct CIPS access; the Astana International Financial Centre hosted the region's first panda bond in April 2026; and the Sberbank Kazakhstan-Bereke Bank-Lesha Bank divestiture sequence demonstrates the operational logic of correspondent-banking de-risking. The study concludes that Kazakhstan exemplifies a strategy of infrastructural multi-alignment: parallel exposure to Western and Chinese financial syst",
+  "origin": "openalex:query:local currency bond market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215039561",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W2965425066",
+   "https://openalex.org/W4247734460",
+   "https://openalex.org/W4285800985",
+   "https://openalex.org/W4303712423",
+   "https://openalex.org/W4407111847",
+   "https://openalex.org/W4410529559"
+  ],
+  "venue_id": "S5407049431",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "geopolitical risk chinese investment financing kazakhstan|zheng",
+  "watched": null,
+  "venue_quality": {
+   "level": "low",
+   "h_index": 2
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "china_finance",
+    "centres"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 3,
+   "themes": [
+    "subordination",
+    "networks",
+    "china_finance",
+    "integration"
+   ],
+   "places": [],
+   "note": "Chinese finance, sanctions, and yuan internationalization reshaping financial infrastructure; South–South linkages and subordination.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "fe0341b3be",
+  "section": "research",
+  "title": "Volatility Connectedness and Portfolio Optimization Across Islamic Finance, Sustainable, and Technological Innovation Markets: Evidence From Multiple Global Turbulences",
+  "url": "https://doi.org/10.1002/sd.71599",
+  "doi": "10.1002/sd.71599",
+  "source": "Sustainable Development",
+  "venue": "Sustainable Development",
+  "authors": [
+   "Remy Jonkam Oben",
+   "Shikha Daga",
+   "Mehdi Seraj",
+   "Şerife Zihni Eyüpoğlu"
+  ],
+  "date": "2026-09-17",
+  "summary": "ABSTRACT This study investigates volatility spillovers and minimum‐variance portfolio allocation among Islamic finance, sustainable, and technological innovation markets across four major global turbulences (COVID‐19 pandemic, Russia–Ukraine conflict, 2023 banking crisis, and 2025 US policy shifts) from July 07, 2021, to April 17, 2025. The study employs the Diebold‐Yilmaz and DCC‐GARCH models. Results show that volatility connections (conditional correlations) are generally low (weakly positive) for Islamic finance market‐only and sustainable market‐only portfolios, moderate (moderately or strongly positive) for technological innovation market‐only and Islamic finance market‐sustainable market portfolios, and low (strongly positive) for Islamic finance/sustainable market‐technological innovation market portfolios. The Total Connectedness Index is 65.4%, with Islamic finance and sustainable markets contributing the highest to overall spillovers. Moreover, Islamic equities and sustainable markets (technological innovation markets and Sukuk‐based instruments) generally operate as net volatility transmitters (receivers). Additionally, relatively larger weights are allocated to Islamic finance markets, particularly Sukuk‐based instruments (the allocations made to Islamic equity instruments are comparatively lower), while relatively smaller allocations are made to sustainable/technological innovation markets, in Islamic finance market‐sustainable/technological innovation market po",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213446590",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W1727659491",
+   "https://openalex.org/W1979575715",
+   "https://openalex.org/W1987605008",
+   "https://openalex.org/W1993641838",
+   "https://openalex.org/W2039734130",
+   "https://openalex.org/W2595171650",
+   "https://openalex.org/W2886368623",
+   "https://openalex.org/W2903704867",
+   "https://openalex.org/W3131504771",
+   "https://openalex.org/W3199259026",
+   "https://openalex.org/W3211067615",
+   "https://openalex.org/W4308342417",
+   "https://openalex.org/W4309767526",
+   "https://openalex.org/W4322703481",
+   "https://openalex.org/W4382681215",
+   "https://openalex.org/W4382791700",
+   "https://openalex.org/W4384207657",
+   "https://openalex.org/W4387019749",
+   "https://openalex.org/W4393231809",
+   "https://openalex.org/W4396978931",
+   "https://openalex.org/W4401574338",
+   "https://openalex.org/W4403432771",
+   "https://openalex.org/W4404128243",
+   "https://openalex.org/W4405367531",
+   "https://openalex.org/W4405807878",
+   "https://openalex.org/W4406459233",
+   "https://openalex.org/W4409608098",
+   "https://openalex.org/W4411310244",
+   "https://openalex.org/W4412431008",
+   "https://openalex.org/W4415312450",
+   "https://openalex.org/W4415819604",
+   "https://openalex.org/W4415953617",
+   "https://openalex.org/W7115178523",
+   "https://openalex.org/W7125770186",
+   "https://openalex.org/W7128068021",
+   "https://openalex.org/W7153774756"
+  ],
+  "venue_id": "S165666656",
+  "venue_type": "journal",
+  "publisher": "Wiley",
+  "filter": true,
+  "work_key": "volatility connectedness portfolio optimization across islamic finance sustainable technological innovation markets evidence|oben",
+  "watched": null,
+  "venue_quality": {
+   "level": "established",
+   "h_index": 148
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "valuation",
+    "islamic_finance"
+   ],
+   "places": [],
+   "note": "Islamic finance and ESG volatility spillovers; technical portfolio analysis without centre or subordination angle.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "ed9f125841",
+  "section": "research",
+  "title": "WAYS TO IMPROVE SUSTAINABLE FINANCING MECHANISMS IN UZBEKISTAN: CAPITAL NEEDS, PILOT INSTRUMENTS AND SCENARIO-BASED PROJECTIONS TO 2030",
+  "url": "https://doi.org/10.5281/zenodo.23142600",
+  "doi": "10.5281/zenodo.23142600",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Akhmedova Shokhistakhon"
+  ],
+  "date": "2026-10-04",
+  "summary": "Abstract. This article proposes quantified measures to strengthen sustainable financing mechanisms in Uzbekistan through financing instruments, pilot projects and phased reforms. It estimates renewable-energy and grid-modernization investment needs at USD 10.1 billion for 2026–2030 and argues that stronger domestic financing mechanisms are essential to reduce currency risk and dependence on external capital. Two pilot instruments are developed: regional green bonds and sustainability-linked bonds for state-owned enterprises, supported by sector-specific performance indicators. A three-scenario forecast projects cumulative green, social, sustainability and sustainability-linked bond issuance of USD 3.25–13.3 billion, with the domestic market’s share increasing from approximately 14 to 37 percent. Sensitivity analysis identifies domestic-market development and banks’ international issuance growth as the principal drivers. Under the baseline scenario, subsidizing coupons on half of domestic issuance would cost approximately USD 54 million, alongside USD 4.7 billion in additional issuance relative to the inertial scenario. The article also proposes transition finance, sustainable sukuk, carbon-market mechanisms, digital instruments and blended finance, sequenced over 2026–2035 and supported by a formal risk assessment. Key words: sustainable financing mechanisms, capital needs, municipal green bonds, sustainability-linked bonds, scenario forecasting, sensitivity analysis, coupon",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7219897919",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "ways improve sustainable financing mechanisms uzbekistan capital needs pilot instruments scenario based|shokhistakhon",
+  "also_at": [],
+  "watched": false,
+  "venue_quality": {
+   "level": "repository",
+   "h_index": 203
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "development_finance",
+    "debt",
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Uzbekistan green bonds; outside case-study geographies and lacks centre focus.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "015b7cf96e",
+  "section": "research",
+  "title": "Islamic Debt Principles: A Conceptual Framework for Ethical and Asset-Backed Financing",
+  "url": "https://doi.org/10.22610/imbr.v18i3(i).4888",
+  "doi": "10.22610/imbr.v18i3(i).4888",
+  "source": "Information Management and Business Review",
+  "venue": "Information Management and Business Review",
+  "authors": [
+   "Zahariah Sahudin",
+   "Marhani Mohamed Anuar",
+   "Hartini Zuhaila Jamal",
+   "Heizal Hezry Omar"
+  ],
+  "date": "2026-09-14",
+  "summary": "This paper constructs a novel three?pillar conceptual framework for Islamic finance, built upon a rigorous methodological foundation that synthesizes two distinct intellectual disciplines. From Islamic jurisprudence, specifically Usul al?Fiqh and Maqasid al?Shariah, the framework derives its ethical and legal boundaries for permissible contracts. From financial economics, drawing on risk agency theory, it obtains its economic principles for asset ownership and equitable risk distribution. The framework's development is critically informed by a gap analysis of existing literature, particularly the works of El-Gamal and Chapra, which exposes a persistent and troubling disconnect between Islamic finance's proclaimed ethical ideals of risk?sharing and its actual practice of risk?transfer through debt?mimicking instruments. Using deductive reasoning from first principles of Islamic ethics, the paper derives the framework's core components and then stress-tests them against modern banking products. The proposed framework advances three interdependent pillars: first, strict adherence to ethical rules grounded in Islamic law; second, tangible real asset ownership that links financial transactions to the productive, real economy and third, genuine risk?sharing between financiers and borrowers. The paper argues that these pillars must function interdependently, because legal compliance alone is insufficient. This insufficiency is powerfully illustrated by tawarruq (commodity Murabaha)",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213651095",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S2737009427",
+  "venue_type": "journal",
+  "publisher": "International Foundation for Research and Development",
+  "filter": true,
+  "work_key": "islamic debt principles conceptual framework ethical asset backed financing|sahudin",
+  "venue_quality": {
+   "level": "established",
+   "h_index": 26
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "professionals",
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "islamic_finance"
+   ],
+   "places": [],
+   "note": "Theoretical framework for Islamic finance; generic scholarship without institutional or centre angle.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "6eea019fec",
+  "section": "research",
+  "title": "Spirituality Accounting and Fair Value Financial Reporting",
+  "url": "https://doi.org/10.56201/jafm.vol.12.no1.2026.pg266.283",
+  "doi": "10.56201/jafm.vol.12.no1.2026.pg266.283",
+  "source": "JOURNAL OF ACCOUNTING AND FINANCIAL MANAGEMENT",
+  "venue": "JOURNAL OF ACCOUNTING AND FINANCIAL MANAGEMENT",
+  "authors": [
+   "Uzakah Timi"
+  ],
+  "date": "2026-09-30",
+  "summary": "Accounting for spirituality and fair value reporting in Nigeria are being studied in this study. This study utilized a survey research design. Public officials from the South-South States of Nigeria make up the bulk of the study's population. Data gathering for the study was based on primary sources. We utilized descriptive statistics (univariate analysis) to examine the connection between Trustworthiness, Reliability, and Transparency. Results of Bivariate Analysis using Pearson. There is a substantial association between the examined variable and the trustworthiness, reliability, and transparency markers, as shown by the correlation coefficient. Spirituality accounting is strongly related to fair value reporting, according to the study. Appropriate financial information that could plausibly affect the comprehension of financial reports by their intended consumers should be made available by accountants, according to the recommendations. In order to provide employees with a well-rounded understanding, it is important to convey spiritual principles directly during the hiring process. When compiling financial reports, accountants should act in accordance with their moral compass. Organizations need to take spiritual values into consideration if they want to survive in the new economy. Providing employees with meaningful work and valuing their abilities are key components of spiritual accounting. Any company serious about its spiritual mission should encourage and support staff",
+  "origin": "openalex:query:financial center Global South",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214960226",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4387281534",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "spirituality accounting fair value financial reporting|timi",
+  "venue_quality": {
+   "level": "modest",
+   "h_index": 5
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Spirituality accounting in Nigeria; not relevant to financial centres or market devices.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "9a67084590",
+  "section": "research",
+  "title": "The Sri Lankan Economy: The Sovereign Debt Crisis, Imf-Supported Stabilization, and Beyond",
+  "url": "https://hdl.handle.net/1885/733816004",
+  "doi": "",
+  "source": "ANU Open Research (Australian National University)",
+  "venue": "ANU Open Research (Australian National University)",
+  "authors": [
+   "Prema‐chandra Athukorala"
+  ],
+  "date": "2026-10-02",
+  "summary": "This paper contributes to the international policy discourse on sovereign debt crises and IMF-supported stabilization reforms in emerging market and developing economies in the post-COVID-19 era through a case study of Sri Lanka. It examines the origins of Sri Lanka’s unprecedented sovereign debt crisis in the aftermath of the pandemic, the process of economic stabilization under the IMF’s Extended Fund Facility (EFF) programme, and the development challenges facing the country beyond the crisis. Sri Lanka’s stabilization performance under the EFF programme has so far been encouraging. However, the evidence presented in this paper suggests that the programme is likely to conclude with a substantial debt overhung and persistent external payments pressures. Achieving sustained and equitable growth while carrying this heavy debt burden will remain a formidable development challenge. Placing the economy on a self-sustaining growth path beyond the stabilization phase requires complementing the standard IMF approach to macroeconomic stabilization with coherent structural reforms that address the fundamental imbalances underlying the economy’s vulnerability to external shocks.",
+  "origin": "openalex:query:sovereign debt Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7219192611",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306402539",
+  "venue_type": "repository",
+  "publisher": "Australian National University",
+  "filter": true,
+  "work_key": "sri lankan economy sovereign debt crisis imf supported stabilization beyond|athukorala",
+  "watched": null,
+  "venue_quality": {
+   "level": "repository",
+   "h_index": 123
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "debt",
+    "imf_programmes"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "debt",
+    "imf_programmes",
+    "subordination"
+   ],
+   "places": [],
+   "note": "Sri Lankan sovereign debt and IMF stabilization; illuminates debt crisis and conditional reform, relevant to subordination.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "4638e33280",
+  "section": "research",
+  "title": "Offshore Financial Centres and Banks' Funding Responses to Liquidity Shocks",
+  "url": "https://openaccess.city.ac.uk/view/creators_id/barbara=2Ecasu-lukac=2E1.html>",
+  "doi": "",
+  "source": "City Research Online (City University London)",
+  "venue": "City Research Online (City University London)",
+  "authors": [
+   "S. Maiani",
+   "B. Casu",
+   "A. Gallo",
+   "A. Kontonikas"
+  ],
+  "date": "2026-09-26",
+  "summary": "This paper rethinks financial embeddedness by examining how transnational banks respond to funding pressures through the infrastructures of offshore financial centres (OFCs). Using handcollected information, we construct a novel dataset of European banks across six Eurozone countries from 2009 to 2015. We show that during the sovereign debt crisis, banks engaged in latent network activation, mobilising offshore conduit arrangements to secure foreign currency funding as market conditions tightened, even when official liquidity support was available. We argue that embeddedness in global finance is dynamic and crisis contingent, since relationships and organisational infrastructures that appear peripheral in stable periods can become decisive under stress. OFCs emerge not as passive enablers of regulatory arbitrage, but as active infrastructures used by global banks to access cross-border liquidity when conventional funding channels become impaired. This has important implications for the governance and oversight of cross-border liquidity flows and off-balance-sheet funding structures.",
+  "origin": "openalex:query:global financial networks",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215005986",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306401940",
+  "venue_type": "repository",
+  "publisher": "City, University of London",
+  "filter": true,
+  "work_key": "offshore financial centres banks funding responses liquidity shocks|maiani",
+  "venue_quality": {
+   "level": "repository",
+   "h_index": 52
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "debt",
+    "centres"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "centres",
+    "integration",
+    "subordination"
+   ],
+   "places": [],
+   "note": "Offshore financial centres and bank funding networks; infrastructure embeddedness and crisis-contingent relationships.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "6c10e15ded",
+  "section": "research",
+  "title": "AN OVERVIEW OF SUKUK DEVELOPMENT IN INDONESIAN MARKETS: INSIGHTS FROM LITERATURE",
+  "url": "https://ojs.stiesa.ac.id/index.php/accruals/article/view/1762",
+  "doi": "",
+  "source": "ACCRUALS (Accounting Research Journal of Sutaatmadja)",
+  "venue": "ACCRUALS (Accounting Research Journal of Sutaatmadja)",
+  "authors": [
+   "Jojo Jojo",
+   "Nunik Nurmalasari",
+   "Devy Widya Apriandi",
+   "Ana Frasipa"
+  ],
+  "date": "2026-09-15",
+  "summary": "This paper aims to analyze the progression of sukuk as a sharia-compliant investment instrument in Indonesia through a longitudinal literature review. By analyzing four academic studies published between the post-COVID-19 period and recent years, this research identifies key changes in the function, utilization, and strategic role of sukuk within the national islamic capital market. The findings indicate that sukuk served as a resilient financing tool during the COVID-19 crisis, particularly through the issuance of retail sukuk, savings sukuk, and waqf-based sukuk, which successfully supported government funding needs and enhanced public participation. In the subsequent recovery phase, the role of sukuk expanded through Sovereign Sukuk (SBSN), contributing significantly to infrastructure development, including roads, bridges, educational facilities, and public services. The literature also shows a shift toward using sukuk to finance research and development infrastructure, demonstrating the government’s commitment to strengthening national innovation capacity. Additionally, forecasting studies predict a continuous upward trend in sukuk investment until 2030, reflecting growing investor confidence and increasing awareness of Sharia-based financial instruments. Overall, sukuk has emerged as a strategic tool that supports economic growth, infrastructure expansion, and progress toward the Sustainable Development Goals (SDGs) in Indonesia.",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7216633623",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210204520",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "overview sukuk development indonesian markets insights from literature|jojo",
+  "venue_quality": {
+   "level": "modest",
+   "h_index": 9
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "islamic_finance"
+   ],
+   "places": [],
+   "note": "Indonesian sukuk issuance and strategic role; Islamic finance device but outside case-study geographies.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "1e53f9b959",
+  "section": "research",
+  "title": "Asymmetric Effects of Environmental Policy Stringency on Sustainable Financing Costs: Evidence from OECD Member and Partner Economies",
+  "url": "https://doi.org/10.66674/5jx3q810",
+  "doi": "10.66674/5jx3q810",
+  "source": "Capital Markets Review",
+  "venue": "Capital Markets Review",
+  "authors": [
+   "Ah Kiaw Phan Jasmine",
+   "Jiapeng Dai"
+  ],
+  "date": "2026-09-15",
+  "summary": "Research Question: Does environmental policy stringency exert asymmetric effects on sustainable financing costs, with policy rollbacks imposing disproportionately larger penalties than equivalent policy tightening generates benefits? Motivation: Green bond issuance has grown from USD 11 billion in 2013 to over USD 500 billion in 2023, heightening interest in how government climate policy shapes sustainable financing costs. While prior research establishes that environmental policies influence traditional financing costs (Chava, 2014) and that green bonds trade at a premium (Zerbib, 2019), a critical puzzle remains: do markets respond symmetrically to policy changes, or does policy credibility create asymmetric effects that standard linear models overlook? This study introduces a nonlinear perspective by applying the NARDL framework to decompose cumulative policy changes into tightening (EPS⁺) and loosening (EPS⁻) components, providing the first systematic evidence of asymmetric policy effects across a broad OECD-member and partner green bond panel. Understanding asymmetric policy transmission is essential for climate policy design, revealing whether policy backsliding imposes disproportionate costs that undermine sustainable finance mobilisation. Idea: We hypothesise that policy loosening raises green bond yield spreads more than policy tightening reduces them, reflecting loss aversion. Financial market development and climate vulnerability serve as moderators. Data: A bond-l",
+  "origin": "openalex:query:Chinese lending Africa finance",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213314757",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407058950",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "asymmetric effects environmental policy stringency sustainable financing costs evidence from oecd member|jasmine",
+  "venue_quality": {
+   "level": "modest",
+   "h_index": 13
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "debt",
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance",
+    "valuation"
+   ],
+   "places": [],
+   "note": "Green bond pricing and environmental policy; OECD-focused, marginal to Southern financial centres.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "c125ee79f6",
+  "section": "research",
+  "title": "Development Convergence in a World of Compounding Systemic Risk",
+  "url": "https://doi.org/10.5281/zenodo.22946664",
+  "doi": "10.5281/zenodo.22946664",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Hunter Hughes"
+  ],
+  "date": "2026-09-24",
+  "summary": "The monograph argues that the 20th‑century model of fossil‑fueled, export‑led development has structurally collapsed, leaving the Global South trapped in a Development Quadrilemma: the simultaneous need to raise living standards, build resilience to compounding systemic shocks, absorb frontier technologies, and remain within planetary ecological boundaries. As the document states, “Developing nations find themselves trapped in what this monograph terms the ‘Development Quadrilemma’—the structural imperative to simultaneously accelerate material living standards… and operate within planetary boundaries.” Across fourteen analytical chapters, the monograph demonstrates that legacy convergence pathways—premature industrialization, carbon‑intensive exports, and centralized fossil grids—now generate divergence rather than catch‑up. Compounding climate disasters, sovereign debt distress, and geoeconomic fragmentation impose persistent output scarring, erode fiscal space, and inflate borrowing costs, creating a Vulnerability‑Convergence Trap that depresses long‑run growth. As noted, “compounding shocks inflict persistent output losses… permanently depressing national growth trajectories.” Yet the analysis identifies a viable alternative: a clean‑technology‑driven convergence model anchored in high‑EROI electrification, domestic critical mineral beneficiation, open digital public infrastructure, regenerative agritech, compact resilient urbanism, and reformed macro‑financial architectu",
+  "origin": "openalex:query:financial center Global South",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214192213",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "development convergence world compounding systemic risk|hughes",
+  "watched": false,
+  "also_at": [],
+  "venue_quality": {
+   "level": "repository",
+   "h_index": 203
+  },
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [],
+   "themes": [
+    "debt",
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination",
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Macro development convergence and systemic risk; broad framing without specific centre or device analysis.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "7bbe709f1c",
+  "section": "research",
+  "title": "Financial Technology Adoption and Performance of Micro, Small and Medium Enterprises (MSMEs) In Nairobi County, Kenya",
+  "url": "https://doi.org/10.65150/ep-jefrr/v2e9/2026-06",
+  "doi": "10.65150/ep-jefrr/v2e9/2026-06",
+  "source": "Journal of Economic Finance Research and Review",
+  "venue": "Journal of Economic Finance Research and Review",
+  "authors": [
+   "Samson Mwakitawa Mwakughu",
+   "Irene Njeri Esther",
+   "Anne Kemunto Nyabuti"
+  ],
+  "date": "2026-09-14",
+  "summary": "Financial Technology (Fintech) has emerged as an important enabler of Micro, Small, and Medium Enterprise (MSME) performance by improving access to financial services, enhancing operational efficiency, and strengthening business competitiveness. Despite the rapid expansion of Fintech services in Kenya, empirical evidence on how different dimensions of Fintech adoption influence MSME performance and how contextual factors shape this relationship remains limited. This study examined the effect of Financial Technology adoption on the performance of MSMEs in Nairobi County, Kenya. Specifically, it assessed the effects of Mobile Payment Platforms, Digital Lending Platforms, Digital Financial Management Tools, and Digital Market Platforms on MSME performance and examined the moderating effects of Digital Literacy, Trust and Security Concerns, and Internet Access. The study was anchored on the Technology Acceptance Model, Innovation Diffusion Theory, and Resource-Based View. A descriptive cross-sectional survey design was adopted, targeting 1,000 registered MSMEs in Nairobi County. Using Yamane’s formula, a sample of 286 MSMEs was determined and selected through stratified random sampling. Primary data were collected using structured questionnaires administered to MSME owners and managers. Of the 286 questionnaires distributed, 201 were successfully completed, yielding a 70.3% response rate. Data were analyzed using SPSS Version 27 through descriptive statistics, Pearson’s Product M",
+  "origin": "openalex:query:mobile money Kenya",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7212844762",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S5407053028",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "financial technology adoption performance micro small medium enterprises msmes nairobi county kenya|mwakughu",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 1
+  },
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "MSME fintech adoption in Nairobi; retail-level study, not about financial centre infrastructure.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "a8697cea31",
+  "section": "research",
+  "title": "Relationship between Bond Trading Platform, Ownership Concentration and Securities Market Performance in Kenya",
+  "url": "https://doi.org/10.37284/ijfa.5.1.5841",
+  "doi": "10.37284/ijfa.5.1.5841",
+  "source": "International Journal of Finance and Accounting",
+  "venue": "International Journal of Finance and Accounting",
+  "authors": [
+   "Carolyne Chemutai Ruto",
+   "Dr. Penina C. Langat",
+   "Gichuki King’ori"
+  ],
+  "date": "2026-09-23",
+  "summary": "The Nairobi Securities Exchange (NSE) has implemented various financial trading platforms with the aim of enhancing securities market performance by increasing efficiency, transparency, and investor participation. Despite these initiatives, market performance remains low, with key indicators such as market capitalisation, trading volumes, and liquidity showing declining trends. Empirical literature presents mixed results regarding the influence of these platforms on market outcomes, particularly in emerging markets like Kenya. This study therefore investigated the relationship between forex trading platforms and market performance, as well as the moderating effect of ownership concentration on the relationship between the independent and dependent variables. The study was anchored on Market Efficiency Theory and adopted a positivist research philosophy with a quantitative research design. The target population comprised 86 investment firms at the NSE, including investment banks, fund managers, investment advisors, insurance firms, REITs, and trustee managers. A census approach was used, with purposive sampling to select respondents. Primary data were collected using structured questionnaires, with validity ensured through expert review. Data were analysed using descriptive and inferential statistics, including correlation and regression analysis via SPSS version 26, and presented using tables. The findings revealed that bond trading has a strong, positive, and statistically s",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214118728",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4387279175",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "relationship between bond trading platform ownership concentration securities market performance kenya|ruto",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 4
+  },
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [
+    "integration"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "integration"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "NSE trading platforms and market performance; operational/technical focus, not centre strategy or device politics.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "49a610462e",
+  "section": "research",
+  "title": "Crypto, Blockchain, and Shariah Compliance:",
+  "url": "https://doi.org/10.61459/ijifs.v1i1.154",
+  "doi": "10.61459/ijifs.v1i1.154",
+  "source": "International Journal of Islamic Financial System",
+  "venue": "International Journal of Islamic Financial System",
+  "authors": [
+   "M Kabir Hassan"
+  ],
+  "date": "2026-09-15",
+  "summary": "One of the most significant and contentious areas where cryptocurrency, blockchain technology, and Islamic finance intersect is undoubtedly at the forefront of today’s financial innovations. Estimates suggest the global Islamic finance industry exceeds $4 trillion in assets. Cryptocurrency market capitalization is at unprecedented levels. The compatibility of cryptocurrency with Islamic financial laws (Shariah compliance) is no longer an academic question, but a crucial factor influencing almost two billion Muslims worldwide. In this paper, the task of analyzing the crypto-blockchain environment is undertaken with respect to the principles of maqasid al-Shariah – higher objectives of Islamic law. This is done by evaluating how these technologies can contribute to financial inclusion, economic justice, and sustainability in the Islamic world. In this paper, the assessment focuses on the Shariah compliance of different types of digital assets: Bitcoin, Ethereum, stablecoins, and purpose-specific Islamic tokens, like HAQQ Network’s Islamic Coin (ISLM), based on the research conducted by the author about Islamic fintech, cryptocurrency, and financial inclusion. This paper discusses tokenized sukuk, blockchain-based solutions for automated Shariah compliance, and blockchain solutions for zakat/waqf accounting and governance. In addition, the author offers a comparative overview of regulations for digital assets in the United Arab Emirates, Malaysia, Bahrain, Saudi Arabia, Indonesi",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214654886",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407065419",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "crypto blockchain shariah compliance|hassan",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 0
+  },
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [],
+   "themes": [
+    "islamic_finance",
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "islamic_finance",
+    "digital"
+   ],
+   "places": [],
+   "note": "Crypto and Shariah compliance; explores device legality but lacks centre or market-institutional grounding.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "b14db57baf",
+  "section": "research",
+  "title": "Financial Technology and Financial Inclusion in Rural Communities of Bayelsa State",
+  "url": "https://doi.org/10.66694/siar.gjefa20263009",
+  "doi": "10.66694/siar.gjefa20263009",
+  "source": "SIAR-Global Journal of Economics Finance & Accounting",
+  "venue": "SIAR-Global Journal of Economics Finance & Accounting",
+  "authors": [
+   "Prof. Stanley OGOUN",
+   "Joseph ININI"
+  ],
+  "date": "2026-09-30",
+  "summary": "This study investigated what drives financial inclusion among rural dwellers in an emerging economy, motivated by the persistent financing and banking gap in communities that conventional banks struggle to reach. Four determinants were examined: mobile money and agent banking adoption, network and technological infrastructure, financial literacy and digital trust, and distance to the nearest financial access point. Because the exact population of rural dwellers in the study area was unknown, Cochran's formula was applied to arrive at a target sample of 380 respondents, drawn through a multi-stage sampling technique from adult residents across the study communities using a structured instrument, with data analysed through relevant statistical tools. The analysis revealed that financial inclusion in the study area depends significantly on the four determinants deployed in the study. The study therefore concludes that financial inclusion in these rural communities is shaped jointly by the extent of Fintech adoption, the quality of network infrastructure, residents' financial literacy, and their proximity to a financial access point. It recommends that government and telecommunication companies extend network infrastructure into riverine communities, that Fintech operators design simple, low-literacy-friendly platforms, and that financial literacy programmes be delivered in local languages to build public participation and confidence in digital financial services.",
+  "origin": "openalex:query:financial centre Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214999240",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W1755880734",
+   "https://openalex.org/W1791587663",
+   "https://openalex.org/W2327091815",
+   "https://openalex.org/W2488680642",
+   "https://openalex.org/W2523532145",
+   "https://openalex.org/W2571111866",
+   "https://openalex.org/W2590404804",
+   "https://openalex.org/W2788597170",
+   "https://openalex.org/W2799331516",
+   "https://openalex.org/W2955024600",
+   "https://openalex.org/W3006309685",
+   "https://openalex.org/W4281637850",
+   "https://openalex.org/W4313680409",
+   "https://openalex.org/W4393390594",
+   "https://openalex.org/W4410835988"
+  ],
+  "venue_id": "S7407057025",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "financial technology financial inclusion rural communities bayelsa state|ogoun",
+  "watched": null,
+  "venue_quality": {
+   "level": "low",
+   "h_index": 0
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [
+    "digital"
+   ],
+   "places": [],
+   "note": "Rural financial inclusion in Nigeria; household-level fintech, not relevant to financial centres.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "a8c572c907",
+  "section": "research",
+  "title": "One Africa, Many Nations: Why and How African Nations Should Unite Through Sovereignty-Preserving Economic Integration",
+  "url": "https://doi.org/10.53819/81018102t2611",
+  "doi": "10.53819/81018102t2611",
+  "source": "Journal of Public Policy & Governance",
+  "venue": "Journal of Public Policy & Governance",
+  "authors": [
+   "Mohamed Abdinoor Dahir",
+   "Mahesh R. Pillai"
+  ],
+  "date": "2026-09-30",
+  "summary": "Calls for African unity have been a constant of the continent's political thought since independence, yet what unity should mean in practice remains contested. This article consolidates a leadership-oriented policy framework with an integrative review of the literature on regional integration, pan-Africanism, trade, infrastructure, climate, human capital, and security to address two questions: why should African nations unite, and how? Drawing on integration theory, continental legal instruments, and recent evidence from the African Union, the AfCFTA Secretariat, Afreximbank, UNCTAD, the World Bank, and the United Nations, it argues that the most realistic path is neither political federation nor the status quo, but sovereignty-preserving functional integration. It identifies ten interlocking rationales for integration, examines the role of the eight Regional Economic Communities, including IGAD, the EAC, and ECOWAS, and considers recent initiatives such as the Horn of Africa Gateway Development Project, the Africa Climate Summits, and the Africa Carbon Markets Initiative. It then proposes a five-stage pathway (trade, infrastructure, people, finance, and political coordination) within a seven-layer model of integration. The analysis reveals a persistent gap between ratification and implementation: 50 of 54 signatories have ratified the AfCFTA, yet only four states have ratified the Protocol on Free Movement of Persons, and intra-African trade remains between roughly 14 and 18",
+  "origin": "openalex:query:capital market development Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214938182",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210240587",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "one africa many nations why how african nations should unite through sovereignty|dahir",
+  "watched": null,
+  "venue_quality": {
+   "level": "low",
+   "h_index": 4
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "networks"
+   ],
+   "places": [],
+   "note": "Pan-African economic integration and leadership framework; broad policy survey without financial-centre focus.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "b74ca9d9d9",
+  "section": "research",
+  "title": "INNOVATIVE METHODS OF FINANCING THE CIRCULAR ECONOMY IN AGRICULTURE: A REVIEW OF INTERNATIONAL EXPERIENCE",
+  "url": "https://doi.org/10.67668/mj/2026issmaxsus/2036",
+  "doi": "10.67668/mj/2026issmaxsus/2036",
+  "source": "Marketing Jurnali",
+  "venue": "Marketing Jurnali",
+  "authors": [
+   "Turobova Hulkar"
+  ],
+  "date": "2026-09-25",
+  "summary": "This paper examines the innovative financing mechanisms that are driving the shift toward a circular economy in agriculture, drawing on recent international research and documented practice. The analysis synthesizes findings from the European Environment Agency (EEA), the United Nations Environment Programme Finance Initiative (UNEP FI) and the Global Alliance on Circular Economy and Resource Efficiency (GACERE), together with peer-reviewed studies published in international journals. The evidence suggests that green bonds, blended finance, sustainability-linked loans and public-private partnerships are among the most effective instruments for scaling circular practices in the sector, although a substantial global financing gap persists. The paper closes with a set of recommendations for adapting this experience to agriculture in Uzbekistan.",
+  "origin": "openalex:query:market devices finance",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215091888",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407062913",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "innovative methods financing circular economy agriculture review international experience|hulkar",
+  "watched": null,
+  "venue_quality": {
+   "level": "low",
+   "h_index": 1
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Circular economy financing in agriculture; sectoral not financial-centre angle.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "c41c548e79",
+  "section": "research",
+  "title": "Innovative Financing Models and Sustainable Development in the Nigerian Agricultural Sector: A Conceptual and Theoretical Review",
+  "url": "https://doi.org/10.33003/jocaf-2026.v1i2.20.80-90",
+  "doi": "10.33003/jocaf-2026.v1i2.20.80-90",
+  "source": "Journal of Contemporary Accounting and Finance (JOCAF)",
+  "venue": "Journal of Contemporary Accounting and Finance (JOCAF)",
+  "authors": [
+   "Musa Mohammed Abdulkarim",
+   "Umar Abubakar",
+   "Aliyu Abdullahi Ahmed",
+   "Maarufah Abdulmalik Mohammed"
+  ],
+  "date": "2026-09-30",
+  "summary": "Nigeria’s agricultural sector remains central to national development yet continues to face persistent financing constraints, climate vulnerability, and structural inefficiencies that hinder progress toward the Sustainable Development Goals (SDGs). This paper conducts a comprehensive conceptual and theoretical review to examine how innovative financing models, specifically blended finance, agricultural insurance, and digital crowdfunding, can catalyze sustainable agricultural development in Nigeria. Guided by Stakeholder Theory, the study explores how these instruments align with the interests and capacities of key actors, including farmers, government agencies, development finance institutions, private investors, NGOs, and fintech platforms. The review synthesizes evidence from global and Nigerian literature to explain how these models mobilize capital, reduce risk exposure, enhance market integration, and promote climate-smart agricultural practices. Findings show that when supported by enabling policies, digital infrastructure, and robust environmental and social safeguards, innovative financing instruments can overcome traditional barriers to agricultural investment while promoting inclusiveness and resilience among smallholder farmers. The proposed conceptual framework integrates these financing instruments into a multi-stakeholder, systems-oriented model that links capital mobilization, risk management, and capacity enhancement to measurable development outcomes. The st",
+  "origin": "openalex:query:market devices finance",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215900139",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407059038",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "innovative financing models sustainable development nigerian agricultural sector conceptual theoretical review|abdulkarim",
+  "watched": null,
+  "venue_quality": {
+   "level": "low",
+   "h_index": 0
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance",
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Agricultural financing in Nigeria; sectoral and conceptual, no financial-centre institutional analysis.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "5d6994175f",
+  "section": "research",
+  "title": "Trust, privacy, and habit in retail central bank digital currency adoption among the unbanked",
+  "url": "https://doi.org/10.68217/gsvzcf27",
+  "doi": "10.68217/gsvzcf27",
+  "source": "Digital Enterprise Studies",
+  "venue": "Digital Enterprise Studies",
+  "authors": [
+   "Samuel Achebe",
+   "Leila Mansour"
+  ],
+  "date": "2026-10-03",
+  "summary": "Retail central bank digital currency (CBDC) is frequently justified as a tool for financial inclusion, yet the three retail CBDCs in live operation have struggled to attract sustained use, and the people they were meant to reach remain largely absent from the adoption literature. Existing studies of CBDC acceptance draw on samples of banked, digitally connected consumers and apply technology acceptance models whose assumptions those samples satisfy. This paper argues that the unbanked violate several of those assumptions and that three constructs at the centre of adoption theory, trust, privacy, and habit, operate differently for them. Drawing on research in information systems, monetary economics, consumer payments, and development finance, the paper develops a conceptual framework in which trust is layered across the state, intermediaries, and the technology, privacy concern is directed primarily at the state rather than at commercial actors, and cash habit acts both as a barrier to first use and as the mechanism through which sustained use must eventually be secured. Ten propositions specify how these constructs and their interactions shape adoption intention, initial use, and habituated use, and how CBDC design choices such as tiered identification, offline capability, agent networks, and government to person payments moderate the relationships. The framework explains why wallet registration has so often failed to become transaction activity, identifies boundary condition",
+  "origin": "openalex:query:Chile pension funds financialization",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7218508090",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407064807",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "trust privacy habit retail central bank digital currency adoption among unbanked|achebe",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 0
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [],
+   "note": "CBDC adoption among unbanked; behavioral study, not about centre infrastructure or subordination dynamics.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "5b81a0fae5",
+  "section": "research",
+  "title": "AI-native credit intelligence on digital public infrastructure: evidence from India's account aggregator ecosystem",
+  "url": "https://doi.org/10.1108/fdar-03-2026-0027",
+  "doi": "10.1108/fdar-03-2026-0027",
+  "source": "Fintech and Digital Accounting Review",
+  "venue": "Fintech and Digital Accounting Review",
+  "authors": [
+   "Malcolm Athaide"
+  ],
+  "date": "2026-09-22",
+  "summary": "Purpose This paper examines how India's Account Aggregator (AA) framework (269 million consents, 2.12 billion enabled accounts) can support an AI-native consumer credit intelligence platform. It develops testable hypotheses for expanding financial product eligibility to 300–450 million underserved adults across housing, personal lending, MSME credit and insurance. Design/methodology/approach The study combines institutional analysis of India's regulatory architecture with econometric specifications: probit models, difference-in-differences exploiting staggered AA rollout, panel IV estimation, regression discontinuity and heterogeneous treatment effects. The framework extends Rochet and Tirole’s (2003) two-sided market model to DPI-augmented platforms. The paper is conceptual. It sets out these identification strategies, a five-scenario impact assessment and a platform cost model as a research agenda, and does not report estimated causal effects. Findings India's AA data layer, UPI transaction histories and Aadhaar verification enable credit scoring for populations invisible to bureaux. Scenario analysis across five cases projects incremental demand between $180 billion and $480 billion over a decade, with a genuinely incremental impact of $108–216 billion after organic growth adjustment. Originality/value This study develops a formal model of a credit platform on government-provided digital infrastructure, showing DPI-augmented platforms face different pricing dynamics. It pr",
+  "origin": "openalex:query:India financial markets history",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213976254",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W1516051863",
+   "https://openalex.org/W2032874557",
+   "https://openalex.org/W2116471306",
+   "https://openalex.org/W2169544344",
+   "https://openalex.org/W2280469666",
+   "https://openalex.org/W2508676625",
+   "https://openalex.org/W2559928430",
+   "https://openalex.org/W2603785580",
+   "https://openalex.org/W2770743945",
+   "https://openalex.org/W2935559330",
+   "https://openalex.org/W2943908192",
+   "https://openalex.org/W2973701128",
+   "https://openalex.org/W2989444097",
+   "https://openalex.org/W2994929020",
+   "https://openalex.org/W3000292437",
+   "https://openalex.org/W3021074122",
+   "https://openalex.org/W3122976815",
+   "https://openalex.org/W3123871787",
+   "https://openalex.org/W3134439870",
+   "https://openalex.org/W3170227433",
+   "https://openalex.org/W3209809080",
+   "https://openalex.org/W4221049851",
+   "https://openalex.org/W4289321244",
+   "https://openalex.org/W4313367772",
+   "https://openalex.org/W4389563133",
+   "https://openalex.org/W4404346217",
+   "https://openalex.org/W4412644824"
+  ],
+  "venue_id": "S5407053786",
+  "venue_type": "journal",
+  "publisher": "Emerald Publishing Limited",
+  "filter": true,
+  "work_key": "ai native credit intelligence digital public infrastructure evidence from india s account|athaide",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 2
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital",
+    "integration",
+    "professionals"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "India's Account Aggregator framework as digital public infrastructure reshaping credit markets and financial inclusion in South Asian financial centre.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "1e621919c3",
+  "section": "research",
+  "title": "BRICS under strain: Internal economic challenges in a rising coalition",
+  "url": "https://doi.org/10.68065/joetssh.03.04.105",
+  "doi": "10.68065/joetssh.03.04.105",
+  "source": "Journal of Emerging Trends in Social Sciences and Humanities",
+  "venue": "Journal of Emerging Trends in Social Sciences and Humanities",
+  "authors": [
+   "Uroosa Ishfaq",
+   "Muneeba Shahid"
+  ],
+  "date": "2026-10-01",
+  "summary": "This article explores the economic fault lines that limit BRICS' potential for collective action as an alternative to Western-dominated economic governance, given its collective share of the global economy. It examines seven interrelated fault lines: the income and structural inequities, trade imbalances and Chinese dominance, the stagnation and structural constraints of de-dollarization, the limited mandate and role of the New Development Bank and the largely moribund Contingent Reserve Arrangement (CRA), differences in fiscal and monetary policy, sanctions-induced disruptions, especially near Russia and the further coordination challenges posed by the recent expansion of BRICS. The article applies a neo-functionalist approach to show that functional spillover in BRICS is limited, sporadic and often counterbalanced by spillback, as sovereignty and competition trump the institutionalization of BRICS. The analysis suggests that it depends on the potential of BRICS to transform the global economic order hinging on overcoming structural asymmetries through institutional innovation and reform.",
+  "origin": "openalex:query:monetary sovereignty Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7219729114",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407064755",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "brics under strain internal economic challenges rising coalition|ishfaq",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 0
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "networks",
+    "subordination",
+    "state_finance"
+   ],
+   "places": [],
+   "note": "BRICS institutional weaknesses and de-dollarization constraints; South–South financial integration limits and Chinese dominance dynamics.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "9176a45b24",
+  "section": "research",
+  "title": "Sukuk Syariah sebagai Instrumen Pengembangan Pembiayaan dan Likuiditas Perbankan Islam: Kajian Konseptual",
+  "url": "https://doi.org/10.66274/b46e2p24",
+  "doi": "10.66274/b46e2p24",
+  "source": "Journal of Islamic Economic Studies",
+  "venue": "Journal of Islamic Economic Studies",
+  "authors": [
+   "Engkos Kosasih"
+  ],
+  "date": "2026-09-27",
+  "summary": "The expansion of the sukuk market has not always been accompanied by an integrated ability of Islamic banks to use sukuk for financing and liquidity purposes. This study develops a conceptual framework linking the financing-investment, liquidity, and institutional-monetary functions of sukuk for Islamic banking. It applies a qualitative approach through a structured integrative literature review. The main searches were conducted in OpenAlex and Crossref, while DOAJ, GARUDA, and documents issued by AAOIFI, IFSB, IIFM, Indonesia's Financial Services Authority, and Bank Indonesia were used to broaden and validate the evidence base. Publications from 2018 to 2026. The result shows that sukuk broaden funding sources and long-term financing by converting assets or usufruct into investable units; provide liquid assets that can be placed, traded, or pledged as collateral; and connect Islamic banks with capital markets, governments, and central banks. These functions are not automatic. Their effectiveness depends on structural tradability, maturity diversity, secondary-market depth, Sharia standardization, underlying-asset quality, and regulatory recognition. The article's novelty is a three-function chain in which financing creates investable assets, liquidity enables portfolio transformation, and institutional support strengthens sukuk circulation. This framework suggests that sukuk-market development should be evaluated by its usefulness for bank balance sheets rather than by issua",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214535373",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407065162",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "sukuk syariah sebagai instrumen pengembangan pembiayaan dan likuiditas perbankan islam kajian konseptual|kosasih",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 0
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "islamic_finance",
+    "integration"
+   ],
+   "places": [],
+   "note": "Generic conceptual framework on sukuk and Islamic banking liquidity; lacks case specificity or institutional analysis.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "6bc1e2c86d",
+  "section": "research",
+  "title": "Exploring Humanitarian Sukuk as an Innovative Financial Instrument to Support Victims of Banditry and Cattle Rustling in Nigeria",
+  "url": "https://doi.org/10.70382/ajaias.v13i2.0136",
+  "doi": "10.70382/ajaias.v13i2.0136",
+  "source": "Journal of African Innovation and Advanced Studies",
+  "venue": "Journal of African Innovation and Advanced Studies",
+  "authors": [
+   "Jubril Abdulahi Salaudeen Ph.D",
+   "Mohammed Bashir Salaudeen"
+  ],
+  "date": "2026-09-28",
+  "summary": "This study explored Humanitarian Sukuk as an innovative Islamic financial instrument for supporting victims of banditry and cattle rustling in Nigeria. The growing humanitarian impact of violent insecurity has highlighted major gaps in traditional humanitarian financing and the need to explore sustainable, ethically based options. This study used a qualitative research design and reviewed scholarly literature, policy documents, institutional reports, books, and conference proceedings from well-known academic databases. The evidence was then subjected to thematic analysis to identify salient themes associated with humanitarian financing, Islamic social finance, post-conflict recovery, and sustainable development. The findings showed that traditional funding for humanitarian operations remains constrained by underfunding, donor dependence, and limited capacity to fund long-term recovery efforts. It also revealed that humanitarian sukuk has significant potential to complement existing financing mechanisms by mobilising sustainable financing for relief, rehabilitation, livelihood restoration, and community resilience through Shariah-compliant financing structures. However, it needs conducive regulations, transparent governance, collaboration with institutions, and linkages with other Islamic social finance instruments like zakat and waqf. Thus, the study suggests that humanitarian sukuk is a viable and innovative financing mechanism that can help to enhance Nigeria's humanitarian",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214675109",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S5407044824",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "exploring humanitarian sukuk as innovative financial instrument support victims banditry cattle rustling|d",
+  "watched": null,
+  "venue_quality": {
+   "level": "low",
+   "h_index": 3
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [
+    "islamic_finance"
+   ],
+   "places": [],
+   "note": "Humanitarian sukuk applied to banditry relief; not relevant to financial centre dynamics or subordination questions.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "022993b15f",
+  "section": "research",
+  "title": "Development Sharia Investment in Indonesia in the Digital Era",
+  "url": "https://doi.org/10.65065/2mta5994",
+  "doi": "10.65065/2mta5994",
+  "source": "Annusfy Journal of Multidisciplinary Research",
+  "venue": "Annusfy Journal of Multidisciplinary Research",
+  "authors": [
+   "Miftachul Ulum",
+   "Putri Dinanda Anum Farhana",
+   "Ita Yunia Nita",
+   "Wanto Wanto"
+  ],
+  "date": "2026-09-28",
+  "summary": "This study aims to analyze the development of sharia investment in Indonesia in the digital era, including the sharia capital market, sharia fintech, and investment instrument innovations. The study employed a library research method with a qualitative descriptive approach based on relevant academic literature. The findings show that digitalization has accelerated the growth of sharia investment through easier access, transaction efficiency, and innovations such as sharia fintech, online sharia mutual funds, and digital sukuk. Digitalization has also increased financial inclusion and public investment interest, particularly among younger generations. However, challenges remain, including low levels of sharia financial literacy, limited product diversification, cybersecurity risks, and technological infrastructure disparities. The study concludes that the digital era provides significant opportunities for the development of sharia investment in Indonesia, but sustainable growth requires supportive regulations, improved sharia financial literacy, and stronger digital infrastructure.",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214676700",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S5407052165",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "development sharia investment indonesia digital era|ulum",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 1
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital",
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "islamic_finance",
+    "digital"
+   ],
+   "places": [],
+   "note": "Indonesian sharia investment digitalisation; descriptive overview lacks institutional or analytical depth on financial centre role.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "08ba837915",
+  "section": "research",
+  "title": "Transformation of Islamic Monetary Policy in A Dual Banking System: Analysis of Transmission Mechanisms, Financing Channels, And Responses of Islamic Banks to Changes in Interest Rates",
+  "url": "https://doi.org/10.59890/ijsas.v4i9.67",
+  "doi": "10.59890/ijsas.v4i9.67",
+  "source": "International Journal of Sustainable Applied Sciences",
+  "venue": "International Journal of Sustainable Applied Sciences",
+  "authors": [
+   "Muslim Marpaung",
+   "Irma Suryani Lubis",
+   "Muhammad Zuardi"
+  ],
+  "date": "2026-09-30",
+  "summary": "This study aims to analyze the transformation of Islamic monetary policy in a dual banking system, emphasizing the transmission mechanisms, financing channels, and responses of Islamic banks to interest rate changes. The study employed a qualitative approach through a systematic literature review of 11 scientific publications discussing Islamic monetary and banking policy in Indonesia, Malaysia, Pakistan, Turkey, and several other countries. Data were analyzed using content analysis, thematic analysis, and cross-country comparisons based on the objectives, methods, variables, findings, and policy implications of each study. The study's findings indicate that Islamic banks play a role in the transmission of monetary policy through changes in liquidity, fundraising, and financing distribution to the real sector. Although they do not use interest in their contracts, Islamic banks are still affected by interest rate changes through competitive returns, depositor behavior, opportunity costs, and the use of interest rates as a benchmark for margin determination. The extent of the response is influenced by the bank's size, capitalization, liquidity, asset structure, contract type, economic conditions, and the depth of the Islamic financial market. This study concludes that the transformation of Islamic monetary policy needs to be directed at strengthening Sharia-compliant monetary instruments, deepening the money and sukuk markets, developing more independent yield benchmarks, and i",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214929385",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4390296904",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "transformation islamic monetary policy dual banking system analysis transmission mechanisms financing channels|marpaung",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 2
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "islamic_finance",
+    "regulation"
+   ],
+   "places": [],
+   "note": "Dual banking system monetary policy transmission across multiple countries; thin methodology, no specific financial centre analysis.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "cc1125ff1d",
+  "section": "research",
+  "title": "THE IMPACT OF ESG COMPLIANCE ON ISLAMIC FINANCE: A HOLISTIC APPROACH TO THE SUSTAINABLE DEVELOPMENT GOALS",
+  "url": "https://doi.org/10.30546/si.2026.03.01.139",
+  "doi": "10.30546/si.2026.03.01.139",
+  "source": "Silk Way",
+  "venue": "Silk Way",
+  "authors": [
+   "Ebru Kalan"
+  ],
+  "date": "2026-09-16",
+  "summary": "This study examines the effects of ESG principles on the Islamic finance system within the context of the Sustainable Development Goals (SDGs).ESG represents a sustainability framework encompassing environmental, social and governance criteria, whereas Islamic finance is built upon principles such as the prohibition of interest (riba), risk-sharing, assetbacked transactions, ethical investment and social welfare.Therefore, there exists a natural alignment between ESG and Islamic finance.However, this alignment is not only theoretical but also observable in practice through institutional governance, green sukuk, social finance, financial inclusion and sustainable investment instruments.The primary objective of this study is to analyze how ESG compliance affects the sustainability performance of Islamic financial institutions and to demonstrate its contribution to the SDGs.Studies conducted by the World Bank on Islamic finance and SDGs emphasize that Islamic financial institutions can contribute to sustainable development through financial inclusion, risk-sharing, social finance and economic resilience.Within this framework, the article also explores the relationship between ESG principles and Maqasid al-Shariah, arguing that Islamic finance should be developed not merely as a profit-oriented system but as a model grounded in environmental and social responsibility.",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213305296",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407055533",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "impact esg compliance islamic finance holistic approach sustainable development goals|kalan",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 1
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "islamic_finance",
+    "development_finance"
+   ],
+   "places": [],
+   "note": "ESG and Islamic finance alignment; generic treatment without case studies or institutional politics of specific centres.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "5f00abe976",
+  "section": "research",
+  "title": "Financial Depth and Stability in Dual Banking Systems",
+  "url": "https://doi.org/10.55188/ijifsd.v18i3.1264",
+  "doi": "10.55188/ijifsd.v18i3.1264",
+  "source": "International Journal of Islamic Finance and Sustainable Development",
+  "venue": "International Journal of Islamic Finance and Sustainable Development",
+  "authors": [
+   "Abdul Jalil Mahama",
+   "Shokhazamiy Shokhmansur"
+  ],
+  "date": "2026-09-22",
+  "summary": "Purpose — Islamic finance has demonstrated strong empirical resilience during global financial shocks. This paper evaluates how a dual-banking model that integrates Islamic finance with conventional systems accelerates macroeconomic growth. Design/Methodology/Approach — The study employs a panel dataset of 27 countries that operate dual-banking systems over the period 2010–2024 to evaluate both short- and long-run relationships between Islamic finance assets and gross domestic product (GDP), credit to GDP, money supply, small and medium-sized enterprise (SME) credit and stock market capitalisation. The empirical framework applies Autoregressive Distributed Lag-Pooled Mean Group (ARDL-PMG) estimation, error correction models, and Granger causality tests. The principal independent variable is the Islamic banking market share, private sector credit, and broad money supply (M2). Findings — The empirical results indicate that integrated Islamic finance asset shares significantly expand total private credit (β = 0.3725, p = 0.012) and broad money supply (β = 0.2861, p = 0.070) indicators over long horizons. Furthermore, dual-banking integration accelerates annual real macroeconomic output (β = 0.0842, p = 0.009), correlates with localised stock market expansion, increases infrastructure investment (Trade = 0.165), and enhances small enterprise credit access (IsFA = 0.784). Originality/Value — This study provides a novel multi-country panel framework that isolates the specific trans",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213884700",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W2683627",
+   "https://openalex.org/W1538006095",
+   "https://openalex.org/W1549137877",
+   "https://openalex.org/W1978598841",
+   "https://openalex.org/W2071434239",
+   "https://openalex.org/W2579450345",
+   "https://openalex.org/W2754236217",
+   "https://openalex.org/W2774787412",
+   "https://openalex.org/W2886177134",
+   "https://openalex.org/W2894939181",
+   "https://openalex.org/W2948571927",
+   "https://openalex.org/W2975717588",
+   "https://openalex.org/W2990647798",
+   "https://openalex.org/W3004881408",
+   "https://openalex.org/W3124530980",
+   "https://openalex.org/W3129051375",
+   "https://openalex.org/W3138877212",
+   "https://openalex.org/W3141838458",
+   "https://openalex.org/W3152510608",
+   "https://openalex.org/W3160784458",
+   "https://openalex.org/W4210760247",
+   "https://openalex.org/W4210999409",
+   "https://openalex.org/W4212864956",
+   "https://openalex.org/W4229049178",
+   "https://openalex.org/W4285036350",
+   "https://openalex.org/W4289516472",
+   "https://openalex.org/W4297878733",
+   "https://openalex.org/W4320517261",
+   "https://openalex.org/W4377819299",
+   "https://openalex.org/W4389624532",
+   "https://openalex.org/W4390939324",
+   "https://openalex.org/W4403985576",
+   "https://openalex.org/W4407227533",
+   "https://openalex.org/W4407407863",
+   "https://openalex.org/W4411350432",
+   "https://openalex.org/W4412736223",
+   "https://openalex.org/W6921729741"
+  ],
+  "venue_id": "S5407045253",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "financial depth stability dual banking systems|mahama",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 4
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "islamic_finance",
+    "integration",
+    "centres"
+   ],
+   "places": [],
+   "note": "Dual banking systems and macroeconomic integration across 27 countries; relevant to understanding financial sector deepening in Global South.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "5a77085f78",
+  "section": "research",
+  "title": "Urgency of Enviromental, Sosial and Governance in Islamic Banking and Its Contribution to the Sustainable Global Islamic Economy",
+  "url": "https://doi.org/10.54150/alirsyad.v5i2.1130",
+  "doi": "10.54150/alirsyad.v5i2.1130",
+  "source": "Al Irsyad Jurnal Studi Islam",
+  "venue": "Al Irsyad Jurnal Studi Islam",
+  "authors": [
+   "Ayun Fitriya",
+   "Muhammad Ilham Farhansyah",
+   "Robi Firnando",
+   "Tahmidurramdani Tahmidurramdani",
+   "Maulavi Ubada"
+  ],
+  "date": "2026-09-20",
+  "summary": "ESG integration in Islamic banking lacks Sharia alignment, harmonized regulations, and globally recognized standards, limiting sustainable Islamic finance development worldwide. This research examines the urgency of ESG integration, identifies normative barriers, evaluates Islamic banking contributions, and proposes a Sharia-based sustainable finance framework for global application. Methodology: This normative legal research employed statutory, conceptual, and comparative approaches, analysing laws, fatwas, international standards, and ESG practices across six Islamic finance jurisdictions using descriptive qualitative analysis. Research Findings: The study finds that ESG integration in Islamic banking constitutes a legal obligation under maqasid al-shariah and the maxim ma la yatimmu al-wajib illa bihi fahuwa wajib. However, significant measurement gaps remain because Islamic social finance instruments, including zakat, waqf, and qard hasan, are excluded from global ESG metrics. National and international regulatory frameworks also fail to harmonize ESG with Sharia principles through binding standards. Therefore, the study recommends developing an Islamic Sustainable Finance framework, reforming AAOIFI (2021) and IFSB (2021) standards, issuing operational fatwas on hifz al-bi'ah, and formally recognizing Islamic social finance within global sustainability reporting standards. Conclusion: Sharia-based ESG integration requires binding regulations to strengthen sustainability,",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213614310",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4387283137",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "urgency enviromental sosial governance islamic banking its contribution sustainable global islamic economy|fitriya",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 2
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "islamic_finance",
+    "regulation"
+   ],
+   "places": [],
+   "note": "ESG integration in Islamic banking across six jurisdictions; normative legal analysis lacks empirical specificity or financial centre focus.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "6797ca4f88",
+  "section": "research",
+  "title": "BRICS Challenges in the Era of Multipolarity: An Analytical Study of Political and Economic Divergences",
+  "url": "https://fra.st/rfm/article/view/198",
+  "doi": "",
+  "source": "Review of Futures Markets",
+  "venue": "Review of Futures Markets",
+  "authors": [
+   "Benabderrahmane Lyés."
+  ],
+  "date": "2026-09-17",
+  "summary": "This paper presents an in-depth scientific analysis of the challenges facing the expanded BRICS bloc in an era of unprecedented geopolitical and economic transformation. Originally established in the mid-2000s as a mechanism for emerging economies to amplify their voice in global financial governance, the bloc's recent expansion to include new members has introduced profound regional and political contradictions, making the reconciliation of diverging interests a fundamental challenge. The paper adopts a tripartite analytical framework to examine these challenges: first, political challenges manifested in deep divisions over geopolitical and regional issues, which have led to an inability to issue unified statements; second, economic and financial challenges related to weak intra-bloc trade integration, paralysis in de-dollarization mechanisms, and the limited capital base of the New Development Bank; and third, expansion and institutional cohesion challenges arising from the absence of clear membership criteria and the complexities of consensus-based decision-making. The analysis draws on recent data from the UNCTAD 2026 report, periodic updates, and contemporary events such as the 2026 Gulf crisis, which served as a critical stress test for the bloc's unity. The paper concludes that BRICS' sustainability and effectiveness are no longer measured by its ability to articulate a unified anti-hegemonic discourse, but rather by its success in transforming into a flexible platform",
+  "origin": "openalex:query:Gulf capital Africa investment",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7215667427",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407065650",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "brics challenges era multipolarity analytical study political economic divergences|lyes",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 0
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "networks",
+    "subordination"
+   ],
+   "places": [],
+   "note": "BRICS expansion and diverging interests in global financial governance; addresses South–South coalition building and political contradictions.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "b50cdf9977",
+  "section": "research",
+  "title": "Assessing the Nexus Between Green Finance, Green Bonds and Environmental Sustainability in Selected Countries",
+  "url": "https://doi.org/10.64229/6mp2gz76",
+  "doi": "10.64229/6mp2gz76",
+  "source": "Integrated Economies and Policy Insights",
+  "venue": "Integrated Economies and Policy Insights",
+  "authors": [
+   "Toryila Raphael Orshio",
+   "Adofu Ilemona",
+   "Obadiah Jonathan Gimba",
+   "Abubakar Saad Bahuli"
+  ],
+  "date": "2026-09-18",
+  "summary": "This study examines the nexus between green finance, green bonds, and environmental sustainability in five countries Nigeria, Denmark, France, Spain, and the Netherlands over the period 2017-2025. Environmental sustainability is proxied by the ecological footprint per capita, while green finance flows, green bond issuance, and renewable-energy financing are expressed as ratios to real GDP to permit comparison across countries with different reporting currencies (USD and EUR). Using the Fixed Effects estimator with Driscoll-Kraay standard errors an estimator that is robust to heteroscedasticity, serial correlation, and cross-sectional dependence in panels with a moderate time dimension the results show that green finance and green bond issuance both significantly reduce the ecological footprint in the entity fixed-effects specifications, confirming their effectiveness in advancing environmental sustainability. Renewable-energy financing, by contrast, is associated with a significant increase in the ecological footprint in the short run, a pattern consistent with the early, infrastructure-intensive phase of the energy transition. Inflation exerts a small but statistically significant positive effect on the ecological footprint. The direction and significance of green bonds, renewable-energy financing, and inflation are consistent across pooled OLS, two-way fixed effects, and entity-clustered specifications, while the sign of green finance is sensitive to model choice and revers",
+  "origin": "openalex:query:Chinese lending Africa finance",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214076893",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S5407053232",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "assessing nexus between green finance green bonds environmental sustainability selected countries|orshio",
+  "venue_quality": {
+   "level": "low",
+   "h_index": 1
+  },
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "debt",
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Green bonds and sustainability in mixed-country sample including Nigeria; lacks focus on Southern financial centres or subordination dynamics.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "a35eabd598",
+  "section": "grey",
+  "title": "Leveraging Strategic Assets: Attracting Financing in the Developing World in a Post-Aid Era",
+  "url": "https://doi.org/10.64503/20260921",
+  "doi": "10.64503/20260921",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [],
+  "date": "2026-09-21",
+  "summary": "This report examines how the new model works across Thailand’s automotive and artificial intelligence sectors, where Bangkok has pushed back, and why the standards layer will decide the outcome long after market share is settled.",
+  "origin": "openalex:reports:financial sector deepening",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213965098",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "leveraging strategic assets attracting financing developing world post aid era|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "bangkok"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "centres",
+    "integration"
+   ],
+   "places": [
+    "bangkok"
+   ],
+   "note": "Bangkok's pushback on financing standards; limited detail on financial centre strategy or devices."
+  }
+ },
+ {
+  "id": "d4f3c2de25",
+  "section": "grey",
+  "title": "From pipeline to policy: designing India's Article 6 approval framework for climate finance and domestic decarbonisation",
+  "url": "https://doi.org/10.21953/researchonline.lse.ac.uk.00141188",
+  "doi": "10.21953/researchonline.lse.ac.uk.00141188",
+  "source": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+  "venue": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+  "authors": [
+   "Sanjena Narayanasamy Damodaran"
+  ],
+  "date": "2026-09-29",
+  "summary": "Article 6 of the Paris Agreement offers India an opportunity to receive payments from other countries for mitigation outcomes at home, and to channel that revenue towards the vast investment that the low-carbon transition requires. Yet while the country can use international carbon markets to help finance its own decarbonisation, it will need to establish the right framework for approving sales of its Article 6 projects. Without this, there is a risk that India will undermine efforts to hit its near-term climate targets and achieve its 2070 net zero goal. This report explores how the country can establish such a framework. The author argues that India should decide whether to authorise sales of carbon credits under Article 6 based on calibrated questions about what to sell, when to sell it and at what price.",
+  "origin": "openalex:reports:stock exchange",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214786039",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306401593",
+  "venue_type": "repository",
+  "publisher": "London School of Economics and Political Science",
+  "filter": true,
+  "work_key": "from pipeline policy designing india s article 6 approval framework climate finance|damodaran",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "development_finance",
+    "regulation"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "India's Article 6 carbon-market framework; relevant to development finance and sovereign climate-policy instruments."
+  }
+ },
+ {
+  "id": "a05390ac20",
+  "section": "grey",
+  "title": "Sustainable Development as a Strategy for Polycrisis Mitigation",
+  "url": "https://doi.org/10.5281/zenodo.22546826",
+  "doi": "10.5281/zenodo.22546826",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Hunter Hughes"
+  ],
+  "date": "2026-09-06",
+  "summary": "Sustainable development is positioned in this monograph not as an environmental afterthought but as the primary macro‑financial defense architecture for emerging markets facing the global polycrisis. The document argues—using empirical modeling, multi‑hazard stress‑testing, and sector‑specific resilience metrics—that traditional linear development models have structurally amplified exposure to climate extremes, fossil‑fuel price shocks, sovereign debt spirals, and geopolitical trade fragmentation. The core thesis is that cleaner, stronger, and more adaptive economies dismantle these transmission channels by substituting volatile imported commodities with domestic renewable energy, regenerative agriculture, circular industrial systems, and climate‑hardened infrastructure. This shift produces measurable macro‑financial insulation: preserved foreign exchange reserves, stabilized inflation, reduced sovereign risk spreads, and higher long‑term GDP convergence. Across its 12‑chapter analytical architecture, the monograph demonstrates: Decarbonization as macro‑financial de‑risking, eliminating terms‑of‑trade volatility and reducing FX hemorrhaging. “Decarbonizing the domestic energy matrix… is therefore not merely a decarbonization imperative, but the most potent macro‑financial insulation strategy available to sovereign policymakers.” Climate‑resilient infrastructure as a national balance‑sheet protector, delivering 3.5x–5.2x benefit‑cost ratios and preventing multi‑system failures",
+  "origin": "openalex:reports:capital market development",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7210279407",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "sustainable development as strategy polycrisis mitigation|hughes",
+  "also_at": [],
+  "watched": false,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination",
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Generic polycrisis framing; lacks institutional or financial-centre specificity for project scope."
+  }
+ },
+ {
+  "id": "22170f4b04",
+  "section": "grey",
+  "title": "Private Markets in Retirement Plans Returns, Risks, and the Importance of Plan Design",
+  "url": "https://doi.org/10.56227/26.1.27",
+  "doi": "10.56227/26.1.27",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [
+   "Raymond Ka-Kay Pang",
+   "Fan Yang"
+  ],
+  "date": "2026-09-21",
+  "summary": "CFA Institute Research and Policy Center brings together CFA Institute expertise along with a diverse, cross-disciplinary community of subject matter experts working collaboratively to address complex problems.It is informed by the perspective of",
+  "origin": "openalex:reports:capital market development",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213889866",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "private markets retirement plans returns risks importance plan design|pang",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "professionals"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Generic pension-asset management literature; no Southern financial centre or institutional angle."
+  }
+ },
+ {
+  "id": "b3e95a9475",
+  "section": "grey",
+  "title": "Oregon Hazelnut Value Chain Analysis",
+  "url": "https://doi.org/10.25383/city.32678346",
+  "doi": "10.25383/city.32678346",
+  "source": "City, University of London",
+  "venue": "City, University of London",
+  "authors": [
+   "Sierra Kuhn"
+  ],
+  "date": "2026-09-09",
+  "summary": "This paper analyzes the Oregon hazelnut global value chain using a relational governance framework to examine power, profitability, and barriers to entry. Although Oregon produces 99% of U.S. hazelnuts, growers face high startup costs, debt, and limited bargaining power due to concentrated control by processors, handlers, and global buyers such as Ferrero. The analysis highlights how research, regulation, trade, and market structures shape the distribution of value. To improve farmer profitability and accessibility, it proposes two policies: a financial and educational support system for new farmers and greater transparency with minimum payments to rebalance power and increase producer income.This document was produced as an assignment for the FPM002 Political Economy of Food module undertaken at the Centre for Food Policy, City St Georges, University of London. The document has been written to address a marking criteria and learning outcomes.",
+  "origin": "openalex:reports:financial centre",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7212048707",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S7407051352",
+  "venue_type": "repository",
+  "publisher": "",
+  "filter": true,
+  "work_key": "oregon hazelnut value chain analysis|kuhn",
+  "also_at": [],
+  "watched": false,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "U.S. hazelnut supply-chain analysis; unrelated to financial centres or Southern finance."
+  }
+ },
+ {
+  "id": "7c184d0cf2",
+  "section": "grey",
+  "title": "Value Chain Analysis of Irish Dairy",
+  "url": "https://doi.org/10.25383/city.32678340.v1",
+  "doi": "10.25383/city.32678340.v1",
+  "source": "City, University of London",
+  "venue": "City, University of London",
+  "authors": [
+   "Róisín Rigg"
+  ],
+  "date": "2026-09-09",
+  "summary": "This analysis examined how the conventional Irish dairy value chain can be reorientated to reduce water pollution while supporting farmer livelihoods. It theorised that governance and power dynamics structurally lock farmers into input- and output-intensive pathways. Dominant corporate actors reinforce this path dependence through policy and knowledge agendas, limiting farmer agency to transition. Policy solutions to reorient the value chain must target multiple policy levers to reshape both farm-level decision-making and wider governance structures. This requires financial mechanisms to reorient incentives toward ecological outcomes, alongside repositioning RDI and advisory systems to support alternative, low-input farming systems. This document was produced as an assignment for the FPM002 Political Economy of Food module undertaken at the Centre for Food Policy, City St Georges, University of London. The document has been written to address a marking criteria and learning outcomes.",
+  "origin": "openalex:reports:financial centre",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7212054563",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S7407051352",
+  "venue_type": "repository",
+  "publisher": "",
+  "filter": true,
+  "work_key": "value chain analysis irish dairy|rigg",
+  "also_at": [],
+  "watched": false,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Irish dairy governance; no connection to project's geographic scope or financial-centre focus."
+  }
+ },
+ {
+  "id": "3210b07f88",
+  "section": "grey",
+  "title": "Technology Diffusion as the Engine of Global Economic Convergence",
+  "url": "https://doi.org/10.5281/zenodo.22538008",
+  "doi": "10.5281/zenodo.22538008",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Hunter Hughes"
+  ],
+  "date": "2026-09-06",
+  "summary": "Global economic convergence is driven far more by the absorption and widespread deployment of existing technologies than by attempts to invent new ones. As the monograph states, “78.5 percent of total factor productivity (TFP) growth in catch‑up economies originates from the domestic diffusion and localized adaptation of mature technologies.” This diffusion-centric reality overturns the long-standing “Frontier Fallacy,” which mistakenly equates development with frontier R&D despite 84% of global R&D being concentrated in a handful of OECD economies. The work demonstrates that adoption lags, penetration intensity, and absorptive capacity explain over 70% of cross-country income variance. Modern technologies—from mobile networks to solar PV and digital payments—now diffuse within 1–3 years, but domestic penetration remains uneven due to managerial deficits, financial frictions, and spatial decay outside metropolitan cores. Within-country firm dispersion is the dominant bottleneck: productivity gaps between top and bottom decile firms reach 8× in developing economies, yet basic managerial tools and cloud ERP can raise lagging SME productivity by 40–70% within a year. Technology diffusion operates through physical channels (capital goods imports, FDI backward linkages), human capital scaffolding (TVET technicians, adaptive engineering), and digital public infrastructure (open identity, fast payments, consent-based data rails). Removing capital goods tariffs, expanding vocational",
+  "origin": "openalex:reports:financial centre",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7210286378",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "technology diffusion as engine global economic convergence|hughes",
+  "also_at": [],
+  "watched": false,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Technology diffusion and TFP growth; macro-level abstraction without financial-sector or centre analysis."
+  }
+ },
+ {
+  "id": "9f4c8000d5",
+  "section": "grey",
+  "title": "Debt, Climate, and Conflict as a Self-Reinforcing Polycrisis Triangle",
+  "url": "https://doi.org/10.5281/zenodo.22966500",
+  "doi": "10.5281/zenodo.22966500",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Hunter Hughes"
+  ],
+  "date": "2026-09-25",
+  "summary": "The monograph demonstrates that sovereign debt distress, accelerating climate shocks, and violent state fragility do not operate as isolated crises. They form an interlocking polycrisis triangle in which each apex amplifies the others through tightly coupled feedback loops. As the document states, “fiscal insolvency magnifies ecological vulnerability, climate devastation ignites localized resource conflict, and violent conflict destroys sovereign debt‑servicing capacity” . Across 45 climate‑vulnerable developing states, the analysis shows that debt overhang crowds out adaptation, pushing climate readiness scores into failure zones and dismantling rural institutions. Climate disasters then trigger sovereign solvency traps, spiking bond spreads by ~380 bps and driving reconstruction borrowing that accounts for nearly 30% of total public debt accumulation. Ecological degradation and livelihood collapse fuel communal warfare, insurgent recruitment, and shadow war economies, which further erode tax bases and intensify debt distress. Spatial econometric models confirm strong regional contagion, with cross‑border spillovers responsible for ~45% of growth contractions. Structural VAR results show that climate and conflict shocks explain the majority of sovereign credit volatility, producing non‑linear polycrisis multipliers far exceeding additive effects. Food insecurity emerges as the fastest transmission accelerant, with FAO index spikes above 120 triggering exponential surges in u",
+  "origin": "openalex:reports:sovereign debt restructuring",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7214294040",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "debt climate conflict as self reinforcing polycrisis triangle|hughes",
+  "also_at": [],
+  "watched": false,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "subordination",
+    "debt"
+   ],
+   "places": [],
+   "note": "Debt-climate-conflict polycrisis in developing states; relevant to subordination and sovereign-debt vulnerability."
+  }
+ },
+ {
+  "id": "d3fe40eb35",
+  "section": "grey",
+  "title": "ATM QUICK CASH LLC - Due Diligence & Corporate Audit Dossier",
+  "url": "https://doi.org/10.5281/zenodo.22658517",
+  "doi": "10.5281/zenodo.22658517",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "US Local Hub Corporate Intelligence Bureau"
+  ],
+  "date": "2026-09-08",
+  "summary": "Official corporate due diligence audit, statutory compliance check, and financial intelligence report for ATM QUICK CASH LLC organized in the State of GA. Corporate Registry Record: ATM QUICK CASH LLC GA Corporate Registry | Regulatory Tax Identifier: ATM QUICK CASH LLC (Tax ID: SBA-1000107310). Solvency Score: 99/100 (Grade AAA). Estimated Annual Revenue: $2,310,000. Verified Primary Source Profile & Risk Intelligence: ATM QUICK CASH LLC Credit Rating & Solvency Score.",
+  "origin": "openalex:reports:credit rating",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7211947657",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "atm quick cash llc due diligence corporate audit dossier|bureau",
+  "also_at": [],
+  "watched": false,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "valuation"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Corporate audit of a Georgia ATM company; not scholarship, not relevant to project."
+  }
+ }
+]

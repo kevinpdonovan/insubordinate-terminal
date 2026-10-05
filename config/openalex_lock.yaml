@@ -5,105 +5,130 @@ authors:
   Andrea Pollio:
     check: false
     id: A5043410518
+    institution: University of Cape Town
     matched: Andrea Pollio
   Annina Kaltenbrunner:
     check: false
     id: A5013325515
+    institution: University of Leeds
     matched: Annina Kaltenbrunner
   Bruno Bonizzi:
     check: false
     id: A5077028724
+    institution: City St George's, University of London
     matched: Bruno Bonizzi
   Carolina Alves:
     check: true
-    id: A5037355178
-    matched: A. Melo
+    id: A5074347698
+    institution: University of Modena and Reggio Emilia
+    matched: Marialuisa Valente
   Dan Haberly: null
   Daniela Gabor:
     check: true
     id: A5020202399
+    institution: ''
     matched: Daniela Gabor
   Dariusz Wójcik:
-    check: true
+    check: false
     id: A5051441410
+    institution: National University of Singapore
     matched: Dariusz Wójcik
   David Bassens:
     check: true
     id: A5053855635
+    institution: Vrije Universiteit Brussel
     matched: David Bassens
   Emma Park:
     check: true
-    id: A5074353670
+    id: A5079728104
+    institution: ''
     matched: Emma Park
   Ewa Karwowski:
     check: false
     id: A5082697522
+    institution: King's College London
     matched: Ewa Karwowski
   Hannah Appel:
     check: true
     id: A5062701954
+    institution: University of California, Los Angeles
     matched: Hannah Appel
   Ilias Alami:
     check: false
     id: A5027232358
+    institution: University of Cambridge
     matched: Ilias Alami
   Ingrid Harvold Kvangraven:
     check: false
     id: A5043743989
+    institution: ''
     matched: Ingrid Harvold Kvangraven
   J. Christopher Mizes: null
   Jeff Powell:
-    check: true
-    id: A5090300849
-    matched: Manuel Delgado‐Baquerizo
+    check: false
+    id: A5042394821
+    institution: University of Greenwich
+    matched: Jeff Powell
   Kai Koddenbrock:
     check: false
     id: A5049440301
+    institution: ''
     matched: Kai Koddenbrock
   Karen P. Y. Lai:
     check: true
     id: A5024449580
+    institution: Durham University
     matched: Karen P.Y. Lai
   Kevin P. Donovan:
     check: false
     id: A5080167557
+    institution: University of Edinburgh
     matched: Kevin P. Donovan
   Lena Rethel:
     check: false
     id: A5001609208
+    institution: University of Warwick
     matched: Lena Rethel
   Liza Rose Cirolia:
     check: true
     id: A5026233185
+    institution: University of Cape Town
     matched: Liza Rose Cirolia
   Manuel B. Aalbers:
-    check: true
+    check: false
     id: A5055974740
+    institution: KU Leuven
     matched: Manuel B. Aalbers
   Michael Soener: null
   Ndongo Samba Sylla:
     check: true
     id: A5035928977
+    institution: ''
     matched: Ndongo Samba Sylla
   Nick Bernards:
     check: false
     id: A5034101213
+    institution: University of Warwick
     matched: Nick Bernards
   Nishita Trisal:
     check: false
     id: A5072222964
+    institution: Ashoka University
     matched: Nishita Trisal
   Rodrigo Fernandez:
-    check: true
-    id: A5030399596
-    matched: J. R. González Fernández
+    check: false
+    id: A5074981230
+    institution: Organisation de Coopération et de Développement Economiques
+    matched: Rodrigo Fernandez
   Sarah Bracking:
     check: true
     id: A5068244202
+    institution: King's College London
     matched: Sarah Bracking
   Stefan Ouma:
     check: false
     id: A5078489691
+    institution: ''
     matched: Stefan Ouma
 journals:
   Africa:
@@ -114,18 +139,35 @@ journals:
     check: true
     id: S33869021
     matched: African Affairs
+  African Studies Review:
+    check: false
+    id: S196489185
+    matched: African Studies Review
+  Afrique contemporaine:
+    check: false
+    id: S127917940
+    matched: Afrique contemporaine
   Antipode:
     check: false
     id: S47624153
     matched: Antipode
+  Brazilian Journal of Political Economy:
+    check: false
+    id: S4210177023
+    matched: Brazilian Journal of Political Economy
   Business History Review:
     check: true
     id: S88020226
     matched: The Business History Review
+  Cahiers d'études africaines: null
   Competition & Change:
     check: false
     id: S187200255
     matched: Competition & Change
+  Critique internationale:
+    check: false
+    id: S193008421
+    matched: Critique internationale
   Development and Change:
     check: true
     id: S137192870
@@ -178,14 +220,26 @@ journals:
     check: true
     id: S46039370
     matched: Journal of Economic Geography
+  Journal of Latin American Studies:
+    check: false
+    id: S169672611
+    matched: Journal of Latin American Studies
   Journal of Modern African Studies:
     check: false
     id: S40252047
     matched: The Journal of Modern African Studies
+  Journal of Southeast Asian Studies:
+    check: false
+    id: S133648787
+    matched: Journal of Southeast Asian Studies
   Latin American Perspectives:
     check: true
     id: S44433209
     matched: Latin American Perspectives
+  Modern Asian Studies:
+    check: false
+    id: S188415705
+    matched: Modern Asian Studies
   New Political Economy:
     check: true
     id: S146242404
@@ -202,6 +256,14 @@ journals:
     check: false
     id: S2875300
     matched: Review of International Political Economy
+  Revue Tiers Monde:
+    check: true
+    id: S91700283
+    matched: Revue internationale des études du développement
+  Revue de la régulation:
+    check: false
+    id: S4210175978
+    matched: Revue de la régulation
   Socio-Economic Review:
     check: true
     id: S147547362
@@ -214,3 +276,4 @@ journals:
     check: false
     id: S4210168889
     matched: Valuation Studies
+series: {}

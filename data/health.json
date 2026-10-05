@@ -1,53 +1,39 @@
 {
- "week": "2026-W40",
- "run_at": "2026-09-30T18:59:20",
+ "week": "2026-W41",
+ "run_at": "2026-10-05T12:26:31",
  "sources": [
   {
    "source": "OpenAlex — keyword queries",
    "ok": true,
-   "count": 1330,
+   "count": 1853,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched journals",
    "ok": true,
-   "count": 80,
+   "count": 93,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched authors",
    "ok": true,
-   "count": 17,
+   "count": 5,
    "note": "",
    "fail_streak": 0
   },
   {
-   "source": "RePEc NEP — Africa",
+   "source": "Google Scholar alerts",
    "ok": true,
-   "count": 1,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "RePEc NEP — Financial development & growth",
-   "ok": true,
-   "count": 8,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "RePEc NEP — Economic history",
-   "ok": true,
-   "count": 7,
-   "note": "",
+   "count": 0,
+   "note": "not configured (no IMAP_USER / IMAP_PASSWORD secrets)",
    "fail_streak": 0
   },
   {
    "source": "GDELT global news search",
    "ok": true,
-   "count": 42,
+   "count": 6,
    "note": "\"financial centre\" Africa… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%22financial+centre%22+Africa&mode=ArtList&format=json&timespan=7d&maxrecord",
    "fail_streak": 0
   },
@@ -56,21 +42,35 @@
    "ok": false,
    "count": 0,
    "note": "(Africa OR Kenya OR Nigeria OR \"South Af… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28Africa+OR+Kenya+OR+Nigeria+OR+%22South+Africa%22+OR+Morocc",
-   "fail_streak": 1
+   "fail_streak": 2
+  },
+  {
+   "source": "Bloomberg alerts & newsletters",
+   "ok": true,
+   "count": 0,
+   "note": "not configured (no IMAP_USER / IMAP_PASSWORD secrets)",
+   "fail_streak": 0
+  },
+  {
+   "source": "Google Alerts (email)",
+   "ok": true,
+   "count": 0,
+   "note": "not configured (no IMAP_USER / IMAP_PASSWORD secrets)",
+   "fail_streak": 0
   },
   {
    "source": "Business Daily Africa",
    "ok": false,
    "count": 0,
    "note": "404 Client Error: Not Found for url: https://www.businessdailyafrica.com/service/rss/bd/1938306/feed.rss",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "The East African",
    "ok": false,
    "count": 0,
    "note": "404 Client Error: Not Found for url: https://www.theeastafrican.co.ke/service/rss/tea/1289868/feed.rss",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "The Africa Report",
@@ -80,18 +80,11 @@
    "fail_streak": 0
   },
   {
-   "source": "African Arguments",
-   "ok": true,
-   "count": 5,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
    "source": "Semafor Africa",
    "ok": false,
    "count": 0,
    "note": "404 Client Error:  for url: https://www.semafor.com/vertical/africa/rss.xml",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Jeune Afrique — Économie",
@@ -105,35 +98,21 @@
    "ok": false,
    "count": 0,
    "note": "404 Client Error: Not Found for url: https://www.businessday.co.za/rss/bd/",
-   "fail_streak": 1
-  },
-  {
-   "source": "Daily Maverick — Business",
-   "ok": false,
-   "count": 0,
-   "note": "404 Client Error: Not Found for url: https://www.dailymaverick.co.za/section/business-maverick/feed/",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Médias24 (Maroc)",
    "ok": false,
    "count": 0,
    "note": "403 Client Error: Forbidden for url: https://medias24.com/feed/",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Sika Finance (UEMOA)",
    "ok": false,
    "count": 0,
    "note": "404 Client Error: Not Found for url: https://www.sikafinance.com/rss",
-   "fail_streak": 1
-  },
-  {
-   "source": "Defimedia (Maurice)",
-   "ok": true,
-   "count": 120,
-   "note": "",
-   "fail_streak": 0
+   "fail_streak": 2
   },
   {
    "source": "Mint — Economy",
@@ -143,16 +122,9 @@
    "fail_streak": 0
   },
   {
-   "source": "Bangkok Post — Business",
-   "ok": true,
-   "count": 10,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
    "source": "VnExpress International — Business",
    "ok": true,
-   "count": 59,
+   "count": 60,
    "note": "",
    "fail_streak": 0
   },
@@ -160,20 +132,6 @@
    "source": "Valor Econômico",
    "ok": true,
    "count": 100,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "La Tercera — Pulso",
-   "ok": false,
-   "count": 0,
-   "note": "404 Client Error: Not Found for url: https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/",
-   "fail_streak": 1
-  },
-  {
-   "source": "Rest of World",
-   "ok": true,
-   "count": 6,
    "note": "",
    "fail_streak": 0
   },
@@ -192,67 +150,172 @@
    "fail_streak": 0
   },
   {
-   "source": "Bloomberg — Economics (public feed)",
+   "source": "World Bank Documents & Reports",
    "ok": true,
-   "count": 20,
+   "count": 0,
    "note": "",
    "fail_streak": 0
+  },
+  {
+   "source": "OpenAlex — reports",
+   "ok": true,
+   "count": 185,
+   "note": "pension fund investment: 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?filter=from_publication_date%3A2026-09-05%2Ctype%3Areport&per-page=100&select=id%2Cdoi%2Ctitle%2Cpu",
+   "fail_streak": 0
+  },
+  {
+   "source": "OpenAlex — IFI working-paper series",
+   "ok": true,
+   "count": 0,
+   "note": "",
+   "fail_streak": 0
+  },
+  {
+   "source": "Central Bank of Kenya",
+   "ok": true,
+   "count": 0,
+   "note": "baseline recorded (12 links)",
+   "fail_streak": 0
+  },
+  {
+   "source": "Capital Markets Authority (Kenya)",
+   "ok": false,
+   "count": 0,
+   "note": "no matching links: the page may need JavaScript or the pattern is wrong",
+   "fail_streak": 1
+  },
+  {
+   "source": "BCEAO publications",
+   "ok": true,
+   "count": 0,
+   "note": "baseline recorded (54 links)",
+   "fail_streak": 0
+  },
+  {
+   "source": "Bank Al-Maghrib",
+   "ok": false,
+   "count": 0,
+   "note": "403 Client Error: Forbidden for url: https://www.bkam.ma/",
+   "fail_streak": 1
+  },
+  {
+   "source": "AMMC (Maroc)",
+   "ok": true,
+   "count": 0,
+   "note": "baseline recorded (10 links)",
+   "fail_streak": 0
+  },
+  {
+   "source": "South African Reserve Bank",
+   "ok": true,
+   "count": 0,
+   "note": "baseline recorded (18 links)",
+   "fail_streak": 0
+  },
+  {
+   "source": "JSE news",
+   "ok": false,
+   "count": 0,
+   "note": "403 Client Error: Forbidden for url: https://www.jse.co.za/news",
+   "fail_streak": 1
+  },
+  {
+   "source": "FSC Mauritius communiqués",
+   "ok": true,
+   "count": 0,
+   "note": "baseline recorded (4 links)",
+   "fail_streak": 0
+  },
+  {
+   "source": "RBI press releases",
+   "ok": true,
+   "count": 0,
+   "note": "baseline recorded (71 links)",
+   "fail_streak": 0
+  },
+  {
+   "source": "VIFC news (Vietnam)",
+   "ok": false,
+   "count": 0,
+   "note": "no matching links: the page may need JavaScript or the pattern is wrong",
+   "fail_streak": 1
+  },
+  {
+   "source": "CMF Chile — prensa",
+   "ok": false,
+   "count": 0,
+   "note": "no matching links: the page may need JavaScript or the pattern is wrong",
+   "fail_streak": 1
+  },
+  {
+   "source": "Long Finance / GFCI",
+   "ok": false,
+   "count": 0,
+   "note": "no matching links: the page may need JavaScript or the pattern is wrong",
+   "fail_streak": 1
+  },
+  {
+   "source": "FSD Africa publications",
+   "ok": false,
+   "count": 0,
+   "note": "no matching links: the page may need JavaScript or the pattern is wrong",
+   "fail_streak": 1
+  },
+  {
+   "source": "AfDB documents",
+   "ok": false,
+   "count": 0,
+   "note": "404 Client Error: Not Found for url: https://www.afdb.org/en/documents",
+   "fail_streak": 1
+  },
+  {
+   "source": "World Federation of Exchanges",
+   "ok": false,
+   "count": 0,
+   "note": "403 Client Error: Forbidden for url: https://www.world-exchanges.org/news",
+   "fail_streak": 1
   },
   {
    "source": "IMF — Publications",
    "ok": false,
    "count": 0,
    "note": "403 Client Error: Forbidden for url: https://www.imf.org/en/Publications/RSS?language=eng",
-   "fail_streak": 1
-  },
-  {
-   "source": "IMF — Blog",
-   "ok": false,
-   "count": 0,
-   "note": "403 Client Error: Forbidden for url: https://www.imf.org/en/Blogs/rss",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "BIS — Publications",
    "ok": false,
    "count": 0,
    "note": "404 Client Error: Not Found for url: https://www.bis.org/doclist/all_pubs.rss",
-   "fail_streak": 1
-  },
-  {
-   "source": "World Bank — Blogs",
-   "ok": false,
-   "count": 0,
-   "note": "404 Client Error: Not Found for url: https://blogs.worldbank.org/en/rss.xml",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Center for Global Development",
    "ok": false,
    "count": 0,
    "note": "403 Client Error: Forbidden for url: https://www.cgdev.org/rss.xml",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "ODI",
    "ok": false,
    "count": 0,
    "note": "404 Client Error: Not Found for url: https://odi.org/en/rss/",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Bretton Woods Project",
    "ok": false,
    "count": 0,
    "note": "unparseable feed: <unknown>:4:42: not well-formed (invalid token)",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Eurodad",
    "ok": false,
    "count": 0,
    "note": "403 Client Error: Forbidden for url: https://www.eurodad.org/rss",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Debt Justice",
@@ -262,16 +325,9 @@
    "fail_streak": 0
   },
   {
-   "source": "Tax Justice Network",
-   "ok": true,
-   "count": 0,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
    "source": "OMFIF",
    "ok": true,
-   "count": 7,
+   "count": 5,
    "note": "",
    "fail_streak": 0
   },
@@ -280,54 +336,26 @@
    "ok": false,
    "count": 0,
    "note": "403 Client Error: Forbidden for url: https://unctad.org/rss.xml",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
-   "source": "African Development Bank",
-   "ok": true,
-   "count": 10,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "FSD Africa",
+   "source": "FSD Africa (RSS)",
    "ok": true,
    "count": 0,
    "note": "",
    "fail_streak": 0
-  },
-  {
-   "source": "Afreximbank",
-   "ok": false,
-   "count": 0,
-   "note": "403 Client Error: Forbidden for url: https://www.afreximbank.com/feed/",
-   "fail_streak": 1
   },
   {
    "source": "Finance in Common",
    "ok": false,
    "count": 0,
    "note": "404 Client Error: Not Found for url: https://financeincommon.org/feed",
-   "fail_streak": 1
-  },
-  {
-   "source": "Chatham House",
-   "ok": false,
-   "count": 0,
-   "note": "403 Client Error: Forbidden for url: https://www.chathamhouse.org/rss.xml",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "source": "Boston University GDP Center",
    "ok": true,
-   "count": 4,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "Institute for Economic Justice (SA)",
-   "ok": true,
-   "count": 0,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
@@ -355,35 +383,32 @@
   {
    "source": "ROAPE blog",
    "ok": true,
-   "count": 2,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "LSE Africa at LSE",
    "ok": true,
-   "count": 5,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "CEPR / VoxEU",
-   "ok": true,
-   "count": 20,
+   "count": 3,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex citation trail",
-   "ok": true,
-   "count": 56,
-   "note": "",
-   "fail_streak": 0
+   "ok": false,
+   "count": 0,
+   "note": "429 Client Error: Too Many Requests for url: https://api.openalex.org/works?filter=openalex%3AW2965425066%7CW4285800985%7CW2950046408%7CW4303712423%7CW4397044875%7CW4410769777%7CW3124530980%7CW4410529",
+   "fail_streak": 1
   }
  ],
  "stats": {
-  "harvested": 1974,
-  "passed": 113,
+  "harvested": 2433,
+  "dropped_outlet": 5,
+  "duplicates_removed": 554,
+  "repeats_removed": 707,
+  "dropped_venue": 9,
+  "passed": 45,
   "tagged": true
  }
 }
