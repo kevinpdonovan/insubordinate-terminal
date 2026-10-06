@@ -90,9 +90,9 @@ The Source health page shows "not configured" for these until the secrets exist.
 
 ## Google Alerts in use
 
-**47 alerts** are live in the project account (insubordinatefinanceterminal@gmail.com), all
+**52 alerts** are live in the project account (insubordinatefinanceterminal@gmail.com), all
 delivered at most once a day: 16 for places and institutions, 31 for concepts drawn from the ERC
-proposal.
+proposal, and 5 standing in for sources that block GitHub's servers.
 
 The full list, with each query's settings and the reasoning behind it, is in
 **[`docs/google-alerts.md`](docs/google-alerts.md)** — that file is the source of truth. It is not

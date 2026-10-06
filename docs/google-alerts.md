@@ -1,6 +1,6 @@
 # Google Alerts: Insubordinate Finance: The Terminal
 
-Account: insubordinatefinanceterminal@gmail.com · 47 alerts · all delivered by email, "at most once a day".
+Account: insubordinatefinanceterminal@gmail.com · 52 alerts · all delivered by email, "at most once a day".
 "all" = *All results*; "best" = *Only the best results*. In Google's syntax, OR groups bind before the implied AND, so `A OR B C OR D` means (A or B) and (C or D).
 Alerts reach the dashboard once the `IMAP_USER` / `IMAP_PASSWORD` GitHub secrets are set.
 
@@ -67,25 +67,24 @@ Proposal concept in brackets. ➕ = extension beyond the proposal's own wording.
 | `"municipal bond" OR "municipal bonds" OR "city bond" Africa OR Senegal OR Dakar OR Kenya OR "South Africa" OR Morocco OR India OR Brazil` (municipal finance) | all |
 | `securitisation OR securitization OR "mortgage refinance" housing OR mortgage Africa OR "emerging markets" OR Kenya OR Senegal OR Morocco` (securitisation/housing) | best |
 
-## Still to create: cover for dropped sources (6 Oct)
+## Set 3: cover for blocked sources (created 6 Oct 2026)
 
 Nine sources were removed from `sources.yaml` after the W41 run. Four were recovered in code:
 ODI, CGD and the AfDB now come through OpenAlex by institution (`themes.yaml → watch_institutions`),
 and Eurodad's feed was simply at the wrong URL.
 
-The remaining five cannot be reached from GitHub Actions at all. UNCTAD and the JSE refuse every
+The remaining five cannot be reached from GitHub Actions at all — UNCTAD and the JSE refuse every
 request; the WFE and Bank Al-Maghrib answer a home connection but refuse GitHub's servers, which is
-a datacentre-address block that no setting on our side changes; Finance in Common renders its
-listing in JavaScript, so there is nothing for a page watcher to read. Alerts are the way back in —
-create these at google.com/alerts signed in as the project account, then record them above.
+a datacentre-address block; Finance in Common renders its listing in JavaScript. These alerts stand
+in for them.
 
-| Query | Results | Covers |
-|---|---|---|
-| `site:unctad.org ("sovereign debt" OR "capital markets" OR "financial centre" OR "debt sustainability")` | all | UNCTAD |
-| `"Johannesburg Stock Exchange" (listing OR delisting OR reform OR regulation)` | all | JSE |
-| `"World Federation of Exchanges"` | all | WFE |
-| `"Bank Al-Maghrib" OR "Banque centrale du Maroc"` | all | Bank Al-Maghrib |
-| `"Finance in Common" OR "public development banks"` | best | Finance in Common |
+| Query | Results | Language | Covers |
+|---|---|---|---|
+| `site:unctad.org ("sovereign debt" OR "capital markets" OR "financial centre" OR "debt sustainability")` | all | EN | UNCTAD |
+| `"Johannesburg Stock Exchange" (listing OR delisting OR reform OR regulation)` | all | EN | JSE |
+| `"World Federation of Exchanges"` | all | EN | WFE |
+| `"Bank Al-Maghrib" OR "Banque centrale du Maroc"` | all | any | Bank Al-Maghrib |
+| `"Finance in Common" OR "public development banks"` | best | EN | Finance in Common |
 
 ## Tuning
 
