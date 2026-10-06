@@ -130,6 +130,19 @@ authors:
     id: A5078489691
     institution: ''
     matched: Stefan Ouma
+institutions:
+  African Development Bank Group:
+    check: false
+    id: I1330402449
+    matched: African Development Bank Group
+  Center for Global Development:
+    check: false
+    id: I1319597252
+    matched: Center for Global Development
+  Overseas Development Institute:
+    check: false
+    id: I167147083
+    matched: Overseas Development Institute
 journals:
   Africa:
     check: true

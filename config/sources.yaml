@@ -160,6 +160,9 @@ grey:
   - {name: "World Bank Documents & Reports", type: worldbank, lookback_days: 45, rows: 30}
   - {name: "OpenAlex — reports", type: openalex, mode: reports, lookback_days: 30}
   - {name: "OpenAlex — IFI working-paper series", type: openalex, mode: series, lookback_days: 30}   # uses themes.yaml > watch_series
+  # ODI, CGD and AfDB block GitHub's servers outright, so their output is picked up through
+  # OpenAlex by institution instead. See themes.yaml > watch_institutions.
+  - {name: "OpenAlex — watched institutions", type: openalex, mode: institutions, lookback_days: 45}
   # Removed after the 2026-W41 run (6 Oct). Blocked to GitHub's servers with 403: IMF, UNCTAD,
   # CGD, Eurodad, JSE, WFE, Bank Al-Maghrib. Dead URLs with no working replacement (404): ODI,
   # Finance in Common, AfDB. Page watchers that found no links because the listing is rendered in
@@ -179,6 +182,8 @@ grey:
   - {name: "BIS — central bank speeches", type: rss, url: "https://www.bis.org/doclist/cbspeeches.rss", filter: true}
   # Bretton Woods Project serves HTML at every /feed/ path, so it is watched as a page instead.
   - {name: "Bretton Woods Project", type: pagewatch, url: "https://www.brettonwoodsproject.org/articles/", link_pattern: '/20\d\d/\d\d/', org: "Bretton Woods Project"}
+  # Eurodad's /rss path is dead; this one works and returns current items.
+  - {name: "Eurodad", type: rss, url: "https://www.eurodad.org/news?format=rss", filter: true}
   - {name: "Debt Justice", type: rss, url: "https://debtjustice.org.uk/feed", filter: true}                                           # check
   - {name: "OMFIF", type: rss, url: "https://www.omfif.org/feed/", filter: true}                                                      # check
   - {name: "FSD Africa (RSS)", type: rss, url: "https://fsdafrica.org/feed/", filter: true}                                           # check

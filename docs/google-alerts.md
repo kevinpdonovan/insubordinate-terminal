@@ -67,6 +67,26 @@ Proposal concept in brackets. ➕ = extension beyond the proposal's own wording.
 | `"municipal bond" OR "municipal bonds" OR "city bond" Africa OR Senegal OR Dakar OR Kenya OR "South Africa" OR Morocco OR India OR Brazil` (municipal finance) | all |
 | `securitisation OR securitization OR "mortgage refinance" housing OR mortgage Africa OR "emerging markets" OR Kenya OR Senegal OR Morocco` (securitisation/housing) | best |
 
+## Still to create: cover for dropped sources (6 Oct)
+
+Nine sources were removed from `sources.yaml` after the W41 run. Four were recovered in code:
+ODI, CGD and the AfDB now come through OpenAlex by institution (`themes.yaml → watch_institutions`),
+and Eurodad's feed was simply at the wrong URL.
+
+The remaining five cannot be reached from GitHub Actions at all. UNCTAD and the JSE refuse every
+request; the WFE and Bank Al-Maghrib answer a home connection but refuse GitHub's servers, which is
+a datacentre-address block that no setting on our side changes; Finance in Common renders its
+listing in JavaScript, so there is nothing for a page watcher to read. Alerts are the way back in —
+create these at google.com/alerts signed in as the project account, then record them above.
+
+| Query | Results | Covers |
+|---|---|---|
+| `site:unctad.org ("sovereign debt" OR "capital markets" OR "financial centre" OR "debt sustainability")` | all | UNCTAD |
+| `"Johannesburg Stock Exchange" (listing OR delisting OR reform OR regulation)` | all | JSE |
+| `"World Federation of Exchanges"` | all | WFE |
+| `"Bank Al-Maghrib" OR "Banque centrale du Maroc"` | all | Bank Al-Maghrib |
+| `"Finance in Common" OR "public development banks"` | best | Finance in Common |
+
 ## Tuning
 
 After 2–3 weeks of email, check which alerts produce mostly noise (likely candidates:

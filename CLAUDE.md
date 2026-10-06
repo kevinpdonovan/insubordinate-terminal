@@ -92,8 +92,13 @@ propose keeping `filter: false` or switching it on.
    is now a page watcher on `/articles/`. **The World Bank zero was not the lookback**: the v2 WDS
    API is frozen, newest indexed document 2025-03-12, so any recent-date filter returned nothing.
    Switched to v3, where 20 of the 28 grey queries return documents in a 45-day window.
-   **Coverage gap to note:** only the IMF is replaced by a standing Google Alert. UNCTAD, CGD,
-   Eurodad, JSE, WFE, Bank Al-Maghrib, ODI, Finance in Common and AfDB now have no substitute —
-   worth creating alerts for them if they matter.
+   **Coverage restored 6 Oct.** Of the nine dropped sources, four are back in code: ODI, CGD and
+   the AfDB arrive through a new OpenAlex `institutions` mode (`themes.yaml → watch_institutions`,
+   verified live: 16 items in 45 days), and Eurodad's feed was only at the wrong URL
+   (`/news?format=rss` works). Five cannot be reached from GitHub Actions and need Google Alerts
+   instead — UNCTAD and JSE refuse everything; WFE and Bank Al-Maghrib answer a home connection but
+   block datacentre addresses, which nothing on our side changes; Finance in Common renders its
+   listing in JavaScript. Ready-to-paste queries are in `docs/google-alerts.md` → "Still to create".
+   The User-Agent is not the problem: a real browser string makes no difference to any of them.
 5. Once the inbox is live, check the email sources (the Bloomberg link pattern is a guess).
 6. Later: newsletter via Buttondown RSS-to-email; Zotero group library for the archive section; decide whether Bloomberg headlines stay team-only once the site is public.

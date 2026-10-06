@@ -227,7 +227,8 @@ def _resolve(kind: str, names: list[str], lock: dict) -> list[str]:
                                    "institution": ((res[0].get("last_known_institutions") or [{}])[0] or {}).get("display_name", ""),
                                    "check": len(close) != 1} if res else None
                 else:
-                    res = _oa_get("/sources", {"search": name, "per-page": 5})["results"]
+                    path = "/institutions" if kind == "institutions" else "/sources"
+                    res = _oa_get(path, {"search": name, "per-page": 5})["results"]
                     exact = [r for r in res if norm_name(r["display_name"]) == norm_name(name)]
                     pick = (exact or res or [None])[0]
                     table[name] = {"id": pick["id"].split("/")[-1], "matched": pick["display_name"],
@@ -283,14 +284,18 @@ def harvest_openalex(src: dict, profile: dict, section: str = "research"):
                 except Exception as ex:
                     errors.append(f"{q}: {ex}")
                 time.sleep(0.2)
-        elif mode in ("journals", "authors", "series"):
+        elif mode in ("journals", "authors", "series", "institutions"):
             lock = load_lock()
             names = {"journals": profile.get("watch_journals", []), "authors": profile.get("watch_authors", []),
-                     "series": profile.get("watch_series", [])}[mode]
+                     "series": profile.get("watch_series", []),
+                     "institutions": profile.get("watch_institutions", [])}[mode]
             ids = _resolve(mode, names, lock)
             save_lock(lock)
-            key = "authorships.author.id" if mode == "authors" else "primary_location.source.id"
-            base_m = base if mode != "series" else f"from_publication_date:{since}"
+            key = {"authors": "authorships.author.id",
+                   "institutions": "authorships.institutions.lineage"}.get(mode, "primary_location.source.id")
+            # Series and institutions publish reports and working papers, which the default
+            # work-type filter would exclude, so only the date filter applies to them.
+            base_m = base if mode not in ("series", "institutions") else f"from_publication_date:{since}"
             for i in range(0, len(ids), 50):
                 chunk = "|".join(ids[i:i + 50])
                 for w in _paged(f"{base_m},{key}:{chunk}", None, cap=400):

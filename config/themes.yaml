@@ -765,6 +765,13 @@ grey_queries:
   - "domestic resource mobilization"
 
 # Working-paper and report series from IFIs (resolved to OpenAlex IDs on first run)
+# Organisations whose reports and working papers should surface via OpenAlex, used where the
+# organisation's own site blocks automated access. Resolved to OpenAlex IDs on first run.
+watch_institutions:
+  - "Overseas Development Institute"
+  - "Center for Global Development"
+  - "African Development Bank Group"
+
 watch_series:
   - "IMF Working Papers"
   - "IMF Staff Country Reports"
