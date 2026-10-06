@@ -111,6 +111,8 @@ themes:
       - notation souveraine
       - agence de notation
       - classificação de risco
+      - subnational rating
+      - perception premium
 
   - id: integration
     label: "Devices of integration"
@@ -174,6 +176,9 @@ themes:
       - bond issuance
       - dette souveraine
       - dívida pública
+      - sovereign default
+      - non-resident holdings
+      - foreign holdings
 
   - id: histories
     label: "Colonial & postcolonial financial histories"
@@ -190,6 +195,9 @@ themes:
       - eco currency
       - financial history
       - imperial finance
+      - decolonising finance
+      - decolonizing finance
+      - popular shareholding
 
   - id: professionals
     label: "Financial professionals & institutions"
@@ -232,6 +240,8 @@ themes:
       - financial sector deepening
       - fsd africa
       - finance in common
+      - financial deepening
+      - de-risking
 
   - id: digital
     label: "Fintech & digital payments"
@@ -679,6 +689,15 @@ news_queries:
   - '("sovereign wealth fund") (Kenya OR Nigeria OR Morocco OR Senegal OR "South Africa" OR Vietnam OR Thailand)'
   - '(privatisation OR privatization OR IPO) (Safaricom OR "Kenya Pipeline" OR KenGen OR "state-owned") Nairobi'
   - '"IMF" ("staff-level agreement" OR "extended credit facility") (Kenya OR Ghana OR Egypt OR "Côte d''Ivoire" OR Senegal OR Zambia)'
+  # Concept-level searches, to stop the sweep leaning so heavily on named places and
+  # institutions. Mirrors the Set 2 Google Alerts (docs/google-alerts.md). Added 6 Oct 2026.
+  - '("sovereign credit rating" OR "sovereign rating") (Africa OR Kenya OR Nigeria OR Ghana OR Morocco OR Senegal)'
+  - '("debt restructuring" OR "sovereign default") (Ghana OR Zambia OR Kenya OR Ethiopia OR Senegal)'
+  - '("non-resident holdings" OR "foreign holdings") ("government securities" OR "local currency bonds")'
+  - '("financial deepening" OR "capital market deepening")'
+  - '("municipal bond" OR "subnational credit rating") (Africa OR Senegal OR Kenya OR "South Africa" OR Morocco)'
+  - '("Global Financial Centres Index" OR GFCI)'
+  - 'FATF ("grey list" OR "gray list") (Kenya OR Nigeria OR "South Africa" OR Senegal OR Morocco OR Mauritius OR Vietnam)'
 
 # ---------------------------------------------------------------------
 #  GREY LITERATURE — searches run against the World Bank Documents &
@@ -709,6 +728,13 @@ grey_queries:
   - "anti-money laundering"
   - "capital market integration"
   - "offshore financial centre"
+  - "financial deepening"
+  - "subnational finance"
+  - "municipal bonds"
+  - "cross-listing"
+  - "FATF grey list"
+  - "de-risking"
+  - "domestic resource mobilization"
 
 # Working-paper and report series from IFIs (resolved to OpenAlex IDs on first run)
 watch_series:

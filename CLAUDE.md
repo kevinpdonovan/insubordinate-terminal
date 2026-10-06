@@ -44,7 +44,11 @@ Write for a researcher, not a developer: explain changes and their trade-offs in
 ## Status (5 Oct 2026)
 - Update 1 is live. **Update 2a is applied** (5 Oct, via GitHub Desktop): news gate rebalanced with country names, daily GDELT collector (`.github/workflows/news-daily.yml`), OpenAlex backoff and cap 25, looser archive gate, 6 dead news feeds removed, World Bank lookback 45 days.
 - **Caveat on 2a's test coverage.** `tests/test_pipeline.py` passes, but it contains only `test_end_to_end`, and 2a's change to it was limited to loosening one news-gate assertion. The 429 backoff (`get_with_backoff`), the `data/news_cache/` read/write and the `collect-news` command have **no offline coverage**. Treat the first scheduled runs as the real test: check `data/health.json` and whether `data/news_cache/` is filling.
-- 16 Google Alerts exist in the project Gmail (listed in README → "Google Alerts in use").
+- **47 Google Alerts** exist in the project Gmail (16 places and institutions, 31 concepts from
+  the ERC proposal). They are listed with their settings in `docs/google-alerts.md`, which is the
+  source of truth; the README points there rather than repeating the table. They reach the
+  dashboard only once `IMAP_USER` / `IMAP_PASSWORD` are set. The email source reads `INBOX` only,
+  so do not add a Gmail filter that archives the alerts or skips the inbox.
 
 ## To do (Update 2b)
 1. Move "From the archive" to the right-hand column (left: New research; right: News, Reports, From the archive; confirm the order with Kevin).
