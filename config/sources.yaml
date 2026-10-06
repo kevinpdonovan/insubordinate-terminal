@@ -135,6 +135,10 @@ news:
     from: "googlealerts-noreply@google.com"
     label: "Google Alert"
     filter: false
+    # 47 alerts delivered daily is ~376 emails per 8-day harvest window. The default
+    # max_messages is 60, which would silently read only the most recent day or so and
+    # ignore the rest of the week. Raised to cover the window with headroom.
+    max_messages: 500
   # Google Alerts delivered as RSS work too: paste each feed URL here, e.g.
   # - {name: "Google Alert — NIFC", type: rss, url: "https://www.google.com/alerts/feeds/XXXX/YYYY", filter: false}
   # Regional outlets (filtered through the relevance gate).

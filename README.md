@@ -90,41 +90,20 @@ The Source health page shows "not configured" for these until the secrets exist.
 
 ## Google Alerts in use
 
-These were created on 5 Oct 2026 in the project account (insubordinatefinanceterminal@gmail.com). All are delivered *at most once a day*. "All" means *All results*; "best" means *Only the best results*.
+**47 alerts** are live in the project account (insubordinatefinanceterminal@gmail.com), all
+delivered at most once a day: 16 for places and institutions, 31 for concepts drawn from the ERC
+proposal.
 
-| # | Query | Results | Language |
-|---|---|---|---|
-| 1 | `"Nairobi International Financial Centre"` | all | English |
-| 2 | `"Casablanca Finance City"` | all | English |
-| 3 | `"Vietnam International Financial Centre" OR "Vietnam International Financial Center"` | all | English |
-| 4 | `"GIFT City" IFSC` | all | English |
-| 5 | `"Mauritius International Financial Centre" OR "Mauritius financial centre" OR "Mauritius IFC"` | all | English |
-| 6 | `"African Credit Rating Agency" OR AfCRA` | all | English |
-| 7 | `"African Exchanges Linkage" OR "African Securities Exchanges Association"` | all | English |
-| 8 | `"Nairobi Securities Exchange" OR "Capital Markets Authority" Kenya` | all | English |
-| 9 | `sukuk Morocco OR Kenya OR Senegal OR Nigeria OR "Ivory Coast" OR Mauritius` | best | English |
-| 10 | `"Africa Financial Summit" OR "Africa CEO Forum" OR "Africa Debt Forum"` | all | English |
-| 11 | `Eurobond Kenya OR "Ivory Coast" OR Senegal OR Morocco OR Nigeria OR Ghana` | best | English |
-| 12 | `site:imf.org Kenya OR Morocco OR "Cote d'Ivoire" OR Mauritius OR "South Africa" OR Vietnam "financial sector"` | all | English |
-| 13 | `"frontier market" MSCI OR "FTSE Russell" reclassification OR upgrade` | best | English |
-| 14 | `BRVM` | best | any |
-| 15 | `"place financière" Abidjan OR Casablanca OR Maurice OR Dakar` | all | any |
-| 16 | `"centro financeiro" OR "mercado de capitais" "Faria Lima" OR "São Paulo" OR B3` | best | any |
+The full list, with each query's settings and the reasoning behind it, is in
+**[`docs/google-alerts.md`](docs/google-alerts.md)** — that file is the source of truth. It is not
+duplicated here: an earlier copy of the table in this README listed only the first 16 and drifted
+out of date.
 
-**Candidates for later** (add at google.com/alerts while signed in as the project account):
+Alerts only reach the dashboard once the inbox secrets (`IMAP_USER`, `IMAP_PASSWORD`) are set. See
+"Email alerts" above. Until then they collect in the Gmail inbox, which is still worth skimming.
 
-- `"Stock Exchange of Thailand" reform OR regulation OR "foreign investors"`
-- `"Bolsa de Santiago" OR nuam integración`
-- `"Johannesburg Stock Exchange" listing OR delisting OR reform`
-- `"panda bond" Africa OR Kenya OR Egypt OR Nigeria`
-- `"sovereign wealth fund" Kenya OR Nigeria OR Senegal OR Morocco OR Vietnam`
-- `site:unctad.org OR site:cgdev.org OR site:eurodad.org "capital markets" OR "sovereign debt" Africa` (these sites block GitHub, so alerts stand in for them)
-- `"financial subordination" OR "subordinate financialization"`
-- `SEBI "foreign portfolio investors"`
-- `Safaricom privatisation OR "state-owned" Kenya Treasury`
-- `"franc CFA" OR "eco" UEMOA monnaie` (any language)
-
-Alerts only reach the dashboard once the inbox secrets (`IMAP_USER`, `IMAP_PASSWORD`) are set. See "Email alerts" above.
+To add or edit one, go to google.com/alerts signed in as the project account, then record the
+change in `docs/google-alerts.md`.
 
 ## GDELT (global news index)
 

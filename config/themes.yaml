@@ -568,6 +568,7 @@ research_queries:
   - "financiarización América Latina"
   - "fondos de pensiones Chile financiarización"
 
+
 # Authors whose new work should always surface (name as it appears on publications).
 # The first run resolves each to an OpenAlex ID; check config/openalex_lock.yaml.
 watch_authors:
@@ -696,6 +697,18 @@ grey_queries:
   - "sukuk"
   - "financial market infrastructure"
   - "debt management"
+  # Concept phrases from the Set 2 alerts (see docs/google-alerts.md). Each grey query costs two
+  # calls — one OpenAlex "reports" query and one World Bank query — so this list is kept tighter
+  # than research_queries. Added 6 Oct 2026.
+  - "municipal finance"
+  - "subnational debt"
+  - "blended finance"
+  - "impact investing"
+  - "domestic debt market"
+  - "housing finance"
+  - "anti-money laundering"
+  - "capital market integration"
+  - "offshore financial centre"
 
 # Working-paper and report series from IFIs (resolved to OpenAlex IDs on first run)
 watch_series:
