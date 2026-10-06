@@ -37,8 +37,9 @@ def _prompt(profile: dict, batch: list[dict]) -> str:
     items = "\n".join(
         json.dumps({"id": it["id"], "section": it["section"], "title": it["title"],
                     "source": it.get("source", ""), "text": it.get("summary", "")[:700],
-                    **({"venue": it.get("venue", ""), "venue_level": (it.get("venue_quality") or {}).get("level"),
-                        "venue_h_index": (it.get("venue_quality") or {}).get("h_index"), "type": it.get("work_type")}
+                    **({"venue": it.get("venue", ""),
+                        "venue_signals": (it.get("quality_signals") or {}).get("labels") or None,
+                        "type": it.get("work_type")}
                        if it["section"] in ("research", "archive") else {})},
                    ensure_ascii=False)
         for it in batch)

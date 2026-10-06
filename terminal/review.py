@@ -22,6 +22,30 @@ def rank_key(it: dict):
     return (ai.get("relevance", -1), ai.get("quality", 1), it.get("kw", {}).get("score", 0), it.get("date", ""))
 
 
+PRETICK_SIGNALS = 2  # scholarship needs this many signal points to be pre-ticked
+
+
+def signal_score(it: dict) -> int:
+    """Positive quality signals, plus two for a Claude quality rating of 2.
+
+    "Peer-reviewed" is worth only 1 on its own, because almost every journal article
+    claims it — so it cannot pre-tick an item by itself. Claude's own quality judgement
+    is weighted at 2 so that a good paper in an unknown venue, or a working paper in a
+    repository, can still earn a pre-tick on the strength of the work.
+    """
+    score = (it.get("quality_signals") or {}).get("score", 0)
+    if ((it.get("ai") or {}).get("quality") or 0) >= 2:
+        score += 2
+    return score
+
+
+def signal_labels(it: dict) -> list[str]:
+    labels = list((it.get("quality_signals") or {}).get("labels") or [])
+    if ((it.get("ai") or {}).get("quality") or 0) >= 2:
+        labels.append("quality 2")
+    return labels
+
+
 def pretick(it: dict) -> bool:
     ai = it.get("ai")
     if ai:
@@ -29,7 +53,9 @@ def pretick(it: dict) -> bool:
         if ai.get("relevance", 0) < PRETICK.get(sec, 2):
             return False
         if sec in ("research", "archive") and not it.get("watched"):
-            if (it.get("venue_quality") or {}).get("level") in ("low", "denied"):
+            # Scholarship needs at least one positive quality signal. Nothing is judged on
+            # citation counts; an item with no signal is still listed, just left unticked.
+            if signal_score(it) < PRETICK_SIGNALS:
                 return False
             if ai.get("quality") is not None and ai["quality"] < 1:
                 return False
@@ -62,7 +88,7 @@ def issue_body(week: str, chosen: dict[str, list[dict]], stats: dict) -> str:
          f"**Insubordinate Finance: The Terminal — weekly review for {week}.** Harvested {stats.get('harvested', 0)} items; "
          f"{stats.get('duplicates_removed', 0)} duplicates and {stats.get('repeats_removed', 0)} repeats from earlier weeks were removed; "
          f"{stats.get('passed', 0)} passed the relevance gate; the strongest are listed below. "
-         f"News is only pre-ticked when rated 3/3; scholarship in low-signal venues is never pre-ticked.",
+         f"News is only pre-ticked when rated 3/3. Scholarship is pre-ticked when it carries at least one quality signal (watched journal or author, team author, reputable publisher, peer-reviewed, or Claude quality 2); the signals are shown against each item. Citation counts are not used.",
          "",
          "**How to review:** untick anything that shouldn't be published. To *feature* an item "
          "(top of the page and the newsletter), edit this issue and add ★ right after its box. "
@@ -80,9 +106,11 @@ def issue_body(week: str, chosen: dict[str, list[dict]], stats: dict) -> str:
             badge = f"r{rel}" if rel is not None else f"k{it.get('kw', {}).get('score', 0)}"
             note = (it.get("ai") or {}).get("note", "")
             title = it["title"].replace("[", "(").replace("]", ")")[:180]
-            vq = (it.get("venue_quality") or {}).get("level", "")
-            flag = {"low": "⚠ low-signal venue", "repository": "preprint/repository", "unknown": "venue unknown",
-                    "watched": "watched journal"}.get(vq, "")
+            if it.get("section") in ("research", "archive"):
+                labels = signal_labels(it)
+                flag = " · ".join(labels) if labels else "⚠ no quality signal"
+            else:
+                flag = ""
             also = f"also: {', '.join(it['also_at'][:3])}" if it.get("also_at") else ""
             meta = " · ".join(x for x in [it.get("source", ""), it.get("date", ""), _tags(it), flag, also] if x)
             L.append(f"- [{tick}] [{title}]({it['url']}) · {meta} · `{badge}`"

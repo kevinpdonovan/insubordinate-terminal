@@ -781,9 +781,54 @@ watch_series:
 #  (unless the author is watched). Starting lists: edit freely.
 # ---------------------------------------------------------------------
 quality:
-  established_h_index: 20
-  modest_h_index: 5
+  # No bibliometrics: the h-index is not used. Scholarship earns a pre-tick by carrying at least
+  # one positive signal (see terminal/quality.py). Items with no signal are still listed, marked
+  # "no quality signal", and left unticked for you to judge.
   venue_allowlist: []
+  # Publishers that count as a positive signal. Substring match, case-insensitive, so
+  # "University Press" covers Oxford, Cambridge, Duke, Wits, UCT, Bristol and the rest.
+  publisher_allowlist:
+    - "University Press"
+    - "Presses Universitaires"
+    - "Routledge"
+    - "Taylor & Francis"
+    - "Taylor and Francis"
+    - "Wiley"
+    - "SAGE"
+    - "Springer"
+    - "Palgrave"
+    - "Brill"
+    - "De Gruyter"
+    - "Elsevier"
+    - "Edward Elgar"
+    - "Bloomsbury"
+    - "Zed Books"
+    - "Pluto Press"
+    - "Verso"
+    - "La Découverte"
+    - "Karthala"
+    - "Presses de Sciences Po"
+    - "CNRS Éditions"
+    - "Éditions de l'EHESS"
+    - "CODESRIA"
+    - "Langaa"
+    - "HSRC Press"
+    - "Fondo de Cultura Económica"
+    - "Siglo XXI"
+    - "Editora UFRJ"
+    - "Editora Unesp"
+    - "Cambridge"
+    - "Oxford"
+    - "Duke"
+    - "Princeton"
+    - "Chicago"
+    - "Columbia"
+    - "Cornell"
+    - "Harvard"
+    - "Yale"
+    - "Stanford"
+    - "Minnesota"
+    - "California"
   venue_denylist:
     - "International Journal of Research and Innovation in Social Science"
     - "International Journal of Science and Research"

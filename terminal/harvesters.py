@@ -335,14 +335,13 @@ def venue_stats(venue_ids: list[str], cache: dict) -> dict:
         chunk = "|".join(todo[i:i + 50])
         try:
             js = _oa_get("/sources", {"filter": f"openalex:{chunk}", "per-page": 50,
-                                      "select": "id,display_name,type,summary_stats,host_organization_name,is_in_doaj"})
+                                      "select": "id,display_name,type,host_organization_name,is_in_doaj"})
         except Exception:
             continue
         for s in js.get("results", []):
             cache[s["id"].split("/")[-1]] = {
                 "name": s.get("display_name", ""), "type": s.get("type", ""),
-                "h_index": (s.get("summary_stats") or {}).get("h_index", 0),
-                "mean_citedness": round((s.get("summary_stats") or {}).get("2yr_mean_citedness", 0) or 0, 2),
+                # Citation metrics are deliberately not cached: quality.py does not use them.
                 "publisher": s.get("host_organization_name") or "", "doaj": bool(s.get("is_in_doaj")),
             }
     return cache

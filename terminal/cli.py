@@ -20,7 +20,7 @@ from . import build as site_build
 from .dedupe import cluster_news, keys_for, merge_versions, work_key
 from .harvesters import (HARVESTERS, harvest_citation_trail, harvest_email, harvest_gdelt, harvest_pagewatch,
                          harvest_rss, venue_stats)
-from .quality import LEVEL_SCORE, apply_venue_quality, outlet_ok, outlet_rank
+from .quality import apply_quality_signals, outlet_ok, outlet_rank
 from .items import DATA, SECTIONS, SeenStore, iso_week, load_json, make_item, save_json
 from .profile import CONFIG, load_profile, load_sources
 from .relevance import Scorer
@@ -152,11 +152,11 @@ def cmd_harvest(args):
     fresh = [it for it in items if not any(k in seen for k in keys_for(it))]
     stats["repeats_removed"] = len(items) - len(fresh)
 
-    # --- venue quality for scholarship
+    # --- quality signals for scholarship (no bibliometrics; see quality.py)
     venues = load_json(DATA / "venues.json", {})
     venue_stats([it.get("venue_id", "") for it in fresh if it["section"] == "research"], venues)
     save_json(DATA / "venues.json", venues)
-    stats["dropped_venue"] = apply_venue_quality(fresh, venues, profile)
+    stats["dropped_venue"] = apply_quality_signals(fresh, venues, profile)
 
     passed = []
     for it in fresh:
@@ -164,8 +164,7 @@ def cmd_harvest(args):
             continue
         it["kw"] = scorer.assess(it)
         if it["kw"]["pass"]:
-            if it.get("venue_quality"):
-                it["kw"]["score"] += LEVEL_SCORE.get(it["venue_quality"]["level"], 0)
+            it["kw"]["score"] += (it.get("quality_signals") or {}).get("score", 0)
             passed.append(it)
     stats["passed"] = len(passed)
     log(f"harvested {len(raw)}; new after de-duplication {len(fresh)}; passed gate {len(passed)}")
@@ -185,11 +184,10 @@ def cmd_harvest(args):
                 a["work_key"] = work_key(a)
             arch = [a for a in arch if not any(k in seen for k in keys_for(a))]
             venue_stats([a.get("venue_id", "") for a in arch], venues)
-            apply_venue_quality(arch, venues, profile)
+            apply_quality_signals(arch, venues, profile)
             for a in arch:
                 a["kw"] = scorer.assess(a)
-                if a.get("venue_quality"):
-                    a["kw"]["score"] += LEVEL_SCORE.get(a["venue_quality"]["level"], 0)
+                a["kw"]["score"] += (a.get("quality_signals") or {}).get("score", 0)
             arch = [a for a in arch if a["kw"]["pass"] and not a.get("drop")]
             arch.sort(key=lambda a: (a.get("cited_by_this_week", 0), a["kw"]["score"]), reverse=True)
             others += arch[: src.get("max_items", 8) * 2]

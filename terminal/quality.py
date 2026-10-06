@@ -1,20 +1,31 @@
-"""Venue-quality signals for scholarship (and a domain allowlist for news).
+"""Quality signals for scholarship (and a domain allowlist for news).
 
-Venue levels, best to worst:
-  watched      a journal on the project's watch list
-  established  OpenAlex h-index >= 20
-  modest       h-index 5–19
-  repository   preprint server / institutional repository (fine, but flagged)
-  unknown      no venue information
-  low          h-index < 5
-  denied       venue or publisher on the deny list (dropped unless by a watched author)
+Items are not judged by citation counts. Each scholarly item collects
+*positive* signals; an item with at least one is eligible to be pre-ticked,
+and the signals are shown in the review issue so the reason is visible.
+
+  watched venue        a journal on the project's watch list        +2
+  watched author       an author on the project's watch list        +2
+  team author          a member of the project team                 +2
+  reputable publisher  a publisher on the allowlist                 +1
+  DOAJ                 journal indexed in the Directory of Open     +1
+                       Access Journals (OpenAlex supplies this)
+  peer-reviewed        article/review/book, not a preprint          +1
+  Claude quality 2     added at pre-tick time, after tagging        +1
+
+Nothing is dropped on bibliometrics. The only items dropped are those on the
+predatory venue/publisher deny lists, which is a different judgement from
+"this venue is not well cited" — and even then, not if the author is watched.
+
+The h-index is deliberately not used: Kevin considers it a poor measure of
+quality, and it biases against new, Southern and non-English venues.
 """
 from __future__ import annotations
 
 from .dedupe import domain_of
 from .relevance import norm
 
-LEVEL_SCORE = {"watched": 3, "established": 2, "modest": 1, "repository": 0, "unknown": 0, "low": -2, "denied": -10}
+PEER_REVIEWED_TYPES = {"article", "review", "book", "book-chapter"}
 
 
 def _match(name: str, patterns: list[str]) -> bool:
@@ -22,41 +33,79 @@ def _match(name: str, patterns: list[str]) -> bool:
     return any(norm(p) in n for p in patterns if p)
 
 
-def venue_level(it: dict, venues: dict, profile: dict) -> str:
+def _matched(name: str, patterns: list[str]) -> str:
+    n = norm(name)
+    for p in patterns:
+        if p and norm(p) in n:
+            return p
+    return ""
+
+
+def is_denied(it: dict, venues: dict, profile: dict) -> bool:
     q = profile.get("quality", {})
-    name, publisher = it.get("venue") or it.get("source", ""), it.get("publisher", "")
+    name = it.get("venue") or it.get("source", "")
     info = venues.get(it.get("venue_id", ""), {})
-    publisher = publisher or info.get("publisher", "")
-    if _match(name, q.get("venue_denylist", [])) or _match(publisher, q.get("publisher_denylist", [])):
-        return "denied"
-    watched = {norm(j) for j in profile.get("watch_journals", []) + q.get("venue_allowlist", [])}
-    if norm(name) in watched:
-        return "watched"
+    publisher = it.get("publisher", "") or info.get("publisher", "")
+    return _match(name, q.get("venue_denylist", [])) or _match(publisher, q.get("publisher_denylist", []))
+
+
+def quality_signals(it: dict, venues: dict, profile: dict) -> tuple[int, list[str]]:
+    """Return (score, labels) from venue, author, publisher and type signals."""
+    q = profile.get("quality", {})
+    name = it.get("venue") or it.get("source", "")
+    info = venues.get(it.get("venue_id", ""), {})
+    publisher = it.get("publisher", "") or info.get("publisher", "")
+    score, labels = 0, []
+
+    watched_venues = {norm(j) for j in profile.get("watch_journals", []) + q.get("venue_allowlist", [])}
+    if norm(name) in watched_venues:
+        score += 2
+        labels.append("watched journal")
+
+    if it.get("watched"):
+        score += 2
+        labels.append("watched author")
+
+    authors = {norm(a) for a in it.get("authors", [])}
+    team = [p.get("name", "") for p in profile.get("participants", []) if p.get("name")]
+    if any(norm(t) in authors for t in team):
+        score += 2
+        labels.append("team author")
+
+    pub = _matched(publisher, q.get("publisher_allowlist", []))
+    if pub:
+        score += 1
+        labels.append(pub)
+
+    if info.get("doaj"):
+        score += 1
+        labels.append("DOAJ")
+
     vtype = it.get("venue_type") or info.get("type", "")
-    if vtype == "repository":
-        return "repository"
-    if not info:
-        return "unknown"
-    h = info.get("h_index", 0) or 0
-    if h >= q.get("established_h_index", 20):
-        return "established"
-    if h >= q.get("modest_h_index", 5):
-        return "modest"
-    return "low"
+    if it.get("work_type") in PEER_REVIEWED_TYPES and vtype != "repository":
+        score += 1
+        labels.append("peer-reviewed")
+    elif vtype == "repository" or it.get("work_type") == "preprint":
+        labels.append("preprint/repository")
+
+    return score, labels
 
 
-def apply_venue_quality(items: list[dict], venues: dict, profile: dict) -> int:
-    """Annotate scholarly items; drop denied venues (unless by a watched author). Returns n dropped."""
+def apply_quality_signals(items: list[dict], venues: dict, profile: dict) -> int:
+    """Annotate scholarly items; drop deny-listed venues (unless by a watched author).
+
+    Returns the number dropped.
+    """
     dropped = 0
     for it in items:
         if it["section"] not in ("research", "archive") or it.get("origin", "").startswith(("email", "suggestion")):
             continue
-        lvl = venue_level(it, venues, profile)
-        info = venues.get(it.get("venue_id", ""), {})
-        it["venue_quality"] = {"level": lvl, "h_index": info.get("h_index")}
-        if lvl == "denied" and not it.get("watched"):
+        if is_denied(it, venues, profile) and not it.get("watched"):
             it["drop"] = "venue on deny list"
             dropped += 1
+            continue
+        score, labels = quality_signals(it, venues, profile)
+        it["quality_signals"] = {"score": score, "labels": labels}
     return dropped
 
 

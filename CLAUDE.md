@@ -41,7 +41,13 @@ Write for a researcher, not a developer: explain changes and their trade-offs in
   to name a case-study city. `research_queries` 46 -> 71, `news_queries` 31 -> 38,
   `grey_queries` 12 -> 28, plus ten new theme keywords. Watch the W42 run for whether this
   over-corrects; the levers are the same lists.
-- **The h-index must not be a hard gate.** Kevin considers it a poor measure; it also biases against Southern and non-English venues.
+- **No bibliometrics anywhere.** The h-index was removed entirely on 6 Oct — not just as a gate.
+  Scholarship earns a pre-tick by collecting signal points: watched journal / watched author /
+  team author (2 each), Claude quality 2 (2), reputable publisher, DOAJ, peer-reviewed (1 each);
+  2 points pre-ticks. "Peer-reviewed" is only worth 1 on purpose, since nearly every journal
+  article claims it, so it cannot pre-tick on its own. Items with too few signals are still
+  listed, with their signals shown and the reason visible, just unticked. The only items dropped
+  are deny-listed predatory venues, which is a separate judgement from citation counts.
 - Don't re-run the weekly harvest mid-week. It marks items as seen, so they vanish from the next Monday issue. `collect-news` is safe to run any time.
 - Pushes made by the bot (GITHUB_TOKEN) don't trigger other workflows, so `publish.yml` deploys Pages itself.
 - Secrets: `ANTHROPIC_API_KEY`, `OPENALEX_API_KEY`, `IMAP_USER` / `IMAP_PASSWORD` (alerts inbox insubordinatefinanceterminal@gmail.com; may not be set yet). Variables: `REVIEWER` (kevinpdonovan), `CONTACT_EMAIL`, `TAGGER_MODEL`.
@@ -71,9 +77,14 @@ propose keeping `filter: false` or switching it on.
    docstring and the review-issue header. `short_name: InsubordinateFINANCE` is the ERC project,
    not the dashboard, so it was left alone. `SECTIONS` was also reordered to
    `research, news, grey, archive` so the review issue and the stats row match the new columns.
-3. Replace h-index gating with multi-signal "likely quality" pre-ticking:
-   - Positive signals: trusted/watched venues; reputable publishers including francophone and lusophone presses; curated indexes (SciELO, OpenEdition, Cairn, Érudit, Redalyc, AJOL, ERIH PLUS, DOAJ Seal); Claude quality 2; watched or team authors; peer-reviewed type.
-   - Never drop on bibliometrics; flag and leave unticked instead. Show the reasons in the review issue.
+3. ~~Replace h-index gating with multi-signal pre-ticking~~ **Done 6 Oct.** See the decision above.
+   Replayed against W41's 36 real scholarly items, exactly one changed outcome (an Indonesian sukuk
+   overview in a weak accounting journal, previously pre-ticked because its venue was simply
+   unindexed). 6 of 36 pre-tick, against 7 before. The value is not the count — it is that the
+   reason is now visible and no decision rests on citations. **Kevin declined the curated-index
+   signal because it looked unbuildable; DOAJ turned out to be already cached from OpenAlex, so it
+   was added as a 1-point signal.** Remove the `info.get("doaj")` block in `quality.py` to drop it.
+   SciELO, AJOL, Cairn, Érudit and Redalyc are still not available and were not attempted.
 4. ~~Grey literature fixes~~ **Done 6 Oct.** 17 broken sources removed; `grey` is now 21 sources,
    all verified. Replacements: BIS retired its all-publications feed, so **BIS — FSI publications**
    and **BIS — central bank speeches** were added in its place (both parse; speeches look valuable —
