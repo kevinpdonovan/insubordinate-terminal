@@ -349,7 +349,9 @@ def venue_stats(venue_ids: list[str], cache: dict) -> dict:
 
 
 # ---------------------------------------------------------------- World Bank documents
-WB = "https://search.worldbank.org/api/v2/wds"
+# v2 is frozen: its newest indexed document is 2025-03-12, so any recent-date filter returns
+# nothing. v3 is current and takes the same parameters and field names.
+WB = "https://search.worldbank.org/api/v3/wds"
 
 
 def harvest_worldbank(src: dict, profile: dict, section: str = "grey"):

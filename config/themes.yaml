@@ -7,7 +7,7 @@
 # =====================================================================
 
 project:
-  name: "Insubordinate Finance Terminal"
+  name: "Insubordinate Finance: The Terminal"
   short_name: "InsubordinateFINANCE"
   tagline: "A weekly sweep of research, news and grey literature on the postcolonial politics of financial centres in the Global South"
   # Used to brief the AI tagger. Keep it to a paragraph; update as focuses shift.

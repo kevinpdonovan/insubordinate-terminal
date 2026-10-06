@@ -59,7 +59,7 @@ def _tags(it: dict) -> str:
 
 def issue_body(week: str, chosen: dict[str, list[dict]], stats: dict) -> str:
     L = [f"<!-- terminal:week={week} -->",
-         f"**Weekly review for {week}.** Harvested {stats.get('harvested', 0)} items; "
+         f"**Insubordinate Finance: The Terminal — weekly review for {week}.** Harvested {stats.get('harvested', 0)} items; "
          f"{stats.get('duplicates_removed', 0)} duplicates and {stats.get('repeats_removed', 0)} repeats from earlier weeks were removed; "
          f"{stats.get('passed', 0)} passed the relevance gate; the strongest are listed below. "
          f"News is only pre-ticked when rated 3/3; scholarship in low-signal venues is never pre-ticked.",

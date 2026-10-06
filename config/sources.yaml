@@ -160,34 +160,28 @@ grey:
   - {name: "World Bank Documents & Reports", type: worldbank, lookback_days: 45, rows: 30}
   - {name: "OpenAlex — reports", type: openalex, mode: reports, lookback_days: 30}
   - {name: "OpenAlex — IFI working-paper series", type: openalex, mode: series, lookback_days: 30}   # uses themes.yaml > watch_series
+  # Removed after the 2026-W41 run (6 Oct). Blocked to GitHub's servers with 403: IMF, UNCTAD,
+  # CGD, Eurodad, JSE, WFE, Bank Al-Maghrib. Dead URLs with no working replacement (404): ODI,
+  # Finance in Common, AfDB. Page watchers that found no links because the listing is rendered in
+  # JavaScript: CMA Kenya, VIFC, CMF Chile, Long Finance, FSD Africa (its RSS feed still works).
+  # Only the IMF is covered by a standing Google Alert; the others now have no substitute.
   # Publication / press pages watched for NEW links (first run records a baseline)
   - {name: "Central Bank of Kenya", type: pagewatch, url: "https://www.centralbank.go.ke/", link_pattern: '\.pdf|/20\d\d/|press|publication', org: "Central Bank of Kenya"}              # check
-  - {name: "Capital Markets Authority (Kenya)", type: pagewatch, url: "https://www.cma.or.ke/", link_pattern: 'press|news|publication|\.pdf', org: "CMA Kenya"}                         # check
   - {name: "BCEAO publications", type: pagewatch, url: "https://www.bceao.int/fr/publications", link_pattern: '/fr/(publications|communique)', org: "BCEAO"}                             # check
-  - {name: "Bank Al-Maghrib", type: pagewatch, url: "https://www.bkam.ma/", link_pattern: 'Publications|Communiques|Actualites', org: "Bank Al-Maghrib"}                                    # check
   - {name: "AMMC (Maroc)", type: pagewatch, url: "https://www.ammc.ma/fr/actualites", link_pattern: '/actualites/', org: "AMMC"}                                                        # check
   - {name: "South African Reserve Bank", type: pagewatch, url: "https://www.resbank.co.za/en/home/publications", link_pattern: '/publications/', org: "SARB"}                          # check
-  - {name: "JSE news", type: pagewatch, url: "https://www.jse.co.za/news", link_pattern: '/news/', org: "JSE"}                                                                         # check
   - {name: "FSC Mauritius communiqués", type: pagewatch, url: "https://www.fscmauritius.org/media-corner/communiques-press-releases", link_pattern: 'media-corner|\.pdf', org: "FSC Mauritius"}  # check
   - {name: "RBI press releases", type: pagewatch, url: "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx", link_pattern: 'prid=', org: "Reserve Bank of India"}         # check
-  - {name: "VIFC news (Vietnam)", type: pagewatch, url: "https://vifc.gov.vn/en/news", link_pattern: '/en/news/', org: "Vietnam International Financial Centre"}                    # check
-  - {name: "CMF Chile — prensa", type: pagewatch, url: "https://www.cmfchile.cl/portal/prensa/615/w3-channel.html", link_pattern: 'w3-article|w3-propertyvalue', org: "CMF Chile"}  # check
-  - {name: "Long Finance / GFCI", type: pagewatch, url: "https://www.longfinance.net/publications/long-finance-reports/", link_pattern: 'long-finance-reports/|\.pdf', org: "Long Finance / Z/Yen", filter: false}  # check
-  - {name: "FSD Africa publications", type: pagewatch, url: "https://fsdafrica.org/publications/", link_pattern: '/publication', org: "FSD Africa"}                                  # check
-  - {name: "AfDB documents", type: pagewatch, url: "https://www.afdb.org/en/documents", link_pattern: '/en/documents/', org: "African Development Bank"}                              # check
-  - {name: "World Federation of Exchanges", type: pagewatch, url: "https://www.world-exchanges.org/news", link_pattern: '/news/', org: "WFE"}                                          # check
   # RSS feeds
-  - {name: "IMF — Publications", type: rss, url: "https://www.imf.org/en/Publications/RSS?language=eng", filter: true}               # check
-  - {name: "BIS — Publications", type: rss, url: "https://www.bis.org/doclist/all_pubs.rss", filter: true}                           # check
-  - {name: "Center for Global Development", type: rss, url: "https://www.cgdev.org/rss.xml", filter: true}                           # check
-  - {name: "ODI", type: rss, url: "https://odi.org/en/rss/", filter: true}                                                            # check
-  - {name: "Bretton Woods Project", type: rss, url: "https://www.brettonwoodsproject.org/feed/", filter: true}                        # check
-  - {name: "Eurodad", type: rss, url: "https://www.eurodad.org/rss", filter: true}                                                    # check
+  # BIS retired its all-publications feed (404). These two are live and parse; central bank
+  # speeches are a strong source for this project — governors on financial centres and markets.
+  - {name: "BIS — FSI publications", type: rss, url: "https://www.bis.org/doclist/bis_fsi_publs.rss", filter: true}
+  - {name: "BIS — central bank speeches", type: rss, url: "https://www.bis.org/doclist/cbspeeches.rss", filter: true}
+  # Bretton Woods Project serves HTML at every /feed/ path, so it is watched as a page instead.
+  - {name: "Bretton Woods Project", type: pagewatch, url: "https://www.brettonwoodsproject.org/articles/", link_pattern: '/20\d\d/\d\d/', org: "Bretton Woods Project"}
   - {name: "Debt Justice", type: rss, url: "https://debtjustice.org.uk/feed", filter: true}                                           # check
   - {name: "OMFIF", type: rss, url: "https://www.omfif.org/feed/", filter: true}                                                      # check
-  - {name: "UNCTAD", type: rss, url: "https://unctad.org/rss.xml", filter: true}                                                      # check
   - {name: "FSD Africa (RSS)", type: rss, url: "https://fsdafrica.org/feed/", filter: true}                                           # check
-  - {name: "Finance in Common", type: rss, url: "https://financeincommon.org/feed", filter: true}                                    # check
   - {name: "Boston University GDP Center", type: rss, url: "https://www.bu.edu/gdp/feed/", filter: true}                             # check
   - {name: "AfronomicsLaw", type: rss, url: "https://www.afronomicslaw.org/rss.xml", filter: true}                                   # check
   - {name: "Phenomenal World", type: rss, url: "https://www.phenomenalworld.org/feed/", filter: true}                                 # check

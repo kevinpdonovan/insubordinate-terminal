@@ -67,10 +67,22 @@ propose keeping `filter: false` or switching it on.
 
 ## To do (Update 2b)
 1. ~~Move "From the archive" to the right-hand column~~ **Done 6 Oct**: left = New research; right = News, Reports, From the archive (`templates/week.html`).
-2. Finish the rebrand to "Insubordinate Finance: The Terminal": README, `themes.yaml → project.name`, review-issue wording (`site.yaml` is already done).
+2. ~~Finish the rebrand~~ **Done 6 Oct**: README title, `themes.yaml → project.name`, the package
+   docstring and the review-issue header. `short_name: InsubordinateFINANCE` is the ERC project,
+   not the dashboard, so it was left alone. `SECTIONS` was also reordered to
+   `research, news, grey, archive` so the review issue and the stats row match the new columns.
 3. Replace h-index gating with multi-signal "likely quality" pre-ticking:
    - Positive signals: trusted/watched venues; reputable publishers including francophone and lusophone presses; curated indexes (SciELO, OpenEdition, Cairn, Érudit, Redalyc, AJOL, ERIH PLUS, DOAJ Seal); Claude quality 2; watched or team authors; peer-reviewed type.
    - Never drop on bibliometrics; flag and leave unticked instead. Show the reasons in the review issue.
-4. Grey literature: fix the 404 feed URLs (BIS, ODI, Finance in Common, AfDB); drop sources that return 403 to GitHub (IMF, UNCTAD, CGD, Eurodad, JSE, WFE, Bank Al-Maghrib); fix or remove the failing page watchers (CMA Kenya, VIFC, CMF Chile, Long Finance, FSD Africa); debug the World Bank API if it is still 0.
+4. ~~Grey literature fixes~~ **Done 6 Oct.** 17 broken sources removed; `grey` is now 21 sources,
+   all verified. Replacements: BIS retired its all-publications feed, so **BIS — FSI publications**
+   and **BIS — central bank speeches** were added in its place (both parse; speeches look valuable —
+   governors on financial centres). Bretton Woods Project serves HTML at every `/feed/` path, so it
+   is now a page watcher on `/articles/`. **The World Bank zero was not the lookback**: the v2 WDS
+   API is frozen, newest indexed document 2025-03-12, so any recent-date filter returned nothing.
+   Switched to v3, where 20 of the 28 grey queries return documents in a 45-day window.
+   **Coverage gap to note:** only the IMF is replaced by a standing Google Alert. UNCTAD, CGD,
+   Eurodad, JSE, WFE, Bank Al-Maghrib, ODI, Finance in Common and AfDB now have no substitute —
+   worth creating alerts for them if they matter.
 5. Once the inbox is live, check the email sources (the Bloomberg link pattern is a guess).
 6. Later: newsletter via Buttondown RSS-to-email; Zotero group library for the archive section; decide whether Bloomberg headlines stay team-only once the site is public.

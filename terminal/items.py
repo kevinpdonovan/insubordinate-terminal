@@ -11,7 +11,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from .profile import ROOT
 
 DATA = ROOT / "data"
-SECTIONS = ["research", "archive", "news", "grey"]
+SECTIONS = ["research", "news", "grey", "archive"]
 SECTION_LABELS = {
     "research": "New research",
     "archive": "From the archive",

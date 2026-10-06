@@ -1,4 +1,4 @@
-# Insubordinate Finance Terminal
+# Insubordinate Finance: The Terminal
 
 A weekly sweep of new research, older scholarship, news and grey literature for the ERC project
 **InsubordinateFINANCE** (the postcolonial politics of financial centres in the Global South).
