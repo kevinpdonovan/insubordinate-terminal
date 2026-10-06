@@ -578,6 +578,34 @@ research_queries:
   - "financiarización América Latina"
   - "fondos de pensiones Chile financiarización"
 
+  # Concept-level scholarly searches (Kevin, 6 Oct): the sweep leaned too heavily on named
+  # places and institutions, so concept-led work surfaced only when it named a case-study city.
+  - "monetary sovereignty"
+  - "currency hierarchy"
+  - "sovereign default Africa"
+  - "domestic debt market"
+  - "foreign holdings government bonds emerging markets"
+  - "sovereign credit rating"
+  - "credit rating agencies Africa"
+  - "subnational credit rating"
+  - "municipal bonds Africa"
+  - "bond index inclusion emerging markets"
+  - "yield curve emerging markets"
+  - "cross-listing stock exchanges"
+  - "capital market integration"
+  - "financial deepening"
+  - "capital market development"
+  - "international financial centre"
+  - "Global Financial Centres Index"
+  - "offshore financial centre"
+  - "decolonizing finance"
+  - "popular shareholding"
+  - "retail investors emerging markets"
+  - "financial professionals Africa"
+  - "South-South finance"
+  - "impact investing"
+  - "securitization housing finance"
+
 
 # Authors whose new work should always surface (name as it appears on publications).
 # The first run resolves each to an OpenAlex ID; check config/openalex_lock.yaml.

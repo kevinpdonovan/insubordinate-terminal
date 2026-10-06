@@ -75,7 +75,8 @@
 </section>
 
 <div class="columns">
-{% for group in (('research', 'archive'), ('news', 'grey')) %}
+{# Left column: New research. Right column: News, Reports, From the archive. #}
+{% for group in (('research',), ('news', 'grey', 'archive')) %}
   <div class="colgroup">
   {% for s in group %}
   <section class="col" data-col="{{ s }}" aria-labelledby="h-{{ s }}">

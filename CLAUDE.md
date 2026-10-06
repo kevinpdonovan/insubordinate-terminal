@@ -36,6 +36,11 @@ Write for a researcher, not a developer: explain changes and their trade-offs in
 ## Rules and decisions
 - No university credentials in automation. Link only, never republish text. Respect robots.txt (hence no Google News RSS).
 - **No paid add-ons** (no Claude web-search pass, no Overton). The free OpenAlex key (`OPENALEX_API_KEY`) is set.
+- **Concept-level searching was added across all three sections** (6 Oct): the sweep leaned too
+  heavily on named places and institutions, so concept-led work surfaced only when it happened
+  to name a case-study city. `research_queries` 46 -> 71, `news_queries` 31 -> 38,
+  `grey_queries` 12 -> 28, plus ten new theme keywords. Watch the W42 run for whether this
+  over-corrects; the levers are the same lists.
 - **The h-index must not be a hard gate.** Kevin considers it a poor measure; it also biases against Southern and non-English venues.
 - Don't re-run the weekly harvest mid-week. It marks items as seen, so they vanish from the next Monday issue. `collect-news` is safe to run any time.
 - Pushes made by the bot (GITHUB_TOKEN) don't trigger other workflows, so `publish.yml` deploys Pages itself.
@@ -46,12 +51,22 @@ Write for a researcher, not a developer: explain changes and their trade-offs in
 - **Caveat on 2a's test coverage.** `tests/test_pipeline.py` passes, but it contains only `test_end_to_end`, and 2a's change to it was limited to loosening one news-gate assertion. The 429 backoff (`get_with_backoff`), the `data/news_cache/` read/write and the `collect-news` command have **no offline coverage**. Treat the first scheduled runs as the real test: check `data/health.json` and whether `data/news_cache/` is filling.
 - **47 Google Alerts** exist in the project Gmail (16 places and institutions, 31 concepts from
   the ERC proposal). They are listed with their settings in `docs/google-alerts.md`, which is the
-  source of truth; the README points there rather than repeating the table. They reach the
-  dashboard only once `IMAP_USER` / `IMAP_PASSWORD` are set. The email source reads `INBOX` only,
+  source of truth; the README points there rather than repeating the table. `IMAP_USER` / `IMAP_PASSWORD` were set by Kevin on 6 Oct, so the first
+  harvest that reads them is Monday 12 Oct; check the Google Alerts row in `data/health.json`. The email source reads `INBOX` only,
   so do not add a Gmail filter that archives the alerts or skips the inbox.
 
+## Open question to raise with Kevin after the first run with alerts
+
+The Google Alerts email source is set `filter: false` in `config/sources.yaml`, so alert items
+skip the keyword gate and go straight to Claude for tagging. That was sound at 16 narrow alerts;
+at 47, including deliberately broad concept alerts, it means paying Claude to read every item
+every alert catches. Kevin has no strong view yet and **asked to be shown this again once there
+are real numbers**. After the first harvest with IMAP live, report: how many items arrived from
+Google Alerts, how many Claude rated >=2, and the resulting share of the tagging spend. Then
+propose keeping `filter: false` or switching it on.
+
 ## To do (Update 2b)
-1. Move "From the archive" to the right-hand column (left: New research; right: News, Reports, From the archive; confirm the order with Kevin).
+1. ~~Move "From the archive" to the right-hand column~~ **Done 6 Oct**: left = New research; right = News, Reports, From the archive (`templates/week.html`).
 2. Finish the rebrand to "Insubordinate Finance: The Terminal": README, `themes.yaml → project.name`, review-issue wording (`site.yaml` is already done).
 3. Replace h-index gating with multi-signal "likely quality" pre-ticking:
    - Positive signals: trusted/watched venues; reputable publishers including francophone and lusophone presses; curated indexes (SciELO, OpenEdition, Cairn, Érudit, Redalyc, AJOL, ERIH PLUS, DOAJ Seal); Claude quality 2; watched or team authors; peer-reviewed type.
