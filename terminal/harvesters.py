@@ -102,9 +102,10 @@ GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
 def _gdelt_call(query: str, timespan: str, maxrecords: int):
     params = {"query": query, "mode": "ArtList", "format": "json",
               "timespan": timespan, "maxrecords": maxrecords, "sort": "DateDesc"}
-    # Three tries: waits of 20s and 40s, then give up. Four tries added a 160s wait that
-    # pushed a bad day past the job timeout.
-    r = get_with_backoff(GDELT, params=params, tries=3, base_wait=20)
+    # One request, no retry. GDELT's 429 means the quota for this address is spent, not that
+    # the call was unlucky: retrying it burned three requests of an already-exhausted budget.
+    # The daily cadence is the retry.
+    r = get_with_backoff(GDELT, params=params, tries=1)
     r.raise_for_status()
     txt = r.text.strip()
     if not txt.startswith("{"):
@@ -113,15 +114,22 @@ def _gdelt_call(query: str, timespan: str, maxrecords: int):
 
 
 def gdelt_queries(src: dict, profile: dict) -> list[str]:
+    """Queries for GDELT, which bills by request against a quota, not by result.
+
+    Prefers themes.yaml > gdelt_queries: a short list of broad queries that covers the same
+    ground as news_queries in a fraction of the requests. Falls back to news_queries.
+    """
     if src.get("mode") == "domain":
         return [f'{src["query"]} domain:{src["domain"]}']
-    return profile.get("news_queries", [])
+    return profile.get("gdelt_queries") or profile.get("news_queries", [])
 
 
 def harvest_gdelt(src: dict, profile: dict, section: str = "news", timespan: str | None = None):
     queries = gdelt_queries(src, profile)
     out, errors, refusals, stopped = [], [], 0, ""
-    max_refusals = src.get("max_refusals", 5)
+    # With eight broad queries and no retries, three refusals already means the quota is
+    # spent; carrying on just burns requests that the next run will need.
+    max_refusals = src.get("max_refusals", 3)
     for q in queries:
         # Count refusals across the whole run, not consecutively: an alternating pattern of
         # failures and successes used to reset the counter and never trip this at all, which

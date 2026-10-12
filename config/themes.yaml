@@ -685,6 +685,23 @@ watch_journals:
 # ---------------------------------------------------------------------
 #  Syntax (GDELT): "exact phrase", plain words are ANDed, and OR-groups
 #  must sit in parentheses: ("A" OR "B"). Words under 3 letters are ignored.
+# ---------------------------------------------------------------------
+#  GDELT queries. GDELT limits by *number of requests* against a quota, not by results,
+#  so it gets a short list of broad queries rather than the full news_queries list: eight
+#  requests a day instead of thirty-nine, covering the same ground. Each returns up to 250
+#  articles. Keep this list short — adding queries here is what exhausts the quota.
+#  news_queries below is unchanged and still documents the sweep's intent.
+# ---------------------------------------------------------------------
+gdelt_queries:
+  - '("financial centre" OR "financial center" OR "financial hub") (Africa OR Nairobi OR Casablanca OR Abidjan OR Johannesburg OR Mauritius OR Mumbai OR Bangkok OR Vietnam OR "Sao Paulo" OR Santiago OR Montevideo)'
+  - '("stock exchange" OR "securities exchange" OR bourse OR "capital markets") (Nairobi OR Johannesburg OR Casablanca OR BRVM OR Mauritius OR Mumbai OR Bangkok OR Vietnam OR "Sao Paulo" OR Santiago OR Montevideo)'
+  - '(Eurobond OR "sovereign debt" OR "debt restructuring" OR "credit rating" OR "sovereign rating") (Kenya OR Nigeria OR Ghana OR Senegal OR "Ivory Coast" OR Morocco OR Zambia OR Ethiopia OR "South Africa")'
+  - '(sukuk OR "Islamic finance" OR "sovereign wealth fund" OR "panda bond") (Africa OR Morocco OR Kenya OR Nigeria OR Senegal OR Mauritius OR Egypt)'
+  - '("place financiere" OR "marche financier" OR "franc CFA" OR UEMOA OR BRVM OR "bourse regionale")'
+  - '("centro financeiro" OR "mercado de capitais" OR "mercado de capitales" OR "bolsa de valores") (Brasil OR Chile OR Uruguay OR "Sao Paulo" OR Santiago OR Montevideo)'
+  - '(MSCI OR "FTSE Russell" OR "index inclusion" OR "frontier market") (Vietnam OR Kenya OR Morocco OR Nigeria OR Egypt OR India OR Brazil OR Chile)'
+  - '(IMF OR "World Bank") ("staff-level agreement" OR "extended credit facility" OR bailout OR programme) (Kenya OR Ghana OR Egypt OR Senegal OR Zambia OR Morocco)'
+
 news_queries:
   - '"financial centre" Africa'
   - '"financial center" Africa'
