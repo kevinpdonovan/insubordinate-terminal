@@ -1,0 +1,12 @@
+{
+ "GDELT global news search": {
+  "items": [],
+  "note": "stopped after 5 refusals; 30 queries skipped; \"financial center\" Africa… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%22financial+center%22+Africa&",
+  "ok": false
+ },
+ "GDELT — Bloomberg": {
+  "items": [],
+  "note": "",
+  "ok": true
+ }
+}
