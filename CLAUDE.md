@@ -99,6 +99,14 @@ are real numbers**. After the first harvest with IMAP live, report: how many ite
 Google Alerts, how many Claude rated >=2, and the resulting share of the tagging spend. Then
 propose keeping `filter: false` or switching it on.
 
+## Backlog
+
+Improvements and known faults that are not part of the current task live in
+**`docs/backlog.md`** — read it before proposing work, and record new findings there rather than
+letting them expire with a session. As of 12 Oct the live faults are Eurodad (403 to GitHub),
+GDELT (returning nothing; a reduced query set is awaiting its first run) and the non-Google email
+sources (Bloomberg and Scholar both returned zero once IMAP went live).
+
 ## To do (Update 2b)
 1. ~~Move "From the archive" to the right-hand column~~ **Done 6 Oct**: left = New research; right = News, Reports, From the archive (`templates/week.html`).
 2. ~~Finish the rebrand~~ **Done 6 Oct**: README title, `themes.yaml → project.name`, the package
@@ -129,5 +137,9 @@ propose keeping `filter: false` or switching it on.
    listing in JavaScript. Those five alerts were created on 6 Oct and are listed in `docs/google-alerts.md` → Set 3,
    so all nine dropped sources are now covered one way or the other.
    The User-Agent is not the problem: a real browser string makes no difference to any of them.
-5. Once the inbox is live, check the email sources (the Bloomberg link pattern is a guess).
-6. Later: newsletter via Buttondown RSS-to-email; Zotero group library for the archive section; decide whether Bloomberg headlines stay team-only once the site is public.
+5. Email sources: IMAP went live 6 Oct and Google Alerts work (71 items in W42), but Bloomberg
+   and Google Scholar both returned zero. See `docs/backlog.md` item 3.
+6. News balance was the W41 complaint (0 news). W42 gave 28 listed, 13 published, 23 of 28 from
+   Google Alerts. Watch for over-correction — `docs/backlog.md` item 12.
+7. Later: newsletter via Buttondown RSS-to-email; Zotero group library for the archive section;
+   decide whether Bloomberg headlines stay team-only once the site is public.
