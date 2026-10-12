@@ -61,6 +61,34 @@ Write for a researcher, not a developer: explain changes and their trade-offs in
   harvest that reads them is Monday 12 Oct; check the Google Alerts row in `data/health.json`. The email source reads `INBOX` only,
   so do not add a Gmail filter that archives the alerts or skips the inbox.
 
+## Scheduling reality, and the October GDELT incident
+
+**GitHub runs these schedules about seven hours late, consistently.** The weekly harvest is set
+for Mondays 05:17 UTC and actually starts around 12:15; the daily collector is set for 04:41 and
+starts between 10:45 and 11:35. This is queue delay, not jitter — don't treat a missing run as
+broken before mid-afternoon UTC.
+
+**What went wrong 6–12 Oct.** Five of the daily collector's six runs hit the 30-minute job
+timeout, which GitHub reports as "cancelled" rather than "failed". The sixth finished in 27
+minutes and cached nothing. Three compounding causes, all fixed on 12 Oct:
+
+- `get_with_backoff` slept even after its final attempt, so an exhausted query waited
+  20+40+80+160 = 300s before giving up. It now breaks out after the last try.
+- GDELT used four tries; now three. Worst case per refused query is 60s, not 300s.
+- The circuit breaker counted *consecutive* refusals and reset on any success, so an
+  alternating fail/succeed pattern never tripped it. It now counts total refusals per run
+  (`max_refusals`, default 5), and the "stopped after N refusals" message goes at the *front*
+  of the health note — it used to be truncated away by `errors[:3]`.
+
+**The trap worth remembering:** the harvest treated "a cache file exists" as "the cache is
+usable". One empty file from a failed collector run meant GDELT reported `ok: true, count: 0`
+instead of failing — a silent zero that looks healthier than last week's visible failure.
+`_from_gdelt_cache` now returns a `usable` flag and the harvest queries GDELT live when the
+cache holds nothing for that source.
+
+`tests/test_pipeline.py` now covers all three: the backoff's final try, the breaker's counting,
+and the empty-cache fallback.
+
 ## Open question to raise with Kevin after the first run with alerts
 
 The Google Alerts email source is set `filter: false` in `config/sources.yaml`, so alert items

@@ -221,5 +221,66 @@ def test_end_to_end():
     print("\nOK — published", len(ptitles), "items; site at", tmp / "site")
     return tmp
 
+
+# --------------------------------------------------------------------------
+#  GDELT rate-limit handling. These behaviours silently broke the daily
+#  collector for a week in October 2026: every run hit the 30-minute job
+#  timeout, and the one that finished cached nothing while reporting healthy.
+# --------------------------------------------------------------------------
+def test_backoff_does_not_sleep_after_the_last_try():
+    """A 429 on the final attempt should give up at once, not wait first."""
+    import terminal.harvesters as H
+    waits = []
+    with mock.patch.object(H.S, "get", lambda *a, **k: Resp(js={}, status=429)):
+        r = H.get_with_backoff("https://example.test", tries=3, base_wait=20, sleep=waits.append)
+    assert r.status_code == 429
+    assert waits == [20, 40], f"expected waits after attempts 1 and 2 only, got {waits}"
+    assert sum(waits) == 60, f"worst case per query should be 60s, got {sum(waits)}s"
+
+
+def test_gdelt_breaker_counts_total_refusals_not_consecutive():
+    """Alternating failure/success used to reset the counter and never trip the breaker."""
+    import terminal.harvesters as H
+    profile = {"news_queries": [f"q{i}" for i in range(40)]}
+    src = {"name": "GDELT test", "max_refusals": 5}
+    calls = []
+
+    def flaky(query, timespan, maxrecords):
+        calls.append(query)
+        if len(calls) % 2:            # fail, succeed, fail, succeed...
+            raise RuntimeError("429 Client Error: Too Many Requests")
+        return []
+
+    with mock.patch.object(H, "_gdelt_call", flaky), mock.patch.object(H.time, "sleep"):
+        items, health = H.harvest_gdelt(src, profile, "news")
+    assert len(calls) < 40, "breaker never tripped: it ran every query"
+    assert len(calls) <= 11, f"breaker tripped too late after {len(calls)} calls"
+    assert "stopped after" in health["note"], health["note"]
+
+
+def test_empty_daily_cache_falls_back_to_a_live_query():
+    """A cache file that exists but holds nothing must not be reported as a healthy zero."""
+    import terminal.cli as C
+    src = {"name": "GDELT global news search", "type": "gdelt"}
+    since = TODAY - dt.timedelta(days=8)
+    day = TODAY - dt.timedelta(days=3)
+    with tempfile.TemporaryDirectory() as td:
+        cache = Path(td) / "news_cache"
+        cache.mkdir()
+        (cache / f"{day.isoformat()}.json").write_text(json.dumps(
+            {src["name"]: {"items": [], "note": "429 Client Error", "ok": False}}))
+        with mock.patch.object(C, "NEWS_CACHE", cache):
+            items, health, usable = C._from_gdelt_cache(src, since)
+    assert items == [] and usable is False, "an empty cache must not count as usable"
+    assert health["count"] == 0
+
+
 if __name__ == "__main__":
+    # The unit tests below run against the repo as it is; setup_tmp() later purges
+    # "terminal" from sys.modules, so the end-to-end test still gets its own copy.
+    sys.path.insert(0, str(ROOT))
+    test_backoff_does_not_sleep_after_the_last_try()
+    test_gdelt_breaker_counts_total_refusals_not_consecutive()
+    test_empty_daily_cache_falls_back_to_a_live_query()
+    print("OK — GDELT rate-limit tests")
     test_end_to_end()

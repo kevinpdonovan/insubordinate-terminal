@@ -84,6 +84,8 @@ def get_with_backoff(url: str, params: dict | None = None, tries: int = 4, base_
         if r.status_code not in (429, 500, 502, 503, 504):
             return r
         last = r
+        if attempt == tries - 1:
+            break  # out of tries: waiting again only delays giving up
         wait = base_wait * (2 ** attempt)
         try:
             wait = max(wait, float(r.headers.get("Retry-After", 0)))
@@ -100,7 +102,9 @@ GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
 def _gdelt_call(query: str, timespan: str, maxrecords: int):
     params = {"query": query, "mode": "ArtList", "format": "json",
               "timespan": timespan, "maxrecords": maxrecords, "sort": "DateDesc"}
-    r = get_with_backoff(GDELT, params=params, tries=4, base_wait=20)
+    # Three tries: waits of 20s and 40s, then give up. Four tries added a 160s wait that
+    # pushed a bad day past the job timeout.
+    r = get_with_backoff(GDELT, params=params, tries=3, base_wait=20)
     r.raise_for_status()
     txt = r.text.strip()
     if not txt.startswith("{"):
@@ -116,18 +120,21 @@ def gdelt_queries(src: dict, profile: dict) -> list[str]:
 
 def harvest_gdelt(src: dict, profile: dict, section: str = "news", timespan: str | None = None):
     queries = gdelt_queries(src, profile)
-    out, errors, streak = [], [], 0
+    out, errors, refusals, stopped = [], [], 0, ""
+    max_refusals = src.get("max_refusals", 5)
     for q in queries:
-        if streak >= 3:  # GDELT is refusing us today; stop rather than burn the run's time
-            errors.append(f"stopped after 3 consecutive refusals; {len(queries) - queries.index(q)} queries skipped")
+        # Count refusals across the whole run, not consecutively: an alternating pattern of
+        # failures and successes used to reset the counter and never trip this at all, which
+        # let a bad day run until the job timed out.
+        if refusals >= max_refusals:
+            stopped = f"stopped after {refusals} refusals; {len(queries) - queries.index(q)} queries skipped"
             break
         try:
             arts = _gdelt_call(q, timespan or src.get("timespan", "7d"), min(250, src.get("max_per_query", 150)))
-            streak = 0
         except Exception as ex:
             errors.append(f"{q[:40]}… → {ex}")
             arts = []
-            streak += 1
+            refusals += 1
         for a in arts:
             out.append(make_item(
                 section=section, title=a.get("title", ""), url=a.get("url", ""),
@@ -137,8 +144,10 @@ def harvest_gdelt(src: dict, profile: dict, section: str = "news", timespan: str
                        "source_country": a.get("sourcecountry", "")},
             ))
         time.sleep(src.get("spacing_seconds", 10))  # GDELT asks for ≤1 request / 5 s; we go slower
-    ok = len(errors) < max(1, len(queries))
-    return out, _health(src["name"], ok, len(out), "; ".join(errors[:3]))
+    ok = not stopped and len(errors) < max(1, len(queries))
+    # The stop message goes first: truncating it away hid the fact that a run gave up early.
+    note = "; ".join(([stopped] if stopped else []) + errors[:2])
+    return out, _health(src["name"], ok, len(out), note)
 
 
 # ---------------------------------------------------------------- OpenAlex

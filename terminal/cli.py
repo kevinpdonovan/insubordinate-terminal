@@ -41,7 +41,12 @@ def _gdelt_cache_days(since):
 
 
 def _from_gdelt_cache(src, since):
-    """Read what the daily collector gathered for this source over the past week."""
+    """Read what the daily collector gathered for this source over the past week.
+
+    Returns (items, health, usable). A cache that exists but holds no items for this
+    source is *not* usable: the caller falls back to querying GDELT live, rather than
+    reporting a healthy zero. Silently reading an empty cache hid a week of failures.
+    """
     items, notes, days = [], [], 0
     for p in _gdelt_cache_days(since):
         day = load_json(p, {})
@@ -52,9 +57,9 @@ def _from_gdelt_cache(src, since):
         items += rec.get("items", [])
         if rec.get("note"):
             notes.append(f"{p.stem}: {rec['note'][:60]}")
-    ok = days > 0
-    return items, {"source": src["name"], "ok": ok, "count": len(items),
-                   "note": f"from daily collector ({days} day(s))" + (f"; {'; '.join(notes[:2])}" if notes else "")}
+    usable = bool(items)
+    return items, {"source": src["name"], "ok": days > 0, "count": len(items),
+                   "note": f"from daily collector ({days} day(s))" + (f"; {'; '.join(notes[:2])}" if notes else "")}, usable
 
 
 def cmd_collect_news(args):
@@ -98,7 +103,13 @@ def _run_sources(sources, profile, since, health, log):
                 elif t == "email":
                     items, h = harvest_email(src, section, since)
                 elif t == "gdelt" and _gdelt_cache_days(since):
-                    items, h = _from_gdelt_cache(src, since)
+                    items, h, usable = _from_gdelt_cache(src, since)
+                    if not usable:
+                        # The cache is there but empty for this source, so the collector is
+                        # not working. Query GDELT live instead of reporting a healthy zero.
+                        items, h = HARVESTERS[t](src, profile, section)
+                        h["note"] = ("daily cache was empty, queried GDELT live; "
+                                     + str(h.get("note", "")))[:200]
                 elif t in HARVESTERS:
                     items, h = HARVESTERS[t](src, profile, section)
                 else:
