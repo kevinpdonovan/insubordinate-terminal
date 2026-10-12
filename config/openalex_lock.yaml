@@ -289,4 +289,30 @@ journals:
     check: false
     id: S4210168889
     matched: Valuation Studies
-series: {}
+series:
+  BIS Quarterly Review:
+    check: false
+    id: S4306504463
+    matched: BIS quarterly review
+  BIS Working Papers: null
+  Departmental Papers:
+    check: false
+    id: S4387291869
+    matched: Departmental Papers
+  IMF Staff Country Reports:
+    check: false
+    id: S4210169746
+    matched: IMF Staff Country Reports
+  IMF Working Papers:
+    check: false
+    id: S5407031312
+    matched: IMF Working Papers
+  Policy Research Working Papers:
+    check: true
+    id: S4210231086
+    matched: World Bank policy research working paper
+  Selected Issues Papers:
+    check: false
+    id: S4387286624
+    matched: Selected Issues Papers
+  Working Paper Series (African Development Bank): null
