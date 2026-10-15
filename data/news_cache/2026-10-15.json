@@ -1,0 +1,12 @@
+{
+ "GDELT global news search": {
+  "items": [],
+  "note": "stopped after 3 refusals; 3 queries skipped; (\"financial centre\" OR \"financial center… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22financial+",
+  "ok": false
+ },
+ "GDELT — Bloomberg": {
+  "items": [],
+  "note": "(Africa OR Kenya OR Nigeria OR \"South Af… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28Africa+OR+Kenya+OR+Nigeria+OR+%22South+Africa%22+OR+Morocc",
+  "ok": false
+ }
+}
