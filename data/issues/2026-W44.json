@@ -1,0 +1,1299 @@
+{
+ "week": "2026-W44",
+ "published_at": "2026-10-26T13:50:37",
+ "items": [
+  {
+   "id": "92e7075d75",
+   "section": "research",
+   "title": "Sovereign Sukuk for Inclusive Debt Reform: A Comparison with IMF and World Bank Financing",
+   "url": "https://doi.org/10.18646/2056.132.26-007",
+   "doi": "10.18646/2056.132.26-007",
+   "source": "International Journal Of Management and Applied Research",
+   "venue": "International Journal Of Management and Applied Research",
+   "authors": [
+    "Omaima Eltahir Babikir Mohamed",
+    "Magda Ismail Abdel Mohsin"
+   ],
+   "date": "2026-10-23",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223299487",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4210197450",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "islamic_finance",
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "debt",
+     "islamic_finance"
+    ],
+    "places": [],
+    "note": "Sovereign sukuk as debt reform alternative to IMF/World Bank; inclusive financing device.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "381544de24",
+   "section": "research",
+   "title": "From the Wall Street Consensus to the Sustainable Development Convention—The Multilevel Role of Development Banks",
+   "url": "https://doi.org/10.1080/08911916.2026.2743863",
+   "doi": "10.1080/08911916.2026.2743863",
+   "source": "International Journal of Political Economy",
+   "venue": "International Journal of Political Economy",
+   "authors": [
+    "Fernanda Feil",
+    "Carmem Aparecida do Valle Costa Feijo",
+    "Carlos Henrique Horn",
+    "Anderson Tadeu Marques Cavalcante"
+   ],
+   "date": "2026-10-21",
+   "origin": "openalex:query:financial center Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223102700",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S113957626",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "watched": null,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [],
+    "themes": [
+     "subordination",
+     "professionals",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "development_finance"
+    ],
+    "places": [],
+    "note": "Wall Street Consensus critique; DFIs and sustainable transition as alternative to market-based de-risking.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "539541fdba",
+   "section": "research",
+   "title": "From financial regionalism to capital market regionalization: Aasian bond market development and China-ASEAN financial connectivity",
+   "url": "https://doi.org/10.1080/09512748.2026.2749551",
+   "doi": "10.1080/09512748.2026.2749551",
+   "source": "The Pacific Review",
+   "venue": "The Pacific Review",
+   "authors": [
+    "Chen Li",
+    "Yaechan Lee",
+    "Huanhuan Zheng"
+   ],
+   "date": "2026-10-21",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223155860",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S136982956",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "watched": null,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "networks",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "integration",
+     "networks",
+     "centres"
+    ],
+    "places": [
+     "bangkok",
+     "hcmc"
+    ],
+    "note": "East Asian capital market regionalization; China-ASEAN financial connectivity and bottom-up integration.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "401afdef02",
+   "section": "research",
+   "title": "Financial de-dollarization dynamics: The role of macroeconomic fundamentals and IMF programs",
+   "url": "https://doi.org/10.1016/j.iref.2026.105991",
+   "doi": "10.1016/j.iref.2026.105991",
+   "source": "International Review of Economics & Finance",
+   "venue": "International Review of Economics & Finance",
+   "authors": [
+    "Salim Chahine",
+    "Jean-François Ponsot",
+    "Siham Rizkallah",
+    "Malake Mheishe"
+   ],
+   "date": "2026-10-20",
+   "origin": "openalex:query:local currency bond market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223045769",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S168273071",
+   "venue_type": "journal",
+   "publisher": "Elsevier BV",
+   "watched": null,
+   "quality_signals": {
+    "score": 3,
+    "labels": [
+     "Elsevier",
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [],
+    "themes": [
+     "subordination",
+     "networks",
+     "imf_programmes"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "debt",
+     "imf_programmes"
+    ],
+    "places": [],
+    "note": "De-dollarization via IMF programs and local-currency bond markets; currency hierarchy and monetary sovereignty.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "b7f7e83127",
+   "section": "research",
+   "title": "From colonial correspondent schemes to digital platforms: a typology of african payment system evolution",
+   "url": "https://doi.org/10.65324/wewf048",
+   "doi": "10.65324/wewf048",
+   "source": "World Economy and World Finance",
+   "venue": "World Economy and World Finance",
+   "authors": [
+    "Ben Mamoudou Hamidou",
+    "Геннадий Анатольевич Щербаков"
+   ],
+   "date": "2026-10-23",
+   "origin": "openalex:query:CFA franc",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223288364",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S5407055896",
+   "venue_type": "journal",
+   "publisher": "",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 10,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [
+     "networks",
+     "histories"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "integration",
+     "digital",
+     "histories"
+    ],
+    "places": [
+     "abidjan",
+     "nairobi",
+     "johannesburg"
+    ],
+    "note": "African payment system evolution typology spanning colonial to digital stages; integration device development.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "e5d5859df6",
+   "section": "research",
+   "title": "Correspondent Banking, Monetary Dependence, and Palestinian Economic Self-Determination",
+   "url": "https://doi.org/10.5539/jpl.v19n4p23",
+   "doi": "10.5539/jpl.v19n4p23",
+   "source": "Journal of Politics and Law",
+   "venue": "Journal of Politics and Law",
+   "authors": [
+    "Estéfany Rocha Monteiro"
+   ],
+   "date": "2026-10-23",
+   "origin": "openalex:query:monetary sovereignty Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223289614",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4210193113",
+   "venue_type": "journal",
+   "publisher": "Canadian Center of Science and Education",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "subordination",
+     "imf_programmes"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "integration",
+     "histories"
+    ],
+    "places": [],
+    "note": "Correspondent banking and monetary dependence; financial sovereignty and payment infrastructure control.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "867090ad86",
+   "section": "research",
+   "title": "Digital Banking and Financial Inclusion: The Catalytic Role of UPI in India (2016-2026)",
+   "url": "https://doi.org/10.5281/zenodo.23562237",
+   "doi": "10.5281/zenodo.23562237",
+   "source": "AHURI Final Report",
+   "venue": "AHURI Final Report",
+   "authors": [
+    "Prof. JALADI RAVI K.GOPALAKRISHHA"
+   ],
+   "date": "2026-10-22",
+   "origin": "openalex:query:financialization Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223237930",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4210228250",
+   "venue_type": "journal",
+   "publisher": "",
+   "also_at": [],
+   "watched": false,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "integration"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "India's UPI as foundational financial infrastructure; digital payment adoption and economic participation.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "a8616ac4f1",
+   "section": "research",
+   "title": "Geodiversity: Echoes of colonialism in Cape Town",
+   "url": "https://doi.org/10.70312/dinh",
+   "doi": "10.70312/dinh",
+   "source": "Limn.",
+   "venue": "Limn.",
+   "authors": [
+    "Andrea Pollio",
+    "Liza Rose Cirolia",
+    "Samuel Giraut"
+   ],
+   "date": "2026-10-21",
+   "origin": "openalex:authors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223123413",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4404668883",
+   "venue_type": "journal",
+   "publisher": "Éditions F. Alcan",
+   "watched": true,
+   "quality_signals": {
+    "score": 5,
+    "labels": [
+     "watched author",
+     "team author",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 9,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "histories",
+     "subordination"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "Colonial echoes in Cape Town; postcolonial critique relevant to financial centre subordination theory.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "2c75fb0537",
+   "section": "research",
+   "title": "There is no outside: on the impossibility of non-Eurocentrism",
+   "url": "https://doi.org/10.1017/s1752971926100451",
+   "doi": "10.1017/s1752971926100451",
+   "source": "International Theory",
+   "venue": "International Theory",
+   "authors": [
+    "Ilan Kapoor"
+   ],
+   "date": "2026-10-21",
+   "origin": "openalex:query:monetary sovereignty Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223145527",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S129176075",
+   "venue_type": "journal",
+   "publisher": "Cambridge University Press",
+   "watched": null,
+   "quality_signals": {
+    "score": 3,
+    "labels": [
+     "University Press",
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [],
+    "themes": [
+     "histories"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination"
+    ],
+    "places": [],
+    "note": "Postcolonial critique and Eurocentrism theory; meta-level argument on epistemic subordination.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "d0d59a5a0e",
+   "section": "news",
+   "title": "Pourquoi Casablanca Finance City séduit de plus en plus le monde anglophone",
+   "url": "https://www.jeuneafrique.com/1855417/economie-entreprises/pourquoi-casablanca-finance-city-seduit-de-plus-en-plus-le-monde-anglophone",
+   "doi": "",
+   "source": "Jeune Afrique — Économie",
+   "venue": "",
+   "authors": [
+    "Asmae KaddouriMathieu Galtier"
+   ],
+   "date": "2026-10-26",
+   "origin": "rss:Jeune Afrique — Économie",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "casablanca"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "centres",
+     "networks"
+    ],
+    "places": [
+     "casablanca",
+     "abidjan"
+    ],
+    "note": "Casablanca Finance City attracts Anglophone investors as African hub; financial-centre strategy and regional integration."
+   },
+   "featured": false
+  },
+  {
+   "id": "1ad5207bb4",
+   "section": "news",
+   "title": "Um Lula 4 sem o benefício da dúvida na Faria Lima",
+   "url": "https://valor.globo.com/financas/intraday/post/2026/10/um-lula-4-sem-o-beneficio-da-duvida-na-faria-lima.ghtml",
+   "doi": "",
+   "source": "Valor Econômico",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-26",
+   "origin": "rss:Valor Econômico",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "sao_paulo"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "subordination"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "São Paulo's Faria Lima financial district's power over fiscal policy; post-election market discipline illustrates financial centre dominance."
+   },
+   "featured": false
+  },
+  {
+   "id": "44c5cde297",
+   "section": "news",
+   "title": "IMF urges currency flexibility as RBI steps up rupee defence amid oil price pressures, foreign outflows",
+   "url": "https://www.livemint.com/economy/imf-urges-currency-flexibility-as-rbi-steps-up-rupee-defence-amid-oil-price-pressures-foreign-outflows-11792582226312.html",
+   "doi": "",
+   "source": "Mint — Economy",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-21",
+   "origin": "rss:Mint — Economy",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "regulation"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "IMF pressure on currency flexibility vs. RBI intervention reveals Northern financial governance imposing on Global South monetary autonomy."
+   },
+   "featured": false
+  },
+  {
+   "id": "04bdf078ef",
+   "section": "grey",
+   "title": "Islamic finance for impact - the next measure of success",
+   "url": "https://www.bis.org/speeches/20261021-islamic-finance-impact-next-measure-success",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Abdul Rasheed Ghaffour"
+   ],
+   "date": "2026-10-21",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "islamic_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "islamic_finance",
+     "regulation"
+    ],
+    "places": [
+     "port_louis"
+    ],
+    "note": "Malaysian Islamic finance governor speech at KLIFF; directly relevant to Islamic finance device and regional professional networks."
+   },
+   "featured": false
+  },
+  {
+   "id": "7827ed3508",
+   "section": "grey",
+   "title": "Note mensuelle de conjoncture Note mensuelle de conjoncture économique dans les pays de l'UEMOA - septembre 2026 21 Octobre 2026",
+   "url": "https://www.bceao.int/fr/publications/note-mensuelle-de-conjoncture-economique-dans-les-pays-de-luemoa-septembre-2026",
+   "doi": "",
+   "source": "BCEAO",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-26",
+   "origin": "page:BCEAO publications",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "BCEAO economic bulletin for UEMOA (includes Abidjan/Ivory Coast); West African monetary union policy."
+   },
+   "featured": false
+  },
+  {
+   "id": "2ceff12ff1",
+   "section": "grey",
+   "title": "Cross-Border Real Estate Investment & Underwriting in Developing Southeast Asia: Statutory Due Diligence, Fiscal Structuring, Construction Risk Mitigation, and Audited Yield Analysis Across Thailand, Cambodia, and Indonesia",
+   "url": "https://doi.org/10.5281/zenodo.23597355",
+   "doi": "10.5281/zenodo.23597355",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Dmitrii Kuznetsov"
+   ],
+   "date": "2026-10-23",
+   "origin": "openalex:reports:de-risking",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223404767",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S4306400562",
+   "venue_type": "repository",
+   "publisher": "European Organization for Nuclear Research",
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [
+     "bangkok"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "urban",
+     "integration",
+     "networks"
+    ],
+    "places": [
+     "bangkok"
+    ],
+    "note": "Cross-border real-estate investment in Southeast Asia including Thailand; financial devices for international capital mobility."
+   },
+   "featured": false
+  },
+  {
+   "id": "6391bbae44",
+   "section": "grey",
+   "title": "From Bangkok to the G20: let’s break the cycle of debt",
+   "url": "https://debtjustice.org.uk/blog/from-bangkok-to-the-g20",
+   "doi": "",
+   "source": "Debt Justice",
+   "venue": "",
+   "authors": [
+    "Wiz Baines"
+   ],
+   "date": "2026-10-21",
+   "origin": "rss:Debt Justice",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "bangkok"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt"
+    ],
+    "places": [],
+    "note": "Debt Justice campaign at Bangkok G20 meetings; critique of financial subordination and debt justice advocacy."
+   },
+   "featured": false
+  },
+  {
+   "id": "0bc33e86ee",
+   "section": "grey",
+   "title": "Informe de economía latinoamericana. Segundo semestre de 2025",
+   "url": "https://doi.org/10.53479/44706",
+   "doi": "10.53479/44706",
+   "source": "OpenAlex",
+   "venue": "",
+   "authors": [
+    "Banco de España"
+   ],
+   "date": "2026-10-20",
+   "origin": "openalex:reports:de-risking",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223065064",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "",
+   "venue_type": "",
+   "publisher": "",
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [
+     "sao_paulo"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "centres"
+    ],
+    "places": [
+     "sao_paulo",
+     "santiago"
+    ],
+    "note": "Latin American economy overview; external financing, geopolitical vulnerabilities, and regional resilience patterns relevant."
+   },
+   "featured": false
+  },
+  {
+   "id": "677593f81d",
+   "section": "grey",
+   "title": "Credit Markets with New Screening Technologies",
+   "url": "https://doi.org/10.3386/w35905",
+   "doi": "10.3386/w35905",
+   "source": "National Bureau of Economic Research",
+   "venue": "National Bureau of Economic Research",
+   "authors": [
+    "Maryam Farboodi",
+    "Péter Kondor",
+    "Pablo D. Kurlat"
+   ],
+   "date": "2026-10-01",
+   "origin": "openalex:reports:financial centre",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7222954151",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S2809516038",
+   "venue_type": "repository",
+   "publisher": "",
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "subordination"
+    ],
+    "places": [],
+    "note": "AI screening technology and credit-market segmentation; devices of valuation and pool externalities but not Southern-centre focused."
+   },
+   "featured": false
+  },
+  {
+   "id": "85d17e8dc9",
+   "section": "grey",
+   "title": "Euro liquidity lines and the international monetary system",
+   "url": "https://www.bis.org/speeches/20261021-euro-liquidity-lines-and-international-monetary-system",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Philip R Lane"
+   ],
+   "date": "2026-10-21",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "networks",
+     "subordination"
+    ],
+    "places": [],
+    "note": "ECB euro liquidity and international monetary system; North–South but not Southern-centre focused."
+   },
+   "featured": false
+  },
+  {
+   "id": "52ffdbae81",
+   "section": "grey",
+   "title": "Celebrating 30 years of capital markets development in Uganda",
+   "url": "https://www.bis.org/speeches/20261020-celebrating-30-years-capital-markets-development-uganda",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Augustus Nuwagaba"
+   ],
+   "date": "2026-10-20",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "integration",
+     "regulation"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "centres"
+    ],
+    "places": [],
+    "note": "Uganda capital markets speech; adjacent African case but not a project city."
+   },
+   "featured": false
+  },
+  {
+   "id": "e075707215",
+   "section": "grey",
+   "title": "Nigeria unveils ten-year capital markets plan and national savings plan to raise US$ 56 billion to support the US$1 trillion economy ambition",
+   "url": "https://fsdafrica.org/nigeria-unveils-ten-year-capital-markets-plan-and-national-savings-plan-to-raise-us-56-billion-to-support-the-us1-trillion-economy-ambition",
+   "doi": "",
+   "source": "FSD Africa (RSS)",
+   "venue": "",
+   "authors": [
+    "Riitho"
+   ],
+   "date": "2026-10-19",
+   "origin": "rss:FSD Africa (RSS)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "centres",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "centres",
+     "integration",
+     "networks"
+    ],
+    "places": [],
+    "note": "Nigeria capital markets deepening plan; adjacent African hub strategy but not a project city."
+   },
+   "featured": false
+  },
+  {
+   "id": "18a40c8f7f",
+   "section": "grey",
+   "title": "Building trusted foundations for digital finance",
+   "url": "https://www.bis.org/speeches/20261019-building-trusted-foundations-digital-finance",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Chia Der Jiun"
+   ],
+   "date": "2026-10-19",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "digital"
+    ],
+    "places": [],
+    "note": "Singapore digital finance infrastructure; adjacent Asian hub but not a project city."
+   },
+   "featured": false
+  },
+  {
+   "id": "fb2592aa30",
+   "section": "grey",
+   "title": "Scaling private-sector-led solar-powered irrigation systems for climate resilience in smallholder farming in Sub-Saharan Africa",
+   "url": "https://hdl.handle.net/10568/186134",
+   "doi": "",
+   "source": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+   "venue": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+   "authors": [
+    "Seifu A. Tilahun",
+    "Oke Adebayo",
+    "Felix Owino Otieno",
+    "Esther Ndumi Nzuki"
+   ],
+   "date": "2026-10-01",
+   "origin": "openalex:reports:capital market development",
+   "scholarly": false,
+   "openalex_id": "https://openalex.org/W7223492183",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S4306402055",
+   "venue_type": "repository",
+   "publisher": "CGIAR",
+   "watched": null,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "development_finance"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Blended finance for solar irrigation in Ethiopia, Kenya, Nigeria; development finance innovation but non-financial-centre."
+   },
+   "featured": false
+  },
+  {
+   "id": "1b77e79a85",
+   "section": "grey",
+   "title": "Financial Deepening",
+   "url": "https://doi.org/10.5089/9798229065245.018",
+   "doi": "10.5089/9798229065245.018",
+   "source": "Selected Issues Papers",
+   "venue": "Selected Issues Papers",
+   "authors": [
+    "Jean Christine Armas",
+    "Daphne Babirye",
+    "Alex Vaval Pierre-Charles"
+   ],
+   "date": "2026-10-01",
+   "origin": "openalex:series",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223061570",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4387286624",
+   "venue_type": "journal",
+   "publisher": "International Monetary Fund",
+   "watched": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "integration"
+    ],
+    "places": [],
+    "note": "Uganda financial deepening and credit infrastructure; adjacent case on integration devices."
+   },
+   "featured": false
+  },
+  {
+   "id": "9f8980aa89",
+   "section": "archive",
+   "title": "Mixed Signals: IMF Lending and Capital Markets",
+   "url": "https://doi.org/10.1017/s0007123415000216",
+   "doi": "10.1017/s0007123415000216",
+   "source": "British Journal of Political Science",
+   "venue": "British Journal of Political Science",
+   "authors": [
+    "Terrence L. Chapman",
+    "Songying Fang",
+    "Xin Li",
+    "Randall W. Stone"
+   ],
+   "date": "2015-07-28",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2260898268",
+   "year": 2015,
+   "work_type": "article",
+   "venue_id": "S95691132",
+   "venue_type": "journal",
+   "publisher": "Cambridge University Press",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 3,
+    "labels": [
+     "University Press",
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "imf_programmes"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "imf_programmes",
+     "subordination"
+    ],
+    "places": [],
+    "note": "How IMF lending signals affect emerging-market capital-market pricing; reveals political-economic conditionality dynamics.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "0dfad70b9d",
+   "section": "archive",
+   "title": "Conditionality: Forms, Function, and History",
+   "url": "https://doi.org/10.1146/annurev.lawsocsci.4.110707.172254",
+   "doi": "10.1146/annurev.lawsocsci.4.110707.172254",
+   "source": "Annual Review of Law and Social Science",
+   "venue": "Annual Review of Law and Social Science",
+   "authors": [
+    "Sarah L. Babb",
+    "Bruce G. Carruthers"
+   ],
+   "date": "2008-07-28",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2125345748",
+   "year": 2008,
+   "work_type": "review",
+   "venue_id": "S59069355",
+   "venue_type": "journal",
+   "publisher": "Annual Reviews",
+   "cited_by_this_week": 2,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "imf_programmes"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "imf_programmes",
+     "subordination"
+    ],
+    "places": [
+     "sao_paulo",
+     "santiago",
+     "montevideo",
+     "mumbai",
+     "bangkok",
+     "hcmc"
+    ],
+    "note": "Historical survey of IMF conditionality as form of control over borrowing countries' policy; foundational for subordination framework.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "8569772b27",
+   "section": "archive",
+   "title": "East Asian Financial Regionalism in Support of the Global Financial Architecture? The Political Economy of Regional Nesting",
+   "url": "https://doi.org/10.1017/s1598240800004628",
+   "doi": "10.1017/s1598240800004628",
+   "source": "Journal of East Asian Studies",
+   "venue": "Journal of East Asian Studies",
+   "authors": [
+    "William W. Grimes"
+   ],
+   "date": "2006-12-01",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W1892908804",
+   "year": 2006,
+   "work_type": "article",
+   "venue_id": "S60875592",
+   "venue_type": "journal",
+   "publisher": "Cambridge University Press",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 3,
+    "labels": [
+     "University Press",
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "imf_programmes"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "networks",
+     "integration",
+     "subordination"
+    ],
+    "places": [
+     "bangkok",
+     "hcmc"
+    ],
+    "note": "East Asian regional financial institutions (Chiang Mai, ABMI) and their relation to global architecture; regional integration vs. subordination.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "c2baa2c449",
+   "section": "archive",
+   "title": "Fear of Floating",
+   "url": "https://doi.org/10.1162/003355302753650274",
+   "doi": "10.1162/003355302753650274",
+   "source": "The Quarterly Journal of Economics",
+   "venue": "The Quarterly Journal of Economics",
+   "authors": [
+    "Guillermo A. Calvo",
+    "Carmen Reinhart"
+   ],
+   "date": "2002-05-01",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W4256569773",
+   "year": 2002,
+   "work_type": "article",
+   "venue_id": "S203860005",
+   "venue_type": "journal",
+   "publisher": "Oxford University Press",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "University Press",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination"
+    ],
+    "places": [],
+    "note": "Calvo & Reinhart on 'fear of floating' in emerging markets; demonstrates currency constraint and financial subordination of Global South.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "6b06462920",
+   "section": "archive",
+   "title": "The financialization of the American economy",
+   "url": "https://doi.org/10.1093/ser/mwi008",
+   "doi": "10.1093/ser/mwi008",
+   "source": "Socio-Economic Review",
+   "venue": "Socio-Economic Review",
+   "authors": [
+    "Greta R. Krippner"
+   ],
+   "date": "2005-03-24",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2164196847",
+   "year": 2005,
+   "work_type": "article",
+   "venue_id": "S147547362",
+   "venue_type": "journal",
+   "publisher": "Oxford University Press",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 4,
+    "labels": [
+     "watched journal",
+     "University Press",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination"
+    ],
+    "places": [],
+    "note": "US financialization framework; useful for comparative context but not directly about Southern financial centres.",
+    "quality": 2
+   },
+   "featured": false
+  }
+ ],
+ "digest": "This week's research engagement turns on financial device innovation and its political economy across the Global South. Correspondingly, we assess sovereign sukuk and development-bank financing as alternatives to IMF/World Bank conditionality; Asian bond-market regionalization and China-ASEAN connectivity as bottom-up capital-account integration; African payment-system evolution from correspondent schemes to digital platforms; and India's UPI infrastructure as foundational to economic participation. Concurrently, reporting from Casablanca, São Paulo, and Mumbai illustrates how financial centres navigate Northern governance pressures—currency defense against IMF orthodoxy, market discipline over fiscal space, and the contestation of monetary autonomy. We flag postcolonial theory on epistemic subordination and colonial echoes as meta-analytical frames, and note IMF lending's signalling effects and historical conditionality as structural constraints on policy autonomy in borrowing economies."
+}
