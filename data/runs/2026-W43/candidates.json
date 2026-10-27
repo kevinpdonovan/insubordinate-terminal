@@ -1,0 +1,4483 @@
+[
+ {
+  "id": "f6919ee2ce",
+  "section": "research",
+  "title": "Digital Public Infrastructure Beyond India: Comparative Evidence from Brazil, Kenya, and the Philippines",
+  "url": "https://doi.org/10.67693/bjcr-3ugnp67j",
+  "doi": "10.67693/bjcr-3ugnp67j",
+  "source": "British Journal of Contemporary Research",
+  "venue": "British Journal of Contemporary Research",
+  "authors": [
+   "Nandkishor Balu Gosavi",
+   "Er. Sheetal N. Gosavi"
+  ],
+  "date": "2026-10-10",
+  "summary": "While the Digital Public Infrastructure (DPI) concept is most often associated with the model of India's Aadhaar, UPI, DBT (AUB) combination, similar and even bigger DPI experiments are taking place in other countries of the Global South.This paper draws comparisons based on the experience of the Pix payment system of Brazil, the mobile money market of Kenya, led by M-Pesa, and the PhilSys identification framework plus GCash/Maya e-wallets of the Philippines.With the use of publicly available information on transaction volumes, usage statistics, and inclusiveness metrics, the paper demonstrates that even though all three systems contributed greatly to fast increases in the number of digitized payments and formally registered users of financial services, gender, informality, and urban-rural divide remain structurally inherent to these systems rather than being merely transitional challenges.Comparison tables and charts illustrating the development of transaction volumes and gender/informality gaps in active use of DPI channels are presented below.",
+  "origin": "openalex:query:financialization Brazil",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221345536",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W4409573095"
+  ],
+  "venue_id": "S7407062999",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "digital public infrastructure beyond india comparative evidence from brazil kenya philippines|gosavi",
+  "watched": null,
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 10,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital",
+    "integration"
+   ],
+   "places": [
+    "sao_paulo",
+    "nairobi",
+    "hcmc"
+   ],
+   "note": "DPI comparative analysis across three case-study cities; explores financial infrastructure integration beyond India's AUB model.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "c408721b17",
+  "section": "research",
+  "title": "The fragmented green state: state capacity, green macrofinancial regimes, and political contestation in Thailand’s energy transition",
+  "url": "https://doi.org/10.1080/09692290.2026.2745884",
+  "doi": "10.1080/09692290.2026.2745884",
+  "source": "Review of International Political Economy",
+  "venue": "Review of International Political Economy",
+  "authors": [
+   "Sirima Thongsawang",
+   "Robert Yates"
+  ],
+  "date": "2026-10-13",
+  "summary": "This paper contributes to debates on green states and green macrofinancial regimes in the Global South. It analyses Thailand, an upper-middle-income country that, although subject to international financial subordination, has sufficient domestic finance to support renewable energy rollout. However, despite consensus on the need for green transition, renewable energy remains low in Thailand’s energy mix. We explain this using the concept of the fragmented green state. State managers in macroeconomic and energy planning express support for green policies, but the fragmented state bureaucracy and contestation between competing coalitions lead to competing green macrofinancial regimes emerging. Fiscal hawks and green planners, linked to a reformist coalition, support weak derisking, including structural market-based reforms to the electricity sector. Geopolitical hawks, in alliance with state and large private energy firms, support limited robust derisking or Big Green State policies to maintain control over the power sector and advance renewables as supplementary to the core business of natural gas. This contestation prevents a green macrofinancial bargain that could support decarbonization. The fragmented green state could be relevant in understanding barriers to decarbonization in other Global South contexts.",
+  "origin": "openalex:query:financial subordination",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221714766",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W1970255114",
+   "https://openalex.org/W2074135855",
+   "https://openalex.org/W2619814250",
+   "https://openalex.org/W2808167917",
+   "https://openalex.org/W2912536286",
+   "https://openalex.org/W2944613860",
+   "https://openalex.org/W2965968920",
+   "https://openalex.org/W3003460426",
+   "https://openalex.org/W3042048227",
+   "https://openalex.org/W3082114169",
+   "https://openalex.org/W3127821078",
+   "https://openalex.org/W3145166190",
+   "https://openalex.org/W3185133529",
+   "https://openalex.org/W4236901162",
+   "https://openalex.org/W4256498816",
+   "https://openalex.org/W4281660789",
+   "https://openalex.org/W4283317674",
+   "https://openalex.org/W4283576522",
+   "https://openalex.org/W4287958705",
+   "https://openalex.org/W4293864816",
+   "https://openalex.org/W4310157235",
+   "https://openalex.org/W4321227884",
+   "https://openalex.org/W4383956836",
+   "https://openalex.org/W4390632329",
+   "https://openalex.org/W4392108269",
+   "https://openalex.org/W4392971162",
+   "https://openalex.org/W4395013489",
+   "https://openalex.org/W4399439063",
+   "https://openalex.org/W4399548193",
+   "https://openalex.org/W4400177762",
+   "https://openalex.org/W4401975961",
+   "https://openalex.org/W4403462771",
+   "https://openalex.org/W4404492123",
+   "https://openalex.org/W4404511634",
+   "https://openalex.org/W4406799273",
+   "https://openalex.org/W4406914685",
+   "https://openalex.org/W4407106970",
+   "https://openalex.org/W4409277316",
+   "https://openalex.org/W4410923268",
+   "https://openalex.org/W4411568650",
+   "https://openalex.org/W4412456135",
+   "https://openalex.org/W4413956147",
+   "https://openalex.org/W4415622903",
+   "https://openalex.org/W4415739832",
+   "https://openalex.org/W7133791209",
+   "https://openalex.org/W7133875401",
+   "https://openalex.org/W7155352801",
+   "https://openalex.org/W7164887649"
+  ],
+  "venue_id": "S2875300",
+  "venue_type": "journal",
+  "publisher": "Routledge",
+  "filter": true,
+  "work_key": "fragmented green state state capacity green macrofinancial regimes political contestation thailand s|thongsawang",
+  "watched": false,
+  "quality_signals": {
+   "score": 4,
+   "labels": [
+    "watched journal",
+    "Routledge",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 7,
+   "places": [],
+   "themes": [
+    "subordination"
+   ],
+   "reason": ""
+  }
+ },
+ {
+  "id": "ed78d1a435",
+  "section": "research",
+  "title": "Exploring the role of sustainable finance in enhancing operational efficiency: evidence from firms listed on the London Stock Exchange",
+  "url": "https://doi.org/10.1057/s41599-026-09205-5",
+  "doi": "10.1057/s41599-026-09205-5",
+  "source": "Humanities and Social Sciences Communications",
+  "venue": "Humanities and Social Sciences Communications",
+  "authors": [
+   "Yahya Ahmed Mustafa Alzubi",
+   "Muri Wole Adedokun"
+  ],
+  "date": "2026-10-12",
+  "summary": "Abstract Sustainable finance improves operational efficiency by directing capital toward environmentally responsible investments that reduce costs, optimize resource use, and enhance long-term productivity, while supporting firms’ transition toward greener, more efficient operations. This study applied the Resource-Based View (RBV) theory to examine how sustainable finance practices influence operational efficiency. It utilizes 17 years of data (2007–2023) from 143 non-financial companies, sourced from Thomson Reuters Eikon DataStream. To address endogeneity in the dataset, the study employs the Generalized Method of Moments (GMM) estimation model. Findings indicate that green bond issuance, environmental expenditures, emission reduction policies, and environmental investment initiatives have a significant impact on operational efficiency. Additionally, the interaction between green bond issuance and firm size significantly influences operational efficiency. These results suggest that corporations should prioritize green financing and environmentally sustainable strategies, while carefully assessing the cost-effectiveness of environmental expenditures. Aligning green initiatives with firm size can further enhance operational efficiency and support long-term environmental and performance objectives.",
+  "origin": "openalex:query:stock exchange Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221523529",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210206302",
+  "venue_type": "journal",
+  "publisher": "Palgrave Macmillan",
+  "filter": true,
+  "work_key": "exploring role sustainable finance enhancing operational efficiency evidence from firms listed london|alzubi",
+  "watched": null,
+  "quality_signals": {
+   "score": 3,
+   "labels": [
+    "Palgrave",
+    "DOAJ",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 7,
+   "places": [],
+   "themes": [
+    "debt",
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "LSE-listed firms only; no Southern financial centre or Global South institutional angle.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "ed4e59b7d1",
+  "section": "research",
+  "title": "THANH TOÁN KHÔNG DÙNG TIỀN MẶT QUA ĐÁNH GIÁ CỦA NGƯỜI DÂN – NGHIÊN CỨU TẠI THÀNH PHỐ HỒ CHÍ MINH",
+  "url": "https://tapchikhxhhcm.org.vn/index.php/tapchikhxh/article/download/1065/954",
+  "doi": "",
+  "source": "Tạp chí Khoa học xã hội Thành phố Hồ Chí Minh",
+  "venue": "Tạp chí Khoa học xã hội Thành phố Hồ Chí Minh",
+  "authors": [
+   "NGUYỄN THI KIM NƯƠNG"
+  ],
+  "date": "2026-10-12",
+  "summary": "Cashless payments are a key foundation for improving the efficiency of monetary circulation, promoting financial inclusion, and enhancing connectivity with international financial markets. Based on a review of secondary data and survey data, this study examines the current status of cashless payment use and residents’ assessments of cashless payments in Ho Chi Minh City, in the context of the City’s efforts to establish an International Financial Centre. Accordingly, the study proposes several recommendations for developing cashless payments to meet the requirements of the new context.",
+  "origin": "openalex:query:international financial centre",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221836877",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407065995",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "thanh toan khong dung tien mat qua đanh gia cua nguoi dan|nuong",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 7,
+   "places": [
+    "hcmc"
+   ],
+   "themes": [
+    "centres"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 3,
+   "themes": [
+    "digital",
+    "centres",
+    "integration"
+   ],
+   "places": [
+    "hcmc"
+   ],
+   "note": "Directly examines cashless payments' role in Ho Chi Minh City's aspiration to become international financial centre.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "4f56993f3e",
+  "section": "research",
+  "title": "The Money Fetish and Empire:",
+  "url": "https://doi.org/10.63478/gqm8lp82",
+  "doi": "10.63478/gqm8lp82",
+  "source": "Spectre Journal",
+  "venue": "Spectre Journal",
+  "authors": [
+   "Ingrid Harvold Kvangraven"
+  ],
+  "date": "2026-10-13",
+  "summary": "Ingrid Harvold Kvangraven situates the purported decline in US dollar hegemony within the global power and value relations it characterizes.",
+  "origin": "openalex:authors",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222578988",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S5407021799",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": false,
+  "watched": true,
+  "work_key": "money fetish empire|kvangraven",
+  "quality_signals": {
+   "score": 3,
+   "labels": [
+    "watched author",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 7,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "subordination",
+    "valuation"
+   ],
+   "places": [],
+   "note": "Postcolonial theory on dollar hegemony and global power; relevant to financial subordination framework but no specific centre.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "ded6dc133b",
+  "section": "research",
+  "title": "Repositioning the Global South for Agency",
+  "url": "https://doi.org/10.4324/9781003729709-14",
+  "doi": "10.4324/9781003729709-14",
+  "source": "Routledge eBooks",
+  "venue": "Routledge eBooks",
+  "authors": [
+   "Raymond K. Awadzi"
+  ],
+  "date": "2026-10-12",
+  "summary": "The recent bilateral relations between some African countries and China are highly motivated by optimism and resolve to chart a new socioeconomic development paradigm founded on claimed agency of the Global South. The obvious unparalleled socioeconomic and political realities of the member countries has ignited diverse critiques regarding the nature and prospects of policies for the member countries. This socioeconomic resolve to break with Western financial establishments while strengthening partnership with China signal a shift from dependence on the Global North to interdependence among the countries of the Global South. This chapter examines Ghana’s reorientation from North–South to South–South cooperation through the Forum on China–Africa Cooperation (FOCAC). Guided by dependency and postcolonial theory, this chapter explores the potential agency of the South–South alliance and the extent to which African member countries are positioned to gain from the renewed alliance with China. Using existing data on Ghana’s socioeconomic development paradigm, this chapter argues that without reforming internal institutional structures, Africa’s pursuit of agency risks reproducing new forms of dependency under Chinese partnership. The chapter suggests a rethinking of Africa’s internal economic structures and practices to avoid a socioeconomic neocolonial turn in postcolonial Africa.",
+  "origin": "openalex:query:financialization Global South",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221527325",
+  "year": 2026,
+  "work_type": "book-chapter",
+  "referenced_works": [],
+  "venue_id": "S4306463855",
+  "venue_type": "ebook platform",
+  "publisher": "Routledge",
+  "filter": true,
+  "work_key": "repositioning global south agency|awadzi",
+  "quality_signals": {
+   "score": 2,
+   "labels": [
+    "Routledge",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [],
+   "themes": [
+    "networks",
+    "histories"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "subordination",
+    "networks",
+    "china_finance"
+   ],
+   "places": [],
+   "note": "South–South financial reorientation; China–Africa relations as alternative to Western financial dependence; no specific case study.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "c35388aac2",
+  "section": "research",
+  "title": "Effect of Risk Management Strategies on the Mitigation of Cybersecurity Threats in Fintech Companies in Nairobi City, Kenya",
+  "url": "https://doi.org/10.47604/ijmrm.4014",
+  "doi": "10.47604/ijmrm.4014",
+  "source": "International Journal of Modern Risk Management",
+  "venue": "International Journal of Modern Risk Management",
+  "authors": [
+   "Justine Odero",
+   "Samuel Osike",
+   "E Bor"
+  ],
+  "date": "2026-10-16",
+  "summary": "Purpose: The purpose of this study was to examine the effect of risk management strategies on the mitigation of cybersecurity threats in fintech companies in Nairobi City, Kenya. Specifically, the study identified the cybersecurity threats faced by fintech companies, assessed the types and levels of risk management strategies they employ, and determined the effect of these strategies on threat mitigation. Methodology: The study adopted a correlational research design anchored on Deterrence Theory and the Resource-Based View. The target population comprised 306 cybersecurity, risk, information technology and compliance professionals drawn from 98 fintech companies in Nairobi City. A sample of 173 respondents was selected through stratified random sampling and 12 key informants were purposively selected. Data were collected using structured questionnaires and key informant interviews, and 145 usable questionnaires were returned (83.8%). Quantitative data were analysed using descriptive statistics, Pearson correlation and multiple regression, while qualitative data were analysed thematically. Findings: Malware infections were the most prevalent threat (M = 4.57, SD = 0.524), followed by phishing (M = 3.46) and Distributed Denial of Service (DDoS) attacks (M = 3.41), although the consequences of DDoS attacks were rated as severe (M = 3.91). Regular vulnerability assessments (M = 3.83) and threat intelligence gathering (M = 3.79) were the most widely implemented practices, while t",
+  "origin": "openalex:query:mobile money Kenya",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222763776",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W1993595248",
+   "https://openalex.org/W2029699977",
+   "https://openalex.org/W2072047708",
+   "https://openalex.org/W2123709218",
+   "https://openalex.org/W2198189408",
+   "https://openalex.org/W2205836349",
+   "https://openalex.org/W2337703333",
+   "https://openalex.org/W2584161158",
+   "https://openalex.org/W2762041969",
+   "https://openalex.org/W2886749630",
+   "https://openalex.org/W2903005174",
+   "https://openalex.org/W3014677108",
+   "https://openalex.org/W3036035276",
+   "https://openalex.org/W3089180613",
+   "https://openalex.org/W3124536214",
+   "https://openalex.org/W3134211737",
+   "https://openalex.org/W4213292645",
+   "https://openalex.org/W4230846734",
+   "https://openalex.org/W4251487542",
+   "https://openalex.org/W4293193639",
+   "https://openalex.org/W4296501931",
+   "https://openalex.org/W4308037227",
+   "https://openalex.org/W4322746730",
+   "https://openalex.org/W4366502654",
+   "https://openalex.org/W4382465540",
+   "https://openalex.org/W4386370679",
+   "https://openalex.org/W4386579498",
+   "https://openalex.org/W4388923893",
+   "https://openalex.org/W4396542943",
+   "https://openalex.org/W4401433922",
+   "https://openalex.org/W4406117536",
+   "https://openalex.org/W4410643616",
+   "https://openalex.org/W4415263137"
+  ],
+  "venue_id": "S4387997697",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "effect risk management strategies mitigation cybersecurity threats fintech companies nairobi city kenya|odero",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "Cybersecurity risk management in Nairobi fintech; technical compliance focus, tangential to financial centre politics.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "86f5420f9a",
+  "section": "research",
+  "title": "Corporate Capital Formation and Innovative Financing: Sukuk Structures as Sustainable Instruments of Growth Under Saudi Corporate Law",
+  "url": "https://doi.org/10.1177/21582440261497022",
+  "doi": "10.1177/21582440261497022",
+  "source": "SAGE Open",
+  "venue": "SAGE Open",
+  "authors": [
+   "Ali Salem Almarri"
+  ],
+  "date": "2026-10-01",
+  "summary": "Sukuk have become central instruments in Islamic finance, increasingly promoted as vehicles for sustainable development and capital market diversification. Positioned at the intersection of Sharīʿah compliance, corporate governance, and environmental, social, and governance (ESG) imperatives, sukuk are pivotal to Saudi Arabia’s Vision 2030 agenda. Yet their legitimacy and effectiveness remain contested. This study examines whether sukuk function as authentic instruments of sustainable finance or whether they risk becoming formalistic replications of conventional debt under Islamic branding. Employing a socio-legal methodology that integrates doctrinal analysis of Saudi corporate and capital market law with twenty semi-structured interviews across regulators, Sharīʿah scholars, directors, and market practitioners, the study identifies five interrelated vulnerabilities: doctrinal ambiguity in the legal status of sukuk holders, procedural rather than substantive Sharīʿah oversight, fiduciary governance gaps, weak investor protection, and systemic risks associated with market concentration. These findings reveal a persistent disjunction between sukuk’s normative aspirations and their practical operation. The study contributes to the literature by integrating maqāṣid al-Sharīʿah, fiduciary theory, and socio-legal resilience as a tripartite framework for evaluating sukuk. It argues that only through institutionalising doctrinal clarity, fiduciary accountability, and enforceable ESG",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221441850",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W3123078818",
+   "https://openalex.org/W4220751300",
+   "https://openalex.org/W4224262644",
+   "https://openalex.org/W4224299018",
+   "https://openalex.org/W4225249124",
+   "https://openalex.org/W4225420160",
+   "https://openalex.org/W4281254896",
+   "https://openalex.org/W4281730120",
+   "https://openalex.org/W4283745253",
+   "https://openalex.org/W4310470153",
+   "https://openalex.org/W4313420917",
+   "https://openalex.org/W4313652715",
+   "https://openalex.org/W4313983580",
+   "https://openalex.org/W4317034982",
+   "https://openalex.org/W4362585158",
+   "https://openalex.org/W4365514710",
+   "https://openalex.org/W4367681893",
+   "https://openalex.org/W4375945629",
+   "https://openalex.org/W4378700490",
+   "https://openalex.org/W4379261092",
+   "https://openalex.org/W4382457890",
+   "https://openalex.org/W4382990822",
+   "https://openalex.org/W4385849691",
+   "https://openalex.org/W4389324525",
+   "https://openalex.org/W4389633312",
+   "https://openalex.org/W4390111948",
+   "https://openalex.org/W4390882427",
+   "https://openalex.org/W4390885000",
+   "https://openalex.org/W4390906453",
+   "https://openalex.org/W4390973652",
+   "https://openalex.org/W4391445798",
+   "https://openalex.org/W4391486868",
+   "https://openalex.org/W4391530581",
+   "https://openalex.org/W4393433563",
+   "https://openalex.org/W4393981798",
+   "https://openalex.org/W4395689870",
+   "https://openalex.org/W4396234950",
+   "https://openalex.org/W4396902482",
+   "https://openalex.org/W4396921597",
+   "https://openalex.org/W4396967507",
+   "https://openalex.org/W4398201352",
+   "https://openalex.org/W4399057405",
+   "https://openalex.org/W4399174938",
+   "https://openalex.org/W4399393077",
+   "https://openalex.org/W4400060585",
+   "https://openalex.org/W4401217446",
+   "https://openalex.org/W4401573243",
+   "https://openalex.org/W4403463091",
+   "https://openalex.org/W4405662717",
+   "https://openalex.org/W4405886746",
+   "https://openalex.org/W4405944402",
+   "https://openalex.org/W4407116083",
+   "https://openalex.org/W4407116113",
+   "https://openalex.org/W4407324506",
+   "https://openalex.org/W4407419651",
+   "https://openalex.org/W4408110104",
+   "https://openalex.org/W4408940737",
+   "https://openalex.org/W4408998323",
+   "https://openalex.org/W4409363641",
+   "https://openalex.org/W4409457548",
+   "https://openalex.org/W4409464286",
+   "https://openalex.org/W4409629101",
+   "https://openalex.org/W4409921546",
+   "https://openalex.org/W4410088387",
+   "https://openalex.org/W4410100664",
+   "https://openalex.org/W4410443771",
+   "https://openalex.org/W4411384809",
+   "https://openalex.org/W4412693454",
+   "https://openalex.org/W4413364108",
+   "https://openalex.org/W4413377708",
+   "https://openalex.org/W4413378508",
+   "https://openalex.org/W4414409265",
+   "https://openalex.org/W4414920792",
+   "https://openalex.org/W6903313618"
+  ],
+  "venue_id": "S148277943",
+  "venue_type": "journal",
+  "publisher": "SAGE Publishing",
+  "filter": true,
+  "work_key": "corporate capital formation innovative financing sukuk structures as sustainable instruments growth under|almarri",
+  "quality_signals": {
+   "score": 3,
+   "labels": [
+    "SAGE",
+    "DOAJ",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "islamic_finance",
+    "valuation",
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Sukuk as devices for sustainable finance and capital-market deepening; contested legitimacy relevant to project's STS approach.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "e5ce5512ae",
+  "section": "research",
+  "title": "Digital Currencies and Fintech",
+  "url": "https://doi.org/10.37547/ijmef/volume06issue10-03",
+  "doi": "10.37547/ijmef/volume06issue10-03",
+  "source": "International Journal Of Management And Economics Fundamental",
+  "venue": "International Journal Of Management And Economics Fundamental",
+  "authors": [
+   "Xaydarova Madina Murodjon qizi",
+   "Jamoldinova Sabina Mansurjon qizi"
+  ],
+  "date": "2026-10-01",
+  "summary": "This article reviews the state of digital currencies and financial technology (FinTech) as of October 2026, drawing mainly on publications and decisions of international standard-setters, regulators and central banks. It separates four instrument classes—unbacked cryptoassets, stablecoins, central bank digital currencies (CBDCs) and tokenised bank money—and examines how three recent milestones are reshaping market structure: the end of the transitional period under the European Union’s Markets in Crypto-Assets Regulation (MiCA), the staged implementation of the United States GENIUS Act, and the European Parliament’s endorsement of its negotiating position on the digital euro. The review finds that a hybrid architecture is emerging, in which regulated private tokens and central bank money are expected to coexist, and that emerging economies face a distinctive trade-off between payment innovation and monetary sovereignty. Uzbekistan, which has opened a som-pegged stablecoin pilot while confining central bank work to a wholesale CBDC, is used as an illustrative case.",
+  "origin": "openalex:query:monetary sovereignty",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222822538",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4387280717",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "digital currencies fintech|qizi",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [],
+   "themes": [
+    "digital",
+    "subordination"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [],
+   "note": "CBDC and digital currency review; Northern regulatory focus (MiCA, EU); marginal Southern angle.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "4ff8c21b0a",
+  "section": "research",
+  "title": "Insider Trading as Economic Crime in Emerging Financial Centres: Market Integrity, Compliance Gaps and Criminal Law Reform in Vietnam",
+  "url": "https://doi.org/10.1016/j.jeconc.2026.100254",
+  "doi": "10.1016/j.jeconc.2026.100254",
+  "source": "Journal of Economic Criminology",
+  "venue": "Journal of Economic Criminology",
+  "authors": [
+   "Trinh Duy Thuyen"
+  ],
+  "date": "2026-10-01",
+  "summary": "Insider trading presents a distinctive problem for criminal law because transactions that are lawful in outward form may acquire criminal significance only when their informational circumstances are reconstructed. Vietnam already criminalises insider trading under Article 210 of the Penal Code, but the development of its securities market and international financial centre gives renewed importance to the precision with which criminal liability is defined and proved. Using doctrinal legal analysis, legal-criminological reasoning and problem-oriented comparison with the United States, the European Union and China, this article examines the relationship between the substantive requirements of Article 210 and the regulatory and evidentiary mechanisms through which those requirements may be established. The analysis identifies several substantive uncertainties, including the mismatch between the criminal and securities-law concepts of inside information, liability within multi-layer information chains, the treatment of order amendment and cancellation, the informational nexus and valuation of benefits arising from derivative positions, and the operation of quantitative thresholds. It separately identifies evidentiary and institutional difficulties in moving from market surveillance and administrative enforcement to criminal proof. The article argues that these two dimensions should not be conflated. Vietnam should recalibrate Article 210 where the boundaries of criminal liability",
+  "origin": "openalex:query:international financial centre",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221524571",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W2151487897",
+   "https://openalex.org/W3123494828",
+   "https://openalex.org/W3125753879",
+   "https://openalex.org/W3130386294",
+   "https://openalex.org/W4382722005",
+   "https://openalex.org/W4385075840",
+   "https://openalex.org/W4385077585",
+   "https://openalex.org/W7213634512"
+  ],
+  "venue_id": "S4387288195",
+  "venue_type": "journal",
+  "publisher": "Elsevier BV",
+  "filter": true,
+  "work_key": "insider trading as economic crime emerging financial centres market integrity compliance gaps|thuyen",
+  "quality_signals": {
+   "score": 3,
+   "labels": [
+    "Elsevier",
+    "DOAJ",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [],
+   "themes": [
+    "centres"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "regulation",
+    "centres"
+   ],
+   "places": [
+    "hcmc"
+   ],
+   "note": "Insider trading and market integrity in Vietnam's emerging financial centre; doctrinal legal analysis of regulatory device.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "8a5265628f",
+  "section": "research",
+  "title": "Does financialisation threaten productive development?",
+  "url": "https://orcid.org/0000-0001-9667-2693>,",
+  "doi": "",
+  "source": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+  "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+  "authors": [
+   "J. Castillo",
+   "Gary Arthur Dymski",
+   "Annina Kaltenbrunner",
+   "Sandra Lancheros"
+  ],
+  "date": "2026-09-22",
+  "summary": "This paper explores financializaton’s effects on productive development—proxied by the Economic Complexity Index (ECI)—in a panel of 78 countries from 1975 to 2019. Financial globalization affects negatively ECI in Latin America, the Middle East and North Africa region, and South Asia. In Latin America, stock market capitalization also harms economic complexity by incentivizing short-term capital gains at the expense of technological upgrading. In developed economies, liquid liabilities and financial globalization support economic complexity, while private credit is detrimental.",
+  "origin": "openalex:authors",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7169482690",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306400854",
+  "venue_type": "repository",
+  "publisher": "White Rose University Consortium",
+  "filter": false,
+  "watched": true,
+  "work_key": "does financialisation threaten productive development|castillo",
+  "quality_signals": {
+   "score": 2,
+   "labels": [
+    "watched author",
+    "preprint/repository"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "subordination",
+    "centres"
+   ],
+   "places": [
+    "sao_paulo",
+    "mumbai",
+    "bangkok"
+   ],
+   "note": "Financialisation harms economic complexity in Latin America and South Asia; stock-market capitalization's negative effect on development.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "a5ce85e272",
+  "section": "research",
+  "title": "Between the Dragon and the Eagle: Strategic Autonomy, Sovereignty and Kenya's Diplomacy in an Era of Great-Power Competition",
+  "url": "https://doi.org/10.5281/zenodo.23279242",
+  "doi": "10.5281/zenodo.23279242",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Emmanuel Onyinkwa Mokoro"
+  ],
+  "date": "2026-10-10",
+  "summary": "Kenya occupies a distinctive position in contemporary global affairs, acting simultaneously as a crucial security partner for the United States, an important economic destination for Chinese capital, and a prominent defender of African agency within international institutions. This article examines how Nairobi can leverage great-power competition to its advantage without allowing external alliances to compromise domestic policy space. Drawing upon theories of strategic autonomy, African agency, neoclassical realism, and complex interdependence, we conceptualize Kenya's current diplomatic posture as an exercise in pragmatic multi-alignment rather than rigid bloc adherence. Using a qualitative documentary analysis of official policy frameworks, scholarly assessments, and authoritative reports, the study tracks Kenya's evolving relationships with both Washington and Beijing across key sectors including defence, infrastructure, technology, sovereign debt, and regional governance. The analysis indicates that Kenya's primary diplomatic objective should not center on choosing a single patron, but rather on building the internal institutional mechanisms necessary to evaluate and choose partnerships on an issue-by-issue basis. Ultimately, we propose a sovereignty-driven operational model anchored in partnership diversification, strict contract transparency, proactive parliamentary oversight, and technological independence.",
+  "origin": "openalex:query:sovereign debt Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221342247",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "between dragon eagle strategic autonomy sovereignty kenya s diplomacy era great power|mokoro",
+  "quality_signals": {
+   "score": 0,
+   "labels": [
+    "preprint/repository"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "networks"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "Kenya's diplomatic multi-alignment; geopolitical context but no financial-centre or financial-device specificity.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "c55eb1a856",
+  "section": "research",
+  "title": "Debt Diplomacy or Development Partnership? A Comparative Assessment of China's Engagement in Nigeria and Zambia",
+  "url": "https://doi.org/10.67693/bjcr-kftdj44u",
+  "doi": "10.67693/bjcr-kftdj44u",
+  "source": "British Journal of Contemporary Research",
+  "venue": "British Journal of Contemporary Research",
+  "authors": [
+   "Charles Nzube Ofodile",
+   "Pamela Ogechukwu Ofodile"
+  ],
+  "date": "2026-10-10",
+  "summary": "China's rise as Africa's largest bilateral creditor has fuelled a persistent debate over whether its lending constitutes \"debt-trap diplomacy\" or genuine development partnership.This article moves beyond that binary by comparing two major, long-standing recipients of Chinese finance with sharply divergent debt trajectories: Nigeria, which has continued servicing its obligations without formal distress, and Zambia, which defaulted on its Eurobonds in 2020 and underwent a protracted, China-influenced restructuring.Drawing on a mixed-methods, comparative case-study design, this article triangulates data from the Chinese Loans to Africa Database, Nigeria's Debt Management Office, and independent debt-policy research organizations, analysed against four indicators: creditor diversification, loan structure and collateralisation, transparency and oversight, and domestic fiscal governance.The findings show no evidence of deliberate Chinese asset seizure in either case, undermining the strong coercive version of the debt-trap thesis.However, Zambia's 2023 restructuring which extended maturities to 2043 while leaving its debt-to-GDP ratio unchanged at 110.8 percent illustrates that the absence of coercion does not equate to the absence of dependency.The article argues that the Nigeria-Zambia divergence is best explained not by differences in Chinese lending intent, but by borrower-side variables: Nigeria's more diversified creditor base (approximately 9.5 percent Chinese exposure) agai",
+  "origin": "openalex:query:sovereign debt Africa",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221360033",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W3081903168",
+   "https://openalex.org/W3126288457",
+   "https://openalex.org/W3189828342",
+   "https://openalex.org/W4281667818",
+   "https://openalex.org/W4290048931",
+   "https://openalex.org/W4315464668",
+   "https://openalex.org/W4365458637",
+   "https://openalex.org/W4392156150",
+   "https://openalex.org/W4409332003"
+  ],
+  "venue_id": "S7407062999",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "debt diplomacy or development partnership comparative assessment china s engagement nigeria zambia|ofodile",
+  "watched": null,
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "china_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "debt",
+    "china_finance",
+    "subordination"
+   ],
+   "places": [],
+   "note": "Comparative debt trajectories and Chinese finance in Africa; Zambia Eurobond default and restructuring relevant to subordination.",
+   "quality": 2
+  }
+ },
+ {
+  "id": "f78bc315a6",
+  "section": "research",
+  "title": "Green Sukuk and Green Investment for Environmental Sustainability and Economic Development",
+  "url": "https://doi.org/10.53515/lt.v8i1.276",
+  "doi": "10.53515/lt.v8i1.276",
+  "source": "LAN TABUR Jurnal Ekonomi Syariah",
+  "venue": "LAN TABUR Jurnal Ekonomi Syariah",
+  "authors": [
+   "Wiwik Utami",
+   "Lin Oktris"
+  ],
+  "date": "2026-09-30",
+  "summary": "This study systematically reviews the empirical literature on green sukuk, an Islamic financing instrument, and examines its role alongside green investment and green bonds in supporting environmental sustainability and sustainable economic development. Following the PRISMA protocol, records were retrieved from the Scopus database covering journals indexed in quartiles Q1 to Q4 and published from 2018 to 2026, using a search string combining the terms green bond, green sukuk, green investment, and sustainability. Of 82 records identified, 43 studies met the inclusion criteria and were analyzed thematically. The findings show that green sukuk exhibits distinct risk and return characteristics compared with conventional green bonds and functions as a viable Shariah compliant channel for financing renewable energy and other environmentally sustainable projects, with the most active markets found in Malaysia, Indonesia, and Gulf Cooperation Council countries. These sukuk specific findings sit within a broader literature showing that green investment is consistently associated with lower carbon emissions, higher clean energy consumption, and improved sustainability performance, although evidence remains concentrated in China and other developing economies. The results carry implications for Islamic capital market regulators and Shariah compliant fund managers seeking to expand green sukuk issuance as an alternative or complement to conventional green bonds. This study concludes tha",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221475704",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4394736075",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "green sukuk green investment environmental sustainability economic development|utami",
+  "watched": null,
+  "quality_signals": {
+   "score": 2,
+   "labels": [
+    "DOAJ",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "development_finance",
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "islamic_finance",
+    "valuation",
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Systematic review of green sukuk and Islamic financing for sustainable development; relevant device but no Southern centre focus.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "45bff1be70",
+  "section": "research",
+  "title": "Africa in the New Asian Century: A Comparative Study of India-China Foreign Policy",
+  "url": "https://doi.org/10.68263/bjar-4q3ch6e9",
+  "doi": "10.68263/bjar-4q3ch6e9",
+  "source": "British Journal of Advanced Research",
+  "venue": "British Journal of Advanced Research",
+  "authors": [
+   "Aarif"
+  ],
+  "date": "2026-10-10",
+  "summary": "Africa has acquired strategic, economic, and diplomatic importance for emerging powers such as India and China in the 21st century. This article presents a comparative study of the African policies of India and China, analyzing the historical, political, economic, security, and social perspectives of both countries. India’s relations with Africa have been based on historical solidarity, anti-colonial movements, South-South cooperation, and the important role of the Indian diaspora. India has continuously invested in infrastructure, capacity building, technological cooperation, and trade with African countries. China’s African policy, on the other hand, focuses on large-scale capital investment, rapid infrastructure development, resource extraction, and multilateralism, aiming to advance global strategies such as the Belt and Road Initiative. The article argues that the India-China comparison should not be understood solely as a competition between two external powers. African states and continental institutions possess their own preferences, interests and bargaining strategies and increasingly seek to use external partnerships to advance domestic and regional development priorities. The African Continental Free Trade Area (AfCFTA), the African Union (AU), regional economic communities and the growing emphasis on local industrialisation provide important institutional contexts in which African actors negotiate external engagement. The post-2020 period has further altered the e",
+  "origin": "openalex:query:Gulf capital Africa investment",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221315416",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407064920",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "africa new asian century comparative study india china foreign policy|aarif",
+  "watched": null,
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "networks",
+    "china_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "networks",
+    "china_finance"
+   ],
+   "places": [],
+   "note": "India–China comparative African policy; South–South context but not financial-centre or financial-device specific.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "eba82c2dd8",
+  "section": "research",
+  "title": "International Comparison of the Singapore ETF Ecosystem",
+  "url": "https://doi.org/10.1142/s2705109926500069",
+  "doi": "10.1142/s2705109926500069",
+  "source": "The Journal of FinTech",
+  "venue": "The Journal of FinTech",
+  "authors": [
+   "Ding Ding",
+   "Wang Yue",
+   "Fang Angzhen"
+  ],
+  "date": "2026-10-14",
+  "summary": "This paper compares Singapore’s exchange-traded fund (ETF) ecosystem with those of the United States, Mainland China, Hong Kong, Europe, Taiwan and selected ASEAN markets. It treats the ETF market as an institutional ecosystem connecting issuers, authorized participants, market makers, index and data providers, trading and clearing infrastructure, regulation and investor channels. Comparative institutional analysis is organized around autonomy, efficiency, inclusiveness and sustainability: the location and accountability of critical capabilities, the quality and cost of market functioning, investor access, and continuity across market cycles. Dated market statistics and regulatory documents reveal different arrangements for coordinating these functions. For Singapore, recent growth in assets, trading and digital and retirement-channel participation coexists with concentrated exchange trading; these observations do not establish a market-wide liquidity deficit or its causes. The paper develops an ‘openly embedded’ model in which international participation complements locally anchored operational capabilities and supervisory interfaces. It proposes a staged roadmap covering core ETF liquidity, issuer and intermediary capacity, investor channels, regional connectivity and risk governance. Digital distribution, API-based information and supervisory technology connect these proposals to FinTech. The recommendations are policy options informed by comparison, not estimated causal e",
+  "origin": "openalex:query:international financial centre",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221824296",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210167794",
+  "venue_type": "journal",
+  "publisher": "World Scientific",
+  "filter": true,
+  "work_key": "international comparison singapore etf ecosystem|ding",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "integration",
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "integration",
+    "centres"
+   ],
+   "places": [
+    "bangkok"
+   ],
+   "note": "ETF ecosystem comparative analysis including ASEAN; institutional structure but Bangkok treated as minor ASEAN market only.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "8a352ea8b8",
+  "section": "research",
+  "title": "Digital Public Infrastructure and Inclusive Fintech in India: Evidence from PMJDY, UPI, and the Financial Inclusion Index",
+  "url": "https://doi.org/10.65525/prabandhan.v2i2.48",
+  "doi": "10.65525/prabandhan.v2i2.48",
+  "source": "Prabandhan Darpan - Journal of Management Studies",
+  "venue": "Prabandhan Darpan - Journal of Management Studies",
+  "authors": [
+   "V. Mallikarjuna Naik"
+  ],
+  "date": "2026-10-09",
+  "summary": "India’s financial inclusion strategy has moved from expanding formal bank-account ownership to building an integrated digitalfinancial ecosystem based on bank accounts, digital identity, mobile connectivity, real-time payments, direct benefit transfersand last-mile banking services. This study examines whether the expansion of this digital public infrastructure has producedcorresponding improvements in the access, usage and quality dimensions of financial inclusion. Using official secondary data,the study applies percentage growth, compound annual growth, average-deposit and comparative index analyses. Itsmethodological contribution lies in triangulating indicators of account access, payment intensity, last-mile infrastructure andmultidimensional financial inclusion within a common analytical framework. PMJDY accounts increased from 15.67 crore inMarch 2015 to 58.63 crore by July 2026, while deposits increased from ₹15,670 crore to more than ₹3.08 lakh crore. UPItransaction volume expanded from approximately 2 crore transactions in FY 2016–17 to 24,161.69 crore in FY 2025–26. TheRBI Financial Inclusion Index increased from 49.9 in 2019 to 64.2 in 2024, with the strongest improvement occurring in usage.The comparative evidence reveals an access–usage–quality asymmetry: payment infrastructure and transaction activity haveexpanded faster than financial-service quality, capability and consumer protection. Conceptually, the study moves beyondprogramme-wise trend compilation by tre",
+  "origin": "openalex:query:Global Financial Centres Index",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221561823",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S5407054466",
+  "venue_type": "journal",
+  "publisher": "Swami Vivekananda University",
+  "filter": true,
+  "work_key": "digital public infrastructure inclusive fintech india evidence from pmjdy upi financial inclusion|naik",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 5,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital",
+    "integration"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "India's digital public infrastructure (UPI, PMJDY) and financial inclusion; DPI as market integration device for Southern centre.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "c64436eb2b",
+  "section": "research",
+  "title": "Transforming finance: A comparative analysis of the evolution, financial inclusion, and future prospects of FinTech startups in India and worldwide",
+  "url": "https://doi.org/10.22271/27084515.2026.v7.i10b.1508",
+  "doi": "10.22271/27084515.2026.v7.i10b.1508",
+  "source": "Asian Journal of Management and Commerce",
+  "venue": "Asian Journal of Management and Commerce",
+  "authors": [
+   "Purushottam N Vaidya",
+   "AN Tamragundi"
+  ],
+  "date": "2026-10-01",
+  "summary": "The fintech sector has transformed global financial systems, driving innovation, financial inclusion, and economic growth. This study explores the evolution, current trends, and future potential of fintech startups, with a focus on India’s burgeoning ecosystem and its comparison to global benchmarks. Key milestones include the emergence of mobile-first platforms, the 2008 financial crisis, and accelerated digital adoption during the COVID-19 pandemic. India's fintech landscape has made significant strides in addressing financial exclusion through innovations like the Unified Payments Interface (UPI), microfinance solutions, and insurtech platforms. With over 40 billion UPI transactions annually and a focus on rural inclusion, India has become a global leader in fintech adoption. Meanwhile, developed markets such as the U.S., Europe, and China have driven advancements in decentralized finance (DeFi), blockchain, and open banking, while emerging markets in Africa and Southeast Asia showcase fintech’s potential for empowering underserved communities. Despite progress, challenges such as regulatory complexities, cybersecurity risks, and the digital divide persist. This study highlights future trends, including AI-driven personalization, blockchain-based solutions, and sustainability-focused innovations. By leveraging emerging technologies and fostering collaboration with traditional financial institutions, fintech startups are poised to create a more inclusive and efficient globa",
+  "origin": "openalex:query:India financial markets history",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221511183",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210205548",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "transforming finance comparative analysis evolution financial inclusion future prospects fintech startups india|vaidya",
+  "watched": null,
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Fintech startups and UPI in India; financial inclusion focus but not centred on Mumbai's role as international financial centre.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "0f5488d27d",
+  "section": "research",
+  "title": "DEBT FINANCING STRATEGIES AND CAPITAL STRUCTURE OPTIMIZATION IN SAUDI ARABIAN CORPORATIONS",
+  "url": "https://doi.org/10.21474/ijar01/24270",
+  "doi": "10.21474/ijar01/24270",
+  "source": "International Journal of Advanced Research",
+  "venue": "International Journal of Advanced Research",
+  "authors": [
+   "Muhammad Hamza Muhammad Amin"
+  ],
+  "date": "2026-09-30",
+  "summary": "Saudi Arabian corporations are financing an unusually rapid phase of expansion,diversification, privatization, and infrastructure development while operating within a financial system shaped by concentrated ownership, Islamic financing principles, developing debt markets, and changing governance expectations. This review synthesizes recent evidence on debt financing strategies and capital structure optimization in Saudi corporations and evaluates whether conventional capital structure theories remain adequate in this institutional setting. A structured integrative review was designed around peer-reviewed studies identified through Scopus-oriented publisher platforms and major academic databases, emphasizing research published from 2020 to 2025 while retaining a small number of earlier studies with direct theoretical or Saudi-specific relevance. The synthesis is organized around leverage determinants, debt maturity, Islamic financing and Sukuk, governance and ownership, uncertainty and financing constraints, and the performance consequences of debt. Evidence consistently shows that profitability is associated with lower leverage, whereas firm size, tangibility, growth opportunities, market access, and governance conditions influence both debt capacity and adjustment toward target leverage. However, optimal financing in Saudi Arabia cannot be reduced to a single debt ratio. Sharia compliance, ownership concentration, geographic location, debt-market depth, borrowing costs, and",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221449207",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210206230",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "debt financing strategies capital structure optimization saudi arabian corporations|amin",
+  "watched": null,
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "islamic_finance",
+    "state_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Saudi Arabia capital structure; Gulf financial system but no linkage to project's case-study Southern centres.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "42919db315",
+  "section": "research",
+  "title": "Dari Greenwashing Menuju Taubat Korporasi: Model Akuntabilitas Spiritual Untuk Pemulihan Kepercayaan Dalam Green Sukuk Perspektif Islam",
+  "url": "https://jicnusantara.com/index.php/jiic/article/view/8380",
+  "doi": "",
+  "source": "Jurnal Intelek Insan Cendikia",
+  "venue": "Jurnal Intelek Insan Cendikia",
+  "authors": [
+   "Aril sharon Saragih",
+   "Imam Ariq Rizqy",
+   "Muhammad Rizki Akbar"
+  ],
+  "date": "2026-10-16",
+  "summary": "Praktik greenwashing dalam penerbitan Green Sukuk mengancam integritas keuangan syariah dan merusak kepercayaan investor. Fenomena ini timbul ketika komitmen lingkungan korporasi hanya sebatas klaim pemasaran tanpa dampak ekologis yang nyata. Penelitian ini bertujuan untuk mengonstruksi Model Akuntabilitas Spiritual (Spiritual Accountability Model) sebagai pendekatan holistik untuk memulihkan kepercayaan publik dan mengeliminasi greenwashing. Menggunakan metode kualitatif deskriptif berbasis studi kepustakaan, penelitian ini mengintegrasikan konsep taubat korporasi (taubat an-nasuha dalam skala organisasi) dengan prinsip Maqasid al-Shariah, khususnya pemeliharaan lingkungan (hifz al-bi'ah). Hasil penelitian menunjukkan bahwa taubat korporasi tidak hanya mencakup pengakuan kesalahan (i'tiraf) dan penghentian praktik deceptive, tetapi juga komitmen pemulihan (ishlah) yang terukur melalui tiga pilar akuntabilitas spiritual: Habllum minallah (integritas niat), Hablum minannas (transparansi publik), dan Hablum minal 'alam (restorasi ekologis). Model ini menawarkan kerangka kerja evaluasi sukuk hijau berbasis nilai-nilai keilahian (ilahiyah) yang melengkapi standar ESG konvensional. Implikasi dari penelitian ini memberikan panduan strategis bagi regulator dan penerbit sukuk untuk membangun ekosistem keuangan hijau yang tidak hanya patuh secara formal (shariah-compliant), tetapi juga substantif secara nilai (shariah-based).",
+  "origin": "openalex:query:sukuk capital market",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222859970",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S7407075221",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "dari greenwashing menuju taubat korporasi model akuntabilitas spiritual untuk pemulihan kepercayaan dalam|saragih",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "islamic_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "islamic_finance",
+    "valuation"
+   ],
+   "places": [],
+   "note": "Green sukuk greenwashing and Islamic finance accountability; device critique but no specific Southern centre.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "511a62a5a7",
+  "section": "research",
+  "title": "Failing Factories, Fearful Finance: Reimagining Pakistani Banking Through the German Hausbank Lens",
+  "url": "https://doi.org/10.67521/sjbe.2026.023",
+  "doi": "10.67521/sjbe.2026.023",
+  "source": "Student Journal of Business and Economics",
+  "venue": "Student Journal of Business and Economics",
+  "authors": [
+   "Muhamad Asad Irfan"
+  ],
+  "date": "2026-10-11",
+  "summary": "This paper compares Pakistan’s commercial banking sector and Germany's universal Hausbank model in order to determine why Pakistani small and medium enterprises suffer from credit starvation while large corporations secure adequate financing. Legal constraints, court recovery bottlenecks (judicial liquidation delays), and high fiscal borrowing force Pakistani commercial banks to rely on heavy physical collateral and low-risk sovereign securities such as Treasury bills rather than industrial lendings. The feasibility of implementing the Hausbank model in Pakistan is discussed by gathering data collected from qualitative interviews involving high-ranking banking officers and from secondary sources. It highlights why senior bankers reject the Hausbank model, referring to opaque family-owned businesses that dominate Pakistan's corporate governance. Similarly, it explores how government debt causes the banks to shift their liquidity, removing financial incentives to extend credit to the private sector. Regardless, the paper discusses a third approach to tackle the risky, complex economic climate of Pakistan.",
+  "origin": "openalex:query:state-owned enterprise privatisation stock exchange",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221455690",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W4403315862"
+  ],
+  "venue_id": "S7407064777",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "failing factories fearful finance reimagining pakistani banking through german hausbank lens|irfan",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "debt",
+    "professionals"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination"
+   ],
+   "places": [],
+   "note": "Pakistan banking system and SME credit starvation; Southern context but not a project case-study city or key financial centre.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "2be435e755",
+  "section": "research",
+  "title": "THE EL-RAKHAWI COMMERCIAL AND FINANCIAL LAW IN THE AGE OF TOKENIZATION AND AI Re-Engineering Banks, Stock Exchanges, and Corporations from Centralized to Regulated Decentralization A Groundbreaking Academic Framework Unifying Commercial Law, Banking Regulation, Securities Markets, and Digital Finance for the 21st Century",
+  "url": "https://doi.org/10.5281/zenodo.23304716",
+  "doi": "10.5281/zenodo.23304716",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "mohamed kamal arafa el-rakhawi"
+  ],
+  "date": "2026-10-11",
+  "summary": "The El-Rakhawi Commercial and Financial Law in the Age of Tokenization and AI: Re-Engineering Banks, Stock Exchanges, and Corporations from Centralized to Regulated Decentralization (DOI: 10.5281/zenodo.23304717) presents a groundbreaking academic framework across six volumes and 30 chapters re-engineering commercial law for the digital era: (1) Philosophical Foundations redefining the \"merchant\" to include autonomous commercial protocols and establishing CBDC monetary sovereignty; (2) Digital Banking regulating Neobanks, DeFi through functional regulation, Open Banking data protection, and AML/CFT 2.0; (3) Tokenized Corporations granting legal recognition to tokenized stocks, establishing \"Algorithmic Legal Entity\" (ALE) status for DAOs with mandatory human legal representatives, and digital corporate governance via blockchain voting; (4) AI in Financial Markets addressing HFT risks, flash crash liability, automated circuit breakers, and algorithmic discrimination prevention; (5) Consumer Protection prohibiting dark patterns, enforcing green bond standards, and enabling digital microfinance; (6) Global Governance establishing the Unified Digital Asset Standard (UDAS) and International Court for Digital Financial Disputes (ICDFD). The Digital Transparency and Financial Justice Index: DTFJI=(T×I×A×S)/((T×I×A×S)+(W×O×D)+0.01), with W=10, mathematically exposing current systemic failure—global financial systems score only 0.008—proving that transparency without inclusion is mere",
+  "origin": "openalex:query:monetary sovereignty",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221466549",
+  "year": 2026,
+  "work_type": "book",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "rakhawi commercial financial law age tokenization ai re engineering banks stock exchanges|el-rakhawi",
+  "quality_signals": {
+   "score": 0,
+   "labels": [
+    "preprint/repository"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "subordination",
+    "development_finance",
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Speculative 'El-Rakhawi' framework on tokenization and decentralization; incoherent abstract, predatory-looking venue.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "3a0b27af8f",
+  "section": "research",
+  "title": "PROSPECTS FOR REDUCING DEPENDENCE ON BANK CREDIT THROUGH THE DEVELOPMENT OF THE CAPITAL MARKET IN UZBEKISTAN",
+  "url": "https://doi.org/10.5281/zenodo.23439981",
+  "doi": "10.5281/zenodo.23439981",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Dilshod Ziyodullayev"
+  ],
+  "date": "2026-10-01",
+  "summary": "This article analyzes the bank-credit-dominated financing model in Uzbekistan and the scope for improving its balance by deepening the capital market. The study relies on official data from the Central Bank, the National Agency for Prospective Projects (NAPP), the National Statistics Committee, the IMF, the World Bank, and the ADB. Statistical, comparative, empirical-descriptive, and SWOT analysis methods were applied. The results show that the banking sector accounts for 94.6 percent of financial system assets, while state-owned commercial banks held 63 percent of bank assets and 67 percent of loans at the end of 2025. At the same time, during 2023–2025, equity issuance rose from UZS 189.7 trillion to UZS 265.1 trillion, and corporate bond issuance rose from UZS 1.06 trillion to UZS 3.93 trillion. The article offers proposals on lowering issuers' costs of market access, developing credit rating and guarantee infrastructure, broadening the institutional investor base, protecting investors, and aligning state bank reform with market mechanisms.",
+  "origin": "openalex:query:capital market development",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222785278",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "prospects reducing dependence bank credit through development capital market uzbekistan|ziyodullayev",
+  "quality_signals": {
+   "score": 0,
+   "labels": [
+    "preprint/repository"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "valuation",
+    "debt",
+    "professionals"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "centres",
+    "debt"
+   ],
+   "places": [],
+   "note": "Uzbekistan capital-market development to reduce bank dependence; relevant device but not a project case-study city.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "46414b43bf",
+  "section": "research",
+  "title": "THE IMPACT OF THE TRANSFORMATION OF CENTRAL BANK DIGITAL CURRENCIES (CBDC)-BASED GLOBAL PAYMENTS ON THE FINANCIAL EFFICIENCY OF MULTINATIONAL CORPORATIONS",
+  "url": "https://doi.org/10.30811/ekonis.v28i2.10857",
+  "doi": "10.30811/ekonis.v28i2.10857",
+  "source": "Ekonis Jurnal Ekonomi dan Bisnis",
+  "venue": "Ekonis Jurnal Ekonomi dan Bisnis",
+  "authors": [
+   "Putri Fidyahsari",
+   "Bambang Widagdo"
+  ],
+  "date": "2026-10-14",
+  "summary": "The transformation of the global payment system is entering a new chapter as central banks expand their exploration of Central Bank Digital Currency (CBDC) in various jurisdictions. Multinational corporations (MNCs), as the most intensive actors in cross-border transactions, have the potential to be one of the most affected parties to this transformation, but the corporate finance literature on this issue still lags behind the monetary-macro literature. This article aims to analyze the impact of CBDC-based payment transformation on MNCs' financial efficiency, particularly on the dimensions of transaction costs, completion speed, working capital management, and exchange rate risk mitigation. The research uses a narrative-thematic literature review approach on 20 scientific and institutional sources in 2020-2026, combined with case studies of cross-border CBDC projects (Project m-Bridge, Digital Euro, e-CNY) and Indonesian contexts (Garuda Project). The results show that cross-border CBDC settlement architecture has the potential to cut the banking correspondent layer, reduce transaction costs by about half of conventional costs, and accelerate settlement from days to seconds, which would theoretically shorten cash conversion cycles and lower the need for MNCs' multi-currency presaution cash balances. However, these benefits are still prospective due to the limitations of interjurisdictional interoperability, the geopolitical fragmentation of multi-CBDC platforms, and Indonesia",
+  "origin": "openalex:query:Global Financial Centres Index",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222448077",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210179949",
+  "venue_type": "journal",
+  "publisher": "Politeknik Negeri Lhokseumawe",
+  "filter": true,
+  "work_key": "impact transformation central bank digital currencies cbdc based global payments financial efficiency|fidyahsari",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [],
+   "note": "CBDC impact on MNC cross-border payments; macrofinancial analysis without Southern financial-centre institutional focus.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "d3379ea6c4",
+  "section": "research",
+  "title": "Competitive Aggressiveness and Growth of Telecommunication Firms in South-South Nigeria",
+  "url": "https://doi.org/10.31149/ijefsd.v8i3.5826",
+  "doi": "10.31149/ijefsd.v8i3.5826",
+  "source": "International Journal on Economics Finance and Sustainable Development",
+  "venue": "International Journal on Economics Finance and Sustainable Development",
+  "authors": [
+   "Victor Ashem Akubor",
+   "Noble Sordum Letam"
+  ],
+  "date": "2026-10-10",
+  "summary": "This study examined the relationship between competitive aggressiveness, a core dimension of corporate entrepreneurial orientation, and three measures of firm growth (financial growth, operational growth and market growth) among telecommunication firms in South-South Nigeria. Anchored on the resource-based view, the dynamic capabilities perspective and competitive dynamics research, the study adopted a correlational survey design. The population comprised 24 branch offices of four licensed operators (MTN, Airtel, 9mobile and Globacom) located in the six South-South states. Five respondents were purposively selected from each branch, giving 120 questionnaires, of which 110 (91.7%) were retrieved and analysed. A structured five-point Likert instrument measured competitive aggressiveness (five items) and each growth measure (five items each). The overall Cronbach’s alpha from the pilot test was .944. Descriptive statistics showed moderate levels of competitive aggressiveness (composite mean = 3.26) and growth (financial = 3.30; operational = 3.23; market = 3.12). Spearman’s rank-order correlation showed that competitive aggressiveness was positively and significantly related to financial growth (ρ = .443, p < .001), operational growth (ρ = .514, p < .001) and market growth (ρ = .407, p < .001), with the strongest association observed for operational growth. All three null hypotheses were rejected. The results suggest that firms that monitor rivals, respond decisively to competit",
+  "origin": "openalex:query:South-South finance",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221513446",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4390963391",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "competitive aggressiveness growth telecommunication firms south south nigeria|akubor",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Telecom firm growth in South-South Nigeria; corporate entrepreneurship, no financial-centre or financial-device content.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "dfeabcb7a4",
+  "section": "research",
+  "title": "Wealth Creation and Entrepreneurial Performance of Pig Farmers in South-South, Nigeria",
+  "url": "https://doi.org/10.56201/wjeds.v11.no8.2026pg58.75",
+  "doi": "10.56201/wjeds.v11.no8.2026pg58.75",
+  "source": "WORLD JOURNAL OF ENTREPRENEURIAL DEVELOPMENT STUDIES",
+  "venue": "WORLD JOURNAL OF ENTREPRENEURIAL DEVELOPMENT STUDIES",
+  "authors": [
+   "Uche R. Maduawia"
+  ],
+  "date": "2026-10-12",
+  "summary": "This study examined the influence of respective factors of wealth creation on designated measures of entrepreneurial performance of pig farmers in South-South, Nigeria. Specifically, it established a nexus between financial capital and market share; human capital and turnover; social capital and customer satisfaction; and intellectual capital and customer loyalty; respectively. The study adopted a mixed-method approach of combining quantitative survey data and qualitative interviews. Using purposive and snowball sampling techniques, questionnaires validated by experts and pre-tested for reliability (with all constructs above the 0.7 Cronbach’s alpha values threshold) were personally administered to about 21 pig farmers drawn from each of the 6 South South states of Akwa-Ibom, Bayelsa, Cross-river, Delta, Edo and Rivers. Data analysis was carried out on a total population of 123 using descriptive statistics, correlation analysis, and Ordinary Least Squares (OLS) regression models. The information collected via structured interview was analyzed using thematic content analysis. It was found that despite the wealth creation opportunities of pig farming, particularly in terms of: job creation, income generation, rural development, food security, and lately, xenotransplantation; entrepreneurial performance of pig farmers in South-South, Nigeria are still sub-optimal because of certain impairments in the identified wealth creating factors of financial capital, human capital, social",
+  "origin": "openalex:query:South-South finance",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221552030",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4387281539",
+  "venue_type": "journal",
+  "publisher": "",
+  "filter": true,
+  "work_key": "wealth creation entrepreneurial performance pig farmers south south nigeria|maduawia",
+  "quality_signals": {
+   "score": 1,
+   "labels": [
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 4,
+   "places": [],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Agricultural entrepreneurship study; unrelated to financial centres, devices, or markets.",
+   "quality": 1
+  }
+ },
+ {
+  "id": "94b04d9fb5",
+  "section": "research",
+  "title": "ETHNOCENTRISM AND CONSUMER-BASED BRAND EQUITY OF CONSTRUCTION FIRMS IN SOUTH-SOUTH NIGERIA: THE MODERATING ROLE OF BRAND TRUST",
+  "url": "https://doi.org/10.5281/zenodo.23389336",
+  "doi": "10.5281/zenodo.23389336",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "JAMES ENDURANCE OPUENE",
+   "Nnaemeka Chinedu Ogbuji"
+  ],
+  "date": "2026-10-15",
+  "summary": "Abstract This research investigated how consumers' preference for domestic products impacts the value they place on local construction companies in the South-South region of Nigeria. This study utilized the cross sectional survey design. The population of the study is one thousand two hundred and thirty one (1,231) employees of working under the various states ministry of works. The random sampling technique was adopted as respondents were directors and their secretaries because of their relevant experiences and sufficient knowledge on the subject matter. Each department had two (2) representatives, purposively drawn from each of the functioning seven departments and three units; human resources management, planning research and statistics, finance and accounts, civil engineering, engineering services, quantity surveying and building services, design and structure, audit unit, legal unit and press unit. Thus the sample size is 120. However, only 116 of responses were valid for analyses. The results showed that there is a substantial association between the ethnocentric dimensions and the consumer-based brand equity measures, derived from the bivariate and multivariate analysis. Accordingly, the study suggests that, based on the results, Construction companies should focus on investing in local resources and employing native workers while supporting community advancement. This approach can foster long-term loyalty and brand advocacy among ethnocentric customers. Considering th",
+  "origin": "openalex:query:South-South finance",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222352490",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "ethnocentrism consumer based brand equity construction firms south south nigeria moderating role|opuene",
+  "quality_signals": {
+   "score": 0,
+   "labels": [
+    "preprint/repository"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Consumer brand preference in construction; not about finance, financial centres, or subordination.",
+   "quality": 0
+  }
+ },
+ {
+  "id": "656d7207a0",
+  "section": "grey",
+  "title": "The launch of Regional Learning Platform on Roots and Tubers in Asia: Strengthening regional capacity through peer learning, co-creation, and long-term collaboration",
+  "url": "https://doi.org/10.4160/cip.2026.10.001",
+  "doi": "10.4160/cip.2026.10.001",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [
+   "International Potato Center"
+  ],
+  "date": "2026-10-01",
+  "summary": "The Asia Regional Learning Platform on Roots and Tubers was established as a regional mechanism for capacity sharing, bringing together researchers and practitioners from national partner organizations across Asia.Although there are experts, technologies and solutions available in Asia, the region lacks connections.By connecting potato scientists and practitioners, this regional platform seeks to better address growing challenges in root and tuber production, including clean seed production, pest and disease management (e.g., late blight and bacterial wilt), and the replacement of old varieties with improved cultivars tolerant to heat and diseases.The initial phase involves partners from Afghanistan, Bangladesh, Bhutan, China, India, Nepal, the Philippines, and Vietnam to jointly identify common challenges and priorities for peer learning and codevelop action plans.Pre-launch online meetings were held in August 2026, followed by the official launch through an in-person regional workshop in Vietnam in October 2026.The establishment of the platform is funded by the CGIAR Capacity Sharing Accelerator, which promotes shared ownership as a core partnership principle.National research organizations lead the identification of priorities, implementation of training activities, and adaptation of innovations to local contexts, while CGIAR/CIP facilitates collaboration and provides technical backstopping.The platform is also linked to broader regional and global South-South and Triangul",
+  "origin": "openalex:reports:stock exchange",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221602621",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "launch regional learning platform roots tubers asia strengthening regional capacity through peer|center",
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [
+    "hcmc",
+    "mumbai"
+   ],
+   "themes": [
+    "networks"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Agricultural extension platform; not about financial centres or finance."
+  }
+ },
+ {
+  "id": "4d0dcbc883",
+  "section": "grey",
+  "title": "The Impact of Gender Affirmative Action in LMICs",
+  "url": "https://doi.org/10.19088/k4dd.2026.102",
+  "doi": "10.19088/k4dd.2026.102",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [
+   "Evert-jan Quak",
+   "Favour Nunoo"
+  ],
+  "date": "2026-10-01",
+  "summary": "This Rapid Evidence Report synthesises literature from peer-reviewed academic papers and publications from respected research institutes and multilateral organisations on the available evidence of gender affirmative action legislation impacts in low- and middle-income countries (LMICs). The review covers evidence from education, health and security sectors, alongside broader lessons on implementation and monitoring, evaluation and learning (MEL). While much of the strongest evidence comes from countries outside sub-Saharan Africa, notably India, important lessons emerge for African countries currently implementing or expanding gender quota systems, affirmative action legislation and gender equality frameworks. Evidence from South Africa, Ethiopia, Kenya, Ghana, Rwanda and Liberia demonstrates that affirmative action can contribute to meaningful improvements in women's representation, access to opportunities and service outcomes, but success depends heavily on implementation quality, institutional capacity and the wider social and political environment.",
+  "origin": "openalex:reports:state-owned enterprises",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222614649",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "impact gender affirmative action lmics|quak",
+  "kw": {
+   "pass": true,
+   "score": 6,
+   "places": [
+    "johannesburg",
+    "mumbai",
+    "nairobi"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Gender affirmative action policy review; unrelated to financial centres or devices."
+  }
+ },
+ {
+  "id": "5788d5a68b",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P514511)",
+  "url": "http://documents.worldbank.org/curated/en/099101526173015510",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Thailand",
+  "origin": "worldbank:financial market infrastructure",
+  "scholarly": false,
+  "filter": true,
+  "country": "Thailand",
+  "work_key": "climate finance assessment p514511|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "bangkok"
+   ],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [
+    "bangkok"
+   ],
+   "note": "Climate finance assessment; marginal: development-finance framing but no institutional/financial-centre angle."
+  }
+ },
+ {
+  "id": "051e9f1d0e",
+  "section": "grey",
+  "title": "Morocco - MID EAST,NORTH AFRICA,AFG,PAK - P149995 - Casablanca Municipal Support Program - Audited Financial Statement",
+  "url": "http://documents.worldbank.org/curated/en/099101626123529931",
+  "doi": "",
+  "source": "World Bank · Auditing Document",
+  "venue": "",
+  "authors": [],
+  "date": "2026-09-10",
+  "summary": "Auditing Document Morocco",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Morocco",
+  "work_key": "morocco mid east north africa afg pak p149995 casablanca municipal support program|",
+  "also_at": [],
+  "watched": false,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "casablanca"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "urban",
+    "development_finance"
+   ],
+   "places": [
+    "casablanca"
+   ],
+   "note": "Municipal support programme audit for Casablanca; urban finance and World Bank lending conditionality."
+  }
+ },
+ {
+  "id": "722222f6d1",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P512529)",
+  "url": "http://documents.worldbank.org/curated/en/099101526172511648",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Brazil",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Brazil",
+  "work_key": "climate finance assessment p512529|",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "sao_paulo"
+   ],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Climate finance assessment Brazil; marginal: development-finance context but no institutional detail."
+  }
+ },
+ {
+  "id": "b3205e9cae",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P508221)",
+  "url": "http://documents.worldbank.org/curated/en/099101526173529954",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Brazil",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Brazil",
+  "work_key": "climate finance assessment p508221|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "sao_paulo"
+   ],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Climate finance assessment Brazil; marginal: development-finance context but no institutional detail."
+  }
+ },
+ {
+  "id": "8ab3d4f6bb",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P512540)",
+  "url": "http://documents.worldbank.org/curated/en/099101526173527778",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Brazil",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Brazil",
+  "work_key": "climate finance assessment p512540|",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "sao_paulo"
+   ],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Climate finance assessment Brazil; marginal: development-finance context but no institutional detail."
+  }
+ },
+ {
+  "id": "59da7dceb6",
+  "section": "grey",
+  "title": "ASEAN in the Emerging AI Power Order: Distributed National Nodes, Overlapping Technological Systems, and Strategic Autonomy",
+  "url": "https://doi.org/10.67037/epinova.pb.2026.073",
+  "doi": "10.67037/epinova.pb.2026.073",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [
+   "Shaoyuan Wu"
+  ],
+  "date": "2026-10-11",
+  "summary": "This policy brief examines ASEAN’s place in the emerging AI power order as a distributed regional coordination and overlap environment rather than a unified AI power. It distinguishes AI National Power at the member-state level, AI Boundary Power at specific controller–target–interface relations, Boundary Autonomy as the ability to preserve functions through credible alternatives, and Systemic Influence as a separate outcome requiring persistent, sufficiently broad, and credibly attributable effects. The brief compares the differentiated functional roles of ASEAN’s eleven members, analyzes four regional mechanisms—aggregation, interoperability, option-set expansion, and mediation—and examines overlap among U.S., Chinese, domestic, Japanese, Korean, European, Indian, and Gulf-linked technological systems. A diagnostic Malaysia–Singapore advanced-compute case illustrates how locally held legal and regulatory interfaces can become strategically consequential without creating a unified ASEAN enforcement regime. The brief concludes that ASEAN’s strategic relevance lies in interoperable pluralism: preserving multiple workable connections, strengthening nationally controlled interfaces, and converting coordination and investment into operational interoperability, credible alternatives, and durable local capability.",
+  "origin": "openalex:reports:state-owned enterprises",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221510590",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "asean emerging ai power order distributed national nodes overlapping technological systems strategic|wu",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "AI power and ASEAN; unrelated to financial centres or finance."
+  }
+ },
+ {
+  "id": "877e2d57d3",
+  "section": "grey",
+  "title": "Monetary Policy Transmission Through Banking",
+  "url": "https://doi.org/10.5089/9798229063869.018",
+  "doi": "10.5089/9798229063869.018",
+  "source": "Selected Issues Papers",
+  "venue": "Selected Issues Papers",
+  "authors": [
+   "Yumeng Gu"
+  ],
+  "date": "2026-10-01",
+  "summary": "This paper examines monetary policy transmission to bank lending and deposit rates in Eswatini under a pegged exchange rate regime. Using local projections, it finds that pass-through is driven primarily by the South African Reserve Bank policy rate, while changes in the CBE discount rate have limited effects on deposit rates. A monetary easing relative to South Africa is associated with higher lending rates over a one-year horizon, partly offsetting the intended easing effect. This may reflect banks adjusting lending spreads to compensate for basis risk, preserve interest margins, and maintain returns relative to risk-free alternatives.",
+  "origin": "openalex:series",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222594364",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4387286624",
+  "venue_type": "journal",
+  "publisher": "International Monetary Fund",
+  "filter": true,
+  "watched": false,
+  "work_key": "monetary policy transmission through banking|gu",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "johannesburg"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination",
+    "regulation"
+   ],
+   "places": [],
+   "note": "Eswatini monetary transmission under peg; currency subordination to South Africa but not case-study city."
+  }
+ },
+ {
+  "id": "4ae9277d68",
+  "section": "grey",
+  "title": "Documents d’études et de recherche de la BCEAO",
+  "url": "https://www.bceao.int/fr/publications/documents-detudes-et-de-recherche-de-la-bceao",
+  "doi": "",
+  "source": "BCEAO",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:BCEAO publications",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "documents d etudes recherche bceao|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "abidjan"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "abidjan"
+   ],
+   "note": "Empty metadata; West African central bank research series title only, no substance."
+  }
+ },
+ {
+  "id": "a2d0188602",
+  "section": "grey",
+  "title": "L’AMMC met sur son site internet les publications réalisées par les émetteurs en date du 15 octobre 2026",
+  "url": "https://www.ammc.ma/fr/actualites/lammc-met-sur-son-site-internet-les-publications-realisees-par-les-emetteurs-en-1043",
+  "doi": "",
+  "source": "AMMC",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:AMMC (Maroc)",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "l ammc met sur son site internet publications realisees par emetteurs en|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "casablanca"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "casablanca"
+   ],
+   "note": "AMMC publication notice in French; routine regulatory filing, insufficient substance."
+  }
+ },
+ {
+  "id": "965a3df7f8",
+  "section": "grey",
+  "title": "L' AMMC publie les indicateurs mensuels du marché des capitaux pour le mois d’Août 2026",
+  "url": "https://www.ammc.ma/fr/actualites/l-ammc-publie-les-indicateurs-mensuels-du-marche-des-capitaux-pour-le-mois-daout-2026",
+  "doi": "",
+  "source": "AMMC",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:AMMC (Maroc)",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "l ammc publie indicateurs mensuels marche capitaux pour mois d aout 2026|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "casablanca"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "valuation"
+   ],
+   "places": [
+    "casablanca"
+   ],
+   "note": "Casablanca capital market monthly indicators; routine statistical publication, marginal institutional relevance."
+  }
+ },
+ {
+  "id": "0b769bd3bf",
+  "section": "grey",
+  "title": "RBI to conduct 7-day Variable Rate Repo (VRR) auction under LAF on October 19, 2026",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63823",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "rbi conduct 7 day variable rate repo vrr auction under laf october|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "mumbai"
+   ],
+   "note": "RBI routine repo auction notice; procedural announcement, no policy or institutional substance."
+  }
+ },
+ {
+  "id": "eab0790991",
+  "section": "grey",
+  "title": "RBI approves amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. with RBL Bank Limited",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63820",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "rbi approves amalgamation indian branches emirates nbd bank p j s c|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "integration",
+    "professionals"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "RBI approves bank amalgamation: integration move and institutional restructuring in Mumbai financial centre."
+  }
+ },
+ {
+  "id": "87a8c868d2",
+  "section": "grey",
+  "title": "RBI issues Frequently Asked Questions on Foreign Exchange Risk Reserve",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63812",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "rbi issues frequently asked questions foreign exchange risk reserve|",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "regulation"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "RBI forex risk reserve FAQ; regulatory device but routine technical clarification."
+  }
+ },
+ {
+  "id": "e59ccc7b79",
+  "section": "grey",
+  "title": "Cross-border payments as a necessity for Africa's resilience and economic transformation",
+  "url": "https://www.bis.org/speeches/20261013-cross-border-payments-necessity-africas-resilience-and-economic-transformation",
+  "doi": "",
+  "source": "BIS — central bank speeches",
+  "venue": "",
+  "authors": [
+   "Dr Priscilla Muthoora Thakoor"
+  ],
+  "date": "2026-10-13",
+  "summary": "Opening remarks by Dr Priscilla Muthoora Thakoor, Governor of the Bank of Mauritius, at the workshop “Cross-border payments as a necessity for Africa's resilience and economic transformation”, organised by the FSB Regional Consultative Group for Sub-Saharan Africa (RCG SSA), Port Louis, 15 July 2026.",
+  "origin": "rss:BIS — central bank speeches",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "cross border payments as necessity africa s resilience economic transformation|thakoor",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "port_louis"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "integration",
+    "networks"
+   ],
+   "places": [
+    "port_louis"
+   ],
+   "note": "Mauritius central bank speech on cross-border payments and African resilience; Port Louis IFC integration strategy."
+  }
+ },
+ {
+  "id": "f1db562ee3",
+  "section": "grey",
+  "title": "Leveraging the Mauritius IFC as a payment system hub",
+  "url": "https://www.bis.org/speeches/20261013-leveraging-mauritius-ifc-payment-system-hub",
+  "doi": "",
+  "source": "BIS — central bank speeches",
+  "venue": "",
+  "authors": [
+   "Dr Priscilla Muthoora Thakoor"
+  ],
+  "date": "2026-10-13",
+  "summary": "Speech by Dr Priscilla Muthoora Thakoor, Governor of the Bank of Mauritius, on “Leveraging the Mauritius IFC as a payment system hub”, at the Visa Direct Day, Flic-en-Flac, 17 June 2026.",
+  "origin": "rss:BIS — central bank speeches",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "leveraging mauritius ifc as payment system hub|thakoor",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "port_louis"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 3,
+   "themes": [
+    "centres",
+    "integration"
+   ],
+   "places": [
+    "port_louis"
+   ],
+   "note": "Mauritius central bank leveraging IFC as payment hub; Port Louis financial-centre positioning and infrastructure."
+  }
+ },
+ {
+  "id": "c0e34bf122",
+  "section": "grey",
+  "title": "Ed Miliband calls for improved debt relief system",
+  "url": "https://debtjustice.org.uk/press-release/ed-miliband-calls-for-improved-debt-relief-system",
+  "doi": "",
+  "source": "Debt Justice",
+  "venue": "",
+  "authors": [
+   "Tim Jones"
+  ],
+  "date": "2026-10-14",
+  "summary": "Ed Miliband today made a speech on global financial reform at the IMF and World Bank Annual Meetings in Bangkok. In the speech the UK Foreign Secretary said: “Now, there is a small number of countries, and again, this was pointed out in the Rockefeller report, that need deeper relief. &#160;And this deal must also &#8230;    \n The post  Ed Miliband calls for improved debt relief system  appeared first on  Debt Justice .",
+  "origin": "rss:Debt Justice",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "ed miliband calls improved debt relief system|jones",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "bangkok"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "debt",
+    "imf_programmes"
+   ],
+   "places": [
+    "bangkok"
+   ],
+   "note": "UK speech on debt relief at IMF/World Bank meetings; multilateral debt framework but no Southern-centre angle."
+  }
+ },
+ {
+  "id": "30b17b85e5",
+  "section": "grey",
+  "title": "The Global Development Policy Center mourns the loss of Perry Mehrling, economist and distinguished scholar with long-lasting contributions to the field",
+  "url": "https://www.bu.edu/gdp/2026/10/13/the-global-development-policy-center-mourns-the-loss-of-perry-mehrling-economist-distinguished-scholar-and-prominent-voice-with-long-lasting-contributions-to-the-field",
+  "doi": "",
+  "source": "Boston University GDP Center",
+  "venue": "",
+  "authors": [
+   "genevac"
+  ],
+  "date": "2026-10-14",
+  "summary": "The Boston University Global Development Policy Center (GDP Center) team is currently in Bangkok, where the Annual Meetings of the International Monetary Fund and World Bank are under way, and news of Perry Mehrling’s passing has spread quickly. Many here are mourning the loss of one of the most insightful thinkers on the world economy. [&#8230;]",
+  "origin": "rss:Boston University GDP Center",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "global development policy center mourns loss perry mehrling economist distinguished scholar with|genevac",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "bangkok"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "bangkok"
+   ],
+   "note": "Obituary of economist Perry Mehrling; personal tribute unrelated to project."
+  }
+ },
+ {
+  "id": "25c1fea786",
+  "section": "grey",
+  "title": "Sovereign Debt News Update No. 184: Kenya’s Debt Tightening: World Bank Rejection, Rising Fiscal Pressures and Debt-for-Food Swaps",
+  "url": "https://www.afronomicslaw.org/category/african-sovereign-debt-justice-network-afsdjn/sovereign-debt-news-update-no-184-kenyas",
+  "doi": "",
+  "source": "AfronomicsLaw",
+  "venue": "",
+  "authors": [
+   "osanni"
+  ],
+  "date": "2026-10-11",
+  "summary": "Sovereign Debt News Update No. 184: Kenya’s Debt Tightening: World Bank Rejection, Rising Fiscal Pressures and Debt-for-Food Swaps  \n  osanni  \n  Sun, 10/11/2026 - 14:24",
+  "origin": "rss:AfronomicsLaw",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "sovereign debt news update no 184 kenya s debt tightening world bank|osanni",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "debt",
+    "subordination"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "Kenya sovereign debt crisis; World Bank rejection, fiscal pressures, debt restructuring affecting Nairobi."
+  }
+ },
+ {
+  "id": "c23d044edd",
+  "section": "grey",
+  "title": "Sovereign Debt News Update No. 183: Ethiopia's Debt Restructuring Hits a Wall as Bondholders Reject Revised Eurobond Proposal",
+  "url": "https://www.afronomicslaw.org/category/african-sovereign-debt-justice-network-afsdjn/sovereign-debt-news-update-no-183-ethiopias",
+  "doi": "",
+  "source": "AfronomicsLaw",
+  "venue": "",
+  "authors": [
+   "osanni"
+  ],
+  "date": "2026-10-11",
+  "summary": "Sovereign Debt News Update No. 183: Ethiopia's Debt Restructuring Hits a Wall as Bondholders Reject Revised Eurobond Proposal \n  osanni  \n  Sun, 10/11/2026 - 13:19",
+  "origin": "rss:AfronomicsLaw",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "sovereign debt news update no 183 ethiopia s debt restructuring hits wall|osanni",
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [],
+   "themes": [
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "debt"
+   ],
+   "places": [],
+   "note": "Ethiopia Eurobond restructuring; sovereign debt device and creditor dynamics in Global South."
+  }
+ },
+ {
+  "id": "f5955ed63b",
+  "section": "news",
+  "title": "Au Kenya, l’annulation du deal Vodafone-Safaricom menace de peser sur les finances du pays",
+  "url": "https://www.jeuneafrique.com/1852912/economie-entreprises/au-kenya-lannulation-du-deal-vodafone-safaricom-menace-de-peser-sur-les-finances-du-pays",
+  "doi": "",
+  "source": "Jeune Afrique — Économie",
+  "venue": "",
+  "authors": [
+   "Herald Aloo"
+  ],
+  "date": "2026-10-16",
+  "summary": "Le Kenya fait face à une grave crise budgétaire et réglementaire après l’annulation de la vente d’une participation de 15 % de Safaricom à Vodacom. L’État risque de devoir rembourser 1,9 milliard de dollars.",
+  "origin": "rss:Jeune Afrique — Économie",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "subordination",
+    "state_finance"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "Kenya loses $1.9bn from Safaricom-Vodacom deal collapse; state revenue, privatisation and fiscal subordination."
+  }
+ },
+ {
+  "id": "3cbfd572e1",
+  "section": "news",
+  "title": "RBI’s new forex reserve rules explained: FAQs on the 20% requirement, $2 million threshold and exemptions",
+  "url": "https://www.livemint.com/economy/rbis-new-forex-reserve-rules-explained-faqs-on-the-20-requirement-2-million-threshold-and-exemptions-11792083133307.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "The RBI has clarified how its 20% Foreign Exchange Risk Reserve requirement applies to rupee-linked currency derivatives, including the $2 million threshold, exemptions, cancellations and rollovers.",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "regulation",
+    "valuation"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "RBI forex reserve requirement on currency derivatives; regulatory device addressing rupee volatility and risk."
+  }
+ },
+ {
+  "id": "c9ca1d418e",
+  "section": "news",
+  "title": "Nirmala Sitharaman: RBI trying to curb rupee volatility, not fix its value; fiscal discipline should not worry investors",
+  "url": "https://www.livemint.com/economy/nirmala-sitharaman-rbi-trying-to-curb-rupee-volatility-not-fix-its-value-fiscal-discipline-should-not-worry-investors-11791883057725.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-13",
+  "summary": "Referring to the RBI’s latest measures, announced two days earlier, the finance minister said the rupee had held firm and had probably appreciated. These efforts from the RBI would continue not to fix the rupee, but it would instead want the rupee finds its own level, she said.",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Finance minister on RBI rupee management; currency hierarchy and central-bank autonomy in Mumbai centre."
+  }
+ },
+ {
+  "id": "aad6a3af7d",
+  "section": "news",
+  "title": "IMF raises India’s FY27 growth forecast by 60 bps to 7% on strong domestic demand",
+  "url": "https://www.livemint.com/economy/imf-raises-india-fy27-growth-forecast-to-7-percent-11791860481229.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-13",
+  "summary": "The IMF raised its FY27 growth forecast to 7%, joining the RBI, World Bank and OECD in upgrading their outlooks. But higher energy prices and global uncertainty remain risks.",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "mumbai"
+   ],
+   "note": "IMF growth forecast upgrade for India; routine macro commentary, no institutional or centre-specific angle."
+  }
+ },
+ {
+  "id": "62460b441d",
+  "section": "news",
+  "title": "‘Cash is making a comeback’ in digital India",
+  "url": "https://www.ft.com/content/886006f8-284c-4a20-9411-3cfd9deead3f?syn-25a6b1a6=1",
+  "doi": "",
+  "source": "FT — Emerging markets",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-18",
+  "summary": "Shadow economy drives demand for physical currency as new charge could hit popularity of the UPI digital payments interface",
+  "origin": "rss:FT — Emerging markets",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 3,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital",
+    "subordination"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "UPI digital payments and shadow economy dynamics shape India's financial infrastructure and sovereignty."
+  }
+ },
+ {
+  "id": "407c86d771",
+  "section": "grey",
+  "title": "Disclosable Version of the ISR - Punjab Municipal Services Improvement Project - P170811 - Sequence No : 10",
+  "url": "http://documents.worldbank.org/curated/en/099101226104011165",
+  "doi": "",
+  "source": "World Bank · Implementation Status and Results Report",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-12",
+  "summary": "Implementation Status and Results Report India",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "India",
+  "work_key": "disclosable version isr punjab municipal services improvement project p170811 sequence no 10|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "urban",
+    "development_finance"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Municipal services project in Punjab; tangential to city financial governance."
+  }
+ },
+ {
+  "id": "089c85515e",
+  "section": "grey",
+  "title": "Morocco - MID EAST,NORTH AFRICA,AFG,PAK - P178768 - Morocco Municipal Solid Waste Management Support Program - Audited Financial Statement",
+  "url": "http://documents.worldbank.org/curated/en/099101626130015200",
+  "doi": "",
+  "source": "World Bank · Auditing Document",
+  "venue": "",
+  "authors": [],
+  "date": "2026-09-29",
+  "summary": "Auditing Document Morocco",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Morocco",
+  "work_key": "morocco mid east north africa afg pak p178768 morocco municipal solid waste|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "casablanca"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "urban",
+    "development_finance"
+   ],
+   "places": [
+    "casablanca"
+   ],
+   "note": "World Bank-audited municipal waste project; limited financial-centre relevance."
+  }
+ },
+ {
+  "id": "8593801dac",
+  "section": "grey",
+  "title": "India - Karnataka Water Security and Resilience Program : Inspection Panel Notice of Registration on a Request for Inspection",
+  "url": "http://documents.worldbank.org/curated/en/099101526142513002",
+  "doi": "",
+  "source": "World Bank · Inspection Panel Notice of Registration",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Inspection Panel Notice of Registration India",
+  "origin": "worldbank:subnational finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "India",
+  "work_key": "india karnataka water security resilience program inspection panel notice registration request inspection|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Water resilience inspection; unrelated to financial centres or markets."
+  }
+ },
+ {
+  "id": "d32e1975ad",
+  "section": "grey",
+  "title": "The backpack charge: regulatory strategies for stranded cost recovery in Brazil's retail power market",
+  "url": "http://hdl.handle.net/11531/115715",
+  "doi": "",
+  "source": "Comillas Repository (Comillas Pontifical University)",
+  "venue": "Comillas Repository (Comillas Pontifical University)",
+  "authors": [
+   "Bruno Goulart de Freitas Machado",
+   "José Pablo Chaves Ávila",
+   "Carlos Batlle"
+  ],
+  "date": "2026-10-07",
+  "summary": "In the current context of accelerated decarbonization, liberalization, and decentralization of electric power systems, concerns about stranded or legacy costs are once again high on the political and regulatory agenda. A particularly relevant case arises when regulated or incumbent suppliers enter into long-term procurement commitments for a defined group of customers, while some of those customers are subsequently allowed to leave regulated supply. If the corresponding contractual obligations remain in place after part of the load migrates, an inappropriate allocation rule may shift legacy costs to the consumers who remain under regulated supply.This paper discusses the challenges and methodologies for stranded-cost recovery in the Brazilian electricity market. Recent Brazilian legislation addresses migration-induced overcontracting by allocating the corresponding financial effects across consumers in both the regulated and liberalized contracting environments. The paper develops an alternative methodology, informally referred to here as the “Backpack Charge:” Consumers leaving regulated supply continue to bear their share of eligible procurement commitments entered into while they formed part of the regulated customer base, while being exempt from commitments entered into thereafter. The methodology aims to estimate the above-market cost associated with the relevant pre-existing regulated procurement commitments and to allocate it according to this temporal responsibility p",
+  "origin": "openalex:reports:capital market development",
+  "scholarly": false,
+  "openalex_id": "https://openalex.org/W7221298846",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4377196513",
+  "venue_type": "repository",
+  "publisher": "Universidad Pontificia Comillas",
+  "filter": true,
+  "work_key": "backpack charge regulatory strategies stranded cost recovery brazil s retail power market|machado",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "sao_paulo"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "regulation"
+   ],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Brazil's power-market stranded costs and regulatory design; adjacent to financial device innovation."
+  }
+ },
+ {
+  "id": "05aecf9125",
+  "section": "grey",
+  "title": "Climate-Smart Dairy Training of Trainers (TOT)- A Report: Strengthening capacity for low-emission, productive, and sustainable smallholder dairy farming in Kenya",
+  "url": "https://hdl.handle.net/10568/185678",
+  "doi": "",
+  "source": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+  "venue": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+  "authors": [
+   "Solomon Mwendia",
+   "David Muruu",
+   "Peggy Karimi"
+  ],
+  "date": "2026-09-22",
+  "summary": "Smallholder dairy production in Kenya faces the dual challenge of meeting growing demand for milk while improving environmental sustainability and reducing greenhouse gas (GHG) emissions, particularly enteric methane emissions. To address these challenges, Solidaridad East and Central Africa, in partnership with the Alliance of Bioversity International and CIAT (Alliance Bioversity–CIAT) through its Tropical Forages Program, implemented a series of Climate-Smart Dairy Training of Trainers (ToT) programmes in Nyandarua and Nakuru Counties in Kenya. The training programme was designed to equip extension officers, trainers, lead farmers, cooperative trainers, and other dairy-sector personnel with practical knowledge and facilitation skills that they can subsequently transfer to smallholder dairy farmers. The programme was implemented through three Training of Trainers (ToT) cohorts, each conducted at a designated training venue. The cohorts were organized to bring together participants from the respective target areas and to strengthen their capacity to subsequently train and support smallholder dairy farmers. 1. Nyandarua Cohort: The Nyandarua County cohort comprised participants drawn from Weru, Charagita, Gathara, & Engineer wards and was trained at Ol Joro Orok Agricultural Training Centre (ATC) from June 30 to July 3, 2026. 2. Nakuru Cohort: The Nakuru County cohort comprised participants drawn from Bahati and Njoro wards and was trained at Tumaini Conference Centre from Ju",
+  "origin": "openalex:reports:financial centre",
+  "scholarly": false,
+  "openalex_id": "https://openalex.org/W7215003538",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306402055",
+  "venue_type": "repository",
+  "publisher": "CGIAR",
+  "filter": true,
+  "work_key": "climate smart dairy training trainers tot report strengthening capacity low emission productive|mwendia",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "nairobi"
+   ],
+   "note": "Agricultural training programme; unrelated to finance."
+  }
+ },
+ {
+  "id": "b9be8e24f9",
+  "section": "grey",
+  "title": "Think Tank Forum 2026 - From Flux to Fortitude: Building India’s Resilience Agenda",
+  "url": "https://doi.org/10.64503/20261016",
+  "doi": "10.64503/20261016",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-17",
+  "summary": "The India Think Tank Forum 2026 proved useful not just for discussing the pressing ideas of our time but for assessing, individually and collectively, whether India's analytical frameworks and think tank ecosystem are able to keep pace with the complexities of the decade ahead.",
+  "origin": "openalex:reports:financial sector deepening",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222795991",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "think tank forum 2026 from flux fortitude building india s resilience agenda|",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Think-tank forum on resilience; generic policy discussion unrelated to financial centres."
+  }
+ },
+ {
+  "id": "57d5be4f3b",
+  "section": "grey",
+  "title": "Assessing Gender in the South African Just Energy Transition",
+  "url": "https://hdl.handle.net/10539/50092",
+  "doi": "",
+  "source": "University of the Witwatersrand, Johannesburg Institutional Repository on DSpace (University of the Witwatersrand, Johannesburg)",
+  "venue": "University of the Witwatersrand, Johannesburg Institutional Repository on DSpace (University of the Witwatersrand, Johannesburg)",
+  "authors": [
+   "Siviwe Mhlana",
+   "Sonia Phalatse",
+   "Julia Taylor",
+   "Tracey Ledger",
+   "Alia Cassim"
+  ],
+  "date": "2026-09-21",
+  "summary": "No Abstract Given",
+  "origin": "openalex:reports:pension fund investment",
+  "scholarly": false,
+  "openalex_id": "https://openalex.org/W7214417866",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400603",
+  "venue_type": "repository",
+  "publisher": "University of the Witwatersrand",
+  "filter": true,
+  "work_key": "assessing gender south african just energy transition|mhlana",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "johannesburg"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "johannesburg"
+   ],
+   "note": "Energy transition and gender; not about financial centres."
+  }
+ },
+ {
+  "id": "2d6bce2f74",
+  "section": "grey",
+  "title": "Learning About Outgroups: The Impact of Broad Versus Deep Interactions",
+  "url": "https://doi.org/10.3386/w35884",
+  "doi": "10.3386/w35884",
+  "source": "National Bureau of Economic Research",
+  "venue": "National Bureau of Economic Research",
+  "authors": [
+   "Anujit Chakraborty",
+   "Arkadev Ghosh",
+   "Matt Lowe",
+   "Gareth Nellis"
+  ],
+  "date": "2026-10-01",
+  "summary": "We hypothesize that broad contact, involving brief interactions with multiple outgroup members, and deep contact, meaning longer interactions with a single outgroup member, play distinct roles in shaping intergroup relations.We set up a factory in India and recruited Hindu and Muslim men to work in pairs on joint production tasks.We randomly assigned participants to work either with the same ingroup or outgroup partner daily (deep contact), a different outgroup partner each day (broad contact), or to a control group.Deep contact strengthens social and economic ties with the outgroup partner.But only broad contact reduces the majority group's misperceptions about outgroup strangers.Using within-treatment variation in partners' pre-treatment productivity, we show that participants in both arms learn about their partners, but broad participants also generalize these belief updates to strangers.These findings align with a model in which independent sampling promotes learning about outgroups more than prolonged interaction with a single individual does.Nevertheless, neither type of contact changes behavior toward the wider outgroup.",
+  "origin": "openalex:reports:impact investing",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221727721",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S2809516038",
+  "venue_type": "repository",
+  "publisher": "",
+  "filter": true,
+  "work_key": "learning about outgroups impact broad versus deep interactions|chakraborty",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Labour-relations experiment; unrelated to finance."
+  }
+ },
+ {
+  "id": "8c4b2eda15",
+  "section": "grey",
+  "title": "Challenges of on-site collaboration: the Laboratorio 9x18 UC and its connection with municipalities in neighbourhood regeneration processes",
+  "url": "https://doi.org/10.21953/researchonline.lse.ac.uk.00141395",
+  "doi": "10.21953/researchonline.lse.ac.uk.00141395",
+  "source": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+  "venue": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+  "authors": [
+   "Sebastián Muñoz",
+   "Rodrigo Tapia"
+  ],
+  "date": "2026-10-15",
+  "summary": "This article analyses the challenges encountered and lessons learned from the experience of the Laboratorio 9x18 (9x18 Laboratory) of the Pontificia Universidad Católica de Chile (PUC) in neighbourhood regeneration processes in 9x18 neighbourhoods, with a special focus on its collaboration with municipalities. Based on more than a decade of fieldwork collaborating with stakeholders, this study examines the need to understand the neighbourhood as a social, physical, and cultural ecosystem in urban regeneration processes, with community participation and local memory serving as fundamental elements in preventing external interventions that reproduce inequalities or epistemic injustices. The article explores the specific contribution of academia, with its relative autonomy, research capacity, and participatory methods. It pays attention to how these qualities complement— and are coordinated with—municipal work, which is often subject to operational urgencies and institutional regulations. Furthermore, the role of the university as an inter-institutional coordinator is explored in depth through the Neighbourhood Regeneration Platform, which is a flexible, horizontal space for coordinating public, private and community stakeholders, thus generating concrete projects that aim to impact public policies. Lastly, the article argues that multidirectional learning, in which various stakeholders transform one another through the co-production of knowledge, is critical to neighbourhood re",
+  "origin": "openalex:reports:municipal bonds",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222310395",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400050",
+  "venue_type": "repository",
+  "publisher": "London School of Economics and Political Science",
+  "filter": true,
+  "work_key": "challenges site collaboration laboratorio 9x18 uc its connection with municipalities neighbourhood regeneration|munoz",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "santiago"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "santiago"
+   ],
+   "note": "Neighbourhood regeneration and urban planning; not about financial infrastructure or institutions."
+  }
+ },
+ {
+  "id": "b62bfd5051",
+  "section": "grey",
+  "title": "Beyond Extradition: Cross-Border Transfers to Türkiye After 2016 and the Erosion of Non-Refoulement Safeguards",
+  "url": "https://doi.org/10.5281/zenodo.23396469",
+  "doi": "10.5281/zenodo.23396469",
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "authors": [
+   "Murat Gulver"
+  ],
+  "date": "2026-10-15",
+  "summary": "Between July 2016 and December 2025, at least 122 people were transferred to Türkiye from 27 countries or territories in 56 recorded incidents, while formal extradition produced only three returns over a comparable period. This article analyses a monitoring dataset compiled by Turkey Rights Monitor (81 records, 156 people, 39 countries or territories) to examine how these transfers were carried out and which legal safeguards they bypassed. Of the 56 transfer incidents, 23 are classified as de facto handovers by host-state authorities, 23 as abductions or forcible transfers, and eight as breaches of the non-refoulement principle. Transfers peaked in 2017–2018 but continued in every subsequent year, with recent cases recorded in Kenya, Germany and Rwanda. The article argues that the pattern is best understood as a form of disguised extradition: immigration powers, security cooperation and covert operations substitute for extradition procedures that host-state courts and governments have largely declined to grant. Drawing on Bozano v. France, Ozdil and Others v. Moldova, D v. Bulgaria and the UN Committee against Torture's decision in M.T. v. Sweden, it shows that the decisive legal questions concern the host state's obligations before removal: an individual risk assessment, a legal basis for detention and access to an effective remedy. The dataset also documents 25 records in which transfer was prevented, most often by independent courts or timely UN and UNHCR intervention. The",
+  "origin": "openalex:reports:de-risking",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221961073",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400562",
+  "venue_type": "repository",
+  "publisher": "European Organization for Nuclear Research",
+  "filter": true,
+  "work_key": "beyond extradition cross border transfers turkiye after 2016 erosion non refoulement safeguards|gulver",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "nairobi"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Cross-border extradition; unrelated to project."
+  }
+ },
+ {
+  "id": "e19dd6ad2b",
+  "section": "grey",
+  "title": "China and the EU could turn Morocco into a surprise global hub for electric vehicles",
+  "url": "https://doi.org/10.64628/ab.kgjukpy3v",
+  "doi": "10.64628/ab.kgjukpy3v",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [
+   "Linda Calabrese",
+   "Jodie Keane"
+  ],
+  "date": "2026-10-12",
+  "summary": "",
+  "origin": "openalex:institutions",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221568605",
+  "year": 2026,
+  "work_type": "other",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "watched": false,
+  "work_key": "china eu could turn morocco into surprise global hub electric vehicles|calabrese",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "casablanca"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "integration",
+    "gulf_capital",
+    "china_finance"
+   ],
+   "places": [
+    "casablanca"
+   ],
+   "note": "Morocco as EV hub: China–EU–Morocco capital flows and industrial finance integration."
+  }
+ },
+ {
+  "id": "a9b51578e3",
+  "section": "grey",
+  "title": "Result: Conversion/Switch Auction of Government of India Securities",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63829",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "result conversion switch auction government india securities|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "debt"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "RBI government securities conversion auction; routine market operation."
+  }
+ },
+ {
+  "id": "6f37a4f60d",
+  "section": "grey",
+  "title": "Developments in India’s Balance of Payments for the Month of August 2026",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63813",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "developments india s balance payments month august 2026|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "India balance-of-payments data; relevant context on capital flows and subordination dynamics."
+  }
+ },
+ {
+  "id": "b7b66dc249",
+  "section": "grey",
+  "title": "Scheduled Banks’ Statement of Position in India as on September 30, 2026",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63810",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "scheduled banks statement position india as september 30 2026|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Scheduled banks' position statement; routine regulatory reporting."
+  }
+ },
+ {
+  "id": "852d9fd484",
+  "section": "grey",
+  "title": "Conversion/Switch of Government of India Securities",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63806",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "conversion switch government india securities|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "debt"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Government securities conversion; routine debt management."
+  }
+ },
+ {
+  "id": "402b43564b",
+  "section": "grey",
+  "title": "Open Market Operation (OMO) – Sale of Government of India Securities held on Oct 13, 2026: Cut-Offs",
+  "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63796",
+  "doi": "",
+  "source": "Reserve Bank of India",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "",
+  "origin": "page:RBI press releases",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "open market operation omo sale government india securities held oct 13 2026|",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "debt"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "RBI open market operations; standard debt market mechanics."
+  }
+ },
+ {
+  "id": "e9aa73ade0",
+  "section": "grey",
+  "title": "First-of-its-kind Africa Nature Impact Fund Targets USD 100m For Nature-Based Solutions in Africa",
+  "url": "https://fsdafrica.org/first-of-its-kind-africa-nature-impact-fund-targets-usd-100m-for-nature-based-solutions-in-africa-2",
+  "doi": "",
+  "source": "FSD Africa (RSS)",
+  "venue": "",
+  "authors": [
+   "Allan Musumba"
+  ],
+  "date": "2026-10-13",
+  "summary": "Finance Earth, FSD Africa and FSD Africa Investments (FSDAi) have partnered to launch the Africa Nature Impact Fund (“Africa Nature”), a first-of-its-kind financing platform with a target of raising USD 100 million for early-stage nature and nature-based carbon projects. The announcement today at the Carbon Markets Africa Summit in Kigali marks a key milestone in [&#8230;] \n The post  First-of-its-kind Africa Nature Impact Fund Targets USD 100m For Nature-Based Solutions in Africa  appeared first on  FSD Africa .",
+  "origin": "rss:FSD Africa (RSS)",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "first its kind africa nature impact fund targets usd 100m nature based|musumba",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "development_finance",
+    "valuation"
+   ],
+   "places": [
+    "nairobi"
+   ],
+   "note": "First Africa Nature Impact Fund; tracks emergence of green-finance devices and regional hub dynamics."
+  }
+ },
+ {
+  "id": "45821f79b7",
+  "section": "grey",
+  "title": "Morocco’s first woman prime minister is a milestone built on centuries of women’s leadership",
+  "url": "https://blogs.lse.ac.uk/africaatlse/2026/10/13/moroccos-first-woman-prime-minister-is-a-milestone-built-on-centuries-of-womens-leadership",
+  "doi": "",
+  "source": "LSE Africa at LSE",
+  "venue": "",
+  "authors": [
+   "Mark Briggs"
+  ],
+  "date": "2026-10-13",
+  "summary": "The appointment of Morocco’s first female prime minister marks a historic milestone, but it is not the beginning of women’s leadership in the country, and the real mark of progress will be with equal participation, writes Leila Hanafi. On&#160;29 September 2026, Fatima Ezzahra El Mansouri&#160;was appointed as Morocco’s first woman prime minister. The move has &#8230;  Continued  \n The post  Morocco’s first woman prime minister is a milestone built on centuries of women’s leadership  first appeared on  Africa at LSE .",
+  "origin": "rss:LSE Africa at LSE",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "morocco s first woman prime minister is milestone built centuries women s|briggs",
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "casablanca"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "casablanca"
+   ],
+   "note": "Morocco's female prime minister appointment; political milestone unrelated to finance."
+  }
+ },
+ {
+  "id": "4a64d913c1",
+  "section": "news",
+  "title": "FM Sitharaman flags global capital moving towards US, AI-linked markets as a ‘concern’ for India in 2027",
+  "url": "https://www.livemint.com/economy/fm-sitharaman-flags-global-capital-moving-towards-us-ai-linked-markets-as-a-concern-for-india-in-2027-11792402978461.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "FM Nirmala Sitharaman warned that continued capital outflows and global investment shifting toward the US and AI markets pose major risks to India in 2027. Details here.",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "subordination",
+    "networks"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "FM warns of capital outflows to US/AI markets; exemplifies India's financial subordination and currency hierarchy."
+  }
+ },
+ {
+  "id": "6aeb3b21dd",
+  "section": "news",
+  "title": "PM-SETU: Five ITI clusters to get ₹1,195 crore investment from Tata Steel Foundation, BVG India, others",
+  "url": "https://www.livemint.com/economy/pmsetu-five-iti-clusters-to-get-1-195-crore-investment-from-tata-steel-foundation-bvg-india-others-11792149570932.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-16",
+  "summary": "Tata Steel Foundation, BVG India, Belrise Industries, Eagle Infra India and Inderdeep Infra India will partner in upgrading the five ITI clusters. The cumulative investment approved under the PM-SETU scheme till now is to the tune of  ₹3,687 crore, news agency PTI agency said.",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "state_finance"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Domestic state and private capital co-investment in ITI clusters; tangential to financial-centre dynamics."
+  }
+ },
+ {
+  "id": "ee8ba4628c",
+  "section": "news",
+  "title": "IMF raises India's growth forecast for FY27 and FY28 amid strong domestic demand, credits AI for helping world economy",
+  "url": "https://www.livemint.com/economy/imf-raises-indias-growth-forecast-for-fy27-and-fy28-amid-strong-domestic-demand-credits-ai-for-helping-world-economy-11791859391497.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-13",
+  "summary": "The IMF raised its 2026 global growth forecast, citing stronger-than-expected activity and AI investment. India’s growth outlook was upgraded for FY27 and FY28.",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "mumbai"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "IMF growth forecasts and AI investment; contextualizes India's position in global capital hierarchy."
+  }
+ },
+ {
+  "id": "6057bb4780",
+  "section": "news",
+  "title": "Ministério dá novo passo na busca por investimento sustentável",
+  "url": "https://valor.globo.com/brasil/noticia/2026/10/19/ministerio-da-novo-passo-na-busca-por-investimento-sustentavel.ghtml",
+  "doi": "",
+  "source": "Valor Econômico",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "Débora Freire: “Estamos incluindo um novo critério, que é para redução de desigualdades regionais e territoriais”\nWashington Costa/MF\nO Ministério da Fazenda dá mais um passo para colocar o Brasil na dianteira dos países em busca de investimentos sustentáveis. A pasta lança esta semana a segunda etapa da Taxonomia Sustentável Brasileira com novos objetivos ambientais e sociais que englobam biodiversidade, economia circular e redução das desigualdades regionais e territoriais do país.\nTaxonomia é uma espécie de dicionário que classifica atividades econômicas por critérios socioambientais. A ideia é que estabeleça padrões de referência para o país que possam nortear investidores externos e domésticos. Não só é uma ferramenta que direciona o investimento para que as economias possam se descarbonizar, mas é uma política industrial e um mecanismo a ser usado no comércio global.\n“Trata-se de um instrumento importante para orientar os investimentos sustentáveis com base técnica e científica”, diz Débora Freire, secretária de Política Econômica do Ministério da Fazenda. “E também para que se evite greenwashing na agenda de sustentabilidade e para que se possa colher os melhores resultados na busca global por capital para investimentos sustentáveis”, continua.\nA iniciativa começou em 2023 com a discussão do processo entre técnicos de ministérios e de reguladores do sistema financeiro como o Banco Central, a Comissão de Valores Mobiliários (CVM) e a Superintendência de Seguros P",
+  "origin": "rss:Valor Econômico",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "sao_paulo"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "valuation",
+    "regulation",
+    "development_finance"
+   ],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Brazil's Sustainable Taxonomy Phase 2: regulatory device standardizing ESG/social investment criteria."
+  }
+ },
+ {
+  "id": "0db506307d",
+  "section": "news",
+  "title": "Buscas por Lulinha, R$ 134 milhões de Vorcaro, Milei e 'presos podem votar' disparam no Google Trends",
+  "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/18/buscas-por-filho-do-lula-r-134-milhoes-milei-e-presos-podem-votar-disparam-no-google.ghtml",
+  "doi": "",
+  "source": "Valor Econômico",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "Durante a transmissão do debate presidencial da Band, neste domingo (18), o Google, em parceria com a emissora, mostrou que os termos \"filho do Lula\", \"134 milhões filme Bolsonaro\", \"Milei\" e \"presos podem votar\" estavam entre os assuntos em alta nas buscas sobre política no Brasil nas últimas quatro horas. \nLEIA TAMBÉM: Debate na Band: veja como foi o debate entre Lula e Flávio Bolsonaro\nEntre as perguntas mais pesquisadas na plataforma naquele momento, estavam:\n Quem é Roberta Luchsinger?\nO MEI foi criado em qual governo?\nQuem criou o SUS?\nQuantas armas foram criadas no governo Bolsonaro?\nO que é um miliciano?\nComo está a economia da Argentina?\nEntenda os termos mais buscados\nA busca por \"filho do Lula\" está relacionada a Fábio Luís Lula da Silva, conhecido como Lulinha, e à sua proximidade com a empresária e lobista Roberta Luchsinger. Em entrevista à CNN Brasil no sábado (17), ela afirmou que pretende colaborar com as investigações e não poupará o presidente Luiz Inácio Lula da Silva (PT) nem seu filho. Ambos são investigados em inquéritos no Supremo Tribunal Federal (STF) que apuram suspeitas de corrupção e tráfico de influência. As defesas negam irregularidades.\nO termo \"134 milhões filme Bolsonaro\" faz referência à informação de que Flávio Bolsonaro (PL) teria solicitado R$ 134 milhões ao empresário Daniel Vorcaro, do Banco Master, para financiar o filme \"Dark Horse\", relacionado à trajetória política de seu pai, o ex-presidente Jair Bolsonaro. O episódio também",
+  "origin": "rss:Valor Econômico",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "sao_paulo"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Google Trends during Brazilian debate; not substantive for financial-centre analysis."
+  }
+ },
+ {
+  "id": "a078e3aa85",
+  "section": "news",
+  "title": "R$ 134 milhões: Flávio Bolsonaro pediu dinheiro a Vorcaro para financiar filme Dark Horse",
+  "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/18/r-134-milhoes-flavio-bolsonaro-pediu-dinheiro-a-vorcaro-para-financiar-filme-dark-horse.ghtml",
+  "doi": "",
+  "source": "Valor Econômico",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "Flávio Bolsonaro (PL), senador e candidato à Presidência da República, pediu dinheiro ao ex-banqueiro Daniel Vorcaro, dono do extinto Banco Master, para ajudar a financiar o filme sobre seu pai, o ex-presidente Jair Bolsonaro. \nLEIA TAMBÉM: Quem é Roberta Luchsinger, citada em debate entre Lula e Flávio Bolsonaro\nO repasse foi um dos principais temas do primeiro bloco do debate presidencial na Band. Lula (PT) questionou o oponente, insistentemente, sobre a origem do dinheiro que teria recebido para produzir o filme do pai, \"Dark Horse\", com previsão de lançamento para este ano.\nO que aconteceu?\nÁudios de Flávio Bolsonaro enviados a Daniel Vorcaro, do Master, foram revelados pelo site Intercepet Brasil em maio. À época, o Valor confirmou a autenticidade as mensagens com duas fontes a par das investigações.\nApós a revelação, Flávio confirmou em nota e em vídeo divulgado nas redes sociais que recebeu dinheiro do ex-banqueiro. “O que aconteceu foi um filho, procurando patrocínio privado para um filme privado sobre a história do próprio pai. Zero de dinheiro público”, disse na ocasião.\nO material do Intercept inclui conversas de WhatsApp entre dezembro de 2024 e novembro de 2025, na véspera da prisão de Vorcaro, além de comprovantes de pagamento e uma planilha de controle compartilhada entre Vorcaro e seus aliados que indicam que foram transferidos US$ 10,6 milhões de um total de US$ 23,9 milhões que estava previsto. Na cotação da época, o montante equivale a R$ 61 milhões",
+  "origin": "rss:Valor Econômico",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [
+    "sao_paulo"
+   ],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Political gossip on campaign financing; unrelated to financial-centre institutions or devices."
+  }
+ },
+ {
+  "id": "f335836d02",
+  "section": "news",
+  "title": "Cameroon Eurobond Yields Soar as Fitch Downgrade Flags Risks",
+  "url": "https://www.bloomberg.com/news/articles/2026-10-19/cameroon-eurobond-yields-soar-as-fitch-downgrade-flags-risks",
+  "doi": "",
+  "source": "Bloomberg — Markets (public feed)",
+  "venue": "",
+  "authors": [
+   "Ray Ndlovu"
+  ],
+  "date": "2026-10-19",
+  "summary": "Cameroon’s dollar-bond yields climbed for a fourth trading session after Fitch Ratings downgraded the sovereign, citing heightened political risks and mounting financing pressures in Central Africa’s biggest economy.",
+  "origin": "rss:Bloomberg — Markets (public feed)",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [],
+   "themes": [
+    "valuation",
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "subordination",
+    "debt"
+   ],
+   "places": [],
+   "note": "Eurobond pricing and sovereign ratings; peripheral to project (not a case-study country)."
+  }
+ },
+ {
+  "id": "f4a223cd71",
+  "section": "grey",
+  "title": "Liberia",
+  "url": "https://doi.org/10.5089/9798229064804.002",
+  "doi": "10.5089/9798229064804.002",
+  "source": "IMF Staff Country Reports",
+  "venue": "IMF Staff Country Reports",
+  "authors": [
+   "International Monetary Fund. Middle East and Central Asia Dept."
+  ],
+  "date": "2026-10-01",
+  "summary": "The 40-month Extended Credit Facility (ECF) arrangement is helping Liberia preserve macroeconomic stability, mitigate debt vulnerabilities, and enhance financial sector resilience. Reforms under the program have supported domestic revenue mobilization, improved fiscal management, and strengthened policy credibility. The recently approved Resilience and Sustainability Facility (RSF) arrangement is helping integrate climate resilience into macroeconomic and fiscal frameworks. Nonetheless, Liberia continues to face challenges from declining donor support and a difficult external environment. Higher global fuel prices and dependence on imported fuel, capital goods, and specialized services have increased balance of payments pressures. These pressures have been partly offset by strong mining exports, a one-off mining concession payment, and additional concessional financing, which have also supported continued program implementation.",
+  "origin": "openalex:series",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222107280",
+  "year": 2026,
+  "work_type": "article",
+  "referenced_works": [],
+  "venue_id": "S4210169746",
+  "venue_type": "journal",
+  "publisher": "International Monetary Fund",
+  "filter": true,
+  "watched": false,
+  "work_key": "",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "imf_programmes"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "imf_programmes"
+   ],
+   "places": [],
+   "note": "IMF programme context; peripheral (Liberia not a case-study city)."
+  }
+ },
+ {
+  "id": "5b0bed4216",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P515028)",
+  "url": "http://documents.worldbank.org/curated/en/099101526172517065",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Indonesia",
+  "origin": "worldbank:capital market development",
+  "scholarly": false,
+  "filter": true,
+  "country": "Indonesia",
+  "work_key": "climate finance assessment p515028|",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Generic climate finance assessment; no institutional or financial-centre angle."
+  }
+ },
+ {
+  "id": "1555698586",
+  "section": "grey",
+  "title": "Global Sovereign Debt Roundtable :Compendium of GSDR Common Understanding on Technical Issues",
+  "url": "http://documents.worldbank.org/curated/en/099541010132611067",
+  "doi": "",
+  "source": "World Bank · Report",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-14",
+  "summary": "Report World",
+  "origin": "worldbank:sovereign debt restructuring",
+  "scholarly": false,
+  "filter": true,
+  "country": "World",
+  "work_key": "global sovereign debt roundtable compendium gsdr common understanding technical issues|",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "debt",
+    "imf_programmes"
+   ],
+   "places": [],
+   "note": "Global sovereign debt coordination; useful but general multilateral context."
+  }
+ },
+ {
+  "id": "5ab438de10",
+  "section": "grey",
+  "title": "Global Sovereign Debt Roundtable 7th Cochairs Progress Report",
+  "url": "http://documents.worldbank.org/curated/en/099536310132623002",
+  "doi": "",
+  "source": "World Bank · Report",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-14",
+  "summary": "Report World",
+  "origin": "worldbank:sovereign debt restructuring",
+  "scholarly": false,
+  "filter": true,
+  "country": "World",
+  "work_key": "global sovereign debt roundtable 7th cochairs progress report|",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "debt"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "debt",
+    "imf_programmes"
+   ],
+   "places": [],
+   "note": "Global sovereign debt coordination; useful but general multilateral context."
+  }
+ },
+ {
+  "id": "7aeec41b22",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P517399)",
+  "url": "http://documents.worldbank.org/curated/en/099101526173532734",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Syrian Arab Republic",
+  "origin": "worldbank:financial market infrastructure",
+  "scholarly": false,
+  "filter": true,
+  "country": "Syrian Arab Republic",
+  "work_key": "climate finance assessment p517399|",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Generic climate finance assessment; no institutional or financial-centre angle."
+  }
+ },
+ {
+  "id": "034e14523c",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P507944)",
+  "url": "http://documents.worldbank.org/curated/en/099101526173036104",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Madagascar",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Madagascar",
+  "work_key": "climate finance assessment p507944|",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Generic climate finance assessment; no institutional or financial-centre angle."
+  }
+ },
+ {
+  "id": "8941575896",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P516379)",
+  "url": "http://documents.worldbank.org/curated/en/099101526174014816",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment Mozambique",
+  "origin": "worldbank:municipal finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Mozambique",
+  "work_key": "climate finance assessment p516379|",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Generic climate finance assessment; no institutional or financial-centre angle."
+  }
+ },
+ {
+  "id": "4f50ff709f",
+  "section": "grey",
+  "title": "Disclosable Version of the ISR - Africa Green Resilient and Inclusive Housing De-Risking (GRIHD) Facility - P178986 - Sequence No : 3",
+  "url": "http://documents.worldbank.org/curated/en/099101526160016482",
+  "doi": "",
+  "source": "World Bank · Implementation Status and Results Report",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Implementation Status and Results Report Eastern and Southern Africa",
+  "origin": "worldbank:housing finance",
+  "scholarly": false,
+  "filter": true,
+  "country": "Eastern and Southern Africa",
+  "work_key": "disclosable version isr africa green resilient inclusive housing risking grihd facility p178986|",
+  "watched": false,
+  "also_at": [],
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Housing finance project report; no relevance to financial-centre strategy or devices."
+  }
+ },
+ {
+  "id": "5c19fdc19b",
+  "section": "grey",
+  "title": "Climate Finance Assessment (P512663)",
+  "url": "http://documents.worldbank.org/curated/en/099101526172534336",
+  "doi": "",
+  "source": "World Bank · Climate Co-Benefits Assessment",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-15",
+  "summary": "Climate Co-Benefits Assessment China",
+  "origin": "worldbank:capital market integration",
+  "scholarly": false,
+  "filter": true,
+  "country": "China",
+  "work_key": "climate finance assessment p512663|",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Generic climate finance assessment; no institutional or financial-centre angle."
+  }
+ },
+ {
+  "id": "8a59c1cfb2",
+  "section": "grey",
+  "title": "Beyond the Battery: Regulatory Enablement for AI-Enabled, Carbon-Disciplined Dispatch of Storage and Renewables in Nova Scotia's Electricity Market",
+  "url": "https://hdl.handle.net/1880/126389",
+  "doi": "",
+  "source": "Libraries and Cultural Resources (University of Calgary)",
+  "venue": "Libraries and Cultural Resources (University of Calgary)",
+  "authors": [
+   "Julie Boyce"
+  ],
+  "date": "2026-10-15",
+  "summary": "As Nova Scotia integrates more renewable generation and battery storage, emissions performance depends not only on capacity installed but on how and when it is operated. This capstone asks to what extent AI-enabled, carbon-disciplined dispatch of new battery storage, solar, and wind could reduce emissions relative to conventional operation, and what regulatory conditions would enable it. Using a literature review, a quantitative scenario analysis of Nova Scotia's 2024 electricity system developed with industry partner Edgecom Energy, and a regulatory analysis, the research finds that grid-charged storage increased emissions while clean-charged storage reduced emissions and retained most of the peak-demand benefit; wind and solar also reduced emissions, though even the largest scenario cut baseline emissions by less than 10%. Existing carbon and renewable-electricity mechanisms in Nova Scotia do not extend to battery charging decisions, so this capstone recommends a regulatory sandbox to test carbon-disciplined dispatch before broader implementation.",
+  "origin": "openalex:reports:capital market development",
+  "scholarly": false,
+  "openalex_id": "https://openalex.org/W7222770352",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306402261",
+  "venue_type": "repository",
+  "publisher": "University of Calgary",
+  "filter": true,
+  "work_key": "beyond battery regulatory enablement ai enabled carbon disciplined dispatch storage renewables nova|boyce",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "regulation"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Electricity grid dispatch and renewable energy regulation; unrelated to financial centres."
+  }
+ },
+ {
+  "id": "0219166321",
+  "section": "grey",
+  "title": "Developments in Insurance Services to Facilitate CO2 Geological Storage",
+  "url": "https://doi.org/10.62849/2026-tr06",
+  "doi": "10.62849/2026-tr06",
+  "source": "OpenAlex",
+  "venue": "",
+  "authors": [
+   "Franz Hiebert"
+  ],
+  "date": "2026-10-01",
+  "summary": "This report expands upon the 2024 IEAGHG review of insurance coverage for CO₂ geological storage projects, responding to the rapid acceleration of CCS activity and the growing commercial importance of insurance in project development. The pace of CCS activity has accelerated quickly, with new conferences, reports, commercial announcements, and technical progress emerging almost weekly, including a series of CEM/GA/OGCI workshops which has focused specifically on insurance gaps and advances. The aim of this edition is to provide a more comprehensive reference document that supports informed decision making across industry stakeholders—technical experts, insurers, developers, regulators, and financiers—while opening pathways to deeper research and helping developers prepare the data and messaging needed to secure insurance coverage and strengthen the commercial basis for geological carbon storage projects.",
+  "origin": "openalex:reports:capital market development",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221814229",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "",
+  "venue_type": "",
+  "publisher": "",
+  "filter": true,
+  "work_key": "developments insurance services facilitate co2 geological storage|hiebert",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "professionals"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Insurance for CO₂ storage; unrelated to financial centres and Southern finance."
+  }
+ },
+ {
+  "id": "5d2c7b4ef2",
+  "section": "grey",
+  "title": "Bridging the critical minerals divide: aligning supply security and producer-country development",
+  "url": "https://doi.org/10.21953/researchonline.lse.ac.uk.00141323",
+  "doi": "10.21953/researchonline.lse.ac.uk.00141323",
+  "source": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+  "venue": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+  "authors": [
+   "Bruno Binetti"
+  ],
+  "date": "2026-10-08",
+  "summary": "This brief develops some of the main themes that emerged from a roundtable co-organised by E3G and LSE IDEAS during London Climate Action Week in June 2026. The discussion brought together policymakers, industry representatives, financial institutions, academics and civil society experts to examine how critical-minerals partnerships can better reconcile the supply-security priorities of importing economies with the development and industrial ambitions of resource-rich countries. The views expressed in this brief are those of the author alone and do not necessarily reflect those of roundtable participants or their institutions.",
+  "origin": "openalex:reports:capital market development",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221671126",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306400050",
+  "venue_type": "repository",
+  "publisher": "London School of Economics and Political Science",
+  "filter": true,
+  "work_key": "bridging critical minerals divide aligning supply security producer country development|binetti",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Critical minerals supply and development; no financial-centre or device angle."
+  }
+ },
+ {
+  "id": "b0b541673b",
+  "section": "grey",
+  "title": "The Impact of Central Bank Stock Purchases: Evidence from Discontinuities in Policy Rules",
+  "url": "https://doi.org/10.3386/w35886",
+  "doi": "10.3386/w35886",
+  "source": "National Bureau of Economic Research",
+  "venue": "National Bureau of Economic Research",
+  "authors": [
+   "Masao Fukui",
+   "Masayuki Yagasaki"
+  ],
+  "date": "2026-10-01",
+  "summary": "We trace the impact of central bank stock purchases by exploiting discontinuities in the Bank of Japan's policy rule, which triggers purchases when stock market index movements fall below a threshold.In normal times, the purchases raise the long-term interest rate while leaving no detectable impact on stock prices.After the introduction of yield curve control, which pegs the long-term yield at 0%, interest rates stop responding and stock prices rise robustly following the purchases.Although these results are inconsistent with the inelastic market hypothesis in its original form, general equilibrium extensions with endogenous interest rates explain our findings.",
+  "origin": "openalex:reports:stock exchange",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221624314",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S2809516038",
+  "venue_type": "repository",
+  "publisher": "",
+  "filter": true,
+  "work_key": "impact central bank stock purchases evidence from discontinuities policy rules|fukui",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "valuation"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Bank of Japan stock purchases; unrelated to Southern financial centres."
+  }
+ },
+ {
+  "id": "1f8a811aeb",
+  "section": "grey",
+  "title": "The Aboriginals Benefit Account in the Northern Territory of Australia: Fifty years of deferred reform",
+  "url": "https://doi.org/10.25911/zspv-gn93",
+  "doi": "10.25911/zspv-gn93",
+  "source": "ANU Open Research (Australian National University)",
+  "venue": "ANU Open Research (Australian National University)",
+  "authors": [
+   "Jon Altman",
+   "Michael Dillon"
+  ],
+  "date": "2026-10-13",
+  "summary": "The Aboriginals Benefit Account (ABA), established under the Aboriginal Land Rights (Northern Territory) Act 1976 (ALRA), has received an estimated $5.3 billion in mining royalty equivalents (MREs) and generated a further $500 million in investment income from its reserves over nearly fifty years. Despite this substantial resource base, the framework governing the ABA has remained largely unchanged for five decades, notwithstanding a landmark review in 1984 which recommended major institutional restructure and a transition to greatly enhanced Aboriginal control within five years. The 2021 amendments to the Act, which established the NT Aboriginal Investment Corporation subsequently renamed Aboriginal Investment NT (AINT), represented the first substantive legislative response to that historical reform agenda. This paper provides an account of the ABA's financial history, examines the reform process leading to the 2021 amendments, and assesses AINT's first three years of operation against concerns raised at the time of the legislation's passage. The paper finds that while the 2021 amendments represent a partial step towards Aboriginal control, structural flaws within ALRA itself, and within AINT’s architecture are increasing in salience. The residual ABA financial reserve—still under ministerial control and possibly in medium-term structural decline—is the most obvious, but not the only policy challenge. The paper concludes with some recommendations for charting a pathway to t",
+  "origin": "openalex:reports:financial centre",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7221835062",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306402539",
+  "venue_type": "repository",
+  "publisher": "Australian National University",
+  "filter": true,
+  "work_key": "aboriginals benefit account northern territory australia fifty years deferred reform|altman",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "histories"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Indigenous mining royalty account in Australia; unrelated to project."
+  }
+ },
+ {
+  "id": "e79b0a2c6e",
+  "section": "grey",
+  "title": "Enabling Non-Wires Solutions in Alberta's Electricity System: Regulatory Barriers, Cost-Benefit Frameworks, and Pathways to a Cleaner Grid",
+  "url": "https://hdl.handle.net/1880/126377",
+  "doi": "",
+  "source": "Libraries and Cultural Resources (University of Calgary)",
+  "venue": "Libraries and Cultural Resources (University of Calgary)",
+  "authors": [
+   "Preeta Raghunathan"
+  ],
+  "date": "2026-10-15",
+  "summary": "Canada's decarbonization goals and rising electricity demand are straining distribution grids, yet non-wires solutions (NWS) that could defer costly network upgrades remain underused in Alberta's deregulated, energy-only market. This study asks how NWS can be integrated into Alberta distribution planning while giving utilities a financial return and keeping electricity affordable, reliable, and clean. Drawing on evaluation frameworks from Colorado, Ontario, and New York and on Alberta stakeholder interviews, it builds a distribution-focused, Alberta-specific cost-benefit model and applies it to a demand response deferral. Demand response clears the utility, ratepayer, and societal tests, but the payment of a ten-year deferral can fund only low-capital resources; shorter deferrals widen the viable set. Reforming cost-recovery rules and optimizing deferral horizons emerge as the most effective levers for scaling NWS in Alberta.",
+  "origin": "openalex:reports:financial centre",
+  "scholarly": false,
+  "openalex_id": "https://openalex.org/W7222778753",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306402261",
+  "venue_type": "repository",
+  "publisher": "University of Calgary",
+  "filter": true,
+  "work_key": "enabling non wires solutions alberta s electricity system regulatory barriers cost benefit|raghunathan",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Alberta electricity grid regulatory barriers; unrelated to financial centres."
+  }
+ },
+ {
+  "id": "8803dae5e8",
+  "section": "grey",
+  "title": "Insurance will not close the climate adaptation gap: Here is where it can help",
+  "url": "https://doi.org/10.5281/zenodo.22086333",
+  "doi": "10.5281/zenodo.22086333",
+  "source": "CentAUR (University of Reading)",
+  "venue": "CentAUR (University of Reading)",
+  "authors": [
+   "Akhand Tiwari",
+   "Graham Wright",
+   "Rosalind Cornforth",
+   "Celia Petty"
+  ],
+  "date": "2026-09-21",
+  "summary": "This policy note examines the role of insurance in financing climate adaptation for underserved households, MSMEs, smallholder farmers, and agricultural value-chain actors. Drawing on discussions from a climate insurance roundtable, co-led by MicroSave Consulting (MSC) and The Pearl (University of Reading), hosted by the National Institute of Economic and Social Research (NIESR) at London Climate Action Week 2026, the note argues that adaptation finance faces two distinct constraints, an unresolved funding gap and an incomplete financeability architecture, and that insurance can play a bounded but valuable role within the second. It proposes a six-question investability test for separating adaptation investments suited to credit-plus-insurance from those that require grants, guarantees, or adaptive social protection instead, and sets out seven design shifts, ordered by readiness, for building a more effective insurance architecture. The note draws on evidence from Pakistan, Uganda, Malawi, Lebanon, and elsewhere, and situates insurance within a wider layered resilience system rather than treating it as a standalone solution to the adaptation finance gap. We gratefully acknowledge the organizations represented at the roundtable for sharing their perspectives and insights: the United Nations Capital Development Fund (UNCDF), the Consultative Group to Assist the Poor (CGAP), the World Food Programme (WFP), Agri3 Fund, the Initiative for Smallholder Finance Advisors (ISF Advisors",
+  "origin": "openalex:reports:financial sector deepening",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7213956996",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306402273",
+  "venue_type": "repository",
+  "publisher": "University of Reading",
+  "filter": true,
+  "work_key": "insurance will not close climate adaptation gap here is where it can|tiwari",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "development_finance"
+   ],
+   "places": [],
+   "note": "Climate adaptation insurance for MSMEs and farmers; tangential to development finance but not centre-focused."
+  }
+ },
+ {
+  "id": "308a4313f0",
+  "section": "grey",
+  "title": "Operationalizing Payment for Ecosystem Services in the Ghibe III Hydroelectric Dam Catchment, Omo-Ghibe Living Landscape, Ethiopia: Barriers, Opportunities, and an Implementation Roadmap",
+  "url": "https://hdl.handle.net/10568/185594",
+  "doi": "",
+  "source": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+  "venue": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+  "authors": [
+   "Wolde Mekuria",
+   "Yitna Tesfaye",
+   "Tirusew Teshale"
+  ],
+  "date": "2026-09-24",
+  "summary": "The study assessed the feasibility of operationalizing a Payment for Ecosystem Services (PES) mechanism in the Gibe III hydroelectric dam catchment, where soil erosion, land degradation, sedimentation, and climate pressures threaten upstream livelihoods and downstream investments. Drawing on policy review, key informant interviews, and focus group discussions, the assessment identifies upstream farming communities—engaged in soil and water conservation, agroforestry, exclosures, and landscape restoration—as the primary ecosystem service providers and intended recipients of PES compensation. Downstream stakeholders, including the Gibe III hydropower facility, irrigation users, agricultural investors, and national energy consumers, are the main beneficiaries and potential buyers or co-financiers. Sediment retention and erosion control, hydrological regulation, and carbon sequestration emerge as priority services. Upstream communities express strong willingness to participate, provided benefit-sharing is transparent, equitable, and livelihood-linked, though fragmented coordination, weak capacity, and limited monitoring persist. The study proposes a five-pillar framework—a Watershed PES Charter and Ecosystem Stewardship Credits, a hybrid input- and performance-based payment model, a diversified Watershed PES Fund, an integrated MRV system, and grievance and safeguard mechanisms—delivered through a three-phase roadmap covering institutional readiness, piloting, and scaling. The Ch",
+  "origin": "openalex:reports:blended finance",
+  "scholarly": false,
+  "openalex_id": "https://openalex.org/W7214409738",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S4306402055",
+  "venue_type": "repository",
+  "publisher": "CGIAR",
+  "filter": true,
+  "work_key": "operationalizing payment ecosystem services ghibe iii hydroelectric dam catchment omo ghibe living|mekuria",
+  "watched": null,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "professionals"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Payment for ecosystem services in Ethiopia dam catchment; unrelated to financial centres."
+  }
+ },
+ {
+  "id": "a394f6bde6",
+  "section": "grey",
+  "title": "EU request on innovative gears",
+  "url": "https://doi.org/10.17895/ices.advice.34524750",
+  "doi": "10.17895/ices.advice.34524750",
+  "source": "International Council for the Exploration of the Sea (ICES)",
+  "venue": "International Council for the Exploration of the Sea (ICES)",
+  "authors": [
+   "ICES"
+  ],
+  "date": "2026-10-16",
+  "summary": "ICES advises that a gear innovation can be considered ready for implementation where it has demonstrated an improvement against an appropriate baseline under commercial or commercially representative conditions, maintains acceptable target-catch performance, can be operated safely and reliably, offers a viable economic proposition, and is legally permissible in the fishery concerned.ICES emphasizes that a large proportion of documented gear innovations are technologically ready for implementation. Uptake is most likely when the gear innovation addresses a recognized problem and fishers and industry participate meaningfully in its development and have the willingness, knowledge, and skills to adopt and use the gear. ICES advises that implementation strategies to overcome regulatory, economic, operational, and social barriers focus on regulatory flexibility, economic de-risking, fisher participation, technical assistance, and post-adoption monitoring to document sustained performance at fleet level.ICES advises to consider regulatory compatibility from the beginning of gear innovation development, especially where innovations are significantly different from baseline fishing gear. ICES highlights that a main regulatory challenge is the integration of entirely new technologies and designs into regulatory systems built around conventional gears.To improve the consistency, comparability, representativeness, and quality of evidence on innovative gears, ICES proposes a roadmap for f",
+  "origin": "openalex:reports:de-risking",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W7222573047",
+  "year": 2026,
+  "work_type": "report",
+  "referenced_works": [],
+  "venue_id": "S7407051122",
+  "venue_type": "repository",
+  "publisher": "International Council for the Exploration of the Sea",
+  "filter": true,
+  "work_key": "eu request innovative gears|ices",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "development_finance"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Fisheries gear innovation; unrelated to financial centres and finance."
+  }
+ },
+ {
+  "id": "01fe7a5ed5",
+  "section": "grey",
+  "title": "Are stablecoins and bank deposits substitutes?",
+  "url": "https://www.bis.org/publications/working-paper-1382-are-stablecoins-and-bank-deposits-substitutes",
+  "doi": "",
+  "source": "BIS — FSI publications",
+  "venue": "",
+  "authors": [
+   "Rashad Ahmed",
+   "Iñaki Aldasoro"
+  ],
+  "date": "2026-10-13",
+  "summary": "We test whether stablecoins and bank deposits act as substitutes by estimating the semi-elasticity of stablecoin market capitalization with respect to deposit rate changes. Using local projections fit to weekly U.S. data from January 2019 to June 2025, we find that deposit rate increases predict slower stablecoin growth. To address endogeneity, we exploit a nonlinearity in deposit rate pass-through. Whereas other money market rates track the federal funds rate roughly linearly, banksreprice deposits more aggressively once it exceeds approximately 3%.",
+  "origin": "rss:BIS — FSI publications",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "are stablecoins bank deposits substitutes|ahmed",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital"
+   ],
+   "places": [],
+   "note": "Stablecoins as substitute for bank deposits; relevant to digital finance devices and monetary competition."
+  }
+ },
+ {
+  "id": "103f96f292",
+  "section": "grey",
+  "title": "Investing through uncertainty - financing Europe's future",
+  "url": "https://www.bis.org/speeches/20261013-investing-through-uncertainty-financing-europes-future",
+  "doi": "",
+  "source": "BIS — central bank speeches",
+  "venue": "",
+  "authors": [
+   "Clara Raposo"
+  ],
+  "date": "2026-10-13",
+  "summary": "Closing keynote speech by Ms Clara Raposo, Vice-Governor of the Banco de Portugal, at the 8th Edition of the Capital Markets Seminar “Financing Europe”, organised by the European Commission (EC), European Investment Bank (EIB) and the European Stability Mechanism (ESM), Luxembourg, 1 October 2026.",
+  "origin": "rss:BIS — central bank speeches",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "investing through uncertainty financing europe s future|raposo",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "professionals"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "European capital markets financing speech; unrelated to Southern financial centres."
+  }
+ },
+ {
+  "id": "b39f9d35cf",
+  "section": "grey",
+  "title": "Introduction to the panel “Financial risks and macroprudential policy”",
+  "url": "https://www.bis.org/speeches/20261013-introduction-panel-financial-risks-and-macroprudential-policy",
+  "doi": "",
+  "source": "BIS — central bank speeches",
+  "venue": "",
+  "authors": [
+   "Clara Raposo"
+  ],
+  "date": "2026-10-13",
+  "summary": "Introduction by Ms Clara Raposo, Vice-Governor of the Banco de Portugal, to the panel “Financial risks and macroprudential policy”, at the Banco de Portugal’s Conference on the Main Findings of Portugal's Financial Sector Assessment Program (FSAP), Lisbon, 22 September 2026.",
+  "origin": "rss:BIS — central bank speeches",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "introduction panel financial risks macroprudential policy|raposo",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "regulation"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Portugal FSAP panel; unrelated to Southern financial centres."
+  }
+ },
+ {
+  "id": "e88dd309cc",
+  "section": "grey",
+  "title": "Opening remarks - Cargox Solution Day",
+  "url": "https://www.bis.org/speeches/20261013-opening-remarks-cargox-solution-day",
+  "doi": "",
+  "source": "BIS — central bank speeches",
+  "venue": "",
+  "authors": [
+   "Howard Lee"
+  ],
+  "date": "2026-10-13",
+  "summary": "Opening remarks by Mr Howard Lee, Deputy Chief Executive of the Hong Kong Monetary Authority, at the Cargox Solution Day, Hong Kong, 5 October 2026.",
+  "origin": "rss:BIS — central bank speeches",
+  "scholarly": false,
+  "filter": true,
+  "work_key": "opening remarks cargox solution day|lee",
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Hong Kong Monetary Authority cargo logistics event; not about financial-centre strategy."
+  }
+ },
+ {
+  "id": "d9d08b50dd",
+  "section": "news",
+  "title": "The week in charts: Jio’s mega debut, deferred UPI charges, IDBI bank stake sale",
+  "url": "https://www.livemint.com/economy/jio-platforms-ipo-upi-charges-npci-idbi-bank-fairfax-rupee-rbi-measures-indian-economy-11792050054486.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-17",
+  "summary": "In this weekly Plain Facts compilation, we present to you data-based insights, with easy-to-read charts, to help you delve deeper into the stories reported by Mint in the week gone by.",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital",
+    "professionals"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "Jio IPO and UPI digital payments in India; relevant to Mumbai financial-centre developments and fintech."
+  }
+ },
+ {
+  "id": "c311b09c0d",
+  "section": "news",
+  "title": "PFRDA asks finance ministry to keep NPS contributions free of UPI charges",
+  "url": "https://www.livemint.com/economy/pfrda-seeks-upi-mdr-exemption-for-nps-contributions-11791863636686.html",
+  "doi": "",
+  "source": "Mint — Economy",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-13",
+  "summary": "The pension regulator has asked the finance ministry to exempt National Pension System voluntary contributions from payment processing fees coming into effect on 15 October.&amp;nbsp;",
+  "origin": "rss:Mint — Economy",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 1,
+   "themes": [
+    "digital"
+   ],
+   "places": [
+    "mumbai"
+   ],
+   "note": "National Pension System UPI payment fees in India; minor policy angle on digital infrastructure."
+  }
+ },
+ {
+  "id": "2d16a0a3ac",
+  "section": "news",
+  "title": "Ascensão do Pix contribuiu para redução de desigualdades regionais",
+  "url": "https://valor.globo.com/financas/noticia/2026/10/19/ascensao-do-pix-contribuiu-para-reducao-de-desigualdades-regionais.ghtml",
+  "doi": "",
+  "source": "Valor Econômico",
+  "venue": "",
+  "authors": [],
+  "date": "2026-10-19",
+  "summary": "Vinícius Botelho, da Fin: Pix teve impacto até na desigualdade de salários\nDivulgação\nAs ascensão do Pix, lançado em 2020, pode ter contribuído para a redução de desigualdades regionais no desenvolvimento financeiro. Um estudo da Confederação Nacional das Instituições Financeiras (Fin) sugere que o uso do meio de pagamento instantâneo capitaneado pelo Banco Central (BC) cresceu nas regiões nas quais o crédito como proporção do PIB era menor, indicando que ele tem efeitos relevantes sobre diversas dimensões da economia.\nO levantamento aponta que a taxa de crescimento no número de transações de Pix (pessoa física) per capita, entre 2020 e 2025, foi maior em Estados em que a penetração do crédito era menor. Ou seja, o instrumento passou a ser usado por pessoas que antes estavam fora do sistema financeiro. “O resultado complementa diversos artigos acadêmicos que têm mostrado que o Pix tem efeitos relevantes até em questões como uma redução na desigualdade dos salários, um aumento nos depósitos bancários uma maior proteção das famílias atingidas por desastres naturais e um aumento do empreendedorismo”, afirma Vinícius Botelho, autor do estudo e gerente de Assuntos Econômicos da Fin.\nO estudo destaca que atualmente o Pix continua crescendo mais fortemente em Estados com menor penetração do crédito, o que sugere que seu efeito na redução da desigualdade ainda não terminou. De 2024 para 2025, a expansão foi liderada por Roraima, Maranhão, Acre, Pará e Amazonas. “Isso indica qu",
+  "origin": "rss:Valor Econômico",
+  "scholarly": false,
+  "filter": true,
+  "kw": {
+   "pass": true,
+   "score": 1,
+   "places": [],
+   "themes": [
+    "digital"
+   ],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 2,
+   "themes": [
+    "digital",
+    "integration",
+    "subordination"
+   ],
+   "places": [
+    "sao_paulo"
+   ],
+   "note": "Pix's regional financial inclusion effects; Brazilian digital infrastructure reshaping centre integration."
+  }
+ },
+ {
+  "id": "8fefce41de",
+  "section": "archive",
+  "title": "Insider Trading: Should It Be Prohibited?",
+  "url": "https://doi.org/10.1086/261843",
+  "doi": "10.1086/261843",
+  "source": "Journal of Political Economy",
+  "venue": "Journal of Political Economy",
+  "authors": [
+   "Hayne E. Leland"
+  ],
+  "date": "1992-08-01",
+  "summary": "Insider trading moves forward the resolution of uncertainty. Using a rational expectations model with endogenous investment level, I show that, when insider trading is permitted, (i) stock prices better reflect information and will be higher on average, (ii) expected real investment will rise, (iii) markets are less liquid, (iv) owners of investment projects and insiders will benefit, and (v) outside investors and liquidity traders will be hurt. Total welfare may increase or decrease depending on the economic environment. Factors that favor the prohibition of insider trading are identified.",
+  "origin": "openalex:citations",
+  "scholarly": true,
+  "openalex_id": "https://openalex.org/W2151487897",
+  "year": 1992,
+  "work_type": "article",
+  "referenced_works": [
+   "https://openalex.org/W2818527",
+   "https://openalex.org/W1499550068",
+   "https://openalex.org/W1536411649",
+   "https://openalex.org/W1541693191",
+   "https://openalex.org/W1573697673",
+   "https://openalex.org/W1975676844",
+   "https://openalex.org/W1986142095",
+   "https://openalex.org/W1986300483",
+   "https://openalex.org/W1999485436",
+   "https://openalex.org/W2050031929",
+   "https://openalex.org/W2090522581",
+   "https://openalex.org/W2096627274",
+   "https://openalex.org/W2142856961",
+   "https://openalex.org/W2146880834",
+   "https://openalex.org/W2149923712",
+   "https://openalex.org/W2155583491",
+   "https://openalex.org/W2156594523",
+   "https://openalex.org/W2168352563",
+   "https://openalex.org/W2797744724",
+   "https://openalex.org/W3122597312",
+   "https://openalex.org/W3125769591"
+  ],
+  "venue_id": "S95323914",
+  "venue_type": "journal",
+  "publisher": "University of Chicago Press",
+  "filter": true,
+  "cited_by_this_week": 1,
+  "work_key": "insider trading should it be prohibited|leland",
+  "quality_signals": {
+   "score": 2,
+   "labels": [
+    "Chicago",
+    "peer-reviewed"
+   ]
+  },
+  "kw": {
+   "pass": true,
+   "score": 2,
+   "places": [],
+   "themes": [],
+   "reason": ""
+  },
+  "ai": {
+   "relevance": 0,
+   "themes": [],
+   "places": [],
+   "note": "Generic market microstructure theory; no Southern financial centre, institutional, or political angle.",
+   "quality": 2
+  }
+ }
+]

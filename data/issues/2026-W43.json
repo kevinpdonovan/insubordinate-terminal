@@ -1,0 +1,920 @@
+{
+ "week": "2026-W43",
+ "published_at": "2026-10-19T11:22:04",
+ "items": [
+  {
+   "id": "ed4e59b7d1",
+   "section": "research",
+   "title": "THANH TOÁN KHÔNG DÙNG TIỀN MẶT QUA ĐÁNH GIÁ CỦA NGƯỜI DÂN – NGHIÊN CỨU TẠI THÀNH PHỐ HỒ CHÍ MINH",
+   "url": "https://tapchikhxhhcm.org.vn/index.php/tapchikhxh/article/download/1065/954",
+   "doi": "",
+   "source": "Tạp chí Khoa học xã hội Thành phố Hồ Chí Minh",
+   "venue": "Tạp chí Khoa học xã hội Thành phố Hồ Chí Minh",
+   "authors": [
+    "NGUYỄN THI KIM NƯƠNG"
+   ],
+   "date": "2026-10-12",
+   "origin": "openalex:query:international financial centre",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7221836877",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407065995",
+   "venue_type": "journal",
+   "publisher": "",
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [
+     "hcmc"
+    ],
+    "themes": [
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "digital",
+     "centres",
+     "integration"
+    ],
+    "places": [
+     "hcmc"
+    ],
+    "note": "Directly examines cashless payments' role in Ho Chi Minh City's aspiration to become international financial centre.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "4f56993f3e",
+   "section": "research",
+   "title": "The Money Fetish and Empire:",
+   "url": "https://doi.org/10.63478/gqm8lp82",
+   "doi": "10.63478/gqm8lp82",
+   "source": "Spectre Journal",
+   "venue": "Spectre Journal",
+   "authors": [
+    "Ingrid Harvold Kvangraven"
+   ],
+   "date": "2026-10-13",
+   "origin": "openalex:authors",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7222578988",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S5407021799",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": true,
+   "quality_signals": {
+    "score": 3,
+    "labels": [
+     "watched author",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "valuation"
+    ],
+    "places": [],
+    "note": "Postcolonial theory on dollar hegemony and global power; relevant to financial subordination framework but no specific centre.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "ded6dc133b",
+   "section": "research",
+   "title": "Repositioning the Global South for Agency",
+   "url": "https://doi.org/10.4324/9781003729709-14",
+   "doi": "10.4324/9781003729709-14",
+   "source": "Routledge eBooks",
+   "venue": "Routledge eBooks",
+   "authors": [
+    "Raymond K. Awadzi"
+   ],
+   "date": "2026-10-12",
+   "origin": "openalex:query:financialization Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7221527325",
+   "year": 2026,
+   "work_type": "book-chapter",
+   "venue_id": "S4306463855",
+   "venue_type": "ebook platform",
+   "publisher": "Routledge",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Routledge",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [],
+    "themes": [
+     "networks",
+     "histories"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "networks",
+     "china_finance"
+    ],
+    "places": [],
+    "note": "South–South financial reorientation; China–Africa relations as alternative to Western financial dependence; no specific case study.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "c55eb1a856",
+   "section": "research",
+   "title": "Debt Diplomacy or Development Partnership? A Comparative Assessment of China's Engagement in Nigeria and Zambia",
+   "url": "https://doi.org/10.67693/bjcr-kftdj44u",
+   "doi": "10.67693/bjcr-kftdj44u",
+   "source": "British Journal of Contemporary Research",
+   "venue": "British Journal of Contemporary Research",
+   "authors": [
+    "Charles Nzube Ofodile",
+    "Pamela Ogechukwu Ofodile"
+   ],
+   "date": "2026-10-10",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7221360033",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407062999",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "china_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt",
+     "china_finance",
+     "subordination"
+    ],
+    "places": [],
+    "note": "Comparative debt trajectories and Chinese finance in Africa; Zambia Eurobond default and restructuring relevant to subordination.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "f6919ee2ce",
+   "section": "research",
+   "title": "Digital Public Infrastructure Beyond India: Comparative Evidence from Brazil, Kenya, and the Philippines",
+   "url": "https://doi.org/10.67693/bjcr-3ugnp67j",
+   "doi": "10.67693/bjcr-3ugnp67j",
+   "source": "British Journal of Contemporary Research",
+   "venue": "British Journal of Contemporary Research",
+   "authors": [
+    "Nandkishor Balu Gosavi",
+    "Er. Sheetal N. Gosavi"
+   ],
+   "date": "2026-10-10",
+   "origin": "openalex:query:financialization Brazil",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7221345536",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407062999",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 10,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "integration"
+    ],
+    "places": [
+     "sao_paulo",
+     "nairobi",
+     "hcmc"
+    ],
+    "note": "DPI comparative analysis across three case-study cities; explores financial infrastructure integration beyond India's AUB model.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "a5ce85e272",
+   "section": "research",
+   "title": "Between the Dragon and the Eagle: Strategic Autonomy, Sovereignty and Kenya's Diplomacy in an Era of Great-Power Competition",
+   "url": "https://doi.org/10.5281/zenodo.23279242",
+   "doi": "10.5281/zenodo.23279242",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Emmanuel Onyinkwa Mokoro"
+   ],
+   "date": "2026-10-10",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7221342247",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4306400562",
+   "venue_type": "repository",
+   "publisher": "European Organization for Nuclear Research",
+   "quality_signals": {
+    "score": 0,
+    "labels": [
+     "preprint/repository"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "networks"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Kenya's diplomatic multi-alignment; geopolitical context but no financial-centre or financial-device specificity.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "c408721b17",
+   "section": "research",
+   "title": "The fragmented green state: state capacity, green macrofinancial regimes, and political contestation in Thailand’s energy transition",
+   "url": "https://doi.org/10.1080/09692290.2026.2745884",
+   "doi": "10.1080/09692290.2026.2745884",
+   "source": "Review of International Political Economy",
+   "venue": "Review of International Political Economy",
+   "authors": [
+    "Sirima Thongsawang",
+    "Robert Yates"
+   ],
+   "date": "2026-10-13",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7221714766",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S2875300",
+   "venue_type": "journal",
+   "publisher": "Routledge",
+   "watched": false,
+   "quality_signals": {
+    "score": 4,
+    "labels": [
+     "watched journal",
+     "Routledge",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [],
+    "themes": [
+     "subordination"
+    ],
+    "reason": ""
+   },
+   "featured": false
+  },
+  {
+   "id": "2d16a0a3ac",
+   "section": "news",
+   "title": "Ascensão do Pix contribuiu para redução de desigualdades regionais",
+   "url": "https://valor.globo.com/financas/noticia/2026/10/19/ascensao-do-pix-contribuiu-para-reducao-de-desigualdades-regionais.ghtml",
+   "doi": "",
+   "source": "Valor Econômico",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-19",
+   "origin": "rss:Valor Econômico",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "integration",
+     "subordination"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Pix's regional financial inclusion effects; Brazilian digital infrastructure reshaping centre integration."
+   },
+   "featured": false
+  },
+  {
+   "id": "62460b441d",
+   "section": "news",
+   "title": "‘Cash is making a comeback’ in digital India",
+   "url": "https://www.ft.com/content/886006f8-284c-4a20-9411-3cfd9deead3f?syn-25a6b1a6=1",
+   "doi": "",
+   "source": "FT — Emerging markets",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-18",
+   "origin": "rss:FT — Emerging markets",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "UPI digital payments and shadow economy dynamics shape India's financial infrastructure and sovereignty."
+   },
+   "featured": false
+  },
+  {
+   "id": "f5955ed63b",
+   "section": "news",
+   "title": "Au Kenya, l’annulation du deal Vodafone-Safaricom menace de peser sur les finances du pays",
+   "url": "https://www.jeuneafrique.com/1852912/economie-entreprises/au-kenya-lannulation-du-deal-vodafone-safaricom-menace-de-peser-sur-les-finances-du-pays",
+   "doi": "",
+   "source": "Jeune Afrique — Économie",
+   "venue": "",
+   "authors": [
+    "Herald Aloo"
+   ],
+   "date": "2026-10-16",
+   "origin": "rss:Jeune Afrique — Économie",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "state_finance"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Kenya loses $1.9bn from Safaricom-Vodacom deal collapse; state revenue, privatisation and fiscal subordination."
+   },
+   "featured": false
+  },
+  {
+   "id": "3cbfd572e1",
+   "section": "news",
+   "title": "RBI’s new forex reserve rules explained: FAQs on the 20% requirement, $2 million threshold and exemptions",
+   "url": "https://www.livemint.com/economy/rbis-new-forex-reserve-rules-explained-faqs-on-the-20-requirement-2-million-threshold-and-exemptions-11792083133307.html",
+   "doi": "",
+   "source": "Mint — Economy",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-15",
+   "origin": "rss:Mint — Economy",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "valuation"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "RBI forex reserve requirement on currency derivatives; regulatory device addressing rupee volatility and risk."
+   },
+   "featured": false
+  },
+  {
+   "id": "f1db562ee3",
+   "section": "grey",
+   "title": "Leveraging the Mauritius IFC as a payment system hub",
+   "url": "https://www.bis.org/speeches/20261013-leveraging-mauritius-ifc-payment-system-hub",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Dr Priscilla Muthoora Thakoor"
+   ],
+   "date": "2026-10-13",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "port_louis"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "centres",
+     "integration"
+    ],
+    "places": [
+     "port_louis"
+    ],
+    "note": "Mauritius central bank leveraging IFC as payment hub; Port Louis financial-centre positioning and infrastructure."
+   },
+   "featured": false
+  },
+  {
+   "id": "eab0790991",
+   "section": "grey",
+   "title": "RBI approves amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. with RBL Bank Limited",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63820",
+   "doi": "",
+   "source": "Reserve Bank of India",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-19",
+   "origin": "page:RBI press releases",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "integration",
+     "professionals"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "RBI approves bank amalgamation: integration move and institutional restructuring in Mumbai financial centre."
+   },
+   "featured": false
+  },
+  {
+   "id": "e59ccc7b79",
+   "section": "grey",
+   "title": "Cross-border payments as a necessity for Africa's resilience and economic transformation",
+   "url": "https://www.bis.org/speeches/20261013-cross-border-payments-necessity-africas-resilience-and-economic-transformation",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Dr Priscilla Muthoora Thakoor"
+   ],
+   "date": "2026-10-13",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "port_louis"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "integration",
+     "networks"
+    ],
+    "places": [
+     "port_louis"
+    ],
+    "note": "Mauritius central bank speech on cross-border payments and African resilience; Port Louis IFC integration strategy."
+   },
+   "featured": false
+  },
+  {
+   "id": "e9aa73ade0",
+   "section": "grey",
+   "title": "First-of-its-kind Africa Nature Impact Fund Targets USD 100m For Nature-Based Solutions in Africa",
+   "url": "https://fsdafrica.org/first-of-its-kind-africa-nature-impact-fund-targets-usd-100m-for-nature-based-solutions-in-africa-2",
+   "doi": "",
+   "source": "FSD Africa (RSS)",
+   "venue": "",
+   "authors": [
+    "Allan Musumba"
+   ],
+   "date": "2026-10-13",
+   "origin": "rss:FSD Africa (RSS)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "valuation"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "First Africa Nature Impact Fund; tracks emergence of green-finance devices and regional hub dynamics."
+   },
+   "featured": false
+  },
+  {
+   "id": "01fe7a5ed5",
+   "section": "grey",
+   "title": "Are stablecoins and bank deposits substitutes?",
+   "url": "https://www.bis.org/publications/working-paper-1382-are-stablecoins-and-bank-deposits-substitutes",
+   "doi": "",
+   "source": "BIS — FSI publications",
+   "venue": "",
+   "authors": [
+    "Rashad Ahmed",
+    "Iñaki Aldasoro"
+   ],
+   "date": "2026-10-13",
+   "origin": "rss:BIS — FSI publications",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital"
+    ],
+    "places": [],
+    "note": "Stablecoins as substitute for bank deposits; relevant to digital finance devices and monetary competition."
+   },
+   "featured": false
+  },
+  {
+   "id": "25c1fea786",
+   "section": "grey",
+   "title": "Sovereign Debt News Update No. 184: Kenya’s Debt Tightening: World Bank Rejection, Rising Fiscal Pressures and Debt-for-Food Swaps",
+   "url": "https://www.afronomicslaw.org/category/african-sovereign-debt-justice-network-afsdjn/sovereign-debt-news-update-no-184-kenyas",
+   "doi": "",
+   "source": "AfronomicsLaw",
+   "venue": "",
+   "authors": [
+    "osanni"
+   ],
+   "date": "2026-10-11",
+   "origin": "rss:AfronomicsLaw",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt",
+     "subordination"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Kenya sovereign debt crisis; World Bank rejection, fiscal pressures, debt restructuring affecting Nairobi."
+   },
+   "featured": false
+  },
+  {
+   "id": "c23d044edd",
+   "section": "grey",
+   "title": "Sovereign Debt News Update No. 183: Ethiopia's Debt Restructuring Hits a Wall as Bondholders Reject Revised Eurobond Proposal",
+   "url": "https://www.afronomicslaw.org/category/african-sovereign-debt-justice-network-afsdjn/sovereign-debt-news-update-no-183-ethiopias",
+   "doi": "",
+   "source": "AfronomicsLaw",
+   "venue": "",
+   "authors": [
+    "osanni"
+   ],
+   "date": "2026-10-11",
+   "origin": "rss:AfronomicsLaw",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt"
+    ],
+    "places": [],
+    "note": "Ethiopia Eurobond restructuring; sovereign debt device and creditor dynamics in Global South."
+   },
+   "featured": false
+  },
+  {
+   "id": "051e9f1d0e",
+   "section": "grey",
+   "title": "Morocco - MID EAST,NORTH AFRICA,AFG,PAK - P149995 - Casablanca Municipal Support Program - Audited Financial Statement",
+   "url": "http://documents.worldbank.org/curated/en/099101626123529931",
+   "doi": "",
+   "source": "World Bank · Auditing Document",
+   "venue": "",
+   "authors": [],
+   "date": "2026-09-10",
+   "origin": "worldbank:municipal finance",
+   "scholarly": false,
+   "country": "Morocco",
+   "also_at": [],
+   "watched": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "casablanca"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "urban",
+     "development_finance"
+    ],
+    "places": [
+     "casablanca"
+    ],
+    "note": "Municipal support programme audit for Casablanca; urban finance and World Bank lending conditionality."
+   },
+   "featured": false
+  },
+  {
+   "id": "c0e34bf122",
+   "section": "grey",
+   "title": "Ed Miliband calls for improved debt relief system",
+   "url": "https://debtjustice.org.uk/press-release/ed-miliband-calls-for-improved-debt-relief-system",
+   "doi": "",
+   "source": "Debt Justice",
+   "venue": "",
+   "authors": [
+    "Tim Jones"
+   ],
+   "date": "2026-10-14",
+   "origin": "rss:Debt Justice",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "bangkok"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "debt",
+     "imf_programmes"
+    ],
+    "places": [
+     "bangkok"
+    ],
+    "note": "UK speech on debt relief at IMF/World Bank meetings; multilateral debt framework but no Southern-centre angle."
+   },
+   "featured": false
+  },
+  {
+   "id": "1555698586",
+   "section": "grey",
+   "title": "Global Sovereign Debt Roundtable :Compendium of GSDR Common Understanding on Technical Issues",
+   "url": "http://documents.worldbank.org/curated/en/099541010132611067",
+   "doi": "",
+   "source": "World Bank · Report",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-14",
+   "origin": "worldbank:sovereign debt restructuring",
+   "scholarly": false,
+   "country": "World",
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "debt",
+     "imf_programmes"
+    ],
+    "places": [],
+    "note": "Global sovereign debt coordination; useful but general multilateral context."
+   },
+   "featured": false
+  },
+  {
+   "id": "5ab438de10",
+   "section": "grey",
+   "title": "Global Sovereign Debt Roundtable 7th Cochairs Progress Report",
+   "url": "http://documents.worldbank.org/curated/en/099536310132623002",
+   "doi": "",
+   "source": "World Bank · Report",
+   "venue": "",
+   "authors": [],
+   "date": "2026-10-14",
+   "origin": "worldbank:sovereign debt restructuring",
+   "scholarly": false,
+   "country": "World",
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "debt",
+     "imf_programmes"
+    ],
+    "places": [],
+    "note": "Global sovereign debt coordination; useful but general multilateral context."
+   },
+   "featured": false
+  },
+  {
+   "id": "8803dae5e8",
+   "section": "grey",
+   "title": "Insurance will not close the climate adaptation gap: Here is where it can help",
+   "url": "https://doi.org/10.5281/zenodo.22086333",
+   "doi": "10.5281/zenodo.22086333",
+   "source": "CentAUR (University of Reading)",
+   "venue": "CentAUR (University of Reading)",
+   "authors": [
+    "Akhand Tiwari",
+    "Graham Wright",
+    "Rosalind Cornforth",
+    "Celia Petty"
+   ],
+   "date": "2026-09-21",
+   "origin": "openalex:reports:financial sector deepening",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7213956996",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S4306402273",
+   "venue_type": "repository",
+   "publisher": "University of Reading",
+   "watched": null,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "development_finance"
+    ],
+    "places": [],
+    "note": "Climate adaptation insurance for MSMEs and farmers; tangential to development finance but not centre-focused."
+   },
+   "featured": false
+  }
+ ],
+ "digest": "This week we examine the devices and politics reshaping financial centres in the Global South. Coverage spans digital payment infrastructure—from Pix's regional integration effects in Brazil to India's forex derivative regulations—and the sovereign debt instruments constraining African financial autonomy, with cases from Kenya, Ethiopia, and Zambia illustrating both restructuring crises and alternative South–South credit flows. We also track institutional reconfigurations in Mumbai and Port Louis, where bank amalgamations and payment-hub positioning reflect shifting North–South financial architectures. A study of Ho Chi Minh City's cashless aspiration and analysis of Thailand's green macrofinancial regimes round out the week's focus on how financial devices, regulatory choices, and geopolitical alignments mediate subordination or agency in the Global South."
+}
