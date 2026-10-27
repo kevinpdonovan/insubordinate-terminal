@@ -32,6 +32,15 @@ Last updated: 12 Oct 2026 (after the 2026-W42 run, the first with alerts and the
    all five, so check across two or three runs before touching them — a zero that is not a failure
    is not yet evidence of a fault.
 
+4b. **An expired or wrong `ANTHROPIC_API_KEY` degrades the run silently.** `tagger.py` wraps each
+   batch in try/except and logs `tagger batch N failed` before continuing, so a 401 does not fail the
+   workflow. The harvest still "succeeds"; items simply arrive with no Claude relevance, quality or
+   note. The visible symptom in the review issue is badges reading `k7` (keyword score) instead of
+   `r3` (Claude relevance), and no one-line notes after the item. Nothing in `health.json` tracks the
+   tagger. Worth surfacing `stats["tagged"]` in the issue body, or adding a health row for it, so a
+   dead key announces itself. Keys are set at creation and cannot be extended afterwards; the Console
+   emails the creator 7 days before expiry for keys with a lifetime of 14 days or more.
+
 ## Worth improving
 
 5. **Zenodo items show as "Zenodo (CERN European Organization for Nuclear Research)"**, which reads
