@@ -1,25 +1,25 @@
 {
- "week": "2026-W44",
- "run_at": "2026-10-26T11:07:34",
+ "week": "2026-W45",
+ "run_at": "2026-11-02T13:31:22",
  "sources": [
   {
    "source": "OpenAlex — keyword queries",
    "ok": true,
-   "count": 1591,
+   "count": 1614,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched journals",
    "ok": true,
-   "count": 73,
+   "count": 75,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched authors",
    "ok": true,
-   "count": 6,
+   "count": 4,
    "note": "",
    "fail_streak": 0
   },
@@ -32,17 +32,17 @@
   },
   {
    "source": "GDELT global news search",
-   "ok": true,
-   "count": 38,
-   "note": "from daily collector (9 day(s)); 2026-10-18: stopped after 3 refusals; 5 queries skipped; (\"financial cen; 2026-10-19: stopped after 3 refusals; 5 queries skipped; (\"financial cen",
-   "fail_streak": 0
+   "ok": false,
+   "count": 0,
+   "note": "daily cache was empty, queried GDELT live; stopped after 3 refusals; 5 queries skipped; (\"financial centre\" OR \"financial center… → 429 Client Error: Too Many Requests for url: https://api.gdeltprojec",
+   "fail_streak": 1
   },
   {
    "source": "GDELT — Bloomberg",
    "ok": false,
    "count": 0,
    "note": "daily cache was empty, queried GDELT live; (Africa OR Kenya OR Nigeria OR \"South Af… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28Africa+OR+Kenya",
-   "fail_streak": 5
+   "fail_streak": 6
   },
   {
    "source": "Bloomberg alerts & newsletters",
@@ -75,7 +75,7 @@
   {
    "source": "Mint — Economy",
    "ok": true,
-   "count": 29,
+   "count": 35,
    "note": "",
    "fail_streak": 0
   },
@@ -110,49 +110,49 @@
   {
    "source": "World Bank Documents & Reports",
    "ok": true,
-   "count": 388,
+   "count": 398,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — reports",
    "ok": true,
-   "count": 836,
+   "count": 735,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — IFI working-paper series",
    "ok": true,
-   "count": 15,
+   "count": 0,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched institutions",
    "ok": true,
-   "count": 20,
+   "count": 13,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Central Bank of Kenya",
    "ok": true,
-   "count": 5,
+   "count": 0,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "BCEAO publications",
    "ok": true,
-   "count": 4,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "AMMC (Maroc)",
    "ok": true,
-   "count": 8,
+   "count": 6,
    "note": "",
    "fail_streak": 0
   },
@@ -165,10 +165,10 @@
   },
   {
    "source": "FSC Mauritius communiqués",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "note": "",
-   "fail_streak": 0
+   "note": "no matching links: the page may need JavaScript or the pattern is wrong",
+   "fail_streak": 1
   },
   {
    "source": "RBI press releases",
@@ -180,70 +180,70 @@
   {
    "source": "BIS — FSI publications",
    "ok": true,
-   "count": 7,
+   "count": 2,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "BIS — central bank speeches",
    "ok": true,
-   "count": 29,
+   "count": 24,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Bretton Woods Project",
    "ok": true,
-   "count": 7,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Eurodad",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "note": "403 Client Error: Forbidden for url: https://www.eurodad.org/news?format=rss",
-   "fail_streak": 5
+   "note": "",
+   "fail_streak": 0
   },
   {
    "source": "Debt Justice",
-   "ok": true,
-   "count": 2,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "OMFIF",
-   "ok": true,
-   "count": 6,
-   "note": "",
-   "fail_streak": 0
-  },
-  {
-   "source": "FSD Africa (RSS)",
    "ok": true,
    "count": 1,
    "note": "",
    "fail_streak": 0
   },
   {
+   "source": "OMFIF",
+   "ok": true,
+   "count": 8,
+   "note": "",
+   "fail_streak": 0
+  },
+  {
+   "source": "FSD Africa (RSS)",
+   "ok": true,
+   "count": 2,
+   "note": "",
+   "fail_streak": 0
+  },
+  {
    "source": "Boston University GDP Center",
    "ok": true,
-   "count": 3,
+   "count": 4,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "AfronomicsLaw",
    "ok": true,
-   "count": 0,
+   "count": 5,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Phenomenal World",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "note": "",
    "fail_streak": 0
   },
@@ -257,32 +257,32 @@
   {
    "source": "ROAPE blog",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "LSE Africa at LSE",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex citation trail",
    "ok": true,
-   "count": 83,
+   "count": 9,
    "note": "",
    "fail_streak": 0
   }
  ],
  "stats": {
-  "harvested": 3358,
-  "dropped_outlet": 35,
-  "duplicates_removed": 1066,
-  "repeats_removed": 1215,
-  "dropped_venue": 11,
-  "passed": 103,
+  "harvested": 3215,
+  "dropped_outlet": 0,
+  "duplicates_removed": 1037,
+  "repeats_removed": 1120,
+  "dropped_venue": 6,
+  "passed": 96,
   "tagged": true
  }
 }
