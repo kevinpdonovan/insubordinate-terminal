@@ -1,0 +1,983 @@
+{
+ "week": "2026-W45",
+ "published_at": "2026-11-03T14:57:32",
+ "items": [
+  {
+   "id": "ed3e9a13b2",
+   "section": "research",
+   "title": "Institutional Determinants of Monetary Sovereignty: A Case Study",
+   "url": "https://journals.tulane.edu/index/article/view/4603",
+   "doi": "",
+   "source": "Tulane journal of international and comparative law",
+   "venue": "Tulane journal of international and comparative law",
+   "authors": [
+    "Adam Feibelman"
+   ],
+   "date": "2026-10-29",
+   "origin": "openalex:query:monetary sovereignty",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225026169",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S161826049",
+   "venue_type": "journal",
+   "publisher": "Tulane University Law School",
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "subordination"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "centres"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "Institutional determinants of monetary sovereignty in India; directly addresses subordination and hierarchy in financial control.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "f24f4a709f",
+   "section": "research",
+   "title": "Liquidité boursière et valorisation des actions sur les marchés financiers frontières d'Afrique subsaharienne : proposition d'un dispositif de recherche exploratoire",
+   "url": "https://doi.org/10.5281/zenodo.23849994",
+   "doi": "10.5281/zenodo.23849994",
+   "source": "Revue Internationale des Sciences de Gestion",
+   "venue": "Revue Internationale des Sciences de Gestion",
+   "authors": [
+    "YEO Fandjomon Achille",
+    "Kanga Anick ADOU",
+    "Kafadio Aminata COULIBALY"
+   ],
+   "date": "2026-11-01",
+   "origin": "openalex:query:CFA franc",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225032920",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4306528406",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "centres"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "Stock-market liquidity and valuation on frontier African markets; explores illiquidity premium and market integration.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "6afaa37821",
+   "section": "research",
+   "title": "When a Block Trade Becomes a Market Governance Test: The Bayan Resources Share Acquisition, Ownership Concentration, Minority Shareholder Protection, and Indonesia’s Capital Market Credibility",
+   "url": "https://doi.org/10.47363/jbrr/2026(3)145",
+   "doi": "10.47363/jbrr/2026(3)145",
+   "source": "Journal of Business Research and Reports",
+   "venue": "Journal of Business Research and Reports",
+   "authors": [
+    "Loso Judijanto"
+   ],
+   "date": "2026-10-29",
+   "origin": "openalex:query:foreign holdings government bonds emerging markets",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7224503077",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S5407055893",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "valuation"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "regulation"
+    ],
+    "places": [],
+    "note": "Block trade and corporate governance in Indonesia; examines capital-market credibility and minority-shareholder protection risks.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "24e674dcb8",
+   "section": "research",
+   "title": "Toxic Assets? How Credit Rating Agencies Assess Chinese Debt Exposure in Developing Countries",
+   "url": "https://doi.org/10.21203/rs.3.rs-11300517/v1",
+   "doi": "10.21203/rs.3.rs-11300517/v1",
+   "source": "Research Square",
+   "venue": "Research Square",
+   "authors": [
+    "SEONG HUN YOO"
+   ],
+   "date": "2026-10-29",
+   "origin": "openalex:query:credit rating Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7224166811",
+   "year": 2026,
+   "work_type": "preprint",
+   "venue_id": "S4306525896",
+   "venue_type": "repository",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 0,
+    "labels": [
+     "preprint/repository"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "valuation",
+     "china_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "valuation",
+     "china_finance",
+     "debt"
+    ],
+    "places": [],
+    "note": "CRAs' assessment of Chinese debt exposure in sovereigns; directly relevant to South–South financial linkages and subordination dynamics.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "58191b43db",
+   "section": "research",
+   "title": "Socialization of Investment and Climate Crises: What Role for Public Development Banks?",
+   "url": "https://doi.org/10.1080/09538259.2026.2746451",
+   "doi": "10.1080/09538259.2026.2746451",
+   "source": "Review of Political Economy",
+   "venue": "Review of Political Economy",
+   "authors": [
+    "Ana Rosa Ribeiro de Mendonça",
+    "Fernanda Oliveira Ultremare",
+    "Simone Deos",
+    "Olívia Bullio Mattos"
+   ],
+   "date": "2026-10-28",
+   "origin": "openalex:query:de-risking development finance",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7224083770",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S15356059",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "watched": null,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [],
+    "themes": [
+     "subordination",
+     "development_finance",
+     "china_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "state_finance"
+    ],
+    "places": [],
+    "note": "Public development banks as institutional form for directing investment; relevant to state capital and subordination debates.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "2120305500",
+   "section": "research",
+   "title": "An Investigation of Herding Behaviour in Offshore and Domestic REITs in South Africa",
+   "url": "https://doi.org/10.64361/14445921.2026.212334",
+   "doi": "10.64361/14445921.2026.212334",
+   "source": "Pacific Rim Property Research Journal",
+   "venue": "Pacific Rim Property Research Journal",
+   "authors": [
+    "Tosin B. Fateye",
+    "Peterson Owusu",
+    "Omokolade Akinsomi",
+    "Viktorija Cohen"
+   ],
+   "date": "2026-10-28",
+   "origin": "openalex:query:South-South finance",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7224136997",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S2765045378",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "urban"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "urban"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "South African REITs herding behaviour and offshore/domestic market segmentation; examines internationalisation dynamics.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "0c5b4c5cc8",
+   "section": "research",
+   "title": "Environmental, Social and Governance (ESG) Disclosure in Africa: Current State of Play",
+   "url": "https://doi.org/10.67221/xrfrtd47",
+   "doi": "10.67221/xrfrtd47",
+   "source": "IJDIS",
+   "venue": "IJDIS",
+   "authors": [
+    "Joseph Mumba",
+    "Adesola Afolayan Olayinka"
+   ],
+   "date": "2026-10-27",
+   "origin": "openalex:query:stock exchange Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223792156",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407059348",
+   "venue_type": "journal",
+   "publisher": "",
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "valuation",
+     "regulation"
+    ],
+    "places": [
+     "johannesburg",
+     "nairobi"
+    ],
+    "note": "ESG disclosure practices across African capital markets including Johannesburg and Nairobi; regulatory heterogeneity.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "1b01bce48a",
+   "section": "research",
+   "title": "Macroeconomic Sentiment and Bank Performance in Ghana: The Intervening Roles of Asset Quality and Management Efficiency",
+   "url": "https://doi.org/10.69739/jebc.v3i2.2371",
+   "doi": "10.69739/jebc.v3i2.2371",
+   "source": "Journal of economics, business and commerce.",
+   "venue": "Journal of economics, business and commerce.",
+   "authors": [
+    "Bismark Stephen Kumah",
+    "Williams Boye",
+    "Daniel Abakah Yawson"
+   ],
+   "date": "2026-10-27",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223910374",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4404661888",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "professionals"
+    ],
+    "places": [],
+    "note": "Bank performance under sovereign debt distress in Ghana; illustrates financial subordination and institutional fragility.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "a6076a39a9",
+   "section": "research",
+   "title": "An Offshore Financial Centre Inside Europe: Luxembourg, Taxation and European Economic Community (1960s–1970s)",
+   "url": "https://doi.org/10.1177/16118944261490056",
+   "doi": "10.1177/16118944261490056",
+   "source": "Journal of Modern European History",
+   "venue": "Journal of Modern European History",
+   "authors": [
+    "Benoît Majerus"
+   ],
+   "date": "2026-10-26",
+   "origin": "openalex:query:international financial centre",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223659435",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S152402304",
+   "venue_type": "journal",
+   "publisher": "SAGE Publishing",
+   "watched": null,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "SAGE",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [],
+    "themes": [
+     "centres",
+     "debt",
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "histories",
+     "centres"
+    ],
+    "places": [],
+    "note": "European offshore centre history; provides comparative context for Southern financial-centre development strategies.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "fc411e91de",
+   "section": "research",
+   "title": "The BRICS Green Bond Market: Problems and Development Prospects",
+   "url": "https://doi.org/10.21603/2500-3372-2026-11-3-493-504",
+   "doi": "10.21603/2500-3372-2026-11-3-493-504",
+   "source": "Bulletin of Kemerovo State University Series Political Sociological and Economic sciences",
+   "venue": "Bulletin of Kemerovo State University Series Political Sociological and Economic sciences",
+   "authors": [
+    "Koksharov Egor",
+    "Zemzyulina Veronika"
+   ],
+   "date": "2026-10-15",
+   "origin": "openalex:query:municipal bonds Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223125662",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4210203569",
+   "venue_type": "journal",
+   "publisher": "Kemerovo State University",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "debt",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "networks"
+    ],
+    "places": [
+     "sao_paulo",
+     "santiago"
+    ],
+    "note": "BRICS green-bond market development; South–South financial integration and sustainable-finance device evolution.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "7dc51b4580",
+   "section": "research",
+   "title": "ANALYSIS OF FACTORS INFLUENCING THE PROBABILITY OF PURCHASING CARBON CREDIT INSURANCE BY COMPANIES LISTED ON THE STOCK EXCHANGE OF THAILAND",
+   "url": "https://doi.org/10.17654/73021128",
+   "doi": "10.17654/73021128",
+   "source": "Far East Journal of Mathematical Sciences (FJMS)",
+   "venue": "Far East Journal of Mathematical Sciences (FJMS)",
+   "authors": [
+    "Kannat Na Bangchang"
+   ],
+   "date": "2026-10-27",
+   "origin": "openalex:query:cross-listing stock exchanges",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7223916824",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S2764809114",
+   "venue_type": "journal",
+   "publisher": "Pushpa Publishing House",
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "bangkok"
+    ],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "valuation"
+    ],
+    "places": [
+     "bangkok"
+    ],
+    "note": "Corporate carbon-credit insurance at Bangkok Stock Exchange; narrow technical focus, not centre-level analysis.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "9814cbceae",
+   "section": "news",
+   "title": "Civic turnarounds to the banking C-suite: Inside Kenny Fihla’s pan-African power network",
+   "url": "https://www.theafricareport.com/434787/from-civic-turnarounds-to-the-banking-c-suite-inside-kenny-fihlas-pan-african-power-network",
+   "doi": "",
+   "source": "The Africa Report",
+   "venue": "",
+   "authors": [
+    "Leanne de Bassompierre"
+   ],
+   "date": "2026-11-01",
+   "origin": "rss:The Africa Report",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "professionals",
+     "networks"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "Kenny Fihla's pan-African banking network via Absa; directly examines financial professional networks across 14 African markets."
+   },
+   "featured": false
+  },
+  {
+   "id": "bec330bfbe",
+   "section": "grey",
+   "title": "L’Autorité Marocaine du Marché des Capitaux publie le guide du parcours fintech auprès de l’AMMC",
+   "url": "https://www.ammc.ma/fr/actualites/lautorite-marocaine-du-marche-des-capitaux-publie-le-guide-du-parcours-fintech-aupres-de",
+   "doi": "",
+   "source": "AMMC",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-02",
+   "origin": "page:AMMC (Maroc)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "casablanca"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "digital"
+    ],
+    "places": [
+     "casablanca"
+    ],
+    "note": "Casablanca regulator's fintech regulatory framework—device-specific governance innovation in Southern financial centre."
+   },
+   "featured": false
+  },
+  {
+   "id": "9a5b8c659b",
+   "section": "grey",
+   "title": "Autres Rapport annuel sur la situation de l'Inclusion Financière dans l'UEMOA au titre de l… 26 Octobre 2026",
+   "url": "https://www.bceao.int/fr/publications/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-au-titre-de-0",
+   "doi": "",
+   "source": "BCEAO",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-02",
+   "origin": "page:BCEAO publications",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "BCEAO financial inclusion report for WAEMU; West African monetary union and regional financial integration oversight."
+   },
+   "featured": false
+  },
+  {
+   "id": "bc98d91074",
+   "section": "grey",
+   "title": "UK Government and FSD Africa partner to unlock investment for women-led businesses in Nigeria",
+   "url": "https://fsdafrica.org/uk-government-and-fsd-africa-partner-to-unlock-investment-for-women-led-businesses-in-nigeria",
+   "doi": "",
+   "source": "FSD Africa (RSS)",
+   "venue": "",
+   "authors": [
+    "Riitho"
+   ],
+   "date": "2026-10-28",
+   "origin": "rss:FSD Africa (RSS)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "development_finance"
+    ],
+    "places": [],
+    "note": "UK-funded support for women entrepreneurs in Nigeria; blended finance mechanism and professional network building."
+   },
+   "featured": false
+  },
+  {
+   "id": "a0bb3fe60c",
+   "section": "grey",
+   "title": "Rewiring payments - open. Connected. Inclusive.",
+   "url": "https://www.bis.org/speeches/20261026-rewiring-payments-open-connected-inclusive",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Lesetja Kganyago"
+   ],
+   "date": "2026-10-26",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "integration"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "South African central bank payments infrastructure address; digital devices reshaping regional financial integration and inclusion."
+   },
+   "featured": false
+  },
+  {
+   "id": "c382f86df4",
+   "section": "grey",
+   "title": "Sovereign Debt News Update No. 187: Kenya’s $1 Billion Debt-for-Food Swap: Renewed Momentum, Unresolved Questions and the Continuing Transparency Challenge",
+   "url": "https://www.afronomicslaw.org/category/african-sovereign-debt-justice-network-afsdjn/sovereign-debt-news-update-no-187-kenyas-1",
+   "doi": "",
+   "source": "AfronomicsLaw",
+   "venue": "",
+   "authors": [
+    "osanni"
+   ],
+   "date": "2026-10-26",
+   "origin": "rss:AfronomicsLaw",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt",
+     "subordination"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Kenya's debt-for-food swap mechanism; examines sovereign debt restructuring and transparency challenges in Global South."
+   },
+   "featured": false
+  },
+  {
+   "id": "8e40aa4da3",
+   "section": "grey",
+   "title": "Sovereign Debt News Update No. 185: Between Debt Relief and New Borrowing: China’s Waiver and the World Bank’s Financing in Lesotho’s Evolving Debt Landscape",
+   "url": "https://www.afronomicslaw.org/category/african-sovereign-debt-justice-network-afsdjn/sovereign-debt-news-update-no-185-between",
+   "doi": "",
+   "source": "AfronomicsLaw",
+   "venue": "",
+   "authors": [
+    "osanni"
+   ],
+   "date": "2026-10-26",
+   "origin": "rss:AfronomicsLaw",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt",
+     "subordination",
+     "china_finance"
+    ],
+    "places": [],
+    "note": "China–World Bank financing and debt relief in Lesotho; illustrates North–South and South–South finance dynamics."
+   },
+   "featured": false
+  },
+  {
+   "id": "5570534ede",
+   "section": "grey",
+   "title": "Economic resilience, thinner buffers, emerging risks globally - where does India stand?",
+   "url": "https://www.bis.org/speeches/20261029-economic-resilience-thinner-buffers-emerging-risks-globally-where-does-india-stand",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Poonam Gupta"
+   ],
+   "date": "2026-10-29",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [],
+    "places": [
+     "mumbai"
+    ],
+    "note": "RBI deputy governor macro address; generic financial-stability commentary without Southern centre focus."
+   },
+   "featured": false
+  },
+  {
+   "id": "5821b927ca",
+   "section": "grey",
+   "title": "The IMF and the World Bank are not meeting the moment: GDP Center at the 2026 Annual Meetings",
+   "url": "https://www.bu.edu/gdp/2026/10/27/the-imf-and-the-world-bank-are-not-meeting-the-moment-gdp-center-at-the-2026-annual-meetings",
+   "doi": "",
+   "source": "Boston University GDP Center",
+   "venue": "",
+   "authors": [
+    "genevac"
+   ],
+   "date": "2026-10-27",
+   "origin": "rss:Boston University GDP Center",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "bangkok"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "imf_programmes"
+    ],
+    "places": [
+     "bangkok"
+    ],
+    "note": "IMF/World Bank Annual Meetings in Bangkok; peripheral mention of Thailand's financial conditions but no depth on financial centres or devices."
+   },
+   "featured": false
+  },
+  {
+   "id": "c2945cd340",
+   "section": "archive",
+   "title": "El Consenso de Wall Street",
+   "url": "https://doi.org/10.22201/fe.18701442e.2012.11.40350",
+   "doi": "10.22201/fe.18701442e.2012.11.40350",
+   "source": "Ola Financiera",
+   "venue": "Ola Financiera",
+   "authors": [
+    "Wesley Marshall"
+   ],
+   "date": "2012-01-03",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W1902614219",
+   "year": 2012,
+   "work_type": "article",
+   "venue_id": "S4210193047",
+   "venue_type": "journal",
+   "publisher": "National Autonomous University of Mexico",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination"
+    ],
+    "places": [
+     "sao_paulo",
+     "santiago",
+     "montevideo"
+    ],
+    "note": "Wall Street Consensus and wealth transfer in Latin America; directly addresses financial subordination thesis.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "116e73205b",
+   "section": "archive",
+   "title": "The Socialization of Investment, from Keynes to Minsky and Beyond",
+   "url": "https://doi.org/10.2139/ssrn.2539307",
+   "doi": "10.2139/ssrn.2539307",
+   "source": "SSRN Electronic Journal",
+   "venue": "SSRN Electronic Journal",
+   "authors": [
+    "Riccardo Bellofiore"
+   ],
+   "date": "2014-01-01",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2144615803",
+   "year": 2014,
+   "work_type": "preprint",
+   "venue_id": "S4210172589",
+   "venue_type": "repository",
+   "publisher": "RELX Group (Netherlands)",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 0,
+    "labels": [
+     "preprint/repository"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 0,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination"
+    ],
+    "places": [],
+    "note": "Keynes–Minsky on investment socialisation; relevant to financial subordination theory, not empirically Southern-focused.",
+    "quality": 1
+   },
+   "featured": false
+  }
+ ],
+ "digest": "This week's digest examines institutional mechanisms through which financial centres and devices operate across the Global South, with particular attention to sovereignty, market integration, and professional networks. Tulane's study of monetary control in India and research on African frontier-market liquidity directly address the structural constraints shaping Southern financial autonomy, while investigations of Indonesia's block-trade governance and credit-rating agencies' assessment of Chinese debt exposure reveal the technical and evaluative apparatus through which subordination dynamics unfold. Complementing these empirical analyses, recent regulatory innovations in Casablanca's fintech framework and the BRICS green-bond market's evolution illustrate how Southern financial centres develop their own governance devices, even as evidence from bank performance in Ghana and sovereign debt restructuring in Kenya and Lesotho demonstrates the fragility underlying such institutional projects. We also feature reporting on pan-African banking networks and payments infrastructure, which trace the professional and technical circulation sustaining regional financial integration."
+}
