@@ -1,0 +1,64 @@
+{
+ "GDELT global news search": {
+  "items": [
+   {
+    "id": "87fc127710",
+    "section": "news",
+    "title": "Oman aims to turn wartime windfall into lasting profits | The Arkansas Democrat - Gazette",
+    "url": "https://www.arkansasonline.com/news/2026/nov/08/oman-aims-to-turn-wartime-windfall-into-lasting",
+    "doi": "",
+    "source": "arkansasonline.com",
+    "venue": "",
+    "authors": [],
+    "date": "2026-11-08",
+    "summary": "",
+    "origin": "gdelt:(\"financial centre\" OR \"financial center\" OR \"financial hub\"",
+    "scholarly": false,
+    "filter": true,
+    "language": "English",
+    "source_country": "United States"
+   },
+   {
+    "id": "d269f91d05",
+    "section": "news",
+    "title": "Paraguay President Pena impeached , placed under house arrest in bank collapse scandal",
+    "url": "http://www.cincinnatisun.com/news/279418426/paraguay-president-pena-impeached-placed-under-house-arrest-in-bank-collapse-scandal",
+    "doi": "",
+    "source": "cincinnatisun.com",
+    "venue": "",
+    "authors": [],
+    "date": "2026-11-07",
+    "summary": "",
+    "origin": "gdelt:(\"financial centre\" OR \"financial center\" OR \"financial hub\"",
+    "scholarly": false,
+    "filter": true,
+    "language": "English",
+    "source_country": "United States"
+   },
+   {
+    "id": "88658b8b8b",
+    "section": "news",
+    "title": "Paraguay President Pena impeached , placed under house arrest in bank collapse scandal",
+    "url": "http://www.batonrougepost.com/news/279418426/paraguay-president-pena-impeached-placed-under-house-arrest-in-bank-collapse-scandal",
+    "doi": "",
+    "source": "batonrougepost.com",
+    "venue": "",
+    "authors": [],
+    "date": "2026-11-07",
+    "summary": "",
+    "origin": "gdelt:(\"financial centre\" OR \"financial center\" OR \"financial hub\"",
+    "scholarly": false,
+    "filter": true,
+    "language": "English",
+    "source_country": "United States"
+   }
+  ],
+  "note": "stopped after 3 refusals; 4 queries skipped; (\"stock exchange\" OR \"securities exchang… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22stock+exch",
+  "ok": false
+ },
+ "GDELT — Bloomberg": {
+  "items": [],
+  "note": "(Africa OR Kenya OR Nigeria OR \"South Af… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28Africa+OR+Kenya+OR+Nigeria+OR+%22South+Africa%22+OR+Morocc",
+  "ok": false
+ }
+}
