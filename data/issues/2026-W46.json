@@ -1,0 +1,1131 @@
+{
+ "week": "2026-W46",
+ "published_at": "2026-11-09T14:22:56",
+ "items": [
+  {
+   "id": "72c1bd6de0",
+   "section": "research",
+   "title": "Refusing International Debt and the Postcolonial Politics of Yentua in 1970s Ghana",
+   "url": "https://doi.org/10.1093/pastj/gtag034",
+   "doi": "10.1093/pastj/gtag034",
+   "source": "Past & Present",
+   "venue": "Past & Present",
+   "authors": [
+    "Bianca Murillo"
+   ],
+   "date": "2026-11-05",
+   "origin": "openalex:query:social studies of finance postcolonial",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225347996",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S42922845",
+   "venue_type": "journal",
+   "publisher": "Oxford University Press",
+   "watched": null,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "University Press",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "histories"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "histories",
+     "subordination",
+     "debt"
+    ],
+    "places": [],
+    "note": "Ghana's 1970s debt refusal and neocolonial power; postcolonial financial history and defiance of subordination.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "3f1bd84d8d",
+   "section": "research",
+   "title": "Southern Solutions to Fill Gaps in Global Development and Climate Finance: How the World’s Most Vulnerable Countries Are Deepening a Fourth Wave of Public Banking",
+   "url": "https://doi.org/10.1080/08911916.2026.2742355",
+   "doi": "10.1080/08911916.2026.2742355",
+   "source": "International Journal of Political Economy",
+   "venue": "International Journal of Political Economy",
+   "authors": [
+    "Diana V. Barrowclough"
+   ],
+   "date": "2026-11-01",
+   "origin": "openalex:query:financial deepening",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225063247",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S113957626",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [],
+    "themes": [
+     "networks",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "networks",
+     "state_finance"
+    ],
+    "places": [],
+    "note": "South-South public banking and climate finance deepening; directly addresses subordination and Southern institutional alternatives.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "b1c0f7aa34",
+   "section": "research",
+   "title": "Sustainable taxonomies and international debt markets: developments, trends and emerging evidence from Latin America and the Caribbean",
+   "url": "https://hdl.handle.net/11362/90448",
+   "doi": "",
+   "source": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "venue": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "authors": [
+    "Helvia Velloso",
+    "Daniel E. Perrotti"
+   ],
+   "date": "2026-10-28",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225436930",
+   "year": 2026,
+   "work_type": "book",
+   "venue_id": "S4377196404",
+   "venue_type": "repository",
+   "publisher": "United Nations",
+   "watched": null,
+   "quality_signals": {
+    "score": 0,
+    "labels": [
+     "preprint/repository"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "debt",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "valuation",
+     "development_finance",
+     "debt"
+    ],
+    "places": [
+     "sao_paulo",
+     "santiago",
+     "montevideo"
+    ],
+    "note": "Sustainable taxonomies in Latin American debt markets; key device shaping regional financial integration and resource mobilization.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "b0011b8ab6",
+   "section": "research",
+   "title": "UNBALANCED GOVERNANCE OF CLIMATE FUNDING INSTRUMENTS: A GLOBAL SOUTH PERSPECTIVE",
+   "url": "https://doi.org/10.54899/dcs.v23i100.090",
+   "doi": "10.54899/dcs.v23i100.090",
+   "source": "Derecho y cambio social.",
+   "venue": "Derecho y cambio social.",
+   "authors": [
+    "Anderson José Sant Anna De Oliveira",
+    "Charles Sérgio Inàcio",
+    "Fernando Paiva Scardua",
+    "Luiz Fernando Macedo Bessa"
+   ],
+   "date": "2026-11-06",
+   "origin": "openalex:query:financial center Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225417175",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4404663731",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [],
+    "themes": [
+     "subordination",
+     "histories",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "development_finance"
+    ],
+    "places": [],
+    "note": "Global South climate finance governance reproducing structural inequality and dependency.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "b8248740df",
+   "section": "research",
+   "title": "Stablecoin Development Pathways: A Comparative Analysis of Regulatory Logic and Market Landscape in China and the United States",
+   "url": "https://doi.org/10.70267/fer.v3n6.6675",
+   "doi": "10.70267/fer.v3n6.6675",
+   "source": "Financial economics research.",
+   "venue": "Financial economics research.",
+   "authors": [
+    "Yang Yu"
+   ],
+   "date": "2026-11-05",
+   "origin": "openalex:query:monetary sovereignty",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225290084",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4404674800",
+   "venue_type": "journal",
+   "publisher": "",
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "places": [],
+    "note": "Stablecoin governance USA vs. China; currency competition and dollar dominance dynamics.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "a1b1b4f651",
+   "section": "research",
+   "title": "Sovereign Wealth Funds as Market Creators: Financial Architecture in Saudi Vision 2030",
+   "url": "https://doi.org/10.1111/mepo.70108",
+   "doi": "10.1111/mepo.70108",
+   "source": "Middle East Policy",
+   "venue": "Middle East Policy",
+   "authors": [
+    "Yousif Hassan Ahmed Balola"
+   ],
+   "date": "2026-11-04",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225341315",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S199718347",
+   "venue_type": "journal",
+   "publisher": "Wiley",
+   "watched": null,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Wiley",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "digital",
+     "gulf_capital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "state_finance",
+     "digital",
+     "regulation"
+    ],
+    "places": [],
+    "note": "Saudi Vision 2030 financial architecture; sovereign wealth and regulatory innovation but not Southern financial centre per se.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "c8ad903ea8",
+   "section": "research",
+   "title": "The influence of private equity investment on firm transaction costs in offshore emerging economies",
+   "url": "https://doi.org/10.1016/j.ribaf.2026.103686",
+   "doi": "10.1016/j.ribaf.2026.103686",
+   "source": "Research in International Business and Finance",
+   "venue": "Research in International Business and Finance",
+   "authors": [
+    "Bruce Allen Hearn",
+    "Trond Randøy",
+    "Lars Oxelheim",
+    "Collins Ntim",
+    "Venancio Tauringana",
+    "John Kalimilo Malagila"
+   ],
+   "date": "2026-11-04",
+   "origin": "openalex:query:offshore financial centre",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7126090667",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S8133038",
+   "venue_type": "journal",
+   "publisher": "Elsevier BV",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Elsevier",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "centres",
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "integration"
+    ],
+    "places": [
+     "port_louis"
+    ],
+    "note": "Private equity in Caribbean offshore centres; institutional voids and market microstructure.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "a59a970223",
+   "section": "research",
+   "title": "Central Bank Digital Currencies, Stablecoins and Monetary Sovereignty: A Theoretical Analysis of Currency Competition and Financial Stability in Emerging Economies",
+   "url": "https://doi.org/10.68854/72ddgt93",
+   "doi": "10.68854/72ddgt93",
+   "source": "IIAR Journal of Economics Finance and Development Studies",
+   "venue": "IIAR Journal of Economics Finance and Development Studies",
+   "authors": [
+    "Emmanuel Usulor Nwogboji",
+    "Igwe Emmanuel Sunday",
+    "Paul Idowu Bamigbola",
+    "Umar Kawu Atolagbe",
+    "OGAH Sunday Ogbo"
+   ],
+   "date": "2026-10-27",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225168651",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407121929",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "places": [],
+    "note": "CBDC and stablecoins in emerging economies; currency competition and monetary sovereignty.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "4dd6f48c9b",
+   "section": "research",
+   "title": "The Declaration on the Right to Development at 40: Africa’s ‘infrastructural turn’",
+   "url": "https://doi.org/10.29053/978-1-0672374-3-1_17",
+   "doi": "10.29053/978-1-0672374-3-1_17",
+   "source": "Pretoria University Law Press eBooks",
+   "venue": "Pretoria University Law Press eBooks",
+   "authors": [
+    "Dorcas Basimanyane"
+   ],
+   "date": "2026-11-01",
+   "origin": "openalex:query:financial centre Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225346816",
+   "year": 2026,
+   "work_type": "book-chapter",
+   "venue_id": "S4306478160",
+   "venue_type": "ebook platform",
+   "publisher": "Pretoria University Law Press",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "networks",
+     "integration"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination",
+     "development_finance"
+    ],
+    "places": [],
+    "note": "Right to development in Africa; structural barriers but not financial centres or devices.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "17b10ae875",
+   "section": "news",
+   "title": "Ho Chi Minh City to issue bonds to finance major infrastructure projects",
+   "url": "https://e.vnexpress.net/news/business/ho-chi-minh-city-to-issue-bonds-to-finance-major-infrastructure-projects-5140816.html",
+   "doi": "",
+   "source": "VnExpress International — Business",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-05",
+   "origin": "rss:VnExpress International — Business",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [
+     "hcmc"
+    ],
+    "themes": [
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "centres",
+     "urban",
+     "integration"
+    ],
+    "places": [
+     "hcmc"
+    ],
+    "note": "Municipal bonds via Vietnam International Financial Center; financial-centre infrastructure for local-currency debt."
+   },
+   "featured": false
+  },
+  {
+   "id": "d719d0d964",
+   "section": "news",
+   "title": "Absa’s Russon warns African banks against ‘lazy sovereign’ lending",
+   "url": "https://www.theafricareport.com/435816/absas-russon-warns-african-banks-against-lazy-sovereign-lending",
+   "doi": "",
+   "source": "The Africa Report",
+   "venue": "",
+   "authors": [
+    "Nicholas Norbrook"
+   ],
+   "date": "2026-11-09",
+   "origin": "rss:The Africa Report",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt",
+     "professionals"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "Absa banker warns against excess sovereign lending; insider critique of African bank portfolio dynamics and financial subordination."
+   },
+   "featured": false
+  },
+  {
+   "id": "805b87e6b3",
+   "section": "grey",
+   "title": "Leading today, building for tomorrow",
+   "url": "https://www.bis.org/speeches/20261109-leading-today-building-tomorrow",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Swaminathan J"
+   ],
+   "date": "2026-11-09",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "regulation"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "RBI deputy governor speech on leadership; potential insight into banking-sector governance and priorities."
+   },
+   "featured": false
+  },
+  {
+   "id": "c493fd8fe0",
+   "section": "grey",
+   "title": "Safeguarding trust and monetary sovereignty in a digital payments era",
+   "url": "https://www.bis.org/speeches/20261109-safeguarding-trust-and-monetary-sovereignty-digital-payments-era",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Denis Beau"
+   ],
+   "date": "2026-11-09",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "subordination",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "regulation"
+    ],
+    "places": [
+     "hcmc"
+    ],
+    "note": "BIS speech on digital payments and monetary sovereignty; relevant to fintech reshaping financial centres."
+   },
+   "featured": false
+  },
+  {
+   "id": "87370dcd61",
+   "section": "grey",
+   "title": "Opening remarks - 2026 Market Practitioners Group Conference",
+   "url": "https://www.bis.org/speeches/20261109-opening-remarks-2026-market-practitioners-group-conference",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Rashad Cassim"
+   ],
+   "date": "2026-11-09",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "professionals"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "SARB deputy governor speaking at Market Practitioners conference signals Johannesburg's role in regional financial governance and professional networks."
+   },
+   "featured": false
+  },
+  {
+   "id": "442ef87134",
+   "section": "grey",
+   "title": "Kenya Financial Sector Stability Report 2025",
+   "url": "https://www.centralbank.go.ke/2026/11/03/kenya-financial-sector-stability-report-2025",
+   "doi": "",
+   "source": "Central Bank of Kenya",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-09",
+   "origin": "page:Central Bank of Kenya",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "regulation"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "CBK financial sector stability report provides institutional view of Nairobi's regulatory stance and systemic risks."
+   },
+   "featured": false
+  },
+  {
+   "id": "7f7ec4ed48",
+   "section": "grey",
+   "title": "Do China’s Belt and Road Initiative Investments Generate Spatial Spillovers? Evidence from Nighttime Light Data in Subnational Asia",
+   "url": "https://www.bu.edu/gdp/2026/11/04/do-chinas-belt-and-road-initiative-investments-generate-spatial-spillovers-evidence-from-nighttime-light-data-in-subnational-asia",
+   "doi": "",
+   "source": "Boston University GDP Center",
+   "venue": "",
+   "authors": [
+    "Danlei Liao"
+   ],
+   "date": "2026-11-04",
+   "origin": "rss:Boston University GDP Center",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "china_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "china_finance",
+     "networks"
+    ],
+    "places": [],
+    "note": "Belt and Road Initiative spatial spillovers in Asian development; evidence on Chinese financial-infrastructure linkages reshaping Southern geography."
+   },
+   "featured": false
+  },
+  {
+   "id": "3c768c54aa",
+   "section": "grey",
+   "title": "Payments in a fragmenting world - sovereignty, strategy and system design",
+   "url": "https://www.bis.org/speeches/20261103-payments-fragmenting-world-sovereignty-strategy-and-system-design",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "Denis Beau"
+   ],
+   "date": "2026-11-03",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "integration",
+     "regulation",
+     "digital"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "Payments infrastructure and sovereignty in fragmenting world; SARB conference indicates South Africa's institutional leadership on financial system design."
+   },
+   "featured": false
+  },
+  {
+   "id": "4db07fbfab",
+   "section": "grey",
+   "title": "L'AMMC publie le rapport sur l'investissement étranger en instruments financiers au titre de l'année 2025",
+   "url": "https://www.ammc.ma/fr/actualites/lammc-publie-le-rapport-sur-linvestissement-etranger-en-instruments-financiers-au-7",
+   "doi": "",
+   "source": "AMMC",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-09",
+   "origin": "page:AMMC (Maroc)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "casablanca"
+    ],
+    "themes": [
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "valuation",
+     "regulation"
+    ],
+    "places": [
+     "casablanca"
+    ],
+    "note": "AMMC foreign-investment report; fragmentary; regulator publication on capital flows."
+   },
+   "featured": false
+  },
+  {
+   "id": "64924328c7",
+   "section": "grey",
+   "title": "Bulletin mensuel de statistiques économiques de l‘UEMOA Bulletin mensuel de statistiques - Septembre 2026 06 Novembre 2026",
+   "url": "https://www.bceao.int/fr/publications/bulletin-mensuel-des-statistiques-septembre-2026",
+   "doi": "",
+   "source": "BCEAO",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-09",
+   "origin": "page:BCEAO publications",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "regulation"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "BCEAO economic statistics bulletin; fragmentary; routine central-bank publication."
+   },
+   "featured": false
+  },
+  {
+   "id": "6ae5625ae1",
+   "section": "archive",
+   "title": "Editorial Introduction to the Special Section: Deconstructing Offshore Finance",
+   "url": "https://doi.org/10.1111/ecge.12098",
+   "doi": "10.1111/ecge.12098",
+   "source": "Economic Geography",
+   "venue": "Economic Geography",
+   "authors": [
+    "Gordon L. Clark",
+    "Karen P.Y. Lai",
+    "Dariusz Wójcik"
+   ],
+   "date": "2015-05-29",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W1498324440",
+   "year": 2015,
+   "work_type": "editorial",
+   "venue_id": "S38825547",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "Taylor & Francis"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "subordination"
+    ],
+    "places": [],
+    "note": "Offshore finance definition and geography; contextual for understanding financial-centre hierarchies.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "e55986cec8",
+   "section": "archive",
+   "title": "Unbundling the effects of institutions on firm resources: The contingent value of being local in emerging economy private equity",
+   "url": "https://doi.org/10.1002/smj.2312",
+   "doi": "10.1002/smj.2312",
+   "source": "Strategic Management Journal",
+   "venue": "Strategic Management Journal",
+   "authors": [
+    "Markus David Taussig",
+    "Andrew Delios"
+   ],
+   "date": "2014-07-11",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W1918562387",
+   "year": 2014,
+   "work_type": "article",
+   "venue_id": "S102949365",
+   "venue_type": "journal",
+   "publisher": "Wiley",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Wiley",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "subordination"
+    ],
+    "places": [],
+    "note": "PE in emerging economies and institutional effects; useful for understanding financial dependency and local actor roles.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "814d9b9bcf",
+   "section": "archive",
+   "title": "The economic geography of offshore incorporation in tax havens and offshore financial centres: the case of Chinese MNEs",
+   "url": "https://doi.org/10.1093/jeg/lbt040",
+   "doi": "10.1093/jeg/lbt040",
+   "source": "Journal of Economic Geography",
+   "venue": "Journal of Economic Geography",
+   "authors": [
+    "Peter Jennings Buckley",
+    "Dylan Sutherland",
+    "Hinrich Voss",
+    "Ahmad El-Gohari"
+   ],
+   "date": "2013-12-13",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2110684722",
+   "year": 2013,
+   "work_type": "article",
+   "venue_id": "S46039370",
+   "venue_type": "journal",
+   "publisher": "Oxford University Press",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 4,
+    "labels": [
+     "watched journal",
+     "University Press",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "centres",
+     "networks"
+    ],
+    "places": [],
+    "note": "Chinese MNE incorporation in tax havens reveals round-tripping dynamics; scholarly analysis of capital flight and offshore financial centres in South.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "b958a3e608",
+   "section": "archive",
+   "title": "Treasure Islands",
+   "url": "https://doi.org/10.1257/jep.24.4.103",
+   "doi": "10.1257/jep.24.4.103",
+   "source": "The Journal of Economic Perspectives",
+   "venue": "The Journal of Economic Perspectives",
+   "authors": [
+    "James R. Hines"
+   ],
+   "date": "2010-11-01",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W4247815198",
+   "year": 2010,
+   "work_type": "article",
+   "venue_id": "S72880728",
+   "venue_type": "journal",
+   "publisher": "American Economic Association",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres"
+    ],
+    "places": [],
+    "note": "Tax havens and offshore financial centres definition; useful context for understanding centre hierarchies.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "20565764de",
+   "section": "archive",
+   "title": "How does law affect finance? An examination of equity tunneling in Bulgaria",
+   "url": "https://doi.org/10.1016/j.jfineco.2009.12.005",
+   "doi": "10.1016/j.jfineco.2009.12.005",
+   "source": "Journal of Financial Economics",
+   "venue": "Journal of Financial Economics",
+   "authors": [
+    "Vladimir A. Atanasov",
+    "Bernard S. Black",
+    "Conrad S. Ciccotello",
+    "Stanley B. Gyoshev"
+   ],
+   "date": "2009-12-25",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W1992556681",
+   "year": 2009,
+   "work_type": "article",
+   "venue_id": "S149240962",
+   "venue_type": "journal",
+   "publisher": "Elsevier BV",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Elsevier",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "valuation"
+    ],
+    "places": [],
+    "note": "Securities law and equity tunneling in emerging market (Bulgaria); useful for understanding regulatory device effects.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "a0f8a248b6",
+   "section": "archive",
+   "title": "Governance, ownership structure, and performance of IPO firms: the impact of different types of private equity investors and institutional environments",
+   "url": "https://doi.org/10.1002/smj.822",
+   "doi": "10.1002/smj.822",
+   "source": "Strategic Management Journal",
+   "venue": "Strategic Management Journal",
+   "authors": [
+    "Garry D. Bruton",
+    "Igor V. Filatotchev",
+    "Salim Chahine",
+    "Mike Wright"
+   ],
+   "date": "2009-11-10",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2020436418",
+   "year": 2009,
+   "work_type": "article",
+   "venue_id": "S102949365",
+   "venue_type": "journal",
+   "publisher": "Wiley",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Wiley",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "professionals"
+    ],
+    "places": [],
+    "note": "PE investor heterogeneity and institutional context; marginal to project's focus on Southern centres.",
+    "quality": 2
+   },
+   "featured": false
+  }
+ ],
+ "digest": "This week's digest traces competing pathways of financial subordination and autonomy across the Global South. Ghana's 1970s debt refusal and the emergence of South-South public banking for climate finance in *International Journal of Political Economy* anchor the longer histories through which Southern actors have resisted Northern financial dominance. Sustainable debt taxonomies reshaping Latin American capital markets, alongside regulatory contests over stablecoins, CBDCs, and monetary sovereignty in emerging economies, reveal how financial devices themselves become sites of struggle over autonomy and dependency. We also track institutional voices—Absa's critique of sovereign lending patterns, central bank officials discussing payments infrastructure and system design—that expose the professional networks and policy disputes animating financial centres from Johannesburg to Ho Chi Minh City."
+}
