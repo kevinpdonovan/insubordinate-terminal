@@ -1,0 +1,47 @@
+{
+ "GDELT global news search": {
+  "items": [
+   {
+    "id": "b09956b6a8",
+    "section": "news",
+    "title": "Why Kenya must move from fraud recovery to prevention",
+    "url": "https://www.the-star.co.ke/news/2026-11-08-why-kenya-must-move-from-fraud-recovery-to-prevention",
+    "doi": "",
+    "source": "the-star.co.ke",
+    "venue": "",
+    "authors": [],
+    "date": "2026-11-09",
+    "summary": "",
+    "origin": "gdelt:(\"financial centre\" OR \"financial center\" OR \"financial hub\"",
+    "scholarly": false,
+    "filter": true,
+    "language": "English",
+    "source_country": "Kenya"
+   },
+   {
+    "id": "93696acaaf",
+    "section": "news",
+    "title": "不负时代使命 讲好中国故事 第36届中国新闻奖获奖作品扫描 - 即时新闻",
+    "url": "http://news.fjsen.com/2026-11/09/content_32280105.htm",
+    "doi": "",
+    "source": "news.fjsen.com",
+    "venue": "",
+    "authors": [],
+    "date": "2026-11-09",
+    "summary": "",
+    "origin": "gdelt:(\"financial centre\" OR \"financial center\" OR \"financial hub\"",
+    "scholarly": false,
+    "filter": true,
+    "language": "Chinese",
+    "source_country": "China"
+   }
+  ],
+  "note": "stopped after 3 refusals; 4 queries skipped; (\"stock exchange\" OR \"securities exchang… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22stock+exch",
+  "ok": false
+ },
+ "GDELT — Bloomberg": {
+  "items": [],
+  "note": "",
+  "ok": true
+ }
+}
