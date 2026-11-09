@@ -1,25 +1,25 @@
 {
- "week": "2026-W45",
- "run_at": "2026-11-02T13:31:22",
+ "week": "2026-W46",
+ "run_at": "2026-11-09T13:55:55",
  "sources": [
   {
    "source": "OpenAlex — keyword queries",
    "ok": true,
-   "count": 1614,
+   "count": 1627,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched journals",
    "ok": true,
-   "count": 75,
+   "count": 79,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched authors",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "note": "",
    "fail_streak": 0
   },
@@ -32,17 +32,17 @@
   },
   {
    "source": "GDELT global news search",
-   "ok": false,
-   "count": 0,
-   "note": "daily cache was empty, queried GDELT live; stopped after 3 refusals; 5 queries skipped; (\"financial centre\" OR \"financial center… → 429 Client Error: Too Many Requests for url: https://api.gdeltprojec",
-   "fail_streak": 1
+   "ok": true,
+   "count": 5,
+   "note": "from daily collector (9 day(s)); 2026-11-01: stopped after 3 refusals; 2 queries skipped; (Eurobond OR \"s; 2026-11-02: stopped after 3 refusals; 1 queries skipped; (\"financial cen",
+   "fail_streak": 0
   },
   {
    "source": "GDELT — Bloomberg",
    "ok": false,
    "count": 0,
    "note": "daily cache was empty, queried GDELT live; (Africa OR Kenya OR Nigeria OR \"South Af… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28Africa+OR+Kenya",
-   "fail_streak": 6
+   "fail_streak": 7
   },
   {
    "source": "Bloomberg alerts & newsletters",
@@ -75,7 +75,7 @@
   {
    "source": "Mint — Economy",
    "ok": true,
-   "count": 35,
+   "count": 31,
    "note": "",
    "fail_streak": 0
   },
@@ -110,21 +110,21 @@
   {
    "source": "World Bank Documents & Reports",
    "ok": true,
-   "count": 398,
+   "count": 390,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — reports",
    "ok": true,
-   "count": 735,
+   "count": 776,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — IFI working-paper series",
    "ok": true,
-   "count": 0,
+   "count": 9,
    "note": "",
    "fail_streak": 0
   },
@@ -138,7 +138,7 @@
   {
    "source": "Central Bank of Kenya",
    "ok": true,
-   "count": 0,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
@@ -165,45 +165,45 @@
   },
   {
    "source": "FSC Mauritius communiqués",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "note": "no matching links: the page may need JavaScript or the pattern is wrong",
-   "fail_streak": 1
+   "note": "",
+   "fail_streak": 0
   },
   {
    "source": "RBI press releases",
    "ok": true,
-   "count": 36,
+   "count": 50,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "BIS — FSI publications",
    "ok": true,
-   "count": 2,
+   "count": 3,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "BIS — central bank speeches",
    "ok": true,
-   "count": 24,
+   "count": 22,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Bretton Woods Project",
    "ok": true,
-   "count": 1,
+   "count": 3,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Eurodad",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "note": "",
-   "fail_streak": 0
+   "note": "403 Client Error: Forbidden for url: https://www.eurodad.org/news?format=rss",
+   "fail_streak": 1
   },
   {
    "source": "Debt Justice",
@@ -215,35 +215,35 @@
   {
    "source": "OMFIF",
    "ok": true,
-   "count": 8,
+   "count": 6,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "FSD Africa (RSS)",
    "ok": true,
-   "count": 2,
+   "count": 0,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Boston University GDP Center",
    "ok": true,
-   "count": 4,
+   "count": 6,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "AfronomicsLaw",
    "ok": true,
-   "count": 5,
+   "count": 0,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Phenomenal World",
    "ok": true,
-   "count": 2,
+   "count": 5,
    "note": "",
    "fail_streak": 0
   },
@@ -271,18 +271,18 @@
   {
    "source": "OpenAlex citation trail",
    "ok": true,
-   "count": 9,
+   "count": 61,
    "note": "",
    "fail_streak": 0
   }
  ],
  "stats": {
-  "harvested": 3215,
-  "dropped_outlet": 0,
-  "duplicates_removed": 1037,
-  "repeats_removed": 1120,
-  "dropped_venue": 6,
-  "passed": 96,
+  "harvested": 3286,
+  "dropped_outlet": 4,
+  "duplicates_removed": 1049,
+  "repeats_removed": 1205,
+  "dropped_venue": 9,
+  "passed": 104,
   "tagged": true
  }
 }
