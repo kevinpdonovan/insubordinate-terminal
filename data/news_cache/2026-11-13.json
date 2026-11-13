@@ -1,0 +1,30 @@
+{
+ "GDELT global news search": {
+  "items": [
+   {
+    "id": "9b99077f4c",
+    "section": "news",
+    "title": "Vietnam , Indonesia can shape the future of ASEAN - Academia",
+    "url": "http://www.thejakartapost.com/opinion/2026/11/13/vietnam-indonesia-can-shape-the-future-of-asean",
+    "doi": "",
+    "source": "thejakartapost.com",
+    "venue": "",
+    "authors": [],
+    "date": "2026-11-13",
+    "summary": "",
+    "origin": "gdelt:(\"stock exchange\" OR \"securities exchange\" OR bourse OR \"cap",
+    "scholarly": false,
+    "filter": true,
+    "language": "English",
+    "source_country": "Indonesia"
+   }
+  ],
+  "note": "stopped after 3 refusals; 3 queries skipped; (\"financial centre\" OR \"financial center… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22financial+",
+  "ok": false
+ },
+ "GDELT — Bloomberg": {
+  "items": [],
+  "note": "",
+  "ok": true
+ }
+}
