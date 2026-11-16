@@ -1,0 +1,764 @@
+{
+ "week": "2026-W47",
+ "published_at": "2026-11-16T18:36:18",
+ "items": [
+  {
+   "id": "e9876ec0c1",
+   "section": "research",
+   "title": "Partnerships for development: collaborative governance in blended finance strategies in Brazil",
+   "url": "https://doi.org/10.1108/rae-08-2026-0400",
+   "doi": "10.1108/rae-08-2026-0400",
+   "source": "Revista de Administração de Empresas",
+   "venue": "Revista de Administração de Empresas",
+   "authors": [
+    "Felipe Jukemura",
+    "Pietro Rodrigues"
+   ],
+   "date": "2026-11-13",
+   "origin": "openalex:query:financialization Brazil",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7226012153",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S203848637",
+   "venue_type": "journal",
+   "publisher": "Fundação Getúlio Vargas",
+   "watched": null,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "development_finance",
+     "professionals",
+     "state_finance"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Blended finance governance and consortium partnerships at BNDES in Brazil; institutional and relational conditions for DFI access.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "a2ee7d3c4a",
+   "section": "research",
+   "title": "The International Political Economy of Africa's Failed Industrialization: Terms of Trade, Sovereign Debt Crisis and Structural Adjustment Programs, 1960-2000",
+   "url": "https://doi.org/10.56201/ajha.v10.no4.2026.pg128.146",
+   "doi": "10.56201/ajha.v10.no4.2026.pg128.146",
+   "source": "African Journal of History and Archaeology",
+   "venue": "African Journal of History and Archaeology",
+   "authors": [
+    "Justice Chibuzor Okeleke"
+   ],
+   "date": "2026-11-12",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225895216",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4387290021",
+   "venue_type": "journal",
+   "publisher": "",
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "debt",
+     "state_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "histories",
+     "imf_programmes"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "Postcolonial Africa's de-industrialisation via terms of trade, debt, and structural adjustment; directly relevant to subordination framework.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "77d8f051d6",
+   "section": "research",
+   "title": "Diversification under transnational control: structural dependence and functional sovereignty in the Global South",
+   "url": "https://doi.org/10.1080/01436597.2026.2752135",
+   "doi": "10.1080/01436597.2026.2752135",
+   "source": "Third World Quarterly",
+   "venue": "Third World Quarterly",
+   "authors": [
+    "Fernando Ramos"
+   ],
+   "date": "2026-11-10",
+   "origin": "openalex:query:financialization Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225815371",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S64122990",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "networks"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "networks"
+    ],
+    "places": [],
+    "note": "Structural dependence in Global South transnational networks; theoretical foundation for financial subordination analysis.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "92cf6d1b5b",
+   "section": "research",
+   "title": "Neoliberal Green Colonialism at Work: De-risking, Renewable Megaprojects and the Limits of Just Energy Transitions in the Global South",
+   "url": "https://hal.science/hal-05512963",
+   "doi": "",
+   "source": "HAL",
+   "venue": "HAL",
+   "authors": [
+    "Yanis Rihi"
+   ],
+   "date": "2026-11-06",
+   "origin": "openalex:query:financial subordination",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225967223",
+   "year": 2026,
+   "work_type": "preprint",
+   "venue_id": "S4306402512",
+   "venue_type": "repository",
+   "publisher": "Centre pour la Communication Scientifique Directe",
+   "watched": null,
+   "quality_signals": {
+    "score": 0,
+    "labels": [
+     "preprint/repository"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "subordination",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "development_finance",
+     "valuation"
+    ],
+    "places": [],
+    "note": "Neoliberal green colonialism, derisking, and financial subordination in renewable megaprojects in Global South.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "712e217dd7",
+   "section": "research",
+   "title": "Stablecoins in Africa: benefits, risks, policy challenges and regulatory options",
+   "url": "https://doi.org/10.58567/eal06010004",
+   "doi": "10.58567/eal06010004",
+   "source": "Economic Analysis Letters",
+   "venue": "Economic Analysis Letters",
+   "authors": [
+    "Peterson K Ozili",
+    "Olubukola Akinniyi Akinwunmi",
+    "Jonathan Yisa"
+   ],
+   "date": "2026-11-12",
+   "origin": "openalex:query:monetary sovereignty Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225915570",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4387286027",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "subordination",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "regulation"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "Stablecoin regulation and adoption in Africa; digital-payments infrastructure and regulatory innovation.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "2cf0ed0c67",
+   "section": "research",
+   "title": "Introduction",
+   "url": "https://doi.org/10.4324/9781003499893-1",
+   "doi": "10.4324/9781003499893-1",
+   "source": "Routledge eBooks",
+   "venue": "Routledge eBooks",
+   "authors": [
+    "Isabelle Guérin",
+    "Deborah James",
+    "Federico Neiburg",
+    "Horacio Ortiz",
+    "Ndongo Samba Sylla"
+   ],
+   "date": "2026-11-10",
+   "origin": "openalex:query:domestic debt market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7167388065",
+   "year": 2026,
+   "work_type": "book-chapter",
+   "venue_id": "S4306463855",
+   "venue_type": "ebook platform",
+   "publisher": "Routledge",
+   "watched": true,
+   "quality_signals": {
+    "score": 4,
+    "labels": [
+     "watched author",
+     "Routledge",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 8,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt"
+    ],
+    "places": [],
+    "note": "Handbook on debt, power, and inequality; contextual for understanding financial subordination.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "dfef1a17ab",
+   "section": "research",
+   "title": "L'existence des facteurs communs de liquidité sur les marchés financiers africains : une investigation dans la perspective individuelle et globale sur la JSE et la NSE",
+   "url": "https://doi.org/10.5281/zenodo.24084590",
+   "doi": "10.5281/zenodo.24084590",
+   "source": "International Journal of Accounting, Finance, Auditing, Management and Economics",
+   "venue": "International Journal of Accounting, Finance, Auditing, Management and Economics",
+   "authors": [
+    "Deutou Nkengwou Zacharie",
+    "Simplice Gaël TONMO",
+    "Edouard Guilaire Dadem Kemgou",
+    "Jules Roger Feudjo"
+   ],
+   "date": "2026-11-09",
+   "origin": "openalex:query:place financière Afrique",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225625230",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4306513879",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "integration"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "Liquidity factors on JSE and NSE; empirical analysis of South African exchange market integration.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "a25f39c24c",
+   "section": "research",
+   "title": "Safe bonds, risky debt? Covered bonds and the financialisation of housing in Sweden",
+   "url": "https://doi.org/10.1177/0308518x261499187",
+   "doi": "10.1177/0308518x261499187",
+   "source": "Environment and Planning A Economy and Space",
+   "venue": "Environment and Planning A Economy and Space",
+   "authors": [
+    "Viktor Skyrman",
+    "Timothy Blackwell",
+    "Juan Barredo-Zuriarrain",
+    "Luis Buendía"
+   ],
+   "date": "2026-11-12",
+   "origin": "openalex:journals",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225851630",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S87933477",
+   "venue_type": "journal",
+   "publisher": "SAGE Publishing",
+   "watched": false,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "SAGE",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "subordination",
+     "urban"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination",
+     "urban"
+    ],
+    "places": [],
+    "note": "Covered bonds and housing financialisation in Sweden; Northern centre, not Southern.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "0f7a9affed",
+   "section": "research",
+   "title": "What is Islamic Finance?",
+   "url": "https://doi.org/10.1093/9780191862168.003.0001",
+   "doi": "10.1093/9780191862168.003.0001",
+   "source": "Oxford University Press eBooks",
+   "venue": "Oxford University Press eBooks",
+   "authors": [
+    "Adeel Malik",
+    "Usman Hayat"
+   ],
+   "date": "2026-11-09",
+   "origin": "openalex:query:impact investing",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225610998",
+   "year": 2026,
+   "work_type": "book-chapter",
+   "venue_id": "S4306463708",
+   "venue_type": "ebook platform",
+   "publisher": "Oxford University Press",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "University Press",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "development_finance",
+     "islamic_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "islamic_finance"
+    ],
+    "places": [],
+    "note": "Islamic finance ethics and prohibitions; conceptual background but not project-specific.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "bc7b0fa6b8",
+   "section": "news",
+   "title": "Pix completa 6 anos e deve movimentar US$ 203,4 bilhões no e-commerce em 2027, projeta Ebanx",
+   "url": "https://valor.globo.com/financas/noticia/2026/11/16/pix-completa-6-anos-e-deve-movimentar-us-2034-bilhes-no-e-commerce-em-2027-projeta-ebanx.ghtml",
+   "doi": "",
+   "source": "Valor Econômico",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-16",
+   "origin": "rss:Valor Econômico",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "sao_paulo"
+    ],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Pix adoption projections for 2027 e-commerce; financialization of digital payments device reshaping retail in Brazil."
+   },
+   "featured": false
+  },
+  {
+   "id": "6aa1e1b8df",
+   "section": "grey",
+   "title": "A Cape Town water bond shows what it takes to make nature finance work in Africa",
+   "url": "https://fsdafrica.org/a-cape-town-water-bond-shows-what-it-takes-to-make-nature-finance-work-in-africa",
+   "doi": "",
+   "source": "FSD Africa (RSS)",
+   "venue": "",
+   "authors": [
+    "Kihingu Inc"
+   ],
+   "date": "2026-11-16",
+   "origin": "rss:FSD Africa (RSS)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "johannesburg"
+    ],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "urban"
+    ],
+    "places": [
+     "johannesburg"
+    ],
+    "note": "Blended finance instrument (nature bond) through RMB; Southern financial centre innovation in green/impact finance."
+   },
+   "featured": false
+  },
+  {
+   "id": "f23d376a26",
+   "section": "grey",
+   "title": "L’AMMC publie le rapport sur le profil des investisseurs en bourse au titre du deuxième trimestre 2026",
+   "url": "https://www.ammc.ma/fr/actualites/lammc-publie-le-rapport-sur-le-profil-des-investisseurs-en-bourse-au-titre-du-deuxieme-7",
+   "doi": "",
+   "source": "AMMC",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-16",
+   "origin": "page:AMMC (Maroc)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "casablanca"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "centres"
+    ],
+    "places": [
+     "casablanca"
+    ],
+    "note": "AMMC investor profile data for second quarter 2026; institutional investor composition in Moroccan capital market."
+   },
+   "featured": false
+  },
+  {
+   "id": "e4aef9d0a2",
+   "section": "grey",
+   "title": "A demand that can be checked",
+   "url": "https://roape.net/2026/11/11/a-demand-that-can-be-checked",
+   "doi": "",
+   "source": "ROAPE blog",
+   "venue": "",
+   "authors": [
+    "ROAPE"
+   ],
+   "date": "2026-11-11",
+   "origin": "rss:ROAPE blog",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "nairobi"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "ROAPE blog on Africa's financial extraction and dependency; engages postcolonial critique of subordination directly."
+   },
+   "featured": false
+  },
+  {
+   "id": "013a7da5f9",
+   "section": "grey",
+   "title": "UK-funded FSD Africa partners with Nigeria’s pension industry on proposed US$750 million infrastructure fund",
+   "url": "https://fsdafrica.org/uk-funded-fsd-africa-partners-with-nigerias-pension-industry-on-proposed-us750-million-infrastructure-fund",
+   "doi": "",
+   "source": "FSD Africa (RSS)",
+   "venue": "",
+   "authors": [
+    "Riitho"
+   ],
+   "date": "2026-11-10",
+   "origin": "rss:FSD Africa (RSS)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "professionals",
+     "state_finance"
+    ],
+    "places": [],
+    "note": "Nigerian pension funds mobilized via development finance for infrastructure; institutional investors building financial platforms in Lagos."
+   },
+   "featured": false
+  },
+  {
+   "id": "c7ab22ec45",
+   "section": "grey",
+   "title": "RBI cancels Certificate of Registration of 49 NBFCs",
+   "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63979",
+   "doi": "",
+   "source": "Reserve Bank of India",
+   "venue": "",
+   "authors": [],
+   "date": "2026-11-16",
+   "origin": "page:RBI press releases",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "regulation"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "RBI cancellation of NBFC registrations; regulatory enforcement but no specific institutional or subordination angle."
+   },
+   "featured": false
+  },
+  {
+   "id": "97fff98cee",
+   "section": "grey",
+   "title": "The future of FinTech",
+   "url": "https://www.bis.org/speeches/20261110-future-fintech",
+   "doi": "",
+   "source": "BIS — central bank speeches",
+   "venue": "",
+   "authors": [
+    "P Nandalal Weerasinghe"
+   ],
+   "date": "2026-11-10",
+   "origin": "rss:BIS — central bank speeches",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "digital",
+     "centres"
+    ],
+    "places": [],
+    "note": "Sri Lankan central bank governor on fintech future; relevant to digital payment infrastructure but limited detail."
+   },
+   "featured": false
+  },
+  {
+   "id": "8233ad3b00",
+   "section": "archive",
+   "title": "What Works in Securities Laws?",
+   "url": "https://doi.org/10.1111/j.1540-6261.2006.00828.x",
+   "doi": "10.1111/j.1540-6261.2006.00828.x",
+   "source": "The Journal of Finance",
+   "venue": "The Journal of Finance",
+   "authors": [
+    "RAFAEL LA PORTA",
+    "Florencio López‐de‐Silanes",
+    "Andrei Shleifer"
+   ],
+   "date": "2006-01-20",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2891145393",
+   "year": 2006,
+   "work_type": "article",
+   "venue_id": "S5353659",
+   "venue_type": "journal",
+   "publisher": "Wiley",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Wiley",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "regulation",
+     "subordination"
+    ],
+    "places": [],
+    "note": "Comparative study of securities laws and market development; relevant for understanding regulatory devices and their differential effects.",
+    "quality": 2
+   },
+   "featured": false
+  }
+ ],
+ "digest": "This week's digest examines institutional arrangements that mediate Southern financial centres' integration into global networks. We review research on blended finance governance at Brazil's development bank, structural dependence in transnational finance, and terms-of-trade subordination across postcolonial Africa—establishing the conditions under which Southern centres function. Empirical work on liquidity integration in African exchanges and investor composition in Morocco's market, alongside coverage of Nigeria's pension mobilization for infrastructure and Cape Town's nature-bond innovation, illustrates how specific financial devices circulate through particular Southern institutions. We also note emerging payment infrastructure in Brazil, digital regulatory experiments, and comparative analyses of securities law—all material to understanding whether these arrangements consolidate subordination or enable functional alternatives."
+}
