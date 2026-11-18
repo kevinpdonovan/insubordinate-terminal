@@ -1,7 +1,7 @@
 {
  "GDELT global news search": {
   "items": [],
-  "note": "stopped after 3 refusals; 4 queries skipped; (\"financial centre\" OR \"financial center… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22financial+",
+  "note": "stopped after 3 refusals; 4 queries skipped; (\"stock exchange\" OR \"securities exchang… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22stock+exch",
   "ok": false
  },
  "GDELT — Bloomberg": {
