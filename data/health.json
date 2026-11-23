@@ -1,25 +1,25 @@
 {
- "week": "2026-W47",
- "run_at": "2026-11-16T13:39:36",
+ "week": "2026-W48",
+ "run_at": "2026-11-23T16:00:31",
  "sources": [
   {
    "source": "OpenAlex — keyword queries",
    "ok": true,
-   "count": 1643,
+   "count": 1640,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched journals",
    "ok": true,
-   "count": 50,
+   "count": 72,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — watched authors",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "note": "",
    "fail_streak": 0
   },
@@ -32,17 +32,17 @@
   },
   {
    "source": "GDELT global news search",
-   "ok": true,
-   "count": 6,
-   "note": "from daily collector (9 day(s)); 2026-11-08: stopped after 3 refusals; 4 queries skipped; (\"stock exchang; 2026-11-09: stopped after 3 refusals; 4 queries skipped; (\"stock exchang",
-   "fail_streak": 0
+   "ok": false,
+   "count": 0,
+   "note": "daily cache was empty, queried GDELT live; stopped after 3 refusals; 5 queries skipped; (\"financial centre\" OR \"financial center… → 429 Client Error: Too Many Requests for url: https://api.gdeltprojec",
+   "fail_streak": 1
   },
   {
    "source": "GDELT — Bloomberg",
    "ok": false,
    "count": 0,
    "note": "daily cache was empty, queried GDELT live; (Africa OR Kenya OR Nigeria OR \"South Af… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28Africa+OR+Kenya",
-   "fail_streak": 8
+   "fail_streak": 9
   },
   {
    "source": "Bloomberg alerts & newsletters",
@@ -75,7 +75,7 @@
   {
    "source": "Mint — Economy",
    "ok": true,
-   "count": 24,
+   "count": 31,
    "note": "",
    "fail_streak": 0
   },
@@ -102,22 +102,22 @@
   },
   {
    "source": "Bloomberg — Markets (public feed)",
-   "ok": true,
-   "count": 20,
-   "note": "",
-   "fail_streak": 0
+   "ok": false,
+   "count": 0,
+   "note": "HTTPSConnectionPool(host='feeds.bloomberg.com', port=443): Read timed out. (read timeout=30)",
+   "fail_streak": 1
   },
   {
    "source": "World Bank Documents & Reports",
    "ok": true,
-   "count": 373,
+   "count": 370,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "OpenAlex — reports",
    "ok": true,
-   "count": 792,
+   "count": 820,
    "note": "",
    "fail_streak": 0
   },
@@ -131,7 +131,7 @@
   {
    "source": "OpenAlex — watched institutions",
    "ok": true,
-   "count": 16,
+   "count": 20,
    "note": "",
    "fail_streak": 0
   },
@@ -145,14 +145,14 @@
   {
    "source": "BCEAO publications",
    "ok": true,
-   "count": 2,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "AMMC (Maroc)",
    "ok": true,
-   "count": 9,
+   "count": 4,
    "note": "",
    "fail_streak": 0
   },
@@ -173,28 +173,28 @@
   {
    "source": "RBI press releases",
    "ok": true,
-   "count": 31,
+   "count": 50,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "BIS — FSI publications",
    "ok": true,
-   "count": 5,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "BIS — central bank speeches",
    "ok": true,
-   "count": 29,
+   "count": 13,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Bretton Woods Project",
    "ok": true,
-   "count": 2,
+   "count": 0,
    "note": "",
    "fail_streak": 0
   },
@@ -203,7 +203,7 @@
    "ok": false,
    "count": 0,
    "note": "403 Client Error: Forbidden for url: https://www.eurodad.org/news?format=rss",
-   "fail_streak": 2
+   "fail_streak": 3
   },
   {
    "source": "Debt Justice",
@@ -215,35 +215,35 @@
   {
    "source": "OMFIF",
    "ok": true,
-   "count": 6,
+   "count": 9,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "FSD Africa (RSS)",
    "ok": true,
-   "count": 2,
+   "count": 3,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Boston University GDP Center",
    "ok": true,
-   "count": 0,
+   "count": 4,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "AfronomicsLaw",
    "ok": true,
-   "count": 2,
+   "count": 1,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "Phenomenal World",
    "ok": true,
-   "count": 8,
+   "count": 2,
    "note": "",
    "fail_streak": 0
   },
@@ -257,32 +257,32 @@
   {
    "source": "ROAPE blog",
    "ok": true,
-   "count": 2,
+   "count": 4,
    "note": "",
    "fail_streak": 0
   },
   {
    "source": "LSE Africa at LSE",
-   "ok": true,
-   "count": 3,
-   "note": "",
-   "fail_streak": 0
+   "ok": false,
+   "count": 0,
+   "note": "403 Client Error: Forbidden for url: https://blogs.lse.ac.uk/africaatlse/feed/",
+   "fail_streak": 1
   },
   {
    "source": "OpenAlex citation trail",
    "ok": true,
-   "count": 86,
+   "count": 75,
    "note": "",
    "fail_streak": 0
   }
  ],
  "stats": {
-  "harvested": 3268,
-  "dropped_outlet": 5,
-  "duplicates_removed": 1020,
-  "repeats_removed": 1221,
-  "dropped_venue": 27,
-  "passed": 95,
+  "harvested": 3289,
+  "dropped_outlet": 0,
+  "duplicates_removed": 1032,
+  "repeats_removed": 1200,
+  "dropped_venue": 17,
+  "passed": 96,
   "tagged": true
  }
 }
