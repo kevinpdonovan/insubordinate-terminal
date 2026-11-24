@@ -72,16 +72,25 @@ Last updated: 12 Oct 2026 (after the 2026-W42 run, the first with alerts and the
 10. **Only three of the blocked organisations are reachable through OpenAlex** (ODI, CGD, AfDB).
     UNCTAD and Eurodad have nothing indexed there, so alerts are their only route.
 
-15. **Keep the GitHub Actions versions current.** On 24 Nov 2026 the site silently stopped
-    deploying: `upload-pages-artifact@v3` reported "Archive artifact, success" and "Upload artifact,
-    success", then `deploy-pages@v4` logged `Found 0 artifact(s)` and failed. The old action wrote to
-    an artifact backend GitHub had retired, so the upload went nowhere while still reporting success.
-    The publish step itself was fine — the week's issue was committed — so the only symptom was the
-    site sitting on the previous week. Fixed by moving to `configure-pages@v6`,
-    `upload-pages-artifact@v5` and `deploy-pages@v5`. A warning in the same run says Node.js 20 is
-    deprecated and these actions are being forced onto Node 24, so expect more of this: check the
-    action versions when anything in the Pages chain misbehaves, and note that a failed deploy does
-    not fail the publish.
+15. **The Pages deploy needs `actions: read`** — fixed 24 Nov 2026, recorded because the symptom
+    was badly misleading. The site silently stopped deploying: `upload-pages-artifact` reported
+    success and `deploy-pages` then failed with `Found 0 artifact(s)` and "No artifacts named
+    github-pages were found for this workflow run". The artifact was never missing — expanding the
+    collapsed composite step showed it finalized with an ID, a byte count and a download URL on that
+    same run. `deploy-pages` lists artifacts through the REST API with `${{ github.token }}`, which
+    needs `actions: read`; declaring a `permissions:` block sets every unlisted scope to none, and
+    neither workflow listed it. An unauthorised lookup returns an empty list rather than a 403, so
+    the error says "not found" and points at the upload.
+
+    Two wrong diagnoses came first, both disproved by re-running: a transient GitHub incident (the
+    action's own error text suggests checking githubstatus, and GitHub was all-operational), and
+    outdated action versions. The version bump was kept on its own merits — `upload-pages-artifact`
+    was on v3 against v5 — but it was not the cause.
+
+    **The lasting hazard: a failed deploy does not fail the publish.** The publish steps committed
+    `data/issues/2026-W48.json` normally; only the deployment was lost, so the sole symptom was the
+    site sitting a week behind. Worth a check that compares the week in `data/issues/` with the week
+    the live site reports.
 
 ## Watch, no action yet
 
