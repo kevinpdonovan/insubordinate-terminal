@@ -72,6 +72,17 @@ Last updated: 12 Oct 2026 (after the 2026-W42 run, the first with alerts and the
 10. **Only three of the blocked organisations are reachable through OpenAlex** (ODI, CGD, AfDB).
     UNCTAD and Eurodad have nothing indexed there, so alerts are their only route.
 
+15. **Keep the GitHub Actions versions current.** On 24 Nov 2026 the site silently stopped
+    deploying: `upload-pages-artifact@v3` reported "Archive artifact, success" and "Upload artifact,
+    success", then `deploy-pages@v4` logged `Found 0 artifact(s)` and failed. The old action wrote to
+    an artifact backend GitHub had retired, so the upload went nowhere while still reporting success.
+    The publish step itself was fine — the week's issue was committed — so the only symptom was the
+    site sitting on the previous week. Fixed by moving to `configure-pages@v6`,
+    `upload-pages-artifact@v5` and `deploy-pages@v5`. A warning in the same run says Node.js 20 is
+    deprecated and these actions are being forced onto Node 24, so expect more of this: check the
+    action versions when anything in the Pages chain misbehaves, and note that a failed deploy does
+    not fail the publish.
+
 ## Watch, no action yet
 
 11. **The quality threshold.** Scholarship needs 2 signal points to pre-tick. In W42 this gave 13 of
