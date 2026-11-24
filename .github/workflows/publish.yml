@@ -5,6 +5,7 @@ on:
     types: [closed]
 permissions:
   contents: write
+  actions: read     # deploy-pages lists the uploaded artifact via the API
   pages: write
   id-token: write
 concurrency: { group: repo-write, cancel-in-progress: false }
