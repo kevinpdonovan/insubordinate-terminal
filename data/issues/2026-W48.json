@@ -1,0 +1,1153 @@
+{
+ "week": "2026-W48",
+ "published_at": "2026-11-24T09:37:45",
+ "items": [
+  {
+   "id": "7cd722ee08",
+   "section": "research",
+   "title": "Private global finance and climate governance: de-risking, assetized vulnerability, and domination in the Global South",
+   "url": "https://doi.org/10.1080/13563467.2026.2759592",
+   "doi": "10.1080/13563467.2026.2759592",
+   "source": "New Political Economy",
+   "venue": "New Political Economy",
+   "authors": [
+    "Eric Brown"
+   ],
+   "date": "2026-11-17",
+   "origin": "openalex:query:South-South finance",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7235176577",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S146242404",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "watched": false,
+   "quality_signals": {
+    "score": 4,
+    "labels": [
+     "watched journal",
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "valuation",
+     "development_finance"
+    ],
+    "places": [],
+    "note": "De-risking, assetized vulnerability, climate finance in Global South; directly theorizes financial subordination mechanism.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "f448ee55e1",
+   "section": "research",
+   "title": "What Does the Rise of Digital Currencies (CBDCS) Mean for Monetary Sovereignty in the Global South?",
+   "url": "https://doi.org/10.47191/jefms/v9-i11-28",
+   "doi": "10.47191/jefms/v9-i11-28",
+   "source": "Journal of Economics Finance and Management Studies",
+   "venue": "Journal of Economics Finance and Management Studies",
+   "authors": [
+    "Sadhwi Vijayakumar"
+   ],
+   "date": "2026-11-17",
+   "origin": "openalex:query:financial geography Global South",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7233810829",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4210230540",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "subordination",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "digital",
+     "subordination"
+    ],
+    "places": [],
+    "note": "CBDCs and monetary sovereignty in Global South; examines geopolitical dimensions and financial subordination implications.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "ccb56aa258",
+   "section": "research",
+   "title": "Austeridade, financeirização e reescalonamento do estado: fundamentos teóricos para a análise da privatização do saneamento em São Paulo",
+   "url": "https://doi.org/10.11606/issn.2317-2762.posfauusp.2026.247352",
+   "doi": "10.11606/issn.2317-2762.posfauusp.2026.247352",
+   "source": "Pós Revista do Programa de Pós-Graduação em Arquitetura e Urbanismo da FAUUSP",
+   "venue": "Pós Revista do Programa de Pós-Graduação em Arquitetura e Urbanismo da FAUUSP",
+   "authors": [
+    "Lucas Daniel Ferreira",
+    "Luciana de Oliveira Royer"
+   ],
+   "date": "2026-11-16",
+   "origin": "openalex:query:financeirização Brasil",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7235842844",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S2738887070",
+   "venue_type": "journal",
+   "publisher": "University of São Paulo",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 8,
+    "places": [
+     "sao_paulo"
+    ],
+    "themes": [
+     "state_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "subordination",
+     "urban",
+     "state_finance"
+    ],
+    "places": [
+     "sao_paulo"
+    ],
+    "note": "Austerity and financialization of water infrastructure in São Paulo; privatization as financial subordination mechanism.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "88f44dd298",
+   "section": "research",
+   "title": "GIFT City at Five: What India's Offshore Financial Centre Has Built, and What It Still Has to Prove",
+   "url": "https://doi.org/10.5281/zenodo.24293062",
+   "doi": "10.5281/zenodo.24293062",
+   "source": "Zenodo (CERN European Organization for Nuclear Research)",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": [
+    "Fenil Pritesh Shah",
+    "Darshini Akshay Patel"
+   ],
+   "date": "2026-11-16",
+   "origin": "openalex:query:offshore financial centre",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7234451521",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4306400562",
+   "venue_type": "repository",
+   "publisher": "European Organization for Nuclear Research",
+   "quality_signals": {
+    "score": 0,
+    "labels": [
+     "preprint/repository"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 6,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "centres"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "centres",
+     "integration",
+     "professionals"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "GIFT IFSC offshore financial centre development, banking assets, investor participation; Southern financial centre strategy.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "ffe0b5fe44",
+   "section": "research",
+   "title": "China’s financial transformation in response to US sanctions in 2018–2025: the case of Renminbi",
+   "url": "https://doi.org/10.59862/p7k4m2xq05",
+   "doi": "10.59862/p7k4m2xq05",
+   "source": "OpenAlex",
+   "venue": "",
+   "authors": [
+    "Duong Do"
+   ],
+   "date": "2026-11-15",
+   "origin": "openalex:query:global financial networks",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7237201035",
+   "year": 2026,
+   "work_type": "book-chapter",
+   "venue_id": "",
+   "venue_type": "",
+   "publisher": "",
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "china_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 3,
+    "themes": [
+     "china_finance",
+     "integration",
+     "subordination"
+    ],
+    "places": [],
+    "note": "RMB internationalisation and CIPS as alternatives to US-dominated payment systems; directly addresses South autonomy from Northern financial dominance.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "9366631497",
+   "section": "research",
+   "title": "Africa’s Development Dynamics 2026: Managing Debt for Transformation",
+   "url": "https://doi.org/10.1787/92938db2-en",
+   "doi": "10.1787/92938db2-en",
+   "source": "Africa’s development dynamics",
+   "venue": "Africa’s development dynamics",
+   "authors": [
+    "African Union Commission",
+    "OECD"
+   ],
+   "date": "2026-11-25",
+   "origin": "openalex:query:capital market development Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7237084991",
+   "year": 2026,
+   "work_type": "book",
+   "venue_id": "S4210198106",
+   "venue_type": "journal",
+   "publisher": "Organization for Economic Cooperation and Development",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [],
+    "themes": [
+     "debt",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt",
+     "imf_programmes",
+     "state_finance"
+    ],
+    "places": [
+     "johannesburg",
+     "nairobi",
+     "abidjan"
+    ],
+    "note": "African sovereign debt management and productive transformation; examines blended finance and debt transparency regimes.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "ff0b3ac27a",
+   "section": "research",
+   "title": "Are Sovereign Loans Investments? A Reconsideration under African International Investment Law",
+   "url": "https://doi.org/10.1093/icsidreview/siag016",
+   "doi": "10.1093/icsidreview/siag016",
+   "source": "ICSID Review - Foreign Investment Law Journal",
+   "venue": "ICSID Review - Foreign Investment Law Journal",
+   "authors": [
+    "Samson Ristom Asfaha",
+    "Henok G. Gebrezgabiher"
+   ],
+   "date": "2026-11-22",
+   "origin": "openalex:query:sovereign debt Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7237613902",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S129946752",
+   "venue_type": "journal",
+   "publisher": "Oxford University Press",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "University Press",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "debt",
+     "imf_programmes"
+    ],
+    "places": [
+     "johannesburg",
+     "nairobi",
+     "abidjan"
+    ],
+    "note": "African investment law treatment of sovereign loans; North–South financial subordination through investment regimes.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "ba9195c3db",
+   "section": "research",
+   "title": "Parallel growth without equilibrium: FinTech and climate finance in India",
+   "url": "https://doi.org/10.3389/frevc.2026.1961409",
+   "doi": "10.3389/frevc.2026.1961409",
+   "source": "Frontiers in Environmental Economics",
+   "venue": "Frontiers in Environmental Economics",
+   "authors": [
+    "Rajani P Sarannya Sivasankaran",
+    "V. Selvam"
+   ],
+   "date": "2026-11-18",
+   "origin": "openalex:query:municipal bonds Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7235952720",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S4387281381",
+   "venue_type": "journal",
+   "publisher": "Frontiers Media",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 10,
+    "places": [
+     "mumbai"
+    ],
+    "themes": [
+     "development_finance",
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "development_finance"
+    ],
+    "places": [
+     "mumbai"
+    ],
+    "note": "UPI fintech growth in India; relevant to digital payment infrastructure shaping financial centres.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "dff3f47159",
+   "section": "research",
+   "title": "Capital Markets and Macroeconomic Performance: The Case of WAEMU",
+   "url": "https://revuefreg.fr/index.php/home/article/view/3134",
+   "doi": "",
+   "source": "Revue Française d'Economie et de Gestion",
+   "venue": "Revue Française d'Economie et de Gestion",
+   "authors": [
+    "Cheikh Papa Touty DIOUF"
+   ],
+   "date": "2026-11-16",
+   "origin": "openalex:query:capital market development Africa",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7235821511",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S7407065857",
+   "venue_type": "journal",
+   "publisher": "",
+   "watched": null,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [
+     "integration",
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "integration",
+     "debt"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "WAEMU capital market development and sovereign debt; West African regional financial integration.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "5647e9703f",
+   "section": "research",
+   "title": "Energy poverty in an era of geopolitical instability: The role of Chinese FDI and south–south cooperation in Africa",
+   "url": "https://doi.org/10.1016/j.enpol.2026.115701",
+   "doi": "10.1016/j.enpol.2026.115701",
+   "source": "Energy Policy",
+   "venue": "Energy Policy",
+   "authors": [
+    "Emna Kanzari",
+    "Stefano Fricano",
+    "Gioacchino Fazio",
+    "Jing Yu"
+   ],
+   "date": "2026-11-09",
+   "origin": "openalex:query:South-South finance",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7225633339",
+   "year": 2026,
+   "work_type": "article",
+   "venue_id": "S175056054",
+   "venue_type": "journal",
+   "publisher": "Elsevier BV",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Elsevier",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "networks"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "china_finance",
+     "development_finance",
+     "networks"
+    ],
+    "places": [
+     "abidjan",
+     "nairobi"
+    ],
+    "note": "Chinese FDI reducing energy poverty in Africa; South–South financial cooperation and Chinese lending patterns.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "bc0e0af51d",
+   "section": "research",
+   "title": "Sovereign Green Bonds in Europe",
+   "url": "https://doi.org/10.4324/9781003604006-4",
+   "doi": "10.4324/9781003604006-4",
+   "source": "Routledge eBooks",
+   "venue": "Routledge eBooks",
+   "authors": [
+    "Tony Ciro",
+    "Rebecca Leshinsky",
+    "Sugumar Mariappanadar",
+    "Victoria Obeng",
+    "Alexander Campbell"
+   ],
+   "date": "2026-11-16",
+   "origin": "openalex:query:sovereign credit rating",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7234222465",
+   "year": 2026,
+   "work_type": "book-chapter",
+   "venue_id": "S4306463855",
+   "venue_type": "ebook platform",
+   "publisher": "Routledge",
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Routledge",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "valuation",
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "debt",
+     "development_finance"
+    ],
+    "places": [],
+    "note": "European sovereign green bonds; Northern centres' sustainable finance, not relevant to Global South case study cities.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "6257aeb7b2",
+   "section": "news",
+   "title": "Comment Ecobank est devenue la victime collatérale du scandale de la Deutsche Bank",
+   "url": "https://www.jeuneafrique.com/1863713/economie-entreprises/comment-ecobank-est-devenue-la-victime-collaterale-du-scandale-de-la-deutsche-bank",
+   "doi": "",
+   "source": "Jeune Afrique — Économie",
+   "venue": "",
+   "authors": [
+    "Asmae KaddouriMathieu GaltierSalimata Koné"
+   ],
+   "date": "2026-11-23",
+   "origin": "rss:Jeune Afrique — Économie",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "networks",
+     "professionals"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "Deutsche Bank de-risking forces African banks like Ecobank into alternative networks; subordination and institutional consequence."
+   },
+   "featured": false
+  },
+  {
+   "id": "1760e523be",
+   "section": "grey",
+   "title": "African banks, businesses, and households fuel threefold rise in private climate finance to USD 26.5 billion",
+   "url": "https://fsdafrica.org/african-banks-businesses-and-households-fuel-threefold-rise-in-private-climate-finance-to-usd-26-5-billion",
+   "doi": "",
+   "source": "FSD Africa (RSS)",
+   "venue": "",
+   "authors": [
+    "Riitho"
+   ],
+   "date": "2026-11-17",
+   "origin": "rss:FSD Africa (RSS)",
+   "scholarly": false,
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "development_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "development_finance",
+     "state_finance"
+    ],
+    "places": [
+     "abidjan",
+     "nairobi",
+     "johannesburg"
+    ],
+    "note": "Domestic private climate finance surge in Africa driven by banks, households; relevant to African financial deepening and centre development."
+   },
+   "featured": false
+  },
+  {
+   "id": "f09ac7a54d",
+   "section": "grey",
+   "title": "How Does Capital Flow To Poor Countries? Evidence from Venture Capital and Private Equity",
+   "url": "https://doi.org/10.3386/w36036",
+   "doi": "10.3386/w36036",
+   "source": "National Bureau of Economic Research",
+   "venue": "National Bureau of Economic Research",
+   "authors": [
+    "Emanuele Colonnelli",
+    "Marcio Cruz",
+    "Josh Lerner",
+    "Mariana Pereira-López",
+    "Yuanchang Wei"
+   ],
+   "date": "2026-11-01",
+   "origin": "openalex:reports:capital market development",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7234087003",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "S2809516038",
+   "venue_type": "repository",
+   "publisher": "National Bureau of Economic Research",
+   "watched": null,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "professionals"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "professionals",
+     "networks"
+    ],
+    "places": [],
+    "note": "NBER work on how capital flows to poor countries via VC/PE; directly addresses North–South financial linkages and subordination dynamics."
+   },
+   "featured": false
+  },
+  {
+   "id": "51b9b3da8d",
+   "section": "grey",
+   "title": "Primary Balances, Debt Composition, and Sovereign Bond Yields in Emerging Economies",
+   "url": "https://doi.org/10.22617/wps260530-2",
+   "doi": "10.22617/wps260530-2",
+   "source": "OpenAlex",
+   "venue": "",
+   "authors": [
+    "John Beirne",
+    "Abhishek Kumar",
+    "Sushanta Mallick",
+    "Donghyun Park",
+    "Shu Tian"
+   ],
+   "date": "2026-11-01",
+   "origin": "openalex:reports:local currency bond market",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7238325870",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "",
+   "venue_type": "",
+   "publisher": "",
+   "watched": null,
+   "kw": {
+    "pass": true,
+    "score": 1,
+    "places": [],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "subordination",
+     "valuation",
+     "debt"
+    ],
+    "places": [],
+    "note": "Sovereign bond yields in emerging markets decomposed by debt vulnerability; directly addresses how debt composition shapes financial subordination."
+   },
+   "featured": false
+  },
+  {
+   "id": "50517564da",
+   "section": "grey",
+   "title": "Global Value Chains in the Era of Industry 4.0 and AI: Extractive Industries in Latin America",
+   "url": "https://doi.org/10.53330/rdhk6789",
+   "doi": "10.53330/rdhk6789",
+   "source": "OpenAlex",
+   "venue": "",
+   "authors": [
+    "Carlo Pietrobelli",
+    "Constanza Araya-Ibarra"
+   ],
+   "date": "2026-11-20",
+   "origin": "openalex:reports:financial centre",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W7237203394",
+   "year": 2026,
+   "work_type": "report",
+   "venue_id": "",
+   "venue_type": "",
+   "publisher": "",
+   "kw": {
+    "pass": true,
+    "score": 4,
+    "places": [
+     "santiago",
+     "sao_paulo"
+    ],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination"
+    ],
+    "places": [
+     "santiago"
+    ],
+    "note": "GVC participation in extractive industries (Chile focus); tangential to financial subordination but not centres/devices."
+   },
+   "featured": false
+  },
+  {
+   "id": "38c60d67ec",
+   "section": "archive",
+   "title": "A synthesis of theoretical and empirical research on sukuk",
+   "url": "https://doi.org/10.1016/j.bir.2015.10.001",
+   "doi": "10.1016/j.bir.2015.10.001",
+   "source": "Borsa Istanbul Review",
+   "venue": "Borsa Istanbul Review",
+   "authors": [
+    "Muhamed Zulkhibri"
+   ],
+   "date": "2015-11-07",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2179969507",
+   "year": 2015,
+   "work_type": "article",
+   "venue_id": "S2764882396",
+   "venue_type": "journal",
+   "publisher": "Elsevier BV",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 3,
+    "labels": [
+     "Elsevier",
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 5,
+    "places": [],
+    "themes": [
+     "islamic_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "islamic_finance",
+     "valuation"
+    ],
+    "places": [
+     "casablanca",
+     "port_louis",
+     "nairobi"
+    ],
+    "note": "Sukuk literature synthesis; Islamic bond device innovation relevant to Casablanca, Port Louis, Nairobi markets.",
+    "quality": 1
+   },
+   "featured": false
+  },
+  {
+   "id": "0b9ba2ee58",
+   "section": "archive",
+   "title": "Can Islamic banking ever become Islamic?",
+   "url": "https://doi.org/10.1016/j.pacfin.2015.03.001",
+   "doi": "10.1016/j.pacfin.2015.03.001",
+   "source": "Pacific-Basin Finance Journal",
+   "venue": "Pacific-Basin Finance Journal",
+   "authors": [
+    "Saad Azmat",
+    "Michael T. Skully",
+    "Kym Brown"
+   ],
+   "date": "2015-03-14",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2042344690",
+   "year": 2015,
+   "work_type": "article",
+   "venue_id": "S29049940",
+   "venue_type": "journal",
+   "publisher": "Elsevier BV",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Elsevier",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "islamic_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "islamic_finance"
+    ],
+    "places": [],
+    "note": "Islamic banking authenticity question; critical device scholarship but abstract unavailable for place assessment.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "aaf4c02f53",
+   "section": "archive",
+   "title": "Risk Sharing and Transactions Costs: Evidence from Kenya's Mobile Money Revolution",
+   "url": "https://doi.org/10.1257/aer.104.1.183",
+   "doi": "10.1257/aer.104.1.183",
+   "source": "American Economic Review",
+   "venue": "American Economic Review",
+   "authors": [
+    "William G. Jack",
+    "Tavneet Suri"
+   ],
+   "date": "2013-12-26",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2032874557",
+   "year": 2013,
+   "work_type": "article",
+   "venue_id": "S23254222",
+   "venue_type": "journal",
+   "publisher": "American Economic Association",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 1,
+    "labels": [
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 2,
+    "places": [],
+    "themes": [
+     "digital"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "digital",
+     "networks"
+    ],
+    "places": [
+     "nairobi"
+    ],
+    "note": "Mobile money as digital financial device reshaping risk-sharing and financial inclusion in Kenya's financial centre.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "b3860341c2",
+   "section": "archive",
+   "title": "Linking the missing market: The effect of bond markets on economic growth",
+   "url": "https://doi.org/10.1016/j.iref.2013.01.008",
+   "doi": "10.1016/j.iref.2013.01.008",
+   "source": "International Review of Economics & Finance",
+   "venue": "International Review of Economics & Finance",
+   "authors": [
+    "Patara Thumrongvit",
+    "Yoonbai Kim",
+    "Chong Soo Pyun"
+   ],
+   "date": "2013-02-01",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2015150840",
+   "year": 2013,
+   "work_type": "article",
+   "venue_id": "S168273071",
+   "venue_type": "journal",
+   "publisher": "Elsevier BV",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 3,
+    "labels": [
+     "Elsevier",
+     "DOAJ",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "centres",
+     "debt"
+    ],
+    "places": [],
+    "note": "Bond markets and growth; likely covers emerging markets but abstract too thin to assess place specificity.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "3c1e1b9864",
+   "section": "archive",
+   "title": "Government Securities Markets in the West African Economic and Monetary Union: A Review",
+   "url": "https://doi.org/10.1111/j.1467-8268.2010.00238.x",
+   "doi": "10.1111/j.1467-8268.2010.00238.x",
+   "source": "African Development Review",
+   "venue": "African Development Review",
+   "authors": [
+    "Amadou Nicolas Racine Sy"
+   ],
+   "date": "2010-05-31",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W1856218895",
+   "year": 2010,
+   "work_type": "article",
+   "venue_id": "S33443600",
+   "venue_type": "journal",
+   "publisher": "Wiley",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Wiley",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 7,
+    "places": [
+     "abidjan"
+    ],
+    "themes": [
+     "debt"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 2,
+    "themes": [
+     "debt",
+     "centres",
+     "integration"
+    ],
+    "places": [
+     "abidjan"
+    ],
+    "note": "WAEMU government securities markets review; regional debt market integration, subordination via issuance uniformity.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "0ab35ca41e",
+   "section": "archive",
+   "title": "Financializing Detroit",
+   "url": "https://doi.org/10.1080/00130095.2015.1116369",
+   "doi": "10.1080/00130095.2015.1116369",
+   "source": "Economic Geography",
+   "venue": "Economic Geography",
+   "authors": [
+    "Jamie Peck",
+    "Heather Whiteside"
+   ],
+   "date": "2016-01-21",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W4241366002",
+   "year": 2016,
+   "work_type": "article",
+   "venue_id": "S38825547",
+   "venue_type": "journal",
+   "publisher": "Taylor & Francis",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "Taylor & Francis",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "valuation"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination",
+     "urban"
+    ],
+    "places": [],
+    "note": "Detroit municipal financialization; relevant framework for subordination but not Southern centre.",
+    "quality": 2
+   },
+   "featured": false
+  },
+  {
+   "id": "3a42290325",
+   "section": "archive",
+   "title": "The Financialization of Water",
+   "url": "https://doi.org/10.1177/0486613413506076",
+   "doi": "10.1177/0486613413506076",
+   "source": "Review of Radical Political Economics",
+   "venue": "Review of Radical Political Economics",
+   "authors": [
+    "Kate Bayliss"
+   ],
+   "date": "2013-11-18",
+   "origin": "openalex:citations",
+   "scholarly": true,
+   "openalex_id": "https://openalex.org/W2169165469",
+   "year": 2013,
+   "work_type": "article",
+   "venue_id": "S201928713",
+   "venue_type": "journal",
+   "publisher": "SAGE Publishing",
+   "cited_by_this_week": 1,
+   "quality_signals": {
+    "score": 2,
+    "labels": [
+     "SAGE",
+     "peer-reviewed"
+    ]
+   },
+   "kw": {
+    "pass": true,
+    "score": 3,
+    "places": [],
+    "themes": [
+     "state_finance"
+    ],
+    "reason": ""
+   },
+   "ai": {
+    "relevance": 1,
+    "themes": [
+     "subordination"
+    ],
+    "places": [],
+    "note": "Water financialization critique; relevant to subordination framework but not geographically specific to project.",
+    "quality": 2
+   },
+   "featured": false
+  }
+ ],
+ "digest": "This week's digest examines financial subordination and autonomy in the Global South through three converging lenses: the institutional mechanisms that entrench dependence, the alternative devices Southern centres deploy to escape Northern dominance, and the professional and political disputes surrounding those efforts. De-risking and assetized vulnerability in climate finance, alongside constraints imposed through investment law regimes, illustrate structural subordination; meanwhile, initiatives such as GIFT City's offshore expansion, China's renminbi internationalization via CIPS, and the emergence of domestic private climate finance in Africa suggest partial counterweights. Infrastructure privatization in São Paulo, WAEMU debt markets, and Kenya's mobile money networks reveal how financial devices circulate through and reshape Southern cities, often with contradictory effects on autonomy."
+}
