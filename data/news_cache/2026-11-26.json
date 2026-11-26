@@ -1,0 +1,30 @@
+{
+ "GDELT global news search": {
+  "items": [
+   {
+    "id": "10b0d5f315",
+    "section": "news",
+    "title": "东极品牌 质 胜未来 佳木斯全链推进品牌建设纪实",
+    "url": "https://www.hljnews.cn/jjny/content/2026-11/26/content_918550.html",
+    "doi": "",
+    "source": "hljnews.cn",
+    "venue": "",
+    "authors": [],
+    "date": "2026-11-26",
+    "summary": "",
+    "origin": "gdelt:(\"financial centre\" OR \"financial center\" OR \"financial hub\"",
+    "scholarly": false,
+    "filter": true,
+    "language": "Chinese",
+    "source_country": "China"
+   }
+  ],
+  "note": "stopped after 3 refusals; 3 queries skipped; (\"stock exchange\" OR \"securities exchang… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22stock+exch",
+  "ok": false
+ },
+ "GDELT — Bloomberg": {
+  "items": [],
+  "note": "(Africa OR Kenya OR Nigeria OR \"South Af… → 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28Africa+OR+Kenya+OR+Nigeria+OR+%22South+Africa%22+OR+Morocc",
+  "ok": false
+ }
+}
